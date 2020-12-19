@@ -1,0 +1,41 @@
+0 ER Registration
+1 Leucocytes
+2 CRP
+3 LacticAcid
+4 ER Triage
+5 ER Sepsis Triage
+6 IV Liquid
+7 IV Antibiotics
+8 Admission NC
+9 Release A
+10 Return ER
+11 Admission IC
+12 Release B
+13 Release C
+14 Release D
+15 Release E
+16 |>
+17 []
+#
+11 3 41.0
+8 1 408.0
+2 9 322.0
+2 12 19.0
+2 13 13.0
+2 14 12.0
+2 15 3.0
+0 4 971.0
+5 6 285.0
+4 5 905.0
+7 11 46.0
+7 8 489.0
+6 7 501.0
+3 1 565.0
+1 2 1778.0
+9 10 276.0
+12 17 55.0
+13 17 19.0
+14 17 14.0
+15 17 5.0
+10 17 291.0
+16 0 995.0
