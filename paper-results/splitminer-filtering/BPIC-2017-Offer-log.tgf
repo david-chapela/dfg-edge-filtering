@@ -1,0 +1,23 @@
+0 O_Sent (mail and online)
+1 O_Returned
+2 O_Accepted
+3 O_Sent (online only)
+4 |>
+5 O_Cancelled
+6 O_Create Offer
+7 O_Refused
+8 O_Created
+9 []
+#
+0 5 16365.0
+1 2 17228.0
+2 9 17228.0
+3 1 1033.0
+1 7 3573.0
+4 6 42995.0
+5 9 20898.0
+6 8 42995.0
+0 1 22272.0
+7 9 4695.0
+8 0 39707.0
+8 3 2026.0

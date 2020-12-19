@@ -1,0 +1,118 @@
+0 Record Goods Receipt
+1 Create Purchase Order Item
+2 SRM: Ordered
+3 Change Quantity
+4 Record Invoice Receipt
+5 |>
+6 Delete Purchase Order Item
+7 Release Purchase Requisition
+8 Change payment term
+9 SRM: Document Completed
+10 Vendor creates invoice
+11 SRM: Awaiting Approval
+12 Change Final Invoice Indicator
+13 Receive Order Confirmation
+14 Clear Invoice
+15 Change Price
+16 Update Order Confirmation
+17 SRM: Complete
+18 Vendor creates debit memo
+19 SRM: Created
+20 SRM: Deleted
+21 Record Subsequent Invoice
+22 Change Rejection Indicator
+23 Change Storage Location
+24 Cancel Invoice Receipt
+25 Cancel Goods Receipt
+26 SRM: Transaction Completed
+27 SRM: Transfer Failed (E.Sys.)
+28 Set Payment Block
+29 SRM: Change was Transmitted
+30 Change Currency
+31 Create Purchase Requisition Item
+32 SRM: Incomplete
+33 SRM: In Transfer to Execution Syst.
+34 Reactivate Purchase Order Item
+35 Change Delivery Indicator
+36 Block Purchase Order Item
+37 SRM: Held
+38 Change Approval for Purchase Order
+39 Cancel Subsequent Invoice
+40 Remove Payment Block
+41 Record Service Entry Sheet
+42 Release Purchase Order
+43 []
+#
+0 25 1063.0
+1 42 746.0
+2 29 775.0
+3 0 9206.0
+4 24 2697.0
+5 19 1360.0
+6 22 1.0
+7 1 467.0
+8 0 4.0
+1 13 30837.0
+9 33 1131.0
+10 18 2715.0
+11 9 1626.0
+4 14 134955.0
+12 14 4.0
+13 0 20398.0
+13 16 182.0
+4 28 103.0
+10 0 110215.0
+0 41 23151.0
+14 43 181328.0
+15 10 3396.0
+16 0 105.0
+3 35 1130.0
+15 30 29.0
+17 11 1628.0
+18 39 228.0
+19 32 6.0
+20 15 110.0
+21 14 97.0
+22 34 1.0
+1 10 103150.0
+23 0 195.0
+24 14 3002.0
+25 0 896.0
+26 43 6.0
+27 43 44.0
+1 3 11760.0
+1 23 250.0
+28 43 61.0
+1 8 3.0
+6 34 272.0
+29 1 821.0
+6 26 3.0
+30 10 21.0
+31 1 46125.0
+32 37 6.0
+6 43 8123.0
+5 31 46526.0
+33 27 45.0
+33 2 1118.0
+34 0 260.0
+31 7 467.0
+18 10 1926.0
+14 21 55.0
+1 6 6890.0
+35 43 718.0
+36 43 167.0
+0 4 112182.0
+4 40 37621.0
+19 17 1599.0
+37 17 6.0
+38 43 1346.0
+1 15 6433.0
+39 14 226.0
+40 14 49424.0
+1 36 252.0
+41 0 19183.0
+2 20 132.0
+1 38 3060.0
+5 1 199867.0
+35 12 5.0
+42 38 1489.0

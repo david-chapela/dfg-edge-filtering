@@ -1,0 +1,31 @@
+0 Send for Credit Collection
+1 Send Appeal to Prefecture
+2 Receive Result Appeal from Prefecture
+3 Insert Fine Notification
+4 Payment
+5 Insert Date Appeal to Prefecture
+6 Create Fine
+7 Send Fine
+8 Add penalty
+9 |>
+10 Appeal to Judge
+11 Notify Result Appeal to Offender
+12 []
+#
+0 12 58997.0
+1 12 3144.0
+2 11 829.0
+3 8 72334.0
+4 12 67201.0
+5 8 2933.0
+3 10 290.0
+3 5 3327.0
+6 7 103392.0
+7 3 79757.0
+8 1 2915.0
+9 6 150370.0
+6 4 46952.0
+10 8 281.0
+1 2 606.0
+11 4 391.0
+8 0 57182.0
