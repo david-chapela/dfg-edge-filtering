@@ -1,0 +1,131 @@
+0 SRM: Created
+1 SRM: Complete
+2 SRM: Awaiting Approval
+3 SRM: Document Completed
+4 SRM: In Transfer to Execution Syst.
+5 SRM: Ordered
+6 SRM: Change was Transmitted
+7 Create Purchase Order Item
+8 Vendor creates invoice
+9 Record Goods Receipt
+10 Record Invoice Receipt
+11 Clear Invoice
+12 Record Service Entry Sheet
+13 SRM: Transfer Failed (E.Sys.)
+14 Cancel Goods Receipt
+15 Vendor creates debit memo
+16 Cancel Invoice Receipt
+17 Change Delivery Indicator
+18 Remove Payment Block
+19 SRM: Deleted
+20 Change Price
+21 Delete Purchase Order Item
+22 SRM: Transaction Completed
+23 Change Quantity
+24 Change Final Invoice Indicator
+25 SRM: Incomplete
+26 SRM: Held
+27 Receive Order Confirmation
+28 Cancel Subsequent Invoice
+29 Reactivate Purchase Order Item
+30 Update Order Confirmation
+31 Block Purchase Order Item
+32 Change Approval for Purchase Order
+33 Release Purchase Order
+34 Record Subsequent Invoice
+35 Set Payment Block
+36 Create Purchase Requisition Item
+37 Change Storage Location
+38 Change Currency
+39 Change payment term
+40 Change Rejection Indicator
+41 Release Purchase Requisition
+42 |>
+43 []
+#
+42 0 1360.0
+0 1 1599.0
+1 2 1628.0
+2 3 1626.0
+3 4 1131.0
+4 5 1118.0
+5 6 775.0
+42 7 199867.0
+7 8 103150.0
+8 9 110215.0
+9 10 112182.0
+10 11 134955.0
+9 12 23151.0
+4 13 45.0
+9 14 1063.0
+8 15 2715.0
+10 16 2697.0
+23 17 1130.0
+10 18 37621.0
+5 19 132.0
+7 20 6433.0
+7 21 6890.0
+21 22 3.0
+7 23 11760.0
+17 24 5.0
+0 25 6.0
+25 26 6.0
+7 27 30837.0
+15 28 228.0
+21 29 272.0
+27 30 182.0
+7 31 252.0
+7 32 3060.0
+7 33 746.0
+11 34 55.0
+10 35 103.0
+42 36 46526.0
+7 37 250.0
+20 38 29.0
+7 39 3.0
+21 40 1.0
+36 41 467.0
+11 43 181328.0
+0 1 1599.0
+1 2 1628.0
+2 3 1626.0
+3 4 1131.0
+4 5 1118.0
+5 6 775.0
+6 7 821.0
+7 8 103150.0
+8 9 110215.0
+9 10 112182.0
+10 11 134955.0
+11 43 181328.0
+12 9 19183.0
+13 43 44.0
+14 9 896.0
+15 8 1926.0
+16 11 3002.0
+17 43 718.0
+18 11 49424.0
+19 20 110.0
+20 8 3396.0
+21 43 8123.0
+22 43 6.0
+23 9 9206.0
+24 11 4.0
+25 26 6.0
+26 1 6.0
+27 9 20398.0
+28 11 226.0
+29 9 260.0
+30 9 105.0
+31 43 167.0
+32 43 1346.0
+33 32 1489.0
+34 11 97.0
+35 43 61.0
+36 7 46125.0
+37 9 195.0
+38 8 21.0
+39 9 4.0
+40 29 1.0
+41 7 467.0
+42 7 199867.0

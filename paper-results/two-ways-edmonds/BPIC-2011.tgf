@@ -1,0 +1,1877 @@
+0 1e consult poliklinisch
+1 administratief tarief       - eerste pol
+2 verlosk.-gynaec. korte kaart kosten-out
+3 echografie  - genitalia interna
+4 simulator - gebruik voor aanvang megavol
+5 behandeltijd - eenheid t3 - megavolt
+6 teletherapie - megavolt fotonen bestrali
+7 aanname laboratoriumonderzoek
+8 ureum
+9 hemoglobine foto-elektrisch
+10 creatinine
+11 natrium vlamfotometrisch
+12 kalium potentiometrisch
+13 leukocyten tellen elektronisch
+14 trombocyten tellen - elektronisch
+15 ordertarief
+16 ligdagen - alle spec.beh.kinderg.-reval.
+17 sediment - spoed
+18 bacteriologisch onderzoek met kweek -nie
+19 resistentiebepalingen - 5 bepalingen
+20 hepatitis-b surface antigeen confirmatie
+21 urine onderzoek - kwalitatief
+22 190021 klinische opname a002
+23 190205 klasse 3b        a205
+24 sgot - asat kinetisch
+25 sgpt - alat kinetisch
+26 melkzuurdehydrogenase -ldh- kinetisch
+27 differentiele telling automatisch
+28 trombotest
+29 crp c-reactief proteine
+30 brachytherapie - interstitieel - intensi
+31 inwend.geneesk.  korte kaart kosten-out
+32 vervolgconsult poliklinisch
+33 creatinine - spoed
+34 ijzer
+35 natrium - vlamfotometrisch - spoed
+36 kalium vlamfotometrisch - spoed
+37 foliumzuur mbv radioisotopen
+38 vitamine b12 mbv chemieluminescentie
+39 bloedgroep abo en rhesusfactor
+40 rhesusfactor d - centrifugeermethode - e
+41 haemoglobine foto-electrisch - spoed
+42 trombocyten tellen - spoed
+43 reticulocyten tellen mbv facscan
+44 cde fenotypering
+45 bloedgroepantigenen andere dan abo-rhesu
+46 kruisproef volledig -drie methoden-
+47 leucocyten tellen -electronisch- spoed
+48 crp c-reactief proteine - spoed
+49 screening antistoffen erytrocyten
+50 transferrine mbv ics
+51 190101 bovenreg.toesl.  a101
+52 gefiltreerd erytrocytenconcentraat
+53 echo nieren-urinewegen
+54 interc.consult klinisch  anesthesie
+55 ureum - spoed
+56 sgpt alat kinetisch - spoed
+57 sgot asat kinetisch - spoed
+58 international normalised ratio mbv tromb
+59 dagverpleging - alle spec.beh.kind.-rev.
+60 190035 dagverpleging    a007
+61 urinezuur met uricase u.v. spectrofotome
+62 melkzuur dehydrogenase - spoed
+63 echo abdomen
+64 sediment
+65 klinische kaart - inwendige geneeskunde
+66 inwend.geneesk.   aanv.kaart kosten-out
+67 squamous cell carcinoma mbv eia
+68 ct abdomen
+69 ca-125 mbv meia
+70 telefonisch consult
+71 patient niet verschenen radiologie
+72 homocystine chromatografisch
+73 cytologisch onderzoek - ectocervix -
+74 bilirubine -geconjugeerd
+75 bilirubine - totaal
+76 glucose
+77 alkalische fosfatase -kinetisch-
+78 gammaglutamyltranspeptidase
+79 cea - tumormarker mbv meia
+80 calcium
+81 albumine
+82 thorax
+83 190204 klasse 3a        a204
+84 buik        - stag.lap-tumorred.-omentec
+85 immunopathologisch onderzoek
+86 cytologisch onderzoek - ascites -
+87 histologisch onderzoek - grote resectiep
+88 glucose - spoed
+89 calcium - spoed
+90 melkzuur enzymatisch - spoed
+91 o2-saturatie
+92 ct thorax
+93 verlosk.-gynaec.  aanv.kaart kosten-out
+94 hematocriet mbv centrifuge
+95 totaal eiwit
+96 vulva       - rad.vulvectomie - opp.en d
+97 microscopisch onderzoek - gekleurd en on
+98 coupe ter inzage
+99 mri bekken
+100 skelet - scintigrafie totale lichaam
+101 histologisch onderzoek - biopten nno
+102 cito histologisch onderzoek
+103 fosfaat
+104 ct bovenbuik
+105 blaas       - uretrocystoscopie nno
+106 vagina      - toucher onder anesthesie
+107 wervelkolom - lumbaal
+108 ct hersenen
+109 differentiatie leukocyten - handmatig
+110 anesthesie  - bij behandeling met radium
+111 albumine - spoed
+112 bilirubine kwantitatief totaal of direct
+113 alfa amylase - spoed
+114 chloride - spoed
+115 fosfaat - spoed
+116 alkalische fosfatase - kinetisch - spoed
+117 totaal eiwit colorimetrisch - spoed
+118 kreatinine fosfokinase - spoed
+119 hematocriet - spoed
+120 gamma glutamyltranspeptidase - spoed
+121 ferritine kwn mbv chemieluminescentie
+122 erythrocyten tellen -electronisch- spoed
+123 osmolaliteit - spoed
+124 bezinkingssnelheid foto-elektrisch
+125 magnesium  -aas - spoed
+126 mri wervelkolom - cervicaal
+127 mri wervelkolom - thoracaal
+128 mri wervelkolom - lumbaal
+129 cortisol immunofluorimetrisch
+130 tsh enzym-immunologisch
+131 cortisol
+132 vaten       - venapunctie
+133 acth mbv radioisotopen
+134 e.c.g.      - elektrocardiografie
+135 lithium
+136 vrij t4 mbv ria -ft 4
+137 1e consult      bezoek
+138 lymfeklier - scint sentinel node dynamis
+139 lymfeklier - scint sentinel node vervolg
+140 lymfeklier - scint sentinel node met pro
+141 vulva       - radicale vulvect. znd ingu
+142 vriescoupe
+143 methemoglobine - sulfhemoglobine elk
+144 bicarbonaat
+145 co-hb kwn.
+146 actuele ph - pco2 - stand.bicarbonaat
+147 lithium - spoed
+148 verlosk.-gynaec.   jaarkaart kosten-out
+149 histologisch onderzoek - kleine resectie
+150 vrw.gesl.org- biopsie-punctie-cytologie
+151 buikoverzicht
+152 klinische kaart - anesthesie
+153 arterie     - punctie tbv.verblijfsnaald
+154 thorax - op zaal
+155 protrombinetijd -quick owren of modif.-
+156 heparinebepaling - kaoline - cefalinetij
+157 interc.consult klinisch  longziekten
+158 dieet nno
+159 buik        - primaire stageringsoperati
+160 anti-hiv mbv elisa
+161 patient niet verschenen ngiv- no show -
+162 infuus      - inbrengen
+163 cytologisch onderzoek - vagina -
+164 tumor - petscan totale lichaam
+165 blaas       - cystoscopie met biopsie
+166 cytologisch onderzoek - lymfeklierpuncti
+167 diagnostische punctie onder echocontrole
+168 echo schouder - m-z bovenarm
+169 cytologisch onderzoek - pancreaspunctie
+170 echo bovenbuik
+171 hyperthermie
+172 hele bovenbeen met onderbeen en voet
+173 magnesium  -aas
+174 bekken
+175 bekken - liggend
+176 fdp - dimeer - immunologisch
+177 ct art. en ven.pulmonales
+178 paclitaxel
+179 behandeltijd - eenheid t1 - megavolt
+180 chloride
+181 bovenbeen
+182 onderbeen
+183 natrium vlamfotometrisch - spoed
+184 cefalinetijd - coagulatie
+185 protrombinetijd
+186 vulva       - incisie - overige
+187 echografie  - blaas - extern
+188 punctie tbv cytologisch onderzoek door p
+189 vulva       - vulvectomie - liesblok
+190 microscopisch onderzoek  - elektronenmic
+191 buik        - stageringslaparotom.-oment
+192 mammografie thoraxwand
+193 echo mamma
+194 vrw.gesl.org- curettage gefractioneerd
+195 vulva       - biopsie-punctie-cytologie
+196 uterus      - hysteroscopie
+197 uterus      - extirp.abd.rad. - lymfaden
+198 toonaudiometrie - audiologisch centrum
+199 hoogfrequente audiometrie - audiologisch
+200 tympanometrie - standaard - audiologisch
+201 patienten kontakt audiologie korter dan
+202 anesthesie  - bij spec.onderz.en verr.ge
+203 bekken - staand
+204 cytologisch onderzoek - nierpunctie -
+205 doorlichting zonder opname thorax
+206 eiwit beperkt - mineralen beperkt
+207 pyelografie antegraad via drain
+208 verwisselen van nefrostomie drain
+209 lipase
+210 hemoglobine a1
+211 190055 zware dagverpleging a009
+212 mri abdomen
+213 directe antiglobulinetest - coombs
+214 antistoffen tegen erys - specificiteit -
+215 ident. irregulaire a.s. tegen erys na po
+216 190034 afwezigheidsdag  a006
+217 ligase chain reaction -lcr-
+218 uterus      - intra-uterine device inbre
+219 mri bijnier
+220 melkzuur enzymatisch
+221 blaas       - catheter a demeure - inbre
+222 betasubunit bep. mbv. ria hcg
+223 sikkelcel
+224 alfa-1-foetoproteine
+225 cholesterol totaal
+226 triglyceriden - enzymatisch
+227 cholesterol hdl
+228 afereseplasma gesplitst fq1 en fq2
+229 ca 15.3 - tumormarker mbv meia
+230 ca-19.9 tumormarker
+231 behandeltijd - eenheid t4 - megavolt
+232 ct bekken
+233 heup
+234 ct wervelkolom - lumbaal
+235 bot - densitometrie lwk
+236 bot - densitometrie femurhals
+237 titratie directe antiglobulinetest - coo
+238 vrw.gesl.org- exc.destruct.path.afwijkin
+239 analgesie   - epiduraal door anesthesist
+240 urinewegen  - urodynamisch onderzoek-vij
+241 uterus      - extirpatie abdominaal radi
+242 maag - ontledig.-scint vast-vloeib.voeds
+243 darm - colonpassage scint.comp.vervolg
+244 mri heup
+245 echo onderbuik
+246 creatine fosfokinase mb - spoed
+247 troponine-t mbv elisa
+248 behandeltijd - eenheid t2 - megavolt
+249 ovarium     - debulking ovariumcarcinoom
+250 cervix      - lisexcisie portio - diathe
+251 uterus      - extirpatie abdominaal tota
+252 hart        - doppler echocardiografie 2
+253 uterus      - carc. cervix vlgs. werthei
+254 hematologie - ontstek.scint.tot.lichaam
+255 ovarium     - adnex-extirpatie dmv lapar
+256 pyelografie --wo niertransplantaat--
+257 longfunctie - co2 - capnografie
+258 amylase
+259 ammoniak
+260 fibrinogeen
+261 trombocyten - leuko verwijderd - 5 donor
+262 haptoglobine
+263 trombinetijd
+264 celkweek en isolatie
+265 determinatie en orient. typering -dmv ce
+266 buik        - proeflaparotomie
+267 blaas       - suprapubische katheter inb
+268 dikke darm  - sigmoidoscopie met flexibe
+269 vulva       - vulvectomie zonder lieskli
+270 interc.consult klinisch  radiotherapie
+271 zwangerschapsreactie - spoed
+272 creatinefosfokinase -kinetisch-
+273 ethanol -enzymatisch of gaschromatografi
+274 colon inloop
+275 inwend.geneesk.    jaarkaart kosten-out
+276 vitamine d3
+277 onderzoek dunne darm m-z duodenum
+278 wervelkolom - cervicaal
+279 ammoniak - spoed
+280 fenytoine kwantitatief
+281 antitrombine iii mbv chromogeen-n-substr
+282 mri grote hersenen
+283 wervelkolom - thoracaal
+284 wervelkolom - thoracolumbale overgang
+285 toegangschir- c.v.d.-katheter perifeer b
+286 erytrocyten leukocyten verwijderd bestra
+287 interc.consult klinisch  neurologie
+288 echogeleide als ass. bij punctie-biopsie
+289 pijnbestrijd- aanleggen patient controll
+290 ct a.pulmonalis
+291 cytologisch onderzoek - liquor cerebrosp
+292 erytrocyten
+293 buffy coat
+294 klinisch tarief
+295 cytologisch onderzoek - diversen -
+296 totaal t4 - thyroxine immunofluorimetris
+297 vagina      - biopsie-punctie-cytologie
+298 blaas       - cystoscopie
+299 sinus
+300 clostridium elisa-test
+301 kalium vlamfotometrisch
+302 perif.vaten - duplexonderzoek - veneus
+303 dikke darm  - appendectomie nno
+304 interc.consult klinisch  chirurgie
+305 voet
+306 cytologisch onderzoek - urine niercyste
+307 schoudergewricht
+308 chloride -ionselectief-
+309 antinucleaire factor -anf-
+310 bovenarm
+311 vagina      - scopie incl.evt.vulvabiops
+312 vagina      - overige excisie pathologis
+313 vulva       - ruime lokale excisie van a
+314 nieren - renografie lasix
+315 parathormoon mbv radioisotopen
+316 orthopantomogram 'panoramixopname' gebit
+317 echo hals --waaronder schildklier--
+318 mec-a-bepaling voor mrsa mbv pcr
+319 buik        - punctie ascites ontlastend
+320 uterus      - extirpatie - abdominaal me
+321 doxorubicine liposomal --caelyx--
+322 ct lever en galwegen
+323 onderzoek van elders niet beoordeeld
+324 cervix      - conisatie
+325 morfometrie
+326 bloedgroepbep. anders dan abo per bloedg
+327 uitsluiten irregulaire a.s. tegen erys d
+328 punctie cyste tumor ed. door radioloog o
+329 pyelografie antegraad via punctie
+330 vitamine b6
+331 vitamine e -hplc-methode
+332 vitamine b1 - thiamine
+333 interc.consult vervolg klinisch  interne
+334 intensive care ligdag - 1e tot en met 5e
+335 anesthesie  - bij vervoer beademde patie
+336 creatine fosfokinase isoenzym ckmb
+337 cvvhd       --continue veno-veneuze hemo
+338 intensive care ligdag - 6e tot en met 14
+339 uterus      - curettage - diagnostisch
+340 cervix      - curettage
+341 buik        - stag.laparotom.-omentect.-
+342 echo tractus urogenitalis-bekken
+343 eiwit -colorimetrisch- totaal
+344 microalbumine immunonefelometrisch
+345 ct hals
+346 aluminium
+347 erytrocyten tellen - elektronisch
+348 duplexscan - venen been
+349 fsh enzym-immunologisch
+350 lh mbv radioisotopen
+351 progesteron mbv radioisotopen
+352 prolactine mbv eia
+353 oestradiol mbv radioisotopen -ria
+354 vrw.gesl.org- plastische operatie van vu
+355 testosteron mbv radioisotopen
+356 sex-hormone-binding globuline mbv ria
+357 vagina      - tension-free vaginal tape
+358 vagina      - colpocleisis lefort
+359 gemcitabine
+360 buikoverzicht - op zaal
+361 echografie-doppler vena cava inferior en
+362 echo been
+363 vitamine b2
+364 vitamine b3
+365 vitamine a
+366 beademing - anesthesie - eerste dag
+367 lymf.syst.  - stageringslymfadenectomie
+368 widal agglutinatie - yersinia 3
+369 widal agglutinatie - yersinia 9
+370 dikke darm  - colonoscopie met biopsie
+371 darm        - katheteriseren stoma
+372 interc.consult vervolg klinisch  anesthe
+373 hart - functie gated bloodpool rust
+374 echografie a vue ivw zwangerschap - met
+375 onderzoek via percutane veneuze katheter
+376 echografie-doppler v.jugularis
+377 ven. d.s.a. vena cava inferior
+378 anti-hepatitis-c-virus mbv elisa
+379 beademing - anesthesie - tweede t-m vijf
+380 klinische kaart - verloskunde en gynaeco
+381 vulva       - partiele vulvectomie
+382 vrw.gesl.org- adnex-extirpatie dmv lapar
+383 zwangerschapsreactie
+384 rib-sternum
+385 interc.consult klinisch  interne ziekten
+386 brachytherapie - interstitieel - bijzond
+387 osmolaliteit
+388 digoxine
+389 hepatitis-c-virus roche -hcvr- mbv pcr
+390 cervix      - portio - lasercoagulatie
+391 vagina      - scopie excl.weefselwegname
+392 cytologisch onderzoek - pleuravocht -
+393 huidplastiek- z-plastiek huid hoofd en h
+394 ct totale lichaam
+395 pyelografie retrograad
+396 echo pancreas en milt
+397 brain natriuretic peptide -bnp- mbv immu
+398 duodenum    - oesofagogastroduodenoscopi
+399 interc.consult klinisch  urologie
+400 darm - colonpassage scint.comp.statisch
+401 echo en rontgen als ass. bij drainage ab
+402 gentamycine kwn - immuno-assay
+403 echo thorax
+404 ro-gel. als ass. bij punktie - biopsie t
+405 onderz. naar aanwezigheid van koude anti
+406 geb. antistoffen tegen erys - dir.coombs
+407 geb. antistoffen tegen erys - dir. coomb
+408 ovarium     - redebulking ovarium carcin
+409 ovarium     - excisie cyste via laparosc
+410 behandelen  - in hyperpressietank
+411 perif.vaten - doppler-onderz.oppervl.ven
+412 perif.vaten - duplexscan arterieel cruro
+413 buik        - second-look-oper.stagering
+414 elutie van auto-antistoffen tegen erytro
+415 bloedgroepbepaling anders dan abo  kidd
+416 buik        - excisie patholog.afwijking
+417 17-hydroxyprogesteron mbv ria
+418 delta-4-androsteendion
+419 dhea-sulfaat met extractie mbv ria
+420 enkel
+421 vrw.gesl.org- aspiratie of microcurett.-
+422 bronchus    - bronch.toilet door verpl.-
+423 immunoglobuline a                    iga
+424 heparine anti-xa
+425 ro-gel. als ass. bij drainage nier-nefro
+426 echo nier
+427 occult bloed - kwalitatief-
+428 echo buikwand
+429 cytologisch onderzoek - buiktumorpunctie
+430 buik        - omentumplastiek
+431 ct nier
+432 cytologisch onderzoek - leverpunctie -
+433 echogeleide als ass.bij punctie-biopsie
+434 hart        - resuscitatie
+435 uterus      - extirpatie abdom.totaal me
+436 vrw.gesl.org- adhesiolysis ovarium plus
+437 cytologisch onderzoek - vulva -
+438 ct retroperitoneum
+439 anti-hav ig of igg-elisa of ria- in een
+440 antist.tegen hepatitis-b surface antigee
+441 hepatitis-b-anti-core igm
+442 buik        - littekenbreuk - plastische
+443 vagina      - operatie vesicovaginale fi
+444 vulva       - hechten van vulva
+445 mycobacterium mbv pcr
+446 huid        - transcutane po2 en pco2 me
+447 glucosebepaling -kwantitatief -
+448 ct-gel. als ass. bij punctie - biopsie i
+449 cytologisch onderzoek - endocervix -
+450 oestron mbv radioisotopen
+451 lymf.syst.  - lymfadenectomie dmv laparo
+452 cytostatica - infuustherapie
+453 echogeleide als ass. bij drainage intrap
+454 rituximab
+455 vagina      - vaginotomie
+456 echografie a vue ivm zwangerschap - rout
+457 blaas       - voorste en achterste exent
+458 ureter - splintografie cq opspuiten uret
+459 blaas       - bladder wash-out
+460 duodenum    - inbrengen voedingssonde in
+461 e.m.g.      - elektromyografisch onderzo
+462 knie - m-z onderbeen
+463 ct arterien hersenen
+464 igg antistoffen tegen heparine-pf4-compl
+465 abortus     - overige technieken
+466 echografie  - transuretraal prostaat
+467 eiwitspectrum -elektroforese kwn. bep. f
+468 immunoglobuline g                    igg
+469 immunoglobuline m                    igm
+470 paraproteine typering mbv monospecifieke
+471 eiwitfractionering mbv ief
+472 immunofixatie
+473 immunoforese na concentratie
+474 drainageprocedure onder rontgencontrole
+475 antigeendetectie - direct preparaat - hs
+476 antigeendetectie - direct preparaat - vz
+477 niet declarabele dagverpleging-bv klin.p
+478 interc.consult klinisch  reumatologie
+479 anti-cytomegalovirus ig of igg -elisa
+480 igm-as. tegen cmv virus
+481 anti-epstein-barr vca igm mbv elisa
+482 anti-epstein-barr na igg mbv elisa
+483 anti-epstein-barr vca igg mbv elisa
+484 complementcomponent c3 kwn.
+485 complementcomponent c4 kwn .
+486 dna - farr-assay mbv ria
+487 legionella antigeen sneltest
+488 complementdeficientie ond.bij afwezigh.a
+489 longfunctie - spirometrie
+490 longfunctie - stroomvolume curve
+491 sacrum-os coccygis-s.i.gewrichten
+492 proteine-c-activiteit
+493 igm anticardiolipine mbv elisa
+494 igg anticardiolipine mbv elisa
+495 antist. specifiek mbv elisa histonen of
+496 stollingsfactor - viii - activiteit
+497 anticoagulans lupus mbv elisa
+498 proteine-s-antigeen -totaal
+499 proteine-s-antigeen -vrij
+500 factor ii mutatie mbv pcr
+501 factor v leiden -r506q- mbv dna-test
+502 lymf.syst.  - lymfekliertoilet diep - li
+503 tuba uterina- excisie parovariale cyste
+504 echo bovenbeen
+505 ph-meting
+506 spraakaudiometrie  -  standaard - audiol
+507 mandibula-kaakgewricht
+508 mri orbita
+509 high sensitive crp -hscrp- nefelometrisc
+510 echo arteriae carotis sinistra
+511 echo arteriae carotis dextra
+512 bloedstollingsfactor xi - activiteit
+513 bloedstollingsfactor xii - activiteit
+514 bloedstollingsfactor ix - coagulatie
+515 uterus      - excisie-destructie path.af
+516 hyperthermie behandeling - h-1 -
+517 inbrengen voedings- of lavagesonde duode
+518 echo pleura
+519 pleura      - punctie - diagnostisch
+520 alfa-amylase
+521 vancomycine kwn - immuno-assay
+522 interc.consult vervolg klinisch  chirurg
+523 echografie-doppler venen been
+524 mictie-cysto-uretrografie
+525 totale gebitsstatus
+526 vrw.gesl.org- adhesiolysis ovaria-tubae
+527 ct pancreas en milt
+528 doorlichting zonder opname buik
+529 echogeleide als ass. bij punctie abdomen
+530 cytologisch onderzoek tbv bevolkingsonde
+531 bloedstollingsfactor v - kwantitatief -
+532 bloedstollingsfactor vii - coagulatie
+533 von willebrand profiel mbv protease
+534 cytologisch onderzoek - schildklier  pun
+535 uterus      - extirpatie vaginaal totaal
+536 nucleair onderzoek van elders
+537 unknown
+538 peritoneum  - omentectomie
+539 vulva       - therapeutische punctie aan
+540 urethra     - dilatatie meatus
+541 antist. tegen acetylcholinereceptoren
+542 aspect supernatant
+543 infuus      - bloed
+544 thorax      - zuigdrainage behandeling a
+545 ovarium     - ovariopexie -excl.torsie-
+546 prostaatspecifiek antigeen -psa- mbv imm
+547 antist. tegen hiv-e of hiv-c
+548 direct ondz. naar rs-virus antigeen mbv
+549 para-influenza-1-virus mbv pcr
+550 humaan metapneumovirus kwl. mbv dna-rna-
+551 antigeendetectie mbv ift -influenza-a
+552 antigeendetectie mbv ift -influenza-b
+553 buik        - laparoscopie - diagnostisc
+554 wormeieren - uitgebreid -vervolg-
+555 zink
+556 vrw.gesl.org- operatie van clitoris nno
+557 opname volgens barsonie
+558 lymf.syst.  - lymfeklierextirpatie para-
+559 uterus      - extirp.abd.vag.rad.- lymfa
+560 buikoverzicht - staand
+561 dunne darm  - mech.ileus-adhes.streng.-i
+562 cytologisch onderzoek - hersenen -
+563 anti-rubella igg -elisa - in een monster
+564 anti-chlamydia iga mbv elisa
+565 anti-chlamydia igg mbv ind.ift
+566 buik        - adhesiolyse en biopsie dmv
+567 endoretrograde cholangiografie
+568 cystografie retrograad
+569 doorlichting bij niersteenvergruizing
+570 wisselen drain onder rontgencontrole
+571 kleurproef sabin-feldman - leishmania
+572 toxoplasmose mbv eia toxo-igg
+573 toxoplasmose mbv eia toxo-igm
+574 anti-rubella igm -elisa
+575 cbr -coxsackie-b-900-virus
+576 anti-parvovirus -ig of igg antist. ind.
+577 anti-parvovirus igm mbv ind.ift
+578 tuba uterina- aanbrengen clips tijdens l
+579 partus      - klin.of poliklin.met voorb
+580 sect.caesar.- met voorbehandeling en kra
+581 mri tractus urogenitalis
+582 opspuiten hickman-katheter
+583 ro-gel. als ass. bij punctie - biopsie l
+584 lymf.syst.  - regionale lymfeklierdissec
+585 339849d toegangschir- c.v.d.-catheter v.
+586 hemoglobinen -abnormaal incl. hba2
+587 igg-index
+588 albumineratio
+589 immuno-elektroforese liquor na concentra
+590 huid        - verwijderen retentie cyste
+591 ro-gel. als ass. bij inbrengen endoproth
+592 lever       - excisie tumor of metastase
+593 lymf.syst.  - sentinel node procedure li
+594 gipskamer-ok - gebruik
+595 standaard materiaal n.n.o.
+596 zwachtelverband sling - aanleggen
+597 partiele gebitsstatus
+598 interc.consult poliklinisch
+599 vrw.gesl.org- second-look-oper.ovariumca
+600 oesofagografie - oraal
+601 1-25-oh2-vitamine d mbv hplc
+602 perif.vaten - verwijderen port-a-cath
+603 perif.vaten - inbrengen port-a-cath syst
+604 rontgenonderzoek onvolledig
+605 mri art. en ven.abdomen
+606 vagina      - extirpatie van vagina met
+607 neuronspecifiek enolase
+608 ct knie
+609 tuba uterina- reanastomose na sterilisat
+610 obductie
+611 anesthesie  - epiduraal met bloedpatch
+612 dikke darm  - resectie sigmoid met prima
+613 dikke darm  - appendectomie acuut via me
+614 totaal t3 - trijoodthyronine mbv radiois
+615 t3-uptake latente bindingscap. geb. tbg
+616 echo bekken inhoud muv anatomiecode 83 t
+617 uterus      - tot. laparoscopische hyste
+618 plaatsen van v.cava filter
+619 eerste hulp - niet seh afdeling - elders
+620 buik        - second-look-oper.ovariumca
+621 itraconazol mbv hplc
+622 bepaling hepatitis-be-antigeen
+623 bepaling antist. hepatitis-be-antigeen
+624 |>
+625 []
+#
+82 0 326.0
+624 2 198.0
+624 3 44.0
+30 4 46.0
+4 5 44.0
+5 6 164.0
+16 30 58.0
+1 31 11.0
+347 50 5.0
+51 52 269.0
+15 53 30.0
+16 54 14.0
+59 60 237.0
+15 63 7.0
+32 65 19.0
+51 66 9.0
+92 68 139.0
+32 70 409.0
+15 71 12.0
+32 72 1.0
+624 73 28.0
+15 82 539.0
+16 83 375.0
+1 92 33.0
+51 93 27.0
+16 96 12.0
+1 98 98.0
+1 99 14.0
+32 100 6.0
+98 102 46.0
+92 104 7.0
+32 107 3.0
+15 108 18.0
+173 109 15.0
+57 118 29.0
+90 122 1.0
+21 123 2.0
+29 124 19.0
+111 125 20.0
+15 126 2.0
+126 127 2.0
+127 128 5.0
+10 131 2.0
+15 132 2.0
+129 133 2.0
+16 134 144.0
+12 135 1.0
+15 137 60.0
+16 138 33.0
+138 139 33.0
+139 140 33.0
+16 141 15.0
+144 145 146.0
+624 148 122.0
+16 150 13.0
+15 151 74.0
+51 152 33.0
+257 153 4.0
+15 154 71.0
+0 157 1.0
+51 158 115.0
+16 159 9.0
+49 160 3.0
+16 161 3.0
+32 163 15.0
+32 164 4.0
+16 165 19.0
+188 166 23.0
+166 167 9.0
+167 168 2.0
+70 169 1.0
+15 170 16.0
+231 171 11.0
+15 172 1.0
+81 173 207.0
+16 174 16.0
+15 175 4.0
+15 177 5.0
+60 178 293.0
+32 179 6.0
+175 181 2.0
+181 182 1.0
+49 185 65.0
+16 186 1.0
+85 188 8.0
+189 190 1.0
+1 192 16.0
+192 193 10.0
+16 194 8.0
+16 195 7.0
+194 196 10.0
+16 197 3.0
+51 198 2.0
+198 199 4.0
+199 200 1.0
+199 201 2.0
+107 203 6.0
+188 204 1.0
+15 205 2.0
+23 206 4.0
+15 207 4.0
+329 208 6.0
+258 209 5.0
+14 210 2.0
+60 211 3.0
+1 212 90.0
+16 216 2.0
+7 217 5.0
+59 218 1.0
+98 219 1.0
+134 221 1.0
+80 223 1.0
+33 225 2.0
+12 226 14.0
+52 228 17.0
+69 229 21.0
+229 230 10.0
+5 231 9.0
+68 232 3.0
+203 233 4.0
+170 234 1.0
+32 235 3.0
+235 236 7.0
+16 238 3.0
+253 239 2.0
+70 240 2.0
+16 241 14.0
+16 242 37.0
+242 243 35.0
+128 244 1.0
+167 245 2.0
+47 246 3.0
+1 248 3.0
+16 251 5.0
+110 252 1.0
+16 254 1.0
+32 256 2.0
+334 257 7.0
+9 258 107.0
+12 260 9.0
+51 261 8.0
+16 264 2.0
+16 265 1.0
+16 266 11.0
+16 267 2.0
+32 268 1.0
+16 269 9.0
+137 270 29.0
+118 273 1.0
+15 274 3.0
+32 275 2.0
+151 277 2.0
+15 278 2.0
+15 282 3.0
+278 283 2.0
+283 284 2.0
+16 285 14.0
+52 286 4.0
+15 287 4.0
+1 288 1.0
+16 289 11.0
+15 290 15.0
+16 291 2.0
+76 292 2.0
+95 293 2.0
+23 294 1.0
+85 295 3.0
+16 297 5.0
+16 298 10.0
+15 299 1.0
+16 302 5.0
+16 303 2.0
+16 304 2.0
+15 305 1.0
+188 306 3.0
+15 307 4.0
+307 310 3.0
+16 312 3.0
+16 314 10.0
+525 316 2.0
+167 317 7.0
+69 318 2.0
+59 319 5.0
+60 321 18.0
+98 322 1.0
+1 323 4.0
+85 325 1.0
+81 326 4.0
+102 328 1.0
+15 329 4.0
+21 332 2.0
+15 333 1.0
+51 334 6.0
+153 335 1.0
+80 336 16.0
+153 337 1.0
+51 338 3.0
+134 339 1.0
+339 340 1.0
+16 341 7.0
+15 342 2.0
+21 344 2.0
+178 345 3.0
+14 347 3.0
+16 348 10.0
+269 354 3.0
+16 357 1.0
+357 358 1.0
+51 359 9.0
+15 360 2.0
+15 361 1.0
+15 362 3.0
+363 364 1.0
+16 366 2.0
+7 368 1.0
+368 369 1.0
+1 370 1.0
+16 371 1.0
+15 372 1.0
+15 373 1.0
+60 374 1.0
+16 375 2.0
+375 376 1.0
+376 377 1.0
+16 379 1.0
+32 380 2.0
+16 381 2.0
+16 382 9.0
+82 384 3.0
+15 385 5.0
+110 386 2.0
+14 389 1.0
+16 390 1.0
+16 392 10.0
+269 393 1.0
+164 394 11.0
+15 395 1.0
+167 396 2.0
+16 398 1.0
+137 399 1.0
+242 400 3.0
+92 401 1.0
+167 403 1.0
+403 404 1.0
+16 408 29.0
+16 409 1.0
+16 410 23.0
+16 411 1.0
+411 412 1.0
+16 413 1.0
+47 414 1.0
+16 416 1.0
+16 420 1.0
+16 421 1.0
+16 422 1.0
+7 423 1.0
+46 424 1.0
+15 425 1.0
+425 426 1.0
+7 427 1.0
+16 428 1.0
+188 429 2.0
+16 430 1.0
+1 431 2.0
+85 432 5.0
+306 433 1.0
+16 434 1.0
+434 435 1.0
+382 436 2.0
+134 437 1.0
+16 438 1.0
+16 439 1.0
+266 442 1.0
+16 443 1.0
+134 444 1.0
+407 445 1.0
+134 446 1.0
+20 447 1.0
+166 448 1.0
+1 449 1.0
+353 450 3.0
+16 451 2.0
+59 452 1.0
+170 453 1.0
+60 454 1.0
+59 455 1.0
+59 456 2.0
+16 457 2.0
+16 458 2.0
+105 459 1.0
+16 460 1.0
+51 461 1.0
+15 462 3.0
+71 463 1.0
+382 465 1.0
+16 466 1.0
+7 467 1.0
+467 468 1.0
+76 469 1.0
+40 470 1.0
+470 471 1.0
+471 472 1.0
+472 473 1.0
+15 474 1.0
+264 475 1.0
+475 476 1.0
+23 477 1.0
+462 478 1.0
+350 480 1.0
+49 481 1.0
+481 482 2.0
+482 483 2.0
+80 487 1.0
+581 489 1.0
+489 490 2.0
+107 491 1.0
+281 498 2.0
+498 499 2.0
+499 500 2.0
+500 501 2.0
+16 502 1.0
+243 503 1.0
+15 504 1.0
+13 505 1.0
+199 506 1.0
+59 507 1.0
+32 508 1.0
+29 509 1.0
+15 510 1.0
+510 511 2.0
+81 514 1.0
+16 515 1.0
+6 516 1.0
+16 517 1.0
+167 518 1.0
+334 519 1.0
+7 520 3.0
+360 522 1.0
+32 523 1.0
+32 524 1.0
+15 525 2.0
+16 526 1.0
+32 527 1.0
+15 528 2.0
+63 529 1.0
+98 530 1.0
+407 532 1.0
+1 534 1.0
+16 535 2.0
+1 536 3.0
+23 537 8.0
+16 539 1.0
+267 540 1.0
+18 541 1.0
+588 542 1.0
+334 544 1.0
+266 545 1.0
+124 546 1.0
+76 548 1.0
+548 549 1.0
+549 550 1.0
+550 551 1.0
+551 552 1.0
+59 556 1.0
+203 557 2.0
+16 558 2.0
+16 559 1.0
+15 560 1.0
+16 561 1.0
+16 562 1.0
+349 564 1.0
+49 565 1.0
+16 566 1.0
+63 567 1.0
+329 568 1.0
+570 569 2.0
+16 570 2.0
+40 571 1.0
+571 572 1.0
+572 573 1.0
+229 577 1.0
+191 578 1.0
+578 579 1.0
+579 580 1.0
+92 581 1.0
+32 582 1.0
+170 583 1.0
+16 585 1.0
+43 586 1.0
+469 587 1.0
+13 588 1.0
+542 589 1.0
+134 590 1.0
+16 591 1.0
+16 592 1.0
+16 593 5.0
+16 594 1.0
+51 595 1.0
+595 596 1.0
+15 597 1.0
+316 598 1.0
+84 599 3.0
+16 600 1.0
+12 601 1.0
+16 602 3.0
+16 603 2.0
+110 604 1.0
+1 605 1.0
+16 606 1.0
+82 608 1.0
+16 610 1.0
+16 611 1.0
+16 612 1.0
+16 613 1.0
+1 616 1.0
+382 617 1.0
+375 618 1.0
+32 619 1.0
+16 620 1.0
+1 622 1.0
+622 623 1.0
+32 625 365.0
+624 311 3.0
+324 391 3.0
+16 249 20.0
+16 320 17.0
+214 406 4.0
+406 407 4.0
+16 250 5.0
+16 253 57.0
+49 327 31.0
+91 247 9.0
+350 353 13.0
+16 367 9.0
+355 419 4.0
+7 300 13.0
+215 415 2.0
+47 346 1.0
+16 313 22.0
+16 324 18.0
+311 149 8.0
+55 61 21.0
+16 584 2.0
+16 538 2.0
+47 48 42.0
+16 84 11.0
+16 553 4.0
+553 609 1.0
+16 255 2.0
+90 91 133.0
+105 187 9.0
+42 227 2.0
+16 202 8.0
+16 110 86.0
+16 543 1.0
+36 279 2.0
+85 142 34.0
+213 237 3.0
+106 101 70.0
+16 191 40.0
+32 1 1212.0
+16 189 28.0
+16 162 121.0
+49 214 19.0
+214 215 14.0
+20 21 106.0
+222 224 26.0
+80 29 213.0
+149 46 13.0
+15 32 1865.0
+32 59 244.0
+106 85 34.0
+85 86 62.0
+86 87 97.0
+16 105 62.0
+105 106 74.0
+10 180 162.0
+13 383 2.0
+350 351 5.0
+7 352 2.0
+79 418 1.0
+94 331 1.0
+331 365 2.0
+365 555 1.0
+13 554 1.0
+12 95 66.0
+355 356 9.0
+213 405 2.0
+67 621 1.0
+497 512 1.0
+512 513 1.0
+78 547 1.0
+262 309 1.0
+12 259 9.0
+47 111 63.0
+402 521 1.0
+441 378 4.0
+440 441 2.0
+47 402 3.0
+7 355 8.0
+15 22 762.0
+10 103 152.0
+46 90 102.0
+41 155 97.0
+33 114 52.0
+114 115 36.0
+7 308 3.0
+36 117 16.0
+7 183 4.0
+7 17 113.0
+76 8 983.0
+14 271 2.0
+62 57 79.0
+41 119 61.0
+7 28 18.0
+58 388 2.0
+576 479 1.0
+575 576 1.0
+7 417 1.0
+26 222 25.0
+144 89 136.0
+33 116 75.0
+11 301 21.0
+301 343 13.0
+7 112 106.0
+14 484 3.0
+484 485 3.0
+40 563 1.0
+563 574 1.0
+574 575 1.0
+12 387 5.0
+77 34 9.0
+10 77 1113.0
+38 330 2.0
+330 363 2.0
+12 276 3.0
+143 144 102.0
+12 37 9.0
+37 38 10.0
+10 147 1.0
+7 129 2.0
+7 349 21.0
+349 350 31.0
+14 43 16.0
+14 315 1.0
+184 531 2.0
+42 464 1.0
+14 121 6.0
+7 88 161.0
+88 143 108.0
+281 533 1.0
+7 55 64.0
+55 113 5.0
+58 280 1.0
+46 262 9.0
+25 272 18.0
+495 263 2.0
+497 281 2.0
+184 492 2.0
+492 493 2.0
+493 494 2.0
+494 495 2.0
+263 496 3.0
+496 497 3.0
+184 58 46.0
+136 296 2.0
+296 614 1.0
+614 615 1.0
+7 64 285.0
+14 607 1.0
+7 33 384.0
+33 35 430.0
+35 36 745.0
+36 56 121.0
+56 62 69.0
+27 94 494.0
+7 74 878.0
+74 75 888.0
+75 76 927.0
+78 488 1.0
+78 486 1.0
+20 440 3.0
+14 176 6.0
+78 130 17.0
+130 136 11.0
+42 47 710.0
+45 213 20.0
+40 44 81.0
+44 45 140.0
+97 18 302.0
+18 19 312.0
+19 20 184.0
+7 97 99.0
+78 397 7.0
+42 120 64.0
+41 42 885.0
+42 156 98.0
+12 24 1299.0
+24 25 1435.0
+25 26 1045.0
+26 39 569.0
+39 40 1533.0
+14 184 207.0
+27 41 900.0
+41 146 85.0
+46 220 99.0
+220 80 156.0
+78 79 344.0
+78 67 210.0
+16 7 3019.0
+7 9 1949.0
+9 10 2923.0
+10 11 2188.0
+11 12 3728.0
+27 13 934.0
+13 14 2569.0
+69 15 1036.0
+12 27 1059.0
+81 49 606.0
+49 69 411.0
+14 78 1012.0
+80 81 964.0
+15 23 2030.0
+51 16 4662.0
+23 51 5693.0
+0 1 906.0
+2 7 87.0
+3 7 61.0
+4 6 51.0
+5 6 164.0
+6 23 70.0
+8 9 1340.0
+17 18 38.0
+18 19 312.0
+19 20 184.0
+20 15 115.0
+21 15 298.0
+22 23 1656.0
+27 13 934.0
+28 15 28.0
+29 15 289.0
+30 23 51.0
+31 0 25.0
+33 35 430.0
+34 11 13.0
+35 36 745.0
+36 27 313.0
+37 38 10.0
+38 15 8.0
+41 42 885.0
+42 47 710.0
+43 46 6.0
+44 45 140.0
+45 49 63.0
+46 49 215.0
+47 15 579.0
+48 15 28.0
+50 15 18.0
+52 16 413.0
+53 32 45.0
+54 23 29.0
+55 33 133.0
+56 57 77.0
+57 27 75.0
+58 15 74.0
+59 60 237.0
+60 178 293.0
+61 33 25.0
+62 57 79.0
+63 23 7.0
+64 21 61.0
+65 16 38.0
+66 16 10.0
+68 7 136.0
+69 15 1036.0
+70 32 305.0
+71 16 4.0
+72 32 1.0
+73 7 43.0
+74 75 888.0
+75 76 927.0
+76 8 983.0
+77 11 1205.0
+82 0 326.0
+83 51 365.0
+84 85 4.0
+85 87 71.0
+86 87 97.0
+87 7 235.0
+88 143 108.0
+89 145 129.0
+90 91 133.0
+91 15 282.0
+92 68 139.0
+93 16 40.0
+94 13 645.0
+95 24 60.0
+96 87 6.0
+97 18 302.0
+98 102 46.0
+99 16 18.0
+100 32 6.0
+101 7 82.0
+102 7 48.0
+103 77 155.0
+104 16 4.0
+105 106 74.0
+106 101 70.0
+107 203 6.0
+108 23 11.0
+109 15 80.0
+110 30 49.0
+111 15 34.0
+112 55 43.0
+113 33 11.0
+114 115 36.0
+115 116 35.0
+116 89 54.0
+117 56 15.0
+118 27 26.0
+119 42 67.0
+120 47 71.0
+121 46 3.0
+122 48 1.0
+123 48 2.0
+124 15 51.0
+125 15 46.0
+126 127 2.0
+127 128 5.0
+128 212 3.0
+129 133 2.0
+130 136 11.0
+131 15 2.0
+132 7 4.0
+133 15 2.0
+134 7 177.0
+135 24 1.0
+136 80 9.0
+137 23 58.0
+138 139 33.0
+139 140 33.0
+140 7 31.0
+141 85 9.0
+142 86 25.0
+143 9 148.0
+144 145 146.0
+145 11 148.0
+146 46 182.0
+147 130 1.0
+148 32 105.0
+149 7 40.0
+150 105 6.0
+151 23 73.0
+152 16 59.0
+153 7 6.0
+154 23 63.0
+155 42 65.0
+156 146 43.0
+157 23 5.0
+158 16 207.0
+159 85 3.0
+160 15 13.0
+161 5 1.0
+162 7 102.0
+163 32 34.0
+164 394 11.0
+165 106 22.0
+166 7 10.0
+167 170 12.0
+168 7 1.0
+169 167 1.0
+170 23 12.0
+171 22 10.0
+172 23 1.0
+173 15 418.0
+174 22 21.0
+175 22 2.0
+176 15 8.0
+177 82 3.0
+178 7 162.0
+179 6 27.0
+180 103 109.0
+181 32 3.0
+182 22 1.0
+183 36 3.0
+184 78 66.0
+185 15 192.0
+186 187 1.0
+187 106 18.0
+188 166 23.0
+189 85 22.0
+190 101 1.0
+191 85 21.0
+192 70 15.0
+193 70 4.0
+194 196 10.0
+195 106 3.0
+196 85 7.0
+197 142 2.0
+198 199 4.0
+199 201 2.0
+200 201 1.0
+201 16 4.0
+202 7 3.0
+203 32 7.0
+204 167 1.0
+205 82 4.0
+206 16 9.0
+207 23 3.0
+208 23 3.0
+209 10 5.0
+210 15 3.0
+211 7 2.0
+212 16 92.0
+213 79 4.0
+214 215 14.0
+215 15 11.0
+216 16 3.0
+217 15 7.0
+218 60 1.0
+219 99 1.0
+220 80 156.0
+221 3 1.0
+222 224 26.0
+223 21 1.0
+224 15 43.0
+225 35 2.0
+226 24 13.0
+227 47 2.0
+228 16 19.0
+229 230 10.0
+230 15 27.0
+231 6 13.0
+232 23 2.0
+233 32 4.0
+234 82 1.0
+235 236 7.0
+236 70 4.0
+237 46 3.0
+238 187 2.0
+239 162 3.0
+240 7 2.0
+241 87 6.0
+242 243 35.0
+243 23 14.0
+244 70 2.0
+245 32 2.0
+246 48 3.0
+247 15 10.0
+248 6 11.0
+249 85 11.0
+250 311 6.0
+251 87 5.0
+252 137 1.0
+253 87 37.0
+254 7 1.0
+255 149 1.0
+256 32 2.0
+257 7 18.0
+258 10 112.0
+259 24 6.0
+260 24 12.0
+261 52 10.0
+262 80 9.0
+263 496 3.0
+264 23 1.0
+265 82 1.0
+266 85 3.0
+267 540 1.0
+268 7 1.0
+269 87 4.0
+270 1 14.0
+271 44 1.0
+272 26 8.0
+273 27 2.0
+274 23 3.0
+275 32 4.0
+276 184 1.0
+277 23 4.0
+278 283 2.0
+279 56 2.0
+280 281 1.0
+281 47 3.0
+282 23 6.0
+283 284 2.0
+284 107 2.0
+285 7 11.0
+286 16 6.0
+287 23 6.0
+288 23 1.0
+289 7 5.0
+290 23 8.0
+291 7 2.0
+292 95 3.0
+293 542 1.0
+294 16 3.0
+295 7 3.0
+296 67 1.0
+297 105 4.0
+298 106 11.0
+299 32 1.0
+300 15 21.0
+301 343 13.0
+302 7 4.0
+303 191 2.0
+304 23 2.0
+305 83 1.0
+306 7 2.0
+307 310 3.0
+308 10 2.0
+309 80 1.0
+310 32 2.0
+311 149 8.0
+312 105 1.0
+313 149 8.0
+314 7 7.0
+315 80 2.0
+316 23 1.0
+317 32 4.0
+318 15 3.0
+319 7 3.0
+320 85 15.0
+321 7 9.0
+322 60 1.0
+323 0 4.0
+324 311 8.0
+325 149 1.0
+326 49 7.0
+327 15 25.0
+328 23 1.0
+329 208 6.0
+330 363 2.0
+331 365 2.0
+332 15 5.0
+333 23 2.0
+334 134 10.0
+335 7 1.0
+336 29 18.0
+337 7 2.0
+338 7 3.0
+339 340 1.0
+340 196 1.0
+341 85 3.0
+342 23 3.0
+343 15 6.0
+344 15 2.0
+345 92 16.0
+346 111 1.0
+347 15 7.0
+348 23 14.0
+349 350 31.0
+350 353 13.0
+351 353 4.0
+352 15 2.0
+353 15 20.0
+354 87 3.0
+355 356 9.0
+356 353 3.0
+357 358 1.0
+358 7 1.0
+359 16 9.0
+360 23 3.0
+361 348 1.0
+362 0 3.0
+363 364 1.0
+364 94 1.0
+365 21 1.0
+366 266 1.0
+367 149 4.0
+368 369 1.0
+369 15 1.0
+370 32 1.0
+371 151 1.0
+372 23 2.0
+373 16 1.0
+374 137 2.0
+375 376 1.0
+376 377 1.0
+377 23 2.0
+378 160 3.0
+379 334 3.0
+380 16 5.0
+381 85 1.0
+382 85 4.0
+383 78 1.0
+384 32 3.0
+385 23 9.0
+386 4 2.0
+387 146 2.0
+388 80 2.0
+389 160 2.0
+390 324 1.0
+391 149 3.0
+392 7 10.0
+393 87 1.0
+394 16 4.0
+395 137 1.0
+396 0 1.0
+397 80 13.0
+398 105 1.0
+399 23 2.0
+400 243 3.0
+401 245 1.0
+402 80 3.0
+403 404 1.0
+404 68 1.0
+405 79 1.0
+406 407 4.0
+407 215 4.0
+408 87 11.0
+409 86 1.0
+410 137 13.0
+411 412 1.0
+412 302 1.0
+413 142 1.0
+414 49 2.0
+415 15 2.0
+416 86 1.0
+417 349 1.0
+418 355 2.0
+419 15 4.0
+420 23 1.0
+421 73 1.0
+422 108 1.0
+423 469 1.0
+424 81 1.0
+425 426 1.0
+426 22 1.0
+427 8 1.0
+428 22 1.0
+429 101 2.0
+430 320 1.0
+431 16 2.0
+432 167 3.0
+433 137 1.0
+434 435 1.0
+435 257 1.0
+436 85 2.0
+437 101 1.0
+438 232 1.0
+439 20 2.0
+440 441 2.0
+441 378 4.0
+442 149 1.0
+443 23 1.0
+444 106 1.0
+445 15 2.0
+446 162 1.0
+447 15 1.0
+448 7 1.0
+449 0 1.0
+450 15 2.0
+451 266 1.0
+452 7 1.0
+453 22 1.0
+454 16 1.0
+455 60 1.0
+456 137 2.0
+457 87 1.0
+458 23 2.0
+459 306 1.0
+460 137 1.0
+461 0 1.0
+462 23 2.0
+463 108 1.0
+464 262 1.0
+465 86 1.0
+466 7 1.0
+467 468 1.0
+468 423 1.0
+469 587 1.0
+470 471 1.0
+471 472 1.0
+472 473 1.0
+473 49 1.0
+474 170 1.0
+475 476 1.0
+476 23 1.0
+477 179 1.0
+478 22 1.0
+479 349 1.0
+480 79 1.0
+481 482 2.0
+482 483 2.0
+483 15 2.0
+484 485 3.0
+485 78 2.0
+486 67 1.0
+487 29 1.0
+488 486 1.0
+489 490 2.0
+490 7 1.0
+491 203 1.0
+492 493 2.0
+493 494 2.0
+494 495 2.0
+495 263 2.0
+496 497 3.0
+497 281 2.0
+498 499 2.0
+499 500 2.0
+500 501 2.0
+501 185 2.0
+502 87 1.0
+503 253 1.0
+504 23 1.0
+505 29 1.0
+506 201 1.0
+507 22 1.0
+508 32 1.0
+509 15 1.0
+510 511 2.0
+511 22 1.0
+512 513 1.0
+513 80 1.0
+514 173 1.0
+515 85 1.0
+516 32 1.0
+517 23 1.0
+518 23 1.0
+519 257 1.0
+520 75 2.0
+521 80 2.0
+522 23 1.0
+523 23 2.0
+524 23 2.0
+525 316 2.0
+526 187 1.0
+527 70 1.0
+528 23 2.0
+529 71 1.0
+530 70 1.0
+531 146 1.0
+532 185 2.0
+533 176 1.0
+534 7 1.0
+535 87 2.0
+536 625 1.0
+537 16 8.0
+538 553 3.0
+539 85 1.0
+540 96 1.0
+541 15 1.0
+542 589 1.0
+543 46 2.0
+544 285 1.0
+545 87 1.0
+546 15 1.0
+547 80 1.0
+548 549 1.0
+549 550 1.0
+550 551 1.0
+551 552 1.0
+552 15 1.0
+553 105 1.0
+554 80 1.0
+555 80 1.0
+556 101 1.0
+557 32 2.0
+558 320 1.0
+559 85 1.0
+560 23 2.0
+561 86 1.0
+562 149 1.0
+563 574 1.0
+564 353 1.0
+565 15 1.0
+566 86 1.0
+567 329 1.0
+568 4 1.0
+569 207 2.0
+570 207 3.0
+571 572 1.0
+572 573 1.0
+573 13 1.0
+574 575 1.0
+575 146 1.0
+576 479 1.0
+577 185 1.0
+578 579 1.0
+579 580 1.0
+580 85 1.0
+581 489 1.0
+582 68 1.0
+583 23 1.0
+584 538 2.0
+585 23 1.0
+586 49 1.0
+587 292 1.0
+588 542 1.0
+589 15 1.0
+590 7 1.0
+591 23 1.0
+592 84 1.0
+593 189 3.0
+594 307 1.0
+595 596 1.0
+596 16 1.0
+597 598 1.0
+598 22 1.0
+599 87 2.0
+600 23 1.0
+601 27 1.0
+602 22 2.0
+603 23 1.0
+604 175 1.0
+605 345 1.0
+606 142 1.0
+607 67 1.0
+608 23 1.0
+609 46 1.0
+610 7 1.0
+611 7 1.0
+612 303 1.0
+613 191 1.0
+614 615 1.0
+615 67 1.0
+616 98 1.0
+617 85 1.0
+618 377 1.0
+619 32 1.0
+620 101 1.0
+621 80 1.0
+622 623 1.0
+623 98 1.0
+624 32 234.0
+1 625 336.0
+15 32 1865.0
+67 80 304.0
+79 80 229.0
+7 9 1949.0
+9 10 2923.0
+10 11 2188.0
+11 12 3728.0
+12 24 1299.0
+13 14 2569.0
+14 78 1012.0
+24 25 1435.0
+25 26 1045.0
+26 39 569.0
+39 40 1533.0
+40 13 528.0
+49 15 925.0
+78 80 383.0
+80 81 964.0
+81 49 606.0
+16 7 3019.0
+23 51 5693.0
+51 16 4662.0
+32 1 1212.0
