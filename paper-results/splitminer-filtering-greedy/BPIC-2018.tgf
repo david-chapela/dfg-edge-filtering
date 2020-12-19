@@ -1,0 +1,101 @@
+0 prepare offline
+1 finish editing
+2 |>
+3 begin preparations
+4 mail valid
+5 calculate protocol
+6 change department
+7 check admissibility
+8 restart editing
+9 finish preparations
+10 revoke approval
+11 check
+12 calculate
+13 mail income
+14 begin editing
+15 discard
+16 initialize
+17 finish pre-check
+18 abort external
+19 begin payment
+20 plan
+21 save
+22 clear
+23 prepare external
+24 withdraw
+25 revoke decision
+26 decide
+27 correction GFM17
+28 finish payment
+29 performed
+30 create
+31 abort payment
+32 begin editing from refused
+33 cancel offline
+34 refuse
+35 remove document
+36 performed offline
+37 begin admissibility check
+38 insert document
+39 approve
+40 take original document
+41 revoke withdrawal
+42 []
+#
+18 9 4415.0
+31 19 34156.0
+39 14 485.0
+37 7 1112.0
+14 15 26.0
+14 17 16615.0
+32 10 23.0
+19 31 32347.0
+19 38 31144.0
+3 23 5395.0
+3 0 1783.0
+12 7 586.0
+12 24 313.0
+5 21 182.0
+33 0 122.0
+6 42 6.0
+11 1 9635.0
+7 39 419.0
+7 34 208.0
+22 14 4247.0
+27 12 11.0
+30 22 4333.0
+30 27 6.0
+26 19 42925.0
+26 25 19068.0
+15 21 20.0
+1 30 27592.0
+1 26 83450.0
+1 8 428.0
+1 40 477.0
+28 6 5.0
+17 1 13842.0
+9 3 6212.0
+16 29 43802.0
+16 20 4292.0
+38 28 28886.0
+13 4 39556.0
+4 16 40059.0
+29 16 33180.0
+36 21 1538.0
+20 21 3621.0
+23 18 4416.0
+0 33 169.0
+0 21 1495.0
+34 32 77.0
+35 38 3519.0
+8 21 824.0
+10 37 40.0
+25 12 19371.0
+41 35 144.0
+21 5 90.0
+21 11 10181.0
+21 9 2887.0
+21 36 1766.0
+40 14 411.0
+24 41 137.0
+2 13 38623.0
