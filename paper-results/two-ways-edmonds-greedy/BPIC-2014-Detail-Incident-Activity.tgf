@@ -1,0 +1,105 @@
+0 Reassignment
+1 Operator Update
+2 Assignment
+3 Update from customer
+4 Closed
+5 Caused By CI
+6 Description Update
+7 Status Change
+8 Analysis/Research
+9 Update
+10 Resolved
+11 Reopen
+12 OO Response
+13 External Vendor Assignment
+14 Communication with customer
+15 Pending vendor
+16 Open
+17 Communication with vendor
+18 Vendor Reference
+19 Urgency Change
+20 Impact Change
+21 Quality Indicator Fixed
+22 Problem Workaround
+23 Problem Closure
+24 Affected CI Change
+25 Service Change
+26 Referred
+27 Vendor Reference Change
+28 Incident reproduction
+29 Quality Indicator
+30 Notify By Change
+31 Contact Change
+32 Quality Indicator Set
+33 Mail to Customer
+34 Callback Request
+35 External update
+36 External Vendor Reassignment
+37 alert stage 1
+38 Dial-in
+39 |>
+40 []
+#
+0 3 893.0
+16 6 881.0
+2 8 330.0
+2 9 8130.0
+2 10 413.0
+9 11 869.0
+0 12 12.0
+7 13 1499.0
+7 14 1816.0
+2 17 283.0
+2 18 201.0
+4 21 2260.0
+7 22 72.0
+7 23 19.0
+16 24 118.0
+2 26 10.0
+9 27 37.0
+2 28 9.0
+4 29 594.0
+16 31 12.0
+2 32 485.0
+7 34 26.0
+7 35 349.0
+13 36 11.0
+1 37 1.0
+2 38 1.0
+4 5 17146.0
+2 0 14724.0
+3 0 834.0
+5 4 15969.0
+6 2 901.0
+8 2 248.0
+10 4 1533.0
+11 9 1022.0
+12 0 12.0
+14 7 1388.0
+15 7 1214.0
+17 7 239.0
+18 2 177.0
+21 40 2660.0
+22 7 70.0
+23 7 25.0
+24 25 153.0
+25 20 55.0
+26 4 9.0
+27 9 37.0
+28 7 4.0
+29 40 675.0
+30 2 76.0
+31 2 7.0
+32 33 418.0
+33 4 2114.0
+34 7 21.0
+35 4 372.0
+36 15 11.0
+37 1 1.0
+38 30 1.0
+39 16 46595.0
+19 1 201.0
+9 2 8409.0
+0 2 17765.0
+1 2 14710.0
+20 19 503.0

@@ -1,0 +1,64 @@
+0 Hand washing
+1 Ultrasound configuration
+2 Anatomic identification
+3 Compression identification
+4 Gel in probe
+5 Get in sterile clothes
+6 Clean puncture area
+7 Drap puncture area
+8 Cover probe
+9 Put sterile gel
+10 Prepare implements
+11 Anesthetize
+12 Puncture
+13 Blood return
+14 Drop probe
+15 Remove syringe
+16 Guidewire install
+17 Check wire in short axis
+18 Check wire in long axis
+19 Remove trocar
+20 Widen pathway
+21 Advance catheter
+22 Remove guidewire
+23 Check flow and reflow
+24 Check catheter position
+25 Position patient
+26 Position probe
+27 Doppler identification
+28 Wire in good position
+29 |>
+30 []
+#
+10 6 13.0
+3 27 4.0
+29 25 1.0
+2 1 7.0
+0 5 19.0
+1 2 8.0
+2 3 13.0
+4 8 13.0
+5 10 18.0
+8 9 16.0
+9 26 16.0
+11 12 7.0
+12 13 24.0
+13 14 24.0
+14 15 26.0
+15 16 23.0
+16 19 20.0
+17 18 25.0
+18 28 9.0
+19 17 15.0
+20 21 19.0
+21 22 19.0
+22 23 17.0
+23 24 16.0
+24 30 16.0
+25 0 2.0
+26 2 9.0
+27 11 2.0
+28 20 8.0
+10 4 7.0
+6 7 16.0
+7 10 12.0
