@@ -1,0 +1,4922 @@
+0 1e consult poliklinisch
+1 administratief tarief       - eerste pol
+2 verlosk.-gynaec. korte kaart kosten-out
+3 echografie  - genitalia interna
+4 simulator - gebruik voor aanvang megavol
+5 behandeltijd - eenheid t3 - megavolt
+6 teletherapie - megavolt fotonen bestrali
+7 aanname laboratoriumonderzoek
+8 ureum
+9 hemoglobine foto-elektrisch
+10 creatinine
+11 natrium vlamfotometrisch
+12 kalium potentiometrisch
+13 leukocyten tellen elektronisch
+14 trombocyten tellen - elektronisch
+15 ordertarief
+16 ligdagen - alle spec.beh.kinderg.-reval.
+17 sediment - spoed
+18 bacteriologisch onderzoek met kweek -nie
+19 resistentiebepalingen - 5 bepalingen
+20 hepatitis-b surface antigeen confirmatie
+21 urine onderzoek - kwalitatief
+22 190021 klinische opname a002
+23 190205 klasse 3b        a205
+24 sgot - asat kinetisch
+25 sgpt - alat kinetisch
+26 melkzuurdehydrogenase -ldh- kinetisch
+27 differentiele telling automatisch
+28 trombotest
+29 crp c-reactief proteine
+30 brachytherapie - interstitieel - intensi
+31 inwend.geneesk.  korte kaart kosten-out
+32 vervolgconsult poliklinisch
+33 creatinine - spoed
+34 ijzer
+35 natrium - vlamfotometrisch - spoed
+36 kalium vlamfotometrisch - spoed
+37 foliumzuur mbv radioisotopen
+38 vitamine b12 mbv chemieluminescentie
+39 bloedgroep abo en rhesusfactor
+40 rhesusfactor d - centrifugeermethode - e
+41 haemoglobine foto-electrisch - spoed
+42 trombocyten tellen - spoed
+43 reticulocyten tellen mbv facscan
+44 cde fenotypering
+45 bloedgroepantigenen andere dan abo-rhesu
+46 kruisproef volledig -drie methoden-
+47 leucocyten tellen -electronisch- spoed
+48 crp c-reactief proteine - spoed
+49 screening antistoffen erytrocyten
+50 transferrine mbv ics
+51 190101 bovenreg.toesl.  a101
+52 gefiltreerd erytrocytenconcentraat
+53 echo nieren-urinewegen
+54 interc.consult klinisch  anesthesie
+55 ureum - spoed
+56 sgpt alat kinetisch - spoed
+57 sgot asat kinetisch - spoed
+58 international normalised ratio mbv tromb
+59 dagverpleging - alle spec.beh.kind.-rev.
+60 190035 dagverpleging    a007
+61 urinezuur met uricase u.v. spectrofotome
+62 melkzuur dehydrogenase - spoed
+63 echo abdomen
+64 sediment
+65 klinische kaart - inwendige geneeskunde
+66 inwend.geneesk.   aanv.kaart kosten-out
+67 squamous cell carcinoma mbv eia
+68 ct abdomen
+69 ca-125 mbv meia
+70 telefonisch consult
+71 patient niet verschenen radiologie
+72 homocystine chromatografisch
+73 cytologisch onderzoek - ectocervix -
+74 bilirubine -geconjugeerd
+75 bilirubine - totaal
+76 glucose
+77 alkalische fosfatase -kinetisch-
+78 gammaglutamyltranspeptidase
+79 cea - tumormarker mbv meia
+80 calcium
+81 albumine
+82 thorax
+83 190204 klasse 3a        a204
+84 buik        - stag.lap-tumorred.-omentec
+85 immunopathologisch onderzoek
+86 cytologisch onderzoek - ascites -
+87 histologisch onderzoek - grote resectiep
+88 glucose - spoed
+89 calcium - spoed
+90 melkzuur enzymatisch - spoed
+91 o2-saturatie
+92 ct thorax
+93 verlosk.-gynaec.  aanv.kaart kosten-out
+94 hematocriet mbv centrifuge
+95 totaal eiwit
+96 vulva       - rad.vulvectomie - opp.en d
+97 microscopisch onderzoek - gekleurd en on
+98 coupe ter inzage
+99 mri bekken
+100 skelet - scintigrafie totale lichaam
+101 histologisch onderzoek - biopten nno
+102 cito histologisch onderzoek
+103 fosfaat
+104 ct bovenbuik
+105 blaas       - uretrocystoscopie nno
+106 vagina      - toucher onder anesthesie
+107 wervelkolom - lumbaal
+108 ct hersenen
+109 differentiatie leukocyten - handmatig
+110 anesthesie  - bij behandeling met radium
+111 albumine - spoed
+112 bilirubine kwantitatief totaal of direct
+113 alfa amylase - spoed
+114 chloride - spoed
+115 fosfaat - spoed
+116 alkalische fosfatase - kinetisch - spoed
+117 totaal eiwit colorimetrisch - spoed
+118 kreatinine fosfokinase - spoed
+119 hematocriet - spoed
+120 gamma glutamyltranspeptidase - spoed
+121 ferritine kwn mbv chemieluminescentie
+122 erythrocyten tellen -electronisch- spoed
+123 osmolaliteit - spoed
+124 bezinkingssnelheid foto-elektrisch
+125 magnesium  -aas - spoed
+126 mri wervelkolom - cervicaal
+127 mri wervelkolom - thoracaal
+128 mri wervelkolom - lumbaal
+129 cortisol immunofluorimetrisch
+130 tsh enzym-immunologisch
+131 cortisol
+132 vaten       - venapunctie
+133 acth mbv radioisotopen
+134 e.c.g.      - elektrocardiografie
+135 lithium
+136 vrij t4 mbv ria -ft 4
+137 1e consult      bezoek
+138 lymfeklier - scint sentinel node dynamis
+139 lymfeklier - scint sentinel node vervolg
+140 lymfeklier - scint sentinel node met pro
+141 vulva       - radicale vulvect. znd ingu
+142 vriescoupe
+143 methemoglobine - sulfhemoglobine elk
+144 bicarbonaat
+145 co-hb kwn.
+146 actuele ph - pco2 - stand.bicarbonaat
+147 lithium - spoed
+148 verlosk.-gynaec.   jaarkaart kosten-out
+149 histologisch onderzoek - kleine resectie
+150 vrw.gesl.org- biopsie-punctie-cytologie
+151 buikoverzicht
+152 klinische kaart - anesthesie
+153 arterie     - punctie tbv.verblijfsnaald
+154 thorax - op zaal
+155 protrombinetijd -quick owren of modif.-
+156 heparinebepaling - kaoline - cefalinetij
+157 interc.consult klinisch  longziekten
+158 dieet nno
+159 buik        - primaire stageringsoperati
+160 anti-hiv mbv elisa
+161 patient niet verschenen ngiv- no show -
+162 infuus      - inbrengen
+163 cytologisch onderzoek - vagina -
+164 tumor - petscan totale lichaam
+165 blaas       - cystoscopie met biopsie
+166 cytologisch onderzoek - lymfeklierpuncti
+167 diagnostische punctie onder echocontrole
+168 echo schouder - m-z bovenarm
+169 cytologisch onderzoek - pancreaspunctie
+170 echo bovenbuik
+171 hyperthermie
+172 hele bovenbeen met onderbeen en voet
+173 magnesium  -aas
+174 bekken
+175 bekken - liggend
+176 fdp - dimeer - immunologisch
+177 ct art. en ven.pulmonales
+178 paclitaxel
+179 behandeltijd - eenheid t1 - megavolt
+180 chloride
+181 bovenbeen
+182 onderbeen
+183 natrium vlamfotometrisch - spoed
+184 cefalinetijd - coagulatie
+185 protrombinetijd
+186 vulva       - incisie - overige
+187 echografie  - blaas - extern
+188 punctie tbv cytologisch onderzoek door p
+189 vulva       - vulvectomie - liesblok
+190 microscopisch onderzoek  - elektronenmic
+191 buik        - stageringslaparotom.-oment
+192 mammografie thoraxwand
+193 echo mamma
+194 vrw.gesl.org- curettage gefractioneerd
+195 vulva       - biopsie-punctie-cytologie
+196 uterus      - hysteroscopie
+197 uterus      - extirp.abd.rad. - lymfaden
+198 toonaudiometrie - audiologisch centrum
+199 hoogfrequente audiometrie - audiologisch
+200 tympanometrie - standaard - audiologisch
+201 patienten kontakt audiologie korter dan
+202 anesthesie  - bij spec.onderz.en verr.ge
+203 bekken - staand
+204 cytologisch onderzoek - nierpunctie -
+205 doorlichting zonder opname thorax
+206 eiwit beperkt - mineralen beperkt
+207 pyelografie antegraad via drain
+208 verwisselen van nefrostomie drain
+209 lipase
+210 hemoglobine a1
+211 190055 zware dagverpleging a009
+212 mri abdomen
+213 directe antiglobulinetest - coombs
+214 antistoffen tegen erys - specificiteit -
+215 ident. irregulaire a.s. tegen erys na po
+216 190034 afwezigheidsdag  a006
+217 ligase chain reaction -lcr-
+218 uterus      - intra-uterine device inbre
+219 mri bijnier
+220 melkzuur enzymatisch
+221 blaas       - catheter a demeure - inbre
+222 betasubunit bep. mbv. ria hcg
+223 sikkelcel
+224 alfa-1-foetoproteine
+225 cholesterol totaal
+226 triglyceriden - enzymatisch
+227 cholesterol hdl
+228 afereseplasma gesplitst fq1 en fq2
+229 ca 15.3 - tumormarker mbv meia
+230 ca-19.9 tumormarker
+231 behandeltijd - eenheid t4 - megavolt
+232 ct bekken
+233 heup
+234 ct wervelkolom - lumbaal
+235 bot - densitometrie lwk
+236 bot - densitometrie femurhals
+237 titratie directe antiglobulinetest - coo
+238 vrw.gesl.org- exc.destruct.path.afwijkin
+239 analgesie   - epiduraal door anesthesist
+240 urinewegen  - urodynamisch onderzoek-vij
+241 uterus      - extirpatie abdominaal radi
+242 maag - ontledig.-scint vast-vloeib.voeds
+243 darm - colonpassage scint.comp.vervolg
+244 mri heup
+245 echo onderbuik
+246 creatine fosfokinase mb - spoed
+247 troponine-t mbv elisa
+248 behandeltijd - eenheid t2 - megavolt
+249 ovarium     - debulking ovariumcarcinoom
+250 cervix      - lisexcisie portio - diathe
+251 uterus      - extirpatie abdominaal tota
+252 hart        - doppler echocardiografie 2
+253 uterus      - carc. cervix vlgs. werthei
+254 hematologie - ontstek.scint.tot.lichaam
+255 ovarium     - adnex-extirpatie dmv lapar
+256 pyelografie --wo niertransplantaat--
+257 longfunctie - co2 - capnografie
+258 amylase
+259 ammoniak
+260 fibrinogeen
+261 trombocyten - leuko verwijderd - 5 donor
+262 haptoglobine
+263 trombinetijd
+264 celkweek en isolatie
+265 determinatie en orient. typering -dmv ce
+266 buik        - proeflaparotomie
+267 blaas       - suprapubische katheter inb
+268 dikke darm  - sigmoidoscopie met flexibe
+269 vulva       - vulvectomie zonder lieskli
+270 interc.consult klinisch  radiotherapie
+271 zwangerschapsreactie - spoed
+272 creatinefosfokinase -kinetisch-
+273 ethanol -enzymatisch of gaschromatografi
+274 colon inloop
+275 inwend.geneesk.    jaarkaart kosten-out
+276 vitamine d3
+277 onderzoek dunne darm m-z duodenum
+278 wervelkolom - cervicaal
+279 ammoniak - spoed
+280 fenytoine kwantitatief
+281 antitrombine iii mbv chromogeen-n-substr
+282 mri grote hersenen
+283 wervelkolom - thoracaal
+284 wervelkolom - thoracolumbale overgang
+285 toegangschir- c.v.d.-katheter perifeer b
+286 erytrocyten leukocyten verwijderd bestra
+287 interc.consult klinisch  neurologie
+288 echogeleide als ass. bij punctie-biopsie
+289 pijnbestrijd- aanleggen patient controll
+290 ct a.pulmonalis
+291 cytologisch onderzoek - liquor cerebrosp
+292 erytrocyten
+293 buffy coat
+294 klinisch tarief
+295 cytologisch onderzoek - diversen -
+296 totaal t4 - thyroxine immunofluorimetris
+297 vagina      - biopsie-punctie-cytologie
+298 blaas       - cystoscopie
+299 sinus
+300 clostridium elisa-test
+301 kalium vlamfotometrisch
+302 perif.vaten - duplexonderzoek - veneus
+303 dikke darm  - appendectomie nno
+304 interc.consult klinisch  chirurgie
+305 voet
+306 cytologisch onderzoek - urine niercyste
+307 schoudergewricht
+308 chloride -ionselectief-
+309 antinucleaire factor -anf-
+310 bovenarm
+311 vagina      - scopie incl.evt.vulvabiops
+312 vagina      - overige excisie pathologis
+313 vulva       - ruime lokale excisie van a
+314 nieren - renografie lasix
+315 parathormoon mbv radioisotopen
+316 orthopantomogram 'panoramixopname' gebit
+317 echo hals --waaronder schildklier--
+318 mec-a-bepaling voor mrsa mbv pcr
+319 buik        - punctie ascites ontlastend
+320 uterus      - extirpatie - abdominaal me
+321 doxorubicine liposomal --caelyx--
+322 ct lever en galwegen
+323 onderzoek van elders niet beoordeeld
+324 cervix      - conisatie
+325 morfometrie
+326 bloedgroepbep. anders dan abo per bloedg
+327 uitsluiten irregulaire a.s. tegen erys d
+328 punctie cyste tumor ed. door radioloog o
+329 pyelografie antegraad via punctie
+330 vitamine b6
+331 vitamine e -hplc-methode
+332 vitamine b1 - thiamine
+333 interc.consult vervolg klinisch  interne
+334 intensive care ligdag - 1e tot en met 5e
+335 anesthesie  - bij vervoer beademde patie
+336 creatine fosfokinase isoenzym ckmb
+337 cvvhd       --continue veno-veneuze hemo
+338 intensive care ligdag - 6e tot en met 14
+339 uterus      - curettage - diagnostisch
+340 cervix      - curettage
+341 buik        - stag.laparotom.-omentect.-
+342 echo tractus urogenitalis-bekken
+343 eiwit -colorimetrisch- totaal
+344 microalbumine immunonefelometrisch
+345 ct hals
+346 aluminium
+347 erytrocyten tellen - elektronisch
+348 duplexscan - venen been
+349 fsh enzym-immunologisch
+350 lh mbv radioisotopen
+351 progesteron mbv radioisotopen
+352 prolactine mbv eia
+353 oestradiol mbv radioisotopen -ria
+354 vrw.gesl.org- plastische operatie van vu
+355 testosteron mbv radioisotopen
+356 sex-hormone-binding globuline mbv ria
+357 vagina      - tension-free vaginal tape
+358 vagina      - colpocleisis lefort
+359 gemcitabine
+360 buikoverzicht - op zaal
+361 echografie-doppler vena cava inferior en
+362 echo been
+363 vitamine b2
+364 vitamine b3
+365 vitamine a
+366 beademing - anesthesie - eerste dag
+367 lymf.syst.  - stageringslymfadenectomie
+368 widal agglutinatie - yersinia 3
+369 widal agglutinatie - yersinia 9
+370 dikke darm  - colonoscopie met biopsie
+371 darm        - katheteriseren stoma
+372 interc.consult vervolg klinisch  anesthe
+373 hart - functie gated bloodpool rust
+374 echografie a vue ivw zwangerschap - met
+375 onderzoek via percutane veneuze katheter
+376 echografie-doppler v.jugularis
+377 ven. d.s.a. vena cava inferior
+378 anti-hepatitis-c-virus mbv elisa
+379 beademing - anesthesie - tweede t-m vijf
+380 klinische kaart - verloskunde en gynaeco
+381 vulva       - partiele vulvectomie
+382 vrw.gesl.org- adnex-extirpatie dmv lapar
+383 zwangerschapsreactie
+384 rib-sternum
+385 interc.consult klinisch  interne ziekten
+386 brachytherapie - interstitieel - bijzond
+387 osmolaliteit
+388 digoxine
+389 hepatitis-c-virus roche -hcvr- mbv pcr
+390 cervix      - portio - lasercoagulatie
+391 vagina      - scopie excl.weefselwegname
+392 cytologisch onderzoek - pleuravocht -
+393 huidplastiek- z-plastiek huid hoofd en h
+394 ct totale lichaam
+395 pyelografie retrograad
+396 echo pancreas en milt
+397 brain natriuretic peptide -bnp- mbv immu
+398 duodenum    - oesofagogastroduodenoscopi
+399 interc.consult klinisch  urologie
+400 darm - colonpassage scint.comp.statisch
+401 echo en rontgen als ass. bij drainage ab
+402 gentamycine kwn - immuno-assay
+403 echo thorax
+404 ro-gel. als ass. bij punktie - biopsie t
+405 onderz. naar aanwezigheid van koude anti
+406 geb. antistoffen tegen erys - dir.coombs
+407 geb. antistoffen tegen erys - dir. coomb
+408 ovarium     - redebulking ovarium carcin
+409 ovarium     - excisie cyste via laparosc
+410 behandelen  - in hyperpressietank
+411 perif.vaten - doppler-onderz.oppervl.ven
+412 perif.vaten - duplexscan arterieel cruro
+413 buik        - second-look-oper.stagering
+414 elutie van auto-antistoffen tegen erytro
+415 bloedgroepbepaling anders dan abo  kidd
+416 buik        - excisie patholog.afwijking
+417 17-hydroxyprogesteron mbv ria
+418 delta-4-androsteendion
+419 dhea-sulfaat met extractie mbv ria
+420 enkel
+421 vrw.gesl.org- aspiratie of microcurett.-
+422 bronchus    - bronch.toilet door verpl.-
+423 immunoglobuline a                    iga
+424 heparine anti-xa
+425 ro-gel. als ass. bij drainage nier-nefro
+426 echo nier
+427 occult bloed - kwalitatief-
+428 echo buikwand
+429 cytologisch onderzoek - buiktumorpunctie
+430 buik        - omentumplastiek
+431 ct nier
+432 cytologisch onderzoek - leverpunctie -
+433 echogeleide als ass.bij punctie-biopsie
+434 hart        - resuscitatie
+435 uterus      - extirpatie abdom.totaal me
+436 vrw.gesl.org- adhesiolysis ovarium plus
+437 cytologisch onderzoek - vulva -
+438 ct retroperitoneum
+439 anti-hav ig of igg-elisa of ria- in een
+440 antist.tegen hepatitis-b surface antigee
+441 hepatitis-b-anti-core igm
+442 buik        - littekenbreuk - plastische
+443 vagina      - operatie vesicovaginale fi
+444 vulva       - hechten van vulva
+445 mycobacterium mbv pcr
+446 huid        - transcutane po2 en pco2 me
+447 glucosebepaling -kwantitatief -
+448 ct-gel. als ass. bij punctie - biopsie i
+449 cytologisch onderzoek - endocervix -
+450 oestron mbv radioisotopen
+451 lymf.syst.  - lymfadenectomie dmv laparo
+452 cytostatica - infuustherapie
+453 echogeleide als ass. bij drainage intrap
+454 rituximab
+455 vagina      - vaginotomie
+456 echografie a vue ivm zwangerschap - rout
+457 blaas       - voorste en achterste exent
+458 ureter - splintografie cq opspuiten uret
+459 blaas       - bladder wash-out
+460 duodenum    - inbrengen voedingssonde in
+461 e.m.g.      - elektromyografisch onderzo
+462 knie - m-z onderbeen
+463 ct arterien hersenen
+464 igg antistoffen tegen heparine-pf4-compl
+465 abortus     - overige technieken
+466 echografie  - transuretraal prostaat
+467 eiwitspectrum -elektroforese kwn. bep. f
+468 immunoglobuline g                    igg
+469 immunoglobuline m                    igm
+470 paraproteine typering mbv monospecifieke
+471 eiwitfractionering mbv ief
+472 immunofixatie
+473 immunoforese na concentratie
+474 drainageprocedure onder rontgencontrole
+475 antigeendetectie - direct preparaat - hs
+476 antigeendetectie - direct preparaat - vz
+477 niet declarabele dagverpleging-bv klin.p
+478 interc.consult klinisch  reumatologie
+479 anti-cytomegalovirus ig of igg -elisa
+480 igm-as. tegen cmv virus
+481 anti-epstein-barr vca igm mbv elisa
+482 anti-epstein-barr na igg mbv elisa
+483 anti-epstein-barr vca igg mbv elisa
+484 complementcomponent c3 kwn.
+485 complementcomponent c4 kwn .
+486 dna - farr-assay mbv ria
+487 legionella antigeen sneltest
+488 complementdeficientie ond.bij afwezigh.a
+489 longfunctie - spirometrie
+490 longfunctie - stroomvolume curve
+491 sacrum-os coccygis-s.i.gewrichten
+492 proteine-c-activiteit
+493 igm anticardiolipine mbv elisa
+494 igg anticardiolipine mbv elisa
+495 antist. specifiek mbv elisa histonen of
+496 stollingsfactor - viii - activiteit
+497 anticoagulans lupus mbv elisa
+498 proteine-s-antigeen -totaal
+499 proteine-s-antigeen -vrij
+500 factor ii mutatie mbv pcr
+501 factor v leiden -r506q- mbv dna-test
+502 lymf.syst.  - lymfekliertoilet diep - li
+503 tuba uterina- excisie parovariale cyste
+504 echo bovenbeen
+505 ph-meting
+506 spraakaudiometrie  -  standaard - audiol
+507 mandibula-kaakgewricht
+508 mri orbita
+509 high sensitive crp -hscrp- nefelometrisc
+510 echo arteriae carotis sinistra
+511 echo arteriae carotis dextra
+512 bloedstollingsfactor xi - activiteit
+513 bloedstollingsfactor xii - activiteit
+514 bloedstollingsfactor ix - coagulatie
+515 uterus      - excisie-destructie path.af
+516 hyperthermie behandeling - h-1 -
+517 inbrengen voedings- of lavagesonde duode
+518 echo pleura
+519 pleura      - punctie - diagnostisch
+520 alfa-amylase
+521 vancomycine kwn - immuno-assay
+522 interc.consult vervolg klinisch  chirurg
+523 echografie-doppler venen been
+524 mictie-cysto-uretrografie
+525 totale gebitsstatus
+526 vrw.gesl.org- adhesiolysis ovaria-tubae
+527 ct pancreas en milt
+528 doorlichting zonder opname buik
+529 echogeleide als ass. bij punctie abdomen
+530 cytologisch onderzoek tbv bevolkingsonde
+531 bloedstollingsfactor v - kwantitatief -
+532 bloedstollingsfactor vii - coagulatie
+533 von willebrand profiel mbv protease
+534 cytologisch onderzoek - schildklier  pun
+535 uterus      - extirpatie vaginaal totaal
+536 nucleair onderzoek van elders
+537 unknown
+538 peritoneum  - omentectomie
+539 vulva       - therapeutische punctie aan
+540 urethra     - dilatatie meatus
+541 antist. tegen acetylcholinereceptoren
+542 aspect supernatant
+543 infuus      - bloed
+544 thorax      - zuigdrainage behandeling a
+545 ovarium     - ovariopexie -excl.torsie-
+546 prostaatspecifiek antigeen -psa- mbv imm
+547 antist. tegen hiv-e of hiv-c
+548 direct ondz. naar rs-virus antigeen mbv
+549 para-influenza-1-virus mbv pcr
+550 humaan metapneumovirus kwl. mbv dna-rna-
+551 antigeendetectie mbv ift -influenza-a
+552 antigeendetectie mbv ift -influenza-b
+553 buik        - laparoscopie - diagnostisc
+554 wormeieren - uitgebreid -vervolg-
+555 zink
+556 vrw.gesl.org- operatie van clitoris nno
+557 opname volgens barsonie
+558 lymf.syst.  - lymfeklierextirpatie para-
+559 uterus      - extirp.abd.vag.rad.- lymfa
+560 buikoverzicht - staand
+561 dunne darm  - mech.ileus-adhes.streng.-i
+562 cytologisch onderzoek - hersenen -
+563 anti-rubella igg -elisa - in een monster
+564 anti-chlamydia iga mbv elisa
+565 anti-chlamydia igg mbv ind.ift
+566 buik        - adhesiolyse en biopsie dmv
+567 endoretrograde cholangiografie
+568 cystografie retrograad
+569 doorlichting bij niersteenvergruizing
+570 wisselen drain onder rontgencontrole
+571 kleurproef sabin-feldman - leishmania
+572 toxoplasmose mbv eia toxo-igg
+573 toxoplasmose mbv eia toxo-igm
+574 anti-rubella igm -elisa
+575 cbr -coxsackie-b-900-virus
+576 anti-parvovirus -ig of igg antist. ind.
+577 anti-parvovirus igm mbv ind.ift
+578 tuba uterina- aanbrengen clips tijdens l
+579 partus      - klin.of poliklin.met voorb
+580 sect.caesar.- met voorbehandeling en kra
+581 mri tractus urogenitalis
+582 opspuiten hickman-katheter
+583 ro-gel. als ass. bij punctie - biopsie l
+584 lymf.syst.  - regionale lymfeklierdissec
+585 339849d toegangschir- c.v.d.-catheter v.
+586 hemoglobinen -abnormaal incl. hba2
+587 igg-index
+588 albumineratio
+589 immuno-elektroforese liquor na concentra
+590 huid        - verwijderen retentie cyste
+591 ro-gel. als ass. bij inbrengen endoproth
+592 lever       - excisie tumor of metastase
+593 lymf.syst.  - sentinel node procedure li
+594 gipskamer-ok - gebruik
+595 standaard materiaal n.n.o.
+596 zwachtelverband sling - aanleggen
+597 partiele gebitsstatus
+598 interc.consult poliklinisch
+599 vrw.gesl.org- second-look-oper.ovariumca
+600 oesofagografie - oraal
+601 1-25-oh2-vitamine d mbv hplc
+602 perif.vaten - verwijderen port-a-cath
+603 perif.vaten - inbrengen port-a-cath syst
+604 rontgenonderzoek onvolledig
+605 mri art. en ven.abdomen
+606 vagina      - extirpatie van vagina met
+607 neuronspecifiek enolase
+608 ct knie
+609 tuba uterina- reanastomose na sterilisat
+610 obductie
+611 anesthesie  - epiduraal met bloedpatch
+612 dikke darm  - resectie sigmoid met prima
+613 dikke darm  - appendectomie acuut via me
+614 totaal t3 - trijoodthyronine mbv radiois
+615 t3-uptake latente bindingscap. geb. tbg
+616 echo bekken inhoud muv anatomiecode 83 t
+617 uterus      - tot. laparoscopische hyste
+618 plaatsen van v.cava filter
+619 eerste hulp - niet seh afdeling - elders
+620 buik        - second-look-oper.ovariumca
+621 itraconazol mbv hplc
+622 bepaling hepatitis-be-antigeen
+623 bepaling antist. hepatitis-be-antigeen
+624 |>
+625 []
+#
+48 111 25.0
+102 68 4.0
+16 421 1.0
+509 15 1.0
+1 70 258.0
+35 15 1.0
+14 49 59.0
+166 70 1.0
+3 137 3.0
+327 173 2.0
+43 184 4.0
+68 59 5.0
+624 68 2.0
+73 87 6.0
+32 625 365.0
+61 114 1.0
+70 31 7.0
+170 0 3.0
+83 60 2.0
+170 22 8.0
+57 39 19.0
+321 7 9.0
+226 24 13.0
+29 29 22.0
+11 81 1.0
+22 16 132.0
+16 186 1.0
+59 59 32.0
+321 59 6.0
+1 108 1.0
+483 15 2.0
+106 528 1.0
+382 86 2.0
+128 23 2.0
+101 151 1.0
+213 326 1.0
+14 176 6.0
+79 29 4.0
+575 146 1.0
+89 89 343.0
+178 212 4.0
+184 58 46.0
+32 320 1.0
+432 102 1.0
+51 261 8.0
+530 70 1.0
+224 81 14.0
+69 160 2.0
+0 16 19.0
+21 91 3.0
+317 22 1.0
+110 71 1.0
+285 257 4.0
+68 7 136.0
+69 445 1.0
+9 10 2923.0
+80 347 1.0
+23 338 1.0
+1 179 1.0
+10 15 47.0
+12 259 9.0
+349 350 31.0
+16 202 8.0
+410 68 1.0
+42 262 1.0
+16 101 13.0
+1 240 1.0
+247 69 1.0
+47 29 40.0
+306 87 1.0
+497 512 1.0
+16 99 1.0
+58 120 8.0
+624 148 122.0
+36 15 15.0
+343 55 2.0
+130 352 1.0
+111 49 10.0
+27 47 9.0
+245 232 1.0
+170 345 1.0
+7 130 6.0
+88 88 336.0
+351 352 1.0
+17 10 11.0
+70 92 8.0
+89 27 1.0
+79 418 1.0
+32 73 7.0
+128 244 1.0
+319 3 1.0
+52 70 3.0
+137 0 1.0
+1 248 3.0
+39 40 1533.0
+15 22 762.0
+43 347 1.0
+59 106 7.0
+15 166 1.0
+212 83 1.0
+320 257 1.0
+12 601 1.0
+184 67 1.0
+449 7 1.0
+137 270 29.0
+41 15 49.0
+276 184 1.0
+86 3 1.0
+16 302 5.0
+10 97 2.0
+40 222 2.0
+26 26 6.0
+15 345 1.0
+15 203 3.0
+100 31 1.0
+32 245 1.0
+214 327 1.0
+29 509 1.0
+317 0 1.0
+32 83 4.0
+326 326 5.0
+249 149 3.0
+0 70 12.0
+60 82 1.0
+149 99 1.0
+15 385 5.0
+212 82 1.0
+20 440 3.0
+13 222 1.0
+324 196 2.0
+569 207 2.0
+15 132 2.0
+379 334 3.0
+15 177 5.0
+2 163 3.0
+146 486 1.0
+59 7 218.0
+98 0 4.0
+16 159 9.0
+329 32 1.0
+155 119 23.0
+7 520 3.0
+265 82 1.0
+608 23 1.0
+249 87 4.0
+156 15 5.0
+447 15 1.0
+91 49 31.0
+131 15 2.0
+283 284 2.0
+212 625 4.0
+175 233 1.0
+359 52 1.0
+0 108 1.0
+16 432 1.0
+140 23 1.0
+187 85 8.0
+196 380 1.0
+52 16 413.0
+282 23 6.0
+155 156 6.0
+408 101 2.0
+120 111 3.0
+144 11 63.0
+15 360 2.0
+373 16 1.0
+80 210 1.0
+7 67 15.0
+46 424 1.0
+42 49 2.0
+46 46 1039.0
+15 504 1.0
+199 201 2.0
+19 46 2.0
+148 3 2.0
+32 1 1212.0
+110 187 4.0
+342 23 3.0
+158 93 2.0
+7 26 27.0
+192 163 1.0
+70 23 13.0
+70 604 1.0
+232 70 2.0
+60 625 9.0
+23 60 44.0
+12 80 57.0
+329 208 6.0
+73 149 1.0
+586 49 1.0
+30 157 1.0
+306 149 1.0
+112 112 21.0
+59 238 1.0
+1 32 509.0
+444 106 1.0
+194 311 1.0
+16 98 10.0
+92 104 7.0
+193 68 1.0
+555 80 1.0
+68 178 1.0
+16 584 2.0
+70 85 10.0
+375 618 1.0
+180 115 1.0
+41 78 7.0
+604 30 1.0
+110 252 1.0
+215 407 1.0
+106 99 1.0
+71 71 1.0
+141 73 1.0
+224 111 1.0
+176 90 1.0
+16 174 16.0
+7 80 2.0
+56 27 4.0
+46 22 8.0
+47 414 1.0
+47 48 42.0
+134 137 1.0
+110 149 1.0
+42 156 98.0
+40 46 143.0
+12 67 4.0
+7 35 2.0
+89 36 2.0
+317 16 1.0
+9 224 3.0
+385 23 9.0
+70 431 1.0
+48 81 3.0
+94 80 2.0
+624 192 3.0
+537 53 1.0
+310 32 2.0
+101 212 3.0
+467 468 1.0
+260 18 1.0
+117 56 15.0
+166 167 9.0
+253 142 4.0
+75 112 1.0
+94 42 9.0
+15 373 1.0
+16 107 1.0
+95 24 60.0
+3 32 30.0
+289 23 1.0
+40 78 5.0
+22 32 1.0
+176 111 1.0
+70 65 2.0
+82 99 6.0
+253 257 1.0
+26 80 1.0
+603 23 1.0
+15 167 6.0
+374 7 2.0
+100 23 1.0
+134 289 1.0
+624 0 71.0
+16 195 7.0
+57 118 29.0
+250 106 1.0
+121 80 1.0
+1 616 1.0
+6 231 4.0
+18 146 2.0
+20 447 1.0
+16 297 5.0
+137 16 8.0
+32 275 2.0
+148 92 1.0
+14 50 1.0
+3 2 1.0
+100 92 1.0
+10 10 78.0
+98 166 4.0
+136 67 3.0
+24 24 5.0
+413 142 1.0
+382 382 1.0
+16 267 2.0
+15 175 4.0
+407 415 1.0
+262 281 1.0
+350 355 3.0
+188 306 3.0
+102 0 8.0
+355 419 4.0
+88 89 28.0
+443 23 1.0
+70 244 1.0
+80 109 1.0
+7 301 3.0
+91 91 783.0
+91 69 3.0
+477 179 1.0
+51 73 1.0
+16 4 4.0
+134 446 1.0
+69 69 3.0
+161 93 1.0
+83 212 1.0
+394 0 2.0
+26 13 193.0
+13 21 15.0
+433 137 1.0
+116 116 1.0
+68 71 1.0
+317 70 1.0
+16 151 24.0
+66 32 4.0
+15 570 1.0
+106 163 2.0
+16 585 1.0
+12 27 1059.0
+32 170 5.0
+451 266 1.0
+226 95 1.0
+7 300 13.0
+17 308 1.0
+78 347 1.0
+52 0 1.0
+82 384 3.0
+0 22 3.0
+384 175 1.0
+20 397 3.0
+261 261 2.0
+535 87 2.0
+111 91 15.0
+311 101 4.0
+395 137 1.0
+64 343 1.0
+98 306 1.0
+521 80 2.0
+107 491 1.0
+51 198 2.0
+48 414 1.0
+60 134 1.0
+32 527 1.0
+20 220 3.0
+93 32 15.0
+173 173 17.0
+327 125 1.0
+281 47 3.0
+336 29 18.0
+87 101 1.0
+59 556 1.0
+12 58 6.0
+427 8 1.0
+32 374 1.0
+515 85 1.0
+170 529 1.0
+149 212 1.0
+102 328 1.0
+277 23 4.0
+15 148 3.0
+53 157 1.0
+6 70 14.0
+98 86 13.0
+123 49 1.0
+286 16 6.0
+320 142 1.0
+289 241 1.0
+288 23 1.0
+60 71 1.0
+106 98 1.0
+5 5 39.0
+227 49 1.0
+7 41 50.0
+624 3 44.0
+148 68 2.0
+71 154 1.0
+51 625 94.0
+112 55 43.0
+195 196 1.0
+83 625 4.0
+82 98 1.0
+14 20 26.0
+11 343 5.0
+98 68 17.0
+431 7 1.0
+16 528 1.0
+1 0 41.0
+130 224 1.0
+243 134 1.0
+492 493 2.0
+32 282 1.0
+217 217 3.0
+518 23 1.0
+148 85 1.0
+120 281 1.0
+57 300 1.0
+607 67 1.0
+46 397 1.0
+184 80 4.0
+119 42 67.0
+47 125 11.0
+42 43 6.0
+10 103 152.0
+36 272 2.0
+233 83 1.0
+140 7 31.0
+5 231 9.0
+618 377 1.0
+9 97 8.0
+402 15 1.0
+386 23 1.0
+48 124 2.0
+92 401 1.0
+439 20 2.0
+156 397 1.0
+46 224 2.0
+92 65 1.0
+43 121 1.0
+327 407 1.0
+146 80 19.0
+85 87 71.0
+23 4 2.0
+172 231 1.0
+624 188 3.0
+88 35 1.0
+301 76 1.0
+21 344 2.0
+375 376 1.0
+337 86 1.0
+5 16 1.0
+12 13 269.0
+43 146 1.0
+10 144 37.0
+6 32 33.0
+124 173 6.0
+70 93 5.0
+452 7 1.0
+323 70 1.0
+203 179 1.0
+30 60 1.0
+426 22 1.0
+367 538 1.0
+1 231 1.0
+197 87 1.0
+32 6 1.0
+213 237 3.0
+106 101 70.0
+0 5 2.0
+164 394 11.0
+208 5 1.0
+13 15 55.0
+171 4 1.0
+137 32 31.0
+308 33 1.0
+94 79 1.0
+33 11 4.0
+12 130 2.0
+32 63 2.0
+350 480 1.0
+7 8 453.0
+429 101 2.0
+1 307 1.0
+300 69 1.0
+90 122 1.0
+51 52 269.0
+1 5 21.0
+83 83 36.0
+74 74 2.0
+437 149 1.0
+15 290 15.0
+166 32 5.0
+16 242 37.0
+52 5 1.0
+70 188 4.0
+0 248 1.0
+7 115 2.0
+93 5 4.0
+535 599 1.0
+88 39 2.0
+79 47 8.0
+378 160 3.0
+94 13 645.0
+15 372 1.0
+16 610 1.0
+185 185 24.0
+9 21 4.0
+32 82 17.0
+323 0 4.0
+101 99 2.0
+501 185 2.0
+149 101 1.0
+1 274 1.0
+23 379 1.0
+289 7 5.0
+367 142 1.0
+94 14 23.0
+56 62 69.0
+11 14 1.0
+98 322 1.0
+55 61 21.0
+4 4 16.0
+0 179 4.0
+210 81 1.0
+85 85 19.0
+48 125 1.0
+6 137 1.0
+156 78 6.0
+15 433 1.0
+46 220 99.0
+98 219 1.0
+57 41 17.0
+177 23 2.0
+42 20 23.0
+166 0 2.0
+110 7 16.0
+32 72 1.0
+59 85 1.0
+77 11 1205.0
+10 180 162.0
+92 23 6.0
+45 49 63.0
+12 79 3.0
+11 12 3728.0
+205 82 4.0
+15 68 64.0
+82 212 23.0
+7 88 161.0
+137 70 9.0
+134 153 1.0
+286 286 1.0
+394 16 4.0
+317 32 4.0
+151 32 9.0
+0 167 1.0
+71 82 1.0
+266 149 1.0
+134 257 4.0
+570 569 2.0
+13 46 12.0
+12 330 1.0
+272 39 2.0
+26 27 273.0
+168 70 1.0
+1 16 168.0
+9 15 190.0
+158 52 17.0
+378 80 2.0
+273 78 1.0
+184 69 2.0
+98 32 10.0
+181 181 1.0
+106 295 1.0
+93 16 40.0
+236 70 4.0
+116 89 54.0
+18 94 9.0
+106 212 1.0
+102 70 4.0
+550 551 1.0
+580 85 1.0
+387 15 2.0
+51 60 54.0
+46 326 1.0
+406 406 4.0
+79 353 1.0
+14 184 207.0
+134 99 1.0
+170 401 1.0
+101 134 1.0
+243 267 1.0
+257 337 1.0
+162 151 1.0
+624 70 15.0
+8 15 1.0
+394 92 1.0
+7 76 408.0
+92 68 139.0
+10 95 1.0
+179 4 2.0
+79 355 3.0
+32 619 1.0
+463 108 1.0
+78 346 1.0
+51 59 16.0
+15 375 1.0
+70 290 1.0
+192 16 1.0
+154 30 1.0
+224 185 1.0
+31 5 1.0
+64 74 24.0
+558 320 1.0
+372 23 2.0
+137 54 1.0
+38 26 2.0
+99 93 4.0
+358 7 1.0
+106 137 5.0
+327 215 1.0
+16 517 1.0
+7 79 34.0
+287 22 1.0
+402 29 1.0
+67 80 304.0
+115 116 35.0
+16 524 1.0
+60 60 29.0
+114 144 2.0
+1 163 5.0
+23 66 3.0
+80 49 14.0
+120 47 71.0
+16 357 1.0
+1 68 93.0
+52 68 2.0
+6 174 1.0
+451 142 1.0
+102 16 10.0
+2 98 7.0
+32 212 43.0
+465 86 1.0
+457 142 1.0
+47 353 1.0
+176 80 5.0
+377 23 2.0
+96 142 1.0
+178 625 1.0
+134 298 1.0
+12 260 9.0
+365 21 1.0
+540 96 1.0
+624 16 39.0
+158 92 1.0
+280 281 1.0
+132 0 1.0
+33 144 7.0
+262 47 3.0
+146 20 14.0
+80 15 27.0
+7 36 3.0
+24 18 2.0
+7 20 1.0
+149 60 3.0
+16 600 1.0
+60 7 66.0
+23 6 2.0
+9 94 27.0
+137 137 4.0
+136 300 1.0
+121 69 1.0
+141 239 1.0
+107 203 6.0
+53 625 2.0
+388 80 2.0
+403 70 1.0
+94 58 3.0
+53 256 1.0
+233 233 1.0
+553 324 1.0
+281 397 1.0
+15 3 4.0
+144 145 146.0
+42 184 6.0
+78 69 32.0
+353 15 20.0
+537 15 1.0
+33 180 5.0
+553 609 1.0
+624 5 1.0
+79 15 2.0
+187 86 1.0
+272 13 8.0
+624 449 1.0
+13 109 1.0
+388 29 1.0
+16 592 1.0
+2 32 16.0
+91 160 2.0
+23 625 42.0
+53 83 1.0
+317 137 1.0
+192 70 15.0
+78 121 1.0
+23 477 1.0
+193 23 1.0
+144 94 1.0
+63 212 2.0
+162 5 1.0
+29 124 19.0
+113 10 2.0
+117 279 1.0
+158 152 1.0
+11 74 1.0
+602 149 1.0
+29 15 289.0
+87 137 1.0
+18 20 15.0
+1 137 2.0
+92 7 3.0
+150 194 2.0
+86 7 14.0
+489 490 2.0
+16 594 1.0
+16 593 5.0
+55 143 12.0
+43 78 3.0
+101 625 2.0
+16 312 3.0
+73 82 1.0
+307 32 1.0
+78 44 19.0
+553 105 1.0
+75 55 2.0
+81 414 1.0
+310 0 1.0
+622 623 1.0
+70 3 19.0
+20 281 2.0
+167 168 2.0
+178 66 6.0
+14 271 2.0
+306 82 1.0
+302 7 4.0
+355 356 9.0
+98 164 1.0
+70 178 1.0
+576 479 1.0
+151 16 2.0
+10 94 5.0
+110 83 1.0
+90 47 20.0
+68 82 3.0
+11 36 1.0
+83 66 2.0
+14 246 1.0
+202 23 1.0
+214 215 14.0
+485 78 2.0
+68 63 4.0
+226 18 1.0
+49 173 41.0
+6 99 1.0
+49 185 65.0
+47 173 7.0
+399 23 2.0
+7 18 154.0
+167 245 2.0
+258 94 1.0
+453 22 1.0
+143 258 6.0
+108 23 11.0
+60 59 26.0
+26 18 30.0
+362 68 1.0
+187 106 18.0
+121 44 1.0
+78 350 1.0
+87 212 1.0
+18 69 1.0
+49 327 31.0
+505 29 1.0
+3 162 1.0
+76 548 1.0
+51 7 318.0
+502 87 1.0
+57 273 1.0
+16 560 1.0
+295 7 3.0
+1 2 4.0
+213 262 1.0
+42 44 8.0
+178 134 1.0
+43 156 1.0
+12 18 74.0
+528 151 2.0
+272 41 1.0
+0 68 3.0
+16 295 1.0
+315 80 2.0
+21 69 9.0
+356 69 1.0
+37 38 10.0
+7 42 2.0
+15 137 60.0
+583 23 1.0
+312 105 1.0
+82 274 2.0
+33 114 52.0
+10 29 3.0
+4 212 1.0
+76 55 1.0
+187 7 1.0
+410 16 1.0
+17 21 21.0
+110 23 1.0
+21 21 26.0
+68 31 3.0
+14 136 1.0
+13 29 112.0
+170 92 1.0
+355 49 1.0
+70 100 1.0
+174 6 1.0
+98 92 6.0
+325 149 1.0
+12 36 8.0
+32 71 1.0
+0 0 59.0
+15 179 5.0
+212 106 1.0
+162 510 1.0
+27 46 1.0
+79 224 3.0
+450 15 2.0
+4 179 1.0
+279 56 2.0
+34 26 1.0
+317 68 1.0
+12 276 3.0
+15 108 18.0
+215 185 1.0
+327 185 1.0
+32 410 1.0
+184 176 1.0
+148 16 2.0
+222 224 26.0
+100 7 2.0
+157 7 1.0
+264 475 1.0
+23 158 113.0
+46 5 1.0
+348 23 14.0
+176 47 7.0
+26 41 8.0
+82 60 3.0
+234 32 1.0
+388 47 1.0
+1 128 2.0
+32 107 3.0
+15 70 55.0
+118 246 1.0
+14 479 1.0
+208 23 3.0
+141 539 1.0
+393 87 1.0
+407 15 2.0
+53 4 1.0
+212 7 17.0
+4 70 6.0
+388 220 1.0
+15 100 2.0
+47 21 66.0
+7 33 384.0
+158 7 9.0
+14 69 182.0
+60 212 3.0
+68 188 2.0
+12 26 62.0
+51 152 33.0
+134 96 1.0
+16 611 1.0
+624 382 1.0
+49 69 411.0
+7 14 7.0
+9 77 10.0
+8 10 195.0
+14 121 6.0
+13 554 1.0
+552 15 1.0
+2 295 2.0
+15 248 1.0
+266 85 3.0
+146 227 1.0
+91 109 3.0
+88 143 108.0
+67 67 2.0
+16 32 31.0
+80 91 129.0
+529 70 1.0
+4 5 44.0
+67 441 1.0
+75 75 4.0
+76 95 1.0
+34 11 13.0
+108 170 1.0
+232 0 1.0
+82 32 103.0
+47 47 9.0
+67 69 22.0
+95 260 2.0
+164 7 2.0
+120 48 1.0
+336 15 2.0
+7 58 45.0
+23 98 4.0
+106 170 1.0
+63 70 3.0
+8 11 1.0
+144 144 716.0
+16 434 1.0
+102 22 1.0
+103 89 1.0
+16 398 1.0
+66 384 1.0
+20 15 115.0
+134 98 13.0
+384 32 3.0
+78 21 9.0
+23 380 1.0
+111 69 29.0
+16 134 144.0
+60 374 1.0
+435 257 1.0
+375 377 1.0
+6 448 1.0
+231 6 13.0
+15 525 2.0
+212 374 1.0
+569 23 1.0
+77 95 1.0
+16 287 3.0
+85 149 21.0
+59 194 5.0
+9 38 4.0
+57 13 1.0
+16 430 1.0
+408 257 2.0
+96 354 1.0
+195 101 2.0
+63 16 1.0
+73 7 43.0
+101 60 11.0
+12 300 1.0
+79 397 4.0
+15 307 4.0
+593 141 2.0
+302 73 1.0
+74 75 888.0
+105 187 9.0
+176 29 6.0
+13 184 3.0
+15 5 32.0
+255 46 1.0
+42 121 2.0
+167 63 1.0
+15 510 1.0
+353 224 3.0
+23 163 2.0
+382 465 1.0
+10 21 2.0
+130 121 1.0
+65 65 6.0
+559 85 1.0
+46 15 5.0
+45 67 3.0
+12 28 4.0
+390 324 1.0
+530 32 1.0
+69 50 2.0
+162 137 1.0
+12 41 37.0
+31 0 25.0
+191 257 2.0
+544 544 1.0
+84 599 3.0
+228 16 19.0
+58 28 1.0
+321 68 1.0
+389 15 1.0
+31 16 1.0
+537 16 8.0
+23 73 1.0
+47 111 63.0
+20 28 1.0
+482 483 2.0
+9 180 7.0
+4 16 12.0
+7 12 20.0
+249 239 1.0
+290 212 1.0
+25 94 22.0
+134 285 4.0
+93 166 1.0
+37 95 2.0
+410 137 13.0
+343 344 1.0
+40 146 1.0
+45 213 20.0
+28 49 3.0
+6 98 1.0
+181 462 1.0
+90 336 1.0
+15 16 142.0
+51 314 1.0
+537 537 3.0
+55 33 133.0
+23 134 1.0
+7 27 30.0
+51 374 1.0
+262 29 1.0
+185 124 5.0
+36 56 121.0
+87 16 1.0
+290 5 1.0
+243 83 1.0
+485 146 1.0
+41 146 85.0
+15 231 4.0
+51 82 3.0
+90 80 14.0
+51 63 1.0
+14 156 3.0
+151 22 29.0
+154 154 10.0
+120 46 1.0
+212 59 11.0
+394 23 1.0
+432 167 3.0
+243 253 6.0
+40 470 1.0
+70 71 1.0
+351 353 4.0
+28 15 28.0
+221 3 1.0
+15 0 274.0
+70 345 3.0
+449 625 1.0
+3 163 2.0
+14 484 3.0
+228 228 50.0
+158 59 1.0
+15 15 2226.0
+480 79 1.0
+148 70 7.0
+328 23 1.0
+130 351 1.0
+440 441 2.0
+271 120 1.0
+162 170 1.0
+278 32 1.0
+14 44 17.0
+119 58 1.0
+94 28 2.0
+135 24 1.0
+350 47 1.0
+70 0 16.0
+306 7 2.0
+285 162 1.0
+16 502 1.0
+154 151 1.0
+104 98 1.0
+368 369 1.0
+170 32 5.0
+36 117 16.0
+47 81 6.0
+77 24 25.0
+51 31 7.0
+128 68 2.0
+295 149 1.0
+184 185 7.0
+350 351 5.0
+25 69 1.0
+10 336 1.0
+429 170 1.0
+216 216 5.0
+262 263 2.0
+25 97 31.0
+52 334 5.0
+385 22 2.0
+351 355 1.0
+15 386 1.0
+99 98 2.0
+212 362 1.0
+520 15 1.0
+54 70 1.0
+23 52 162.0
+0 137 21.0
+9 144 97.0
+369 15 1.0
+16 189 28.0
+526 187 1.0
+40 28 2.0
+242 400 3.0
+179 6 27.0
+17 112 7.0
+49 214 19.0
+343 9 1.0
+323 7 2.0
+16 83 375.0
+46 90 102.0
+94 69 1.0
+60 454 1.0
+110 212 6.0
+356 353 3.0
+46 91 2.0
+78 46 32.0
+32 314 3.0
+146 91 13.0
+224 15 43.0
+1 23 30.0
+70 306 1.0
+187 46 1.0
+6 53 1.0
+490 32 1.0
+296 614 1.0
+183 36 3.0
+167 396 2.0
+316 23 1.0
+246 15 1.0
+20 90 9.0
+15 348 5.0
+56 18 1.0
+36 38 1.0
+54 60 2.0
+102 93 1.0
+9 24 1.0
+16 411 1.0
+42 15 6.0
+46 174 1.0
+129 130 1.0
+36 125 2.0
+104 7 1.0
+92 6 1.0
+58 21 1.0
+270 60 1.0
+80 487 1.0
+32 99 6.0
+117 27 1.0
+106 166 1.0
+479 20 1.0
+87 22 2.0
+120 21 1.0
+264 23 1.0
+82 625 1.0
+319 137 1.0
+4 166 1.0
+239 86 1.0
+70 275 1.0
+24 97 4.0
+553 85 1.0
+14 21 24.0
+16 82 28.0
+60 92 2.0
+66 68 3.0
+1 317 1.0
+143 33 11.0
+79 136 6.0
+106 306 3.0
+18 46 2.0
+46 262 9.0
+32 101 31.0
+13 355 1.0
+128 248 1.0
+149 46 13.0
+6 151 1.0
+585 23 1.0
+75 76 927.0
+29 109 11.0
+95 26 6.0
+83 7 27.0
+164 345 1.0
+539 85 1.0
+332 15 5.0
+13 11 2.0
+324 149 3.0
+7 38 1.0
+15 431 1.0
+48 332 1.0
+257 87 6.0
+272 397 1.0
+97 18 302.0
+49 125 5.0
+70 16 105.0
+82 154 5.0
+32 85 8.0
+108 290 2.0
+38 94 2.0
+173 15 418.0
+51 85 1.0
+624 2 198.0
+51 66 9.0
+23 294 1.0
+243 7 9.0
+232 99 1.0
+60 98 2.0
+320 86 7.0
+145 35 127.0
+58 15 74.0
+68 105 1.0
+82 385 2.0
+166 101 4.0
+397 29 2.0
+142 98 1.0
+134 188 1.0
+13 173 4.0
+416 86 1.0
+78 67 210.0
+159 85 3.0
+262 80 9.0
+7 229 1.0
+69 173 27.0
+82 245 1.0
+624 7 225.0
+384 23 1.0
+15 314 2.0
+60 31 1.0
+69 185 42.0
+51 101 3.0
+68 86 1.0
+106 0 8.0
+134 3 4.0
+42 58 14.0
+176 67 2.0
+84 187 1.0
+53 71 1.0
+382 436 2.0
+356 15 1.0
+23 198 1.0
+82 0 326.0
+56 56 2.0
+70 1 3.0
+68 100 2.0
+256 304 1.0
+6 192 1.0
+29 185 5.0
+495 263 2.0
+464 46 1.0
+82 16 7.0
+108 151 1.0
+76 76 582.0
+78 397 7.0
+57 18 15.0
+27 27 18.0
+155 94 2.0
+359 68 1.0
+551 552 1.0
+23 321 2.0
+9 14 7.0
+243 241 1.0
+41 125 1.0
+86 87 97.0
+70 134 7.0
+281 21 1.0
+19 146 1.0
+58 78 41.0
+394 7 1.0
+1 104 3.0
+344 111 1.0
+178 178 73.0
+75 10 14.0
+180 11 23.0
+11 21 1.0
+21 15 298.0
+121 49 1.0
+155 42 65.0
+13 146 3.0
+191 87 6.0
+9 25 1.0
+314 70 2.0
+240 7 2.0
+15 31 3.0
+1 107 1.0
+47 185 2.0
+187 306 1.0
+59 105 8.0
+16 179 3.0
+42 227 2.0
+16 157 1.0
+166 448 1.0
+477 4 1.0
+16 150 13.0
+14 300 5.0
+46 111 1.0
+199 200 1.0
+136 176 1.0
+52 286 4.0
+337 7 2.0
+295 101 2.0
+244 70 2.0
+263 80 2.0
+4 22 3.0
+291 7 2.0
+229 15 6.0
+149 83 2.0
+338 7 3.0
+11 35 10.0
+70 169 1.0
+156 146 43.0
+175 54 1.0
+548 549 1.0
+311 187 2.0
+105 196 2.0
+37 24 1.0
+256 32 2.0
+15 85 1.0
+3 98 3.0
+16 320 17.0
+58 280 1.0
+10 75 1.0
+42 67 8.0
+106 83 2.0
+45 79 4.0
+391 149 3.0
+15 384 1.0
+23 93 14.0
+83 52 19.0
+13 28 1.0
+94 119 2.0
+59 543 1.0
+23 51 5693.0
+42 46 28.0
+59 68 5.0
+149 82 1.0
+15 59 41.0
+10 14 1.0
+220 355 1.0
+195 106 3.0
+99 23 3.0
+38 13 1.0
+92 70 5.0
+537 71 1.0
+58 58 4.0
+184 184 31.0
+11 15 5.0
+59 73 1.0
+16 460 1.0
+319 7 3.0
+15 126 2.0
+7 258 2.0
+207 16 1.0
+1 428 1.0
+15 23 2030.0
+51 212 22.0
+353 450 3.0
+419 15 4.0
+11 10 1.0
+45 15 1.0
+67 111 1.0
+23 206 4.0
+233 23 2.0
+171 171 4.0
+191 149 3.0
+242 243 35.0
+314 298 1.0
+10 24 9.0
+36 279 2.0
+272 18 1.0
+595 596 1.0
+16 341 7.0
+7 56 2.0
+9 39 209.0
+382 149 2.0
+256 16 1.0
+1 152 1.0
+88 33 6.0
+153 85 1.0
+136 49 1.0
+60 53 4.0
+191 142 1.0
+100 105 1.0
+245 92 1.0
+59 167 2.0
+83 51 365.0
+16 366 2.0
+68 3 2.0
+79 80 229.0
+16 161 3.0
+71 30 1.0
+614 615 1.0
+298 187 2.0
+87 83 4.0
+70 203 2.0
+173 109 15.0
+303 191 2.0
+197 142 2.0
+156 271 1.0
+15 93 2.0
+274 83 1.0
+184 49 13.0
+78 220 3.0
+1 622 1.0
+154 360 2.0
+86 70 1.0
+374 625 1.0
+1 3 7.0
+27 41 900.0
+63 63 3.0
+18 47 1.0
+14 67 40.0
+94 49 11.0
+162 86 1.0
+18 15 101.0
+23 7 221.0
+16 613 1.0
+257 7 18.0
+47 402 3.0
+102 102 3.0
+137 59 1.0
+217 15 7.0
+93 134 1.0
+31 319 1.0
+329 329 2.0
+192 22 1.0
+432 170 1.0
+32 59 244.0
+178 82 1.0
+343 74 2.0
+49 50 3.0
+33 15 6.0
+290 82 4.0
+16 303 2.0
+459 306 1.0
+163 101 9.0
+0 54 2.0
+461 0 1.0
+134 134 47.0
+52 228 17.0
+23 152 15.0
+7 17 113.0
+445 15 2.0
+68 16 80.0
+33 18 3.0
+587 292 1.0
+102 32 11.0
+134 392 3.0
+38 95 2.0
+387 146 2.0
+134 162 6.0
+16 138 33.0
+81 109 7.0
+98 99 4.0
+184 156 2.0
+542 542 2.0
+366 285 1.0
+45 210 1.0
+80 336 16.0
+144 35 1.0
+70 22 11.0
+503 253 1.0
+180 12 2.0
+83 206 2.0
+32 234 1.0
+544 285 1.0
+423 15 1.0
+531 464 1.0
+47 122 1.0
+108 22 3.0
+124 50 2.0
+13 81 5.0
+36 118 1.0
+232 23 2.0
+7 417 1.0
+14 387 2.0
+349 79 1.0
+32 23 43.0
+178 2 2.0
+35 117 1.0
+350 130 2.0
+106 22 1.0
+38 130 1.0
+57 120 3.0
+78 224 1.0
+454 16 1.0
+110 30 49.0
+1 380 1.0
+18 13 48.0
+98 93 2.0
+183 55 1.0
+77 26 8.0
+191 578 1.0
+19 39 34.0
+32 4 12.0
+504 23 1.0
+58 185 4.0
+301 8 5.0
+83 158 7.0
+15 205 2.0
+68 70 85.0
+64 9 60.0
+16 264 2.0
+185 230 2.0
+81 326 4.0
+18 80 1.0
+16 538 2.0
+18 18 722.0
+212 212 4.0
+419 69 1.0
+212 85 1.0
+51 380 1.0
+70 240 2.0
+77 35 11.0
+538 320 2.0
+359 359 19.0
+120 67 7.0
+615 67 1.0
+53 5 3.0
+82 22 31.0
+12 38 8.0
+77 89 2.0
+12 12 515.0
+306 433 1.0
+119 119 1.0
+456 73 1.0
+116 35 53.0
+68 0 24.0
+166 7 10.0
+21 300 3.0
+99 7 2.0
+76 469 1.0
+73 212 1.0
+0 107 1.0
+176 220 1.0
+69 109 5.0
+68 170 1.0
+71 151 1.0
+572 573 1.0
+146 388 1.0
+16 591 1.0
+17 183 1.0
+301 75 1.0
+272 58 1.0
+153 337 1.0
+591 23 1.0
+290 154 4.0
+408 149 2.0
+78 486 1.0
+14 347 3.0
+184 120 1.0
+487 29 1.0
+86 16 3.0
+45 80 3.0
+78 20 23.0
+155 13 5.0
+17 88 1.0
+10 129 1.0
+506 201 1.0
+83 93 5.0
+164 164 2.0
+32 31 7.0
+106 86 1.0
+74 112 3.0
+387 21 1.0
+15 181 2.0
+20 480 1.0
+102 59 1.0
+98 98 1.0
+16 164 3.0
+16 105 62.0
+119 78 1.0
+51 348 1.0
+479 46 1.0
+32 508 1.0
+34 27 1.0
+16 255 2.0
+54 22 6.0
+18 58 1.0
+405 80 1.0
+98 87 1.0
+15 99 5.0
+162 22 20.0
+78 10 1.0
+23 334 5.0
+7 116 3.0
+403 404 1.0
+83 99 1.0
+51 338 3.0
+352 15 2.0
+498 499 2.0
+193 288 1.0
+36 111 1.0
+274 137 1.0
+130 130 2.0
+46 151 1.0
+392 102 1.0
+139 140 33.0
+15 164 1.0
+106 188 1.0
+24 39 2.0
+593 189 3.0
+16 559 1.0
+624 311 3.0
+60 93 3.0
+40 94 80.0
+151 256 1.0
+23 16 2476.0
+105 162 1.0
+262 220 1.0
+66 16 10.0
+10 79 1.0
+513 80 1.0
+7 47 2.0
+78 281 2.0
+187 30 1.0
+269 85 1.0
+92 100 1.0
+180 77 26.0
+12 25 23.0
+81 15 292.0
+15 53 30.0
+119 120 2.0
+130 332 1.0
+78 300 1.0
+16 30 58.0
+98 392 1.0
+9 13 49.0
+33 41 2.0
+298 106 11.0
+156 213 1.0
+258 77 3.0
+57 15 1.0
+94 67 1.0
+16 381 2.0
+60 163 1.0
+9 103 6.0
+184 563 1.0
+109 15 80.0
+269 354 3.0
+207 22 2.0
+8 55 2.0
+512 513 1.0
+1 86 1.0
+331 47 1.0
+121 20 1.0
+57 57 2.0
+18 300 5.0
+334 544 1.0
+26 39 569.0
+480 47 1.0
+134 16 1.0
+34 37 1.0
+285 410 1.0
+534 7 1.0
+107 22 1.0
+68 98 4.0
+599 86 1.0
+25 78 25.0
+151 83 1.0
+382 617 1.0
+101 0 28.0
+220 29 1.0
+137 212 1.0
+94 355 1.0
+212 30 8.0
+63 32 1.0
+66 207 1.0
+202 46 1.0
+381 354 1.0
+104 104 7.0
+60 321 18.0
+9 225 1.0
+49 481 1.0
+48 69 2.0
+64 64 14.0
+12 47 2.0
+14 160 1.0
+252 137 1.0
+36 48 1.0
+16 172 1.0
+23 70 20.0
+19 94 4.0
+70 148 5.0
+101 102 34.0
+106 87 1.0
+83 23 8.0
+1 60 12.0
+406 407 4.0
+14 315 1.0
+339 340 1.0
+77 34 9.0
+33 115 8.0
+2 82 4.0
+22 178 1.0
+7 315 1.0
+222 78 9.0
+59 32 1.0
+51 178 55.0
+70 2 2.0
+170 234 1.0
+72 32 1.0
+297 105 4.0
+28 21 2.0
+330 57 1.0
+36 95 1.0
+86 102 7.0
+102 92 1.0
+387 78 2.0
+599 87 2.0
+253 149 1.0
+7 39 328.0
+67 49 19.0
+11 76 2.0
+16 187 4.0
+157 1 1.0
+24 25 1435.0
+150 105 6.0
+36 39 30.0
+145 145 690.0
+253 87 37.0
+213 67 3.0
+1 100 3.0
+214 214 3.0
+88 9 1.0
+102 23 6.0
+125 15 46.0
+348 22 1.0
+314 570 1.0
+64 112 1.0
+184 29 2.0
+574 575 1.0
+16 338 1.0
+208 208 2.0
+15 32 1865.0
+141 87 4.0
+343 343 7.0
+432 149 1.0
+83 70 2.0
+184 575 1.0
+18 41 21.0
+7 129 2.0
+91 173 10.0
+14 79 14.0
+62 62 1.0
+26 118 1.0
+539 106 1.0
+91 185 62.0
+68 92 1.0
+148 163 3.0
+64 39 1.0
+94 173 1.0
+297 298 1.0
+16 137 13.0
+120 20 1.0
+32 53 10.0
+10 27 21.0
+40 80 2.0
+60 52 47.0
+32 68 94.0
+170 3 1.0
+9 61 13.0
+68 4 1.0
+122 48 1.0
+64 46 1.0
+32 93 12.0
+36 94 1.0
+29 173 16.0
+78 129 1.0
+523 5 1.0
+14 43 16.0
+29 81 280.0
+15 52 1.0
+233 32 4.0
+355 80 5.0
+16 249 20.0
+78 49 10.0
+30 137 1.0
+16 289 11.0
+324 311 8.0
+385 385 2.0
+306 23 1.0
+94 81 1.0
+82 4 1.0
+59 92 1.0
+15 560 1.0
+370 32 1.0
+146 220 29.0
+29 230 1.0
+0 60 2.0
+59 82 1.0
+59 316 1.0
+53 32 45.0
+68 23 48.0
+1 7 143.0
+348 7 1.0
+120 79 6.0
+43 15 3.0
+52 7 63.0
+106 149 11.0
+257 142 1.0
+241 85 5.0
+240 70 1.0
+473 49 1.0
+367 535 1.0
+67 15 66.0
+75 258 2.0
+98 4 1.0
+170 23 12.0
+86 167 1.0
+1 188 1.0
+272 27 2.0
+54 54 3.0
+28 29 3.0
+381 85 1.0
+334 7 3.0
+16 399 1.0
+170 6 1.0
+71 7 1.0
+91 247 9.0
+468 423 1.0
+208 32 2.0
+18 541 1.0
+16 291 2.0
+14 224 12.0
+12 46 13.0
+9 258 107.0
+40 44 81.0
+347 50 5.0
+92 170 1.0
+32 192 6.0
+23 286 1.0
+40 40 31.0
+101 22 2.0
+207 207 5.0
+16 269 9.0
+92 188 2.0
+208 53 1.0
+51 345 1.0
+61 10 16.0
+142 142 1.0
+151 151 2.0
+170 4 1.0
+29 247 1.0
+12 39 220.0
+16 212 15.0
+236 32 2.0
+78 547 1.0
+104 16 4.0
+167 0 1.0
+210 48 1.0
+59 452 1.0
+92 22 1.0
+65 32 1.0
+133 15 2.0
+128 212 3.0
+33 103 2.0
+3 70 1.0
+132 7 4.0
+1 22 20.0
+16 413 1.0
+79 388 1.0
+12 95 66.0
+216 52 1.0
+33 225 2.0
+51 71 3.0
+34 35 4.0
+82 68 37.0
+354 105 1.0
+143 144 102.0
+32 98 6.0
+6 179 3.0
+101 70 2.0
+75 61 1.0
+356 224 1.0
+78 15 40.0
+275 275 1.0
+251 87 5.0
+106 60 4.0
+11 173 1.0
+359 59 2.0
+601 27 1.0
+14 58 26.0
+30 30 8.0
+239 162 3.0
+217 49 2.0
+76 8 983.0
+12 94 60.0
+184 397 4.0
+77 226 1.0
+78 488 1.0
+16 462 1.0
+98 16 19.0
+176 15 8.0
+9 9 488.0
+94 21 4.0
+46 60 15.0
+388 15 1.0
+21 49 14.0
+162 46 4.0
+469 587 1.0
+68 385 1.0
+125 109 3.0
+175 22 2.0
+323 323 13.0
+226 39 2.0
+23 0 24.0
+16 382 9.0
+144 146 7.0
+281 185 1.0
+23 107 1.0
+6 516 1.0
+134 22 5.0
+13 176 2.0
+183 33 1.0
+173 230 5.0
+86 23 1.0
+51 137 1.0
+14 109 7.0
+25 272 18.0
+346 111 1.0
+314 625 1.0
+60 359 6.0
+148 192 1.0
+7 225 1.0
+156 120 7.0
+306 0 1.0
+16 451 2.0
+16 216 2.0
+581 489 1.0
+202 7 3.0
+334 134 10.0
+471 472 1.0
+41 94 12.0
+202 162 3.0
+148 31 1.0
+11 75 2.0
+177 22 1.0
+418 355 2.0
+613 191 1.0
+16 375 2.0
+70 7 228.0
+35 35 343.0
+592 84 1.0
+49 124 6.0
+64 97 54.0
+243 87 1.0
+188 166 23.0
+21 224 3.0
+17 74 2.0
+292 95 3.0
+16 348 10.0
+181 182 1.0
+41 44 4.0
+27 14 1.0
+307 22 1.0
+111 124 2.0
+60 4 2.0
+577 185 1.0
+15 92 31.0
+46 80 33.0
+106 7 7.0
+82 23 92.0
+89 35 112.0
+58 29 4.0
+114 89 4.0
+4 7 13.0
+52 152 2.0
+189 85 22.0
+86 93 1.0
+608 608 1.0
+68 625 18.0
+40 571 1.0
+149 137 2.0
+0 7 12.0
+73 449 1.0
+65 59 7.0
+167 23 1.0
+94 184 1.0
+3 0 8.0
+16 360 1.0
+401 54 1.0
+4 287 1.0
+20 80 26.0
+1 362 1.0
+92 0 4.0
+189 354 1.0
+313 187 2.0
+68 295 1.0
+22 216 2.0
+167 170 12.0
+88 61 2.0
+1 605 1.0
+282 32 1.0
+28 378 1.0
+497 281 2.0
+357 358 1.0
+38 39 1.0
+196 87 1.0
+184 531 2.0
+87 7 235.0
+41 46 20.0
+16 71 1.0
+142 87 24.0
+0 166 2.0
+588 542 1.0
+46 47 40.0
+486 80 1.0
+16 5 31.0
+311 196 1.0
+58 378 1.0
+378 23 2.0
+104 22 1.0
+23 3 1.0
+195 73 1.0
+2 101 6.0
+377 22 1.0
+281 176 1.0
+163 32 34.0
+180 180 202.0
+13 78 51.0
+383 78 1.0
+143 10 3.0
+90 15 1.0
+51 30 1.0
+224 29 3.0
+10 58 1.0
+84 85 4.0
+7 112 106.0
+156 156 9.0
+114 35 3.0
+162 7 102.0
+184 79 1.0
+433 2 1.0
+362 348 1.0
+178 345 3.0
+496 497 3.0
+102 625 3.0
+184 387 1.0
+224 69 13.0
+103 103 10.0
+83 16 250.0
+99 22 1.0
+462 0 1.0
+285 153 4.0
+16 251 5.0
+354 85 3.0
+98 102 46.0
+68 99 1.0
+68 68 24.0
+184 20 2.0
+82 70 5.0
+32 167 2.0
+466 7 1.0
+174 32 1.0
+287 23 6.0
+162 60 10.0
+245 32 2.0
+119 156 1.0
+314 23 3.0
+7 7 8571.0
+460 137 1.0
+70 329 1.0
+297 106 1.0
+16 254 1.0
+397 176 4.0
+382 408 1.0
+16 410 23.0
+249 187 1.0
+336 336 9.0
+38 97 1.0
+185 173 27.0
+322 60 1.0
+500 501 2.0
+15 192 2.0
+51 65 11.0
+268 142 1.0
+32 92 28.0
+81 91 87.0
+26 94 31.0
+430 320 1.0
+193 212 1.0
+12 97 66.0
+57 27 75.0
+448 98 1.0
+130 124 1.0
+516 32 1.0
+16 443 1.0
+253 86 3.0
+7 13 8.0
+304 83 1.0
+23 537 8.0
+7 9 1949.0
+68 93 3.0
+6 85 1.0
+154 82 1.0
+249 85 11.0
+55 9 6.0
+384 0 1.0
+154 63 1.0
+3 3 2.0
+3 16 1.0
+14 210 2.0
+41 47 18.0
+359 32 1.0
+142 86 25.0
+70 60 1.0
+0 362 1.0
+151 203 1.0
+270 22 2.0
+92 16 6.0
+162 162 3.0
+150 106 6.0
+212 137 7.0
+32 235 3.0
+15 274 3.0
+1 166 2.0
+28 81 1.0
+20 47 37.0
+141 142 1.0
+60 68 10.0
+58 69 2.0
+21 109 1.0
+25 26 1045.0
+2 85 4.0
+87 46 16.0
+107 175 1.0
+313 354 1.0
+24 13 9.0
+16 231 3.0
+14 15 692.0
+30 83 9.0
+103 116 1.0
+1 245 1.0
+79 220 1.0
+16 438 1.0
+1 148 4.0
+73 137 1.0
+320 239 1.0
+6 212 1.0
+43 586 1.0
+32 163 15.0
+313 85 5.0
+243 243 4.0
+23 261 6.0
+7 368 1.0
+102 167 3.0
+83 0 1.0
+10 18 5.0
+458 83 1.0
+148 32 105.0
+170 70 3.0
+98 70 10.0
+349 353 2.0
+120 15 1.0
+276 272 1.0
+46 67 9.0
+1 82 30.0
+53 100 1.0
+301 343 13.0
+137 1 3.0
+16 85 23.0
+621 80 1.0
+1 63 2.0
+386 4 2.0
+7 402 1.0
+160 173 1.0
+58 176 1.0
+344 15 2.0
+7 15 67.0
+18 14 2.0
+30 22 3.0
+15 232 1.0
+134 367 1.0
+222 44 1.0
+58 49 7.0
+1 6 1.0
+32 489 1.0
+71 32 3.0
+29 69 14.0
+85 163 2.0
+130 20 1.0
+285 7 11.0
+42 81 1.0
+13 58 9.0
+25 79 3.0
+116 34 1.0
+334 285 3.0
+70 99 1.0
+149 23 27.0
+255 149 1.0
+68 163 2.0
+22 83 150.0
+51 179 3.0
+79 69 49.0
+51 5 2.0
+14 120 2.0
+371 151 1.0
+134 252 1.0
+156 130 1.0
+16 333 1.0
+16 23 4307.0
+40 58 2.0
+341 86 2.0
+26 78 8.0
+32 166 1.0
+0 83 2.0
+25 39 47.0
+16 92 13.0
+47 69 81.0
+4 65 1.0
+189 73 2.0
+315 262 1.0
+33 116 75.0
+488 486 1.0
+124 109 3.0
+94 94 2.0
+71 463 1.0
+313 149 8.0
+87 102 3.0
+575 576 1.0
+408 268 1.0
+49 15 925.0
+134 241 1.0
+12 15 227.0
+118 273 1.0
+82 31 1.0
+590 7 1.0
+23 148 2.0
+203 233 4.0
+162 106 1.0
+31 7 23.0
+383 355 1.0
+15 374 1.0
+32 16 602.0
+94 121 1.0
+74 9 7.0
+0 625 4.0
+47 50 2.0
+20 67 5.0
+7 97 99.0
+212 166 1.0
+521 521 1.0
+212 16 92.0
+1 235 3.0
+26 97 29.0
+41 80 4.0
+60 70 8.0
+12 21 9.0
+32 240 1.0
+212 70 54.0
+80 12 1.0
+432 101 1.0
+167 53 1.0
+2 7 87.0
+15 170 16.0
+78 173 2.0
+107 151 1.0
+213 79 4.0
+17 33 6.0
+52 625 6.0
+514 173 1.0
+70 101 4.0
+52 477 1.0
+90 91 133.0
+181 32 3.0
+184 46 10.0
+10 8 2.0
+78 124 3.0
+82 608 1.0
+188 204 1.0
+16 317 1.0
+15 313 1.0
+15 287 4.0
+82 92 5.0
+99 16 18.0
+334 519 1.0
+60 211 3.0
+295 32 1.0
+104 0 2.0
+348 32 6.0
+542 15 1.0
+15 625 20.0
+78 90 1.0
+169 167 1.0
+146 46 182.0
+45 29 1.0
+41 13 23.0
+89 145 129.0
+15 154 71.0
+23 188 1.0
+70 348 2.0
+306 163 1.0
+243 86 1.0
+408 85 11.0
+27 155 2.0
+15 395 1.0
+110 153 1.0
+428 22 1.0
+159 149 1.0
+596 16 1.0
+111 111 1.0
+394 212 2.0
+23 53 12.0
+51 32 157.0
+211 16 1.0
+98 134 1.0
+33 36 2.0
+7 21 23.0
+93 59 3.0
+8 61 4.0
+112 116 1.0
+42 90 3.0
+230 15 27.0
+10 26 8.0
+111 125 20.0
+184 78 66.0
+16 314 10.0
+23 329 1.0
+70 66 1.0
+190 142 1.0
+222 349 2.0
+102 60 1.0
+167 192 1.0
+8 27 1.0
+106 92 1.0
+32 70 409.0
+136 15 1.0
+36 26 2.0
+48 49 3.0
+9 33 8.0
+51 70 40.0
+16 197 3.0
+14 28 6.0
+43 387 1.0
+67 47 25.0
+566 382 1.0
+76 88 6.0
+620 101 1.0
+229 173 3.0
+69 230 8.0
+10 147 1.0
+80 173 39.0
+23 68 3.0
+10 33 6.0
+11 11 508.0
+80 185 3.0
+272 146 2.0
+363 364 1.0
+440 67 1.0
+7 180 1.0
+4 85 1.0
+33 62 1.0
+1 73 10.0
+27 20 1.0
+203 181 2.0
+224 49 5.0
+32 162 4.0
+20 8 1.0
+26 15 3.0
+85 142 34.0
+121 15 1.0
+137 83 7.0
+212 0 18.0
+241 86 1.0
+300 29 16.0
+353 69 1.0
+4 59 3.0
+464 262 1.0
+51 51 183.0
+245 16 1.0
+15 157 1.0
+184 331 1.0
+21 173 1.0
+10 41 1.0
+92 98 2.0
+12 78 5.0
+28 79 2.0
+529 71 1.0
+7 144 8.0
+289 408 1.0
+16 84 11.0
+16 104 2.0
+80 450 1.0
+80 124 1.0
+191 86 7.0
+137 374 1.0
+51 132 2.0
+412 302 1.0
+75 88 7.0
+71 70 1.0
+134 59 1.0
+137 82 2.0
+1 625 336.0
+61 33 25.0
+162 92 1.0
+103 144 37.0
+262 49 1.0
+207 23 3.0
+85 325 1.0
+193 4 1.0
+40 67 5.0
+121 46 3.0
+12 272 11.0
+32 345 2.0
+32 203 3.0
+562 149 1.0
+454 454 1.0
+431 32 1.0
+171 7 2.0
+546 15 1.0
+397 80 13.0
+45 47 2.0
+162 85 2.0
+11 24 8.0
+100 384 1.0
+104 166 1.0
+1 134 9.0
+15 6 3.0
+522 23 1.0
+92 151 1.0
+87 23 74.0
+95 25 2.0
+49 230 1.0
+143 113 4.0
+70 98 4.0
+142 149 11.0
+196 187 1.0
+16 620 1.0
+158 158 8.0
+15 82 539.0
+624 134 63.0
+78 81 42.0
+311 85 3.0
+170 245 1.0
+32 32 1071.0
+6 82 2.0
+170 83 1.0
+112 88 40.0
+171 59 3.0
+148 101 3.0
+53 0 1.0
+405 405 1.0
+170 453 1.0
+507 22 1.0
+134 106 2.0
+41 42 885.0
+7 209 1.0
+27 119 1.0
+14 14 39.0
+269 393 1.0
+47 344 1.0
+29 49 54.0
+4 23 13.0
+179 179 10.0
+23 345 2.0
+165 187 2.0
+25 13 123.0
+101 23 38.0
+136 397 1.0
+444 444 1.0
+218 60 1.0
+13 588 1.0
+445 532 1.0
+68 137 5.0
+268 7 1.0
+17 76 5.0
+15 83 125.0
+71 137 1.0
+118 13 1.0
+213 80 4.0
+93 7 19.0
+517 23 1.0
+82 93 1.0
+63 23 7.0
+16 362 2.0
+392 23 1.0
+26 222 25.0
+60 345 1.0
+7 103 2.0
+2 152 1.0
+16 238 3.0
+532 185 2.0
+212 5 1.0
+594 307 1.0
+536 92 1.0
+134 7 177.0
+15 597 1.0
+448 70 1.0
+118 27 26.0
+246 247 2.0
+184 15 1.0
+462 23 2.0
+9 260 1.0
+6 7 43.0
+253 7 2.0
+14 607 1.0
+491 203 1.0
+137 60 3.0
+62 57 79.0
+9 26 8.0
+285 337 1.0
+315 315 1.0
+110 46 1.0
+6 171 10.0
+294 16 3.0
+259 24 6.0
+279 26 1.0
+25 14 8.0
+53 22 9.0
+346 29 1.0
+91 389 1.0
+32 128 4.0
+144 12 1.0
+73 163 2.0
+508 32 1.0
+70 4 7.0
+67 220 2.0
+36 33 1.0
+76 39 4.0
+81 69 165.0
+99 137 3.0
+319 60 2.0
+28 185 3.0
+14 389 1.0
+367 149 4.0
+336 91 3.0
+330 363 2.0
+520 76 1.0
+212 22 10.0
+99 0 2.0
+624 98 19.0
+274 23 3.0
+67 621 1.0
+15 63 7.0
+499 500 2.0
+348 16 1.0
+7 427 1.0
+153 87 1.0
+176 91 1.0
+85 432 5.0
+355 224 1.0
+170 212 1.0
+398 105 1.0
+25 27 95.0
+256 212 1.0
+220 220 261.0
+80 80 501.0
+262 20 3.0
+41 130 1.0
+184 263 1.0
+281 498 2.0
+60 32 22.0
+70 456 1.0
+17 8 5.0
+16 205 2.0
+511 22 1.0
+40 20 2.0
+59 302 2.0
+16 194 8.0
+46 83 6.0
+185 347 1.0
+168 7 1.0
+51 16 4662.0
+387 18 1.0
+40 13 528.0
+224 91 1.0
+167 317 7.0
+154 54 3.0
+36 27 313.0
+80 111 1.0
+60 16 34.0
+166 170 1.0
+16 466 1.0
+290 23 8.0
+422 108 1.0
+98 212 25.0
+123 111 1.0
+98 73 6.0
+9 69 3.0
+304 60 1.0
+571 572 1.0
+81 49 606.0
+178 68 33.0
+226 27 3.0
+598 22 1.0
+20 20 284.0
+68 32 136.0
+234 82 1.0
+81 160 1.0
+179 5 3.0
+246 48 3.0
+360 22 1.0
+582 68 1.0
+261 16 4.0
+0 287 1.0
+541 15 1.0
+51 537 4.0
+243 382 1.0
+171 23 2.0
+148 456 1.0
+402 80 3.0
+624 73 28.0
+302 137 3.0
+317 60 1.0
+2 31 2.0
+349 564 1.0
+36 58 1.0
+13 80 26.0
+97 97 60.0
+26 224 1.0
+308 10 2.0
+66 7 10.0
+65 16 38.0
+53 54 1.0
+99 70 8.0
+116 11 1.0
+7 308 3.0
+170 625 2.0
+9 18 12.0
+16 539 1.0
+70 278 1.0
+175 32 1.0
+378 15 1.0
+184 47 2.0
+36 260 1.0
+278 283 2.0
+407 532 1.0
+189 149 1.0
+180 225 1.0
+12 10 1.0
+174 22 21.0
+83 68 1.0
+300 336 1.0
+18 39 42.0
+16 268 1.0
+210 49 2.0
+15 342 2.0
+6 59 2.0
+19 13 33.0
+353 217 1.0
+47 346 1.0
+196 106 6.0
+606 142 1.0
+10 67 8.0
+46 154 1.0
+13 44 1.0
+106 85 34.0
+78 79 344.0
+151 7 1.0
+591 591 1.0
+162 87 1.0
+99 32 9.0
+98 625 4.0
+184 21 2.0
+52 52 562.0
+104 70 1.0
+0 157 1.0
+2 59 2.0
+272 272 7.0
+32 570 1.0
+190 101 1.0
+605 345 1.0
+362 362 4.0
+3 82 3.0
+33 89 17.0
+161 242 1.0
+60 0 10.0
+57 94 2.0
+165 106 22.0
+45 81 1.0
+14 397 3.0
+74 76 6.0
+494 495 2.0
+1 178 2.0
+266 142 3.0
+121 136 1.0
+146 29 4.0
+42 79 3.0
+102 82 1.0
+184 121 1.0
+374 32 1.0
+45 46 41.0
+16 250 5.0
+51 163 1.0
+266 442 1.0
+53 70 14.0
+191 85 21.0
+16 68 14.0
+429 102 1.0
+314 7 7.0
+431 16 2.0
+266 382 2.0
+59 304 1.0
+29 91 12.0
+129 133 2.0
+12 220 15.0
+59 5 1.0
+59 248 1.0
+99 163 1.0
+15 127 2.0
+10 39 14.0
+239 85 1.0
+7 64 285.0
+3 73 19.0
+15 4 18.0
+300 111 1.0
+137 399 1.0
+71 360 1.0
+53 23 21.0
+56 57 77.0
+32 137 6.0
+18 27 85.0
+36 62 20.0
+300 81 5.0
+7 537 1.0
+16 253 57.0
+68 179 1.0
+68 5 1.0
+101 167 2.0
+46 20 23.0
+341 85 3.0
+79 67 130.0
+89 34 1.0
+95 293 2.0
+95 27 1.0
+52 30 1.0
+16 523 1.0
+19 19 184.0
+59 218 1.0
+15 361 1.0
+462 478 1.0
+401 245 1.0
+201 16 4.0
+51 595 1.0
+566 86 1.0
+99 68 1.0
+243 23 14.0
+154 68 2.0
+8 8 27.0
+18 29 2.0
+362 7 1.0
+624 275 1.0
+36 18 26.0
+130 67 2.0
+523 23 2.0
+86 348 1.0
+7 77 2.0
+332 185 1.0
+478 22 1.0
+60 148 2.0
+21 48 16.0
+73 101 21.0
+333 23 2.0
+10 76 7.0
+53 16 4.0
+15 462 3.0
+5 4 3.0
+7 467 1.0
+134 154 1.0
+397 67 5.0
+65 334 1.0
+366 334 1.0
+121 47 2.0
+334 257 7.0
+7 135 1.0
+85 101 67.0
+88 144 2.0
+15 71 12.0
+533 176 1.0
+21 336 3.0
+16 192 4.0
+49 347 2.0
+23 23 262.0
+113 33 11.0
+21 29 93.0
+16 93 1.0
+449 32 1.0
+16 416 1.0
+32 148 12.0
+225 226 2.0
+1 93 7.0
+553 87 1.0
+16 329 1.0
+144 27 1.0
+382 625 1.0
+134 23 15.0
+42 47 710.0
+83 32 7.0
+80 223 1.0
+13 383 2.0
+71 0 3.0
+15 151 74.0
+171 294 1.0
+10 89 1.0
+2 311 1.0
+63 567 1.0
+16 390 1.0
+192 23 2.0
+150 297 2.0
+93 31 5.0
+10 69 2.0
+14 220 1.0
+35 36 745.0
+198 199 4.0
+81 217 1.0
+104 277 1.0
+320 85 15.0
+82 54 3.0
+47 91 4.0
+7 352 2.0
+94 43 2.0
+82 53 6.0
+83 92 1.0
+89 15 1.0
+356 29 1.0
+7 74 878.0
+13 69 2.0
+247 247 2.0
+194 105 1.0
+313 7 1.0
+16 110 86.0
+46 30 2.0
+15 569 1.0
+140 141 1.0
+146 47 8.0
+9 27 23.0
+108 0 2.0
+32 164 4.0
+75 9 90.0
+78 120 1.0
+77 12 17.0
+0 71 2.0
+134 339 1.0
+174 231 1.0
+15 323 2.0
+59 507 1.0
+267 253 1.0
+206 16 9.0
+178 92 15.0
+281 533 1.0
+13 79 3.0
+408 86 2.0
+87 87 2.0
+16 7 3019.0
+16 59 100.0
+68 66 2.0
+1 370 1.0
+69 15 1036.0
+25 273 1.0
+94 15 32.0
+101 7 82.0
+18 79 2.0
+324 85 2.0
+510 511 2.0
+285 82 1.0
+82 192 3.0
+1 71 7.0
+103 24 1.0
+227 47 2.0
+414 15 1.0
+83 31 1.0
+269 73 1.0
+174 5 1.0
+245 5 1.0
+46 300 1.0
+11 18 1.0
+542 589 1.0
+185 109 6.0
+293 542 1.0
+70 212 13.0
+314 152 1.0
+609 46 1.0
+184 281 1.0
+94 78 5.0
+124 15 51.0
+18 318 1.0
+67 21 5.0
+442 149 1.0
+1 170 1.0
+90 378 1.0
+134 73 4.0
+42 42 14.0
+15 212 31.0
+104 23 2.0
+13 20 19.0
+108 108 4.0
+410 410 53.0
+414 49 2.0
+0 93 1.0
+299 32 1.0
+20 300 1.0
+6 83 6.0
+428 70 1.0
+15 30 17.0
+8 33 8.0
+22 7 6.0
+366 266 1.0
+185 50 1.0
+223 21 1.0
+70 137 5.0
+599 257 1.0
+565 15 1.0
+348 0 3.0
+79 49 7.0
+7 210 1.0
+170 63 1.0
+32 188 3.0
+64 18 20.0
+538 553 3.0
+31 85 1.0
+392 167 1.0
+54 23 29.0
+10 25 2.0
+263 281 1.0
+66 92 2.0
+71 22 1.0
+21 185 4.0
+359 16 9.0
+162 23 13.0
+108 16 1.0
+134 437 1.0
+59 455 1.0
+270 23 11.0
+15 107 2.0
+254 7 1.0
+6 6 44.0
+238 87 1.0
+78 80 383.0
+15 178 1.0
+134 269 1.0
+114 115 36.0
+178 31 1.0
+146 121 1.0
+10 349 1.0
+98 82 6.0
+408 87 11.0
+144 89 136.0
+98 149 1.0
+32 231 1.0
+70 170 1.0
+2 73 8.0
+20 49 5.0
+68 166 1.0
+82 59 1.0
+192 193 10.0
+78 47 62.0
+306 32 1.0
+90 21 1.0
+248 6 11.0
+16 535 2.0
+147 130 1.0
+186 187 1.0
+212 32 55.0
+266 545 1.0
+180 103 109.0
+71 16 4.0
+9 130 1.0
+3 7 61.0
+137 93 1.0
+60 164 1.0
+33 77 13.0
+0 4 8.0
+355 15 2.0
+68 212 5.0
+7 24 1.0
+1 1 29.0
+158 32 4.0
+5 6 164.0
+16 606 1.0
+192 170 2.0
+1 65 1.0
+16 439 1.0
+318 318 6.0
+10 13 31.0
+116 144 6.0
+114 27 1.0
+41 58 4.0
+80 300 10.0
+146 397 2.0
+101 92 1.0
+338 257 2.0
+184 220 3.0
+3 60 1.0
+16 378 1.0
+415 69 1.0
+59 137 1.0
+14 29 78.0
+46 49 215.0
+101 46 3.0
+414 326 1.0
+504 504 1.0
+178 7 162.0
+42 464 1.0
+16 553 4.0
+178 59 27.0
+174 23 1.0
+120 121 1.0
+245 23 1.0
+7 109 1.0
+7 10 539.0
+84 255 1.0
+41 90 15.0
+389 160 2.0
+266 86 1.0
+52 151 1.0
+142 73 1.0
+179 23 1.0
+68 322 1.0
+0 1 906.0
+86 82 1.0
+604 175 1.0
+380 380 4.0
+213 405 2.0
+85 429 1.0
+324 105 1.0
+7 343 2.0
+64 8 22.0
+19 41 10.0
+120 69 1.0
+51 164 4.0
+271 44 1.0
+16 165 19.0
+475 476 1.0
+106 23 13.0
+308 183 1.0
+70 5 9.0
+32 0 24.0
+462 32 2.0
+32 22 270.0
+16 54 14.0
+59 319 5.0
+17 39 3.0
+70 536 1.0
+10 131 2.0
+16 53 12.0
+194 324 1.0
+16 106 18.0
+392 7 10.0
+215 415 2.0
+27 13 934.0
+77 77 4.0
+68 164 2.0
+16 162 121.0
+76 67 1.0
+14 222 10.0
+96 85 6.0
+2 134 12.0
+7 272 2.0
+301 74 1.0
+8 12 1.0
+114 11 1.0
+163 16 1.0
+15 172 1.0
+111 173 2.0
+356 80 1.0
+237 79 1.0
+472 473 1.0
+13 505 1.0
+42 120 64.0
+598 23 1.0
+216 16 3.0
+624 319 1.0
+15 275 1.0
+25 80 4.0
+60 188 1.0
+21 81 35.0
+82 63 1.0
+52 4 2.0
+150 196 1.0
+167 7 1.0
+36 41 169.0
+347 173 3.0
+12 11 1.0
+83 152 4.0
+392 92 1.0
+553 149 1.0
+399 83 1.0
+331 365 2.0
+64 11 1.0
+130 80 2.0
+164 32 2.0
+85 166 2.0
+33 27 6.0
+303 84 1.0
+70 462 1.0
+73 32 30.0
+99 99 1.0
+40 41 82.0
+176 69 1.0
+48 109 2.0
+456 137 2.0
+137 625 3.0
+53 137 1.0
+167 362 2.0
+183 9 1.0
+170 60 3.0
+29 481 1.0
+153 7 6.0
+184 123 1.0
+78 29 37.0
+59 30 4.0
+32 108 1.0
+226 26 2.0
+307 310 3.0
+119 15 4.0
+16 298 10.0
+267 241 1.0
+232 232 1.0
+6 625 8.0
+123 48 2.0
+270 625 1.0
+17 9 4.0
+24 27 3.0
+353 49 1.0
+12 146 77.0
+117 24 1.0
+41 41 356.0
+33 33 7.0
+13 387 1.0
+329 568 1.0
+14 81 15.0
+253 239 2.0
+7 224 4.0
+58 262 1.0
+25 25 4.0
+58 146 23.0
+32 179 6.0
+68 22 9.0
+158 66 1.0
+317 625 1.0
+145 11 148.0
+38 15 8.0
+89 11 3.0
+94 146 1.0
+78 355 1.0
+311 106 1.0
+149 7 40.0
+32 100 6.0
+134 6 1.0
+14 46 58.0
+88 55 56.0
+35 27 1.0
+54 1 2.0
+446 162 1.0
+334 153 1.0
+312 87 1.0
+14 173 12.0
+178 162 2.0
+225 11 1.0
+14 80 90.0
+82 362 2.0
+400 243 3.0
+11 8 2.0
+35 12 8.0
+4 0 3.0
+247 185 1.0
+259 260 1.0
+1 323 4.0
+178 32 19.0
+424 81 1.0
+163 0 3.0
+47 80 97.0
+18 67 1.0
+547 80 1.0
+14 47 3.0
+6 294 1.0
+51 366 1.0
+67 29 13.0
+13 42 2.0
+16 458 2.0
+570 570 1.0
+343 88 1.0
+380 32 1.0
+120 44 1.0
+102 212 8.0
+238 187 2.0
+170 7 3.0
+32 3 20.0
+98 7 32.0
+77 144 41.0
+156 49 3.0
+220 15 1.0
+98 429 1.0
+388 388 1.0
+100 32 6.0
+16 191 40.0
+301 10 3.0
+36 88 1.0
+321 158 1.0
+26 56 4.0
+52 65 2.0
+138 139 33.0
+52 379 1.0
+32 248 2.0
+602 22 2.0
+32 5 9.0
+0 65 1.0
+76 143 100.0
+457 87 1.0
+96 87 6.0
+15 198 1.0
+32 348 3.0
+185 15 192.0
+134 253 1.0
+36 8 1.0
+549 550 1.0
+278 7 1.0
+421 73 1.0
+556 101 1.0
+553 566 1.0
+536 68 1.0
+1 83 2.0
+1 4 31.0
+360 137 1.0
+163 102 5.0
+13 67 3.0
+92 581 1.0
+16 590 1.0
+3 92 1.0
+82 104 1.0
+130 296 1.0
+51 461 1.0
+130 69 2.0
+154 23 63.0
+525 316 2.0
+222 227 1.0
+49 215 2.0
+167 518 1.0
+156 58 35.0
+474 170 1.0
+21 111 8.0
+404 68 1.0
+42 78 50.0
+59 60 237.0
+0 92 1.0
+12 176 1.0
+378 389 1.0
+92 83 1.0
+115 144 7.0
+154 16 1.0
+107 32 2.0
+106 73 3.0
+146 90 37.0
+24 78 1.0
+38 27 3.0
+36 57 8.0
+115 115 1.0
+134 590 1.0
+64 21 61.0
+209 10 5.0
+63 0 1.0
+63 22 1.0
+32 207 1.0
+144 97 2.0
+98 530 1.0
+449 0 1.0
+40 14 30.0
+41 176 1.0
+411 412 1.0
+64 144 2.0
+407 215 4.0
+200 201 1.0
+311 149 8.0
+64 520 1.0
+32 268 1.0
+129 15 1.0
+275 32 4.0
+78 45 2.0
+119 331 1.0
+343 8 5.0
+171 625 1.0
+83 59 3.0
+16 46 25.0
+112 33 33.0
+567 329 1.0
+15 305 1.0
+212 99 6.0
+114 116 6.0
+563 349 1.0
+20 441 1.0
+197 85 1.0
+177 82 3.0
+128 70 1.0
+1 85 21.0
+8 77 2.0
+561 86 1.0
+16 108 1.0
+15 528 2.0
+26 355 2.0
+16 437 1.0
+154 83 2.0
+523 523 2.0
+105 4 1.0
+124 546 1.0
+229 577 1.0
+41 49 9.0
+420 23 1.0
+47 109 5.0
+7 217 5.0
+378 91 1.0
+16 526 1.0
+130 136 11.0
+16 70 11.0
+191 253 1.0
+344 81 1.0
+86 149 18.0
+77 27 1.0
+142 101 1.0
+76 46 1.0
+189 142 1.0
+7 176 3.0
+171 16 1.0
+624 163 12.0
+76 10 31.0
+7 28 18.0
+324 87 2.0
+493 494 2.0
+143 143 690.0
+25 18 16.0
+16 519 1.0
+360 23 3.0
+237 46 3.0
+67 173 2.0
+214 406 4.0
+36 226 5.0
+70 73 15.0
+238 85 1.0
+262 21 1.0
+99 85 1.0
+152 16 59.0
+240 137 1.0
+13 388 1.0
+12 117 1.0
+191 187 3.0
+362 98 1.0
+10 38 4.0
+47 300 2.0
+51 107 1.0
+98 59 1.0
+60 101 1.0
+341 87 2.0
+1 99 14.0
+380 625 1.0
+589 15 1.0
+288 32 1.0
+40 43 1.0
+46 28 1.0
+52 92 1.0
+387 39 1.0
+143 9 148.0
+166 92 1.0
+318 15 3.0
+380 16 5.0
+23 2 4.0
+70 70 162.0
+153 392 1.0
+80 224 18.0
+32 66 6.0
+70 82 13.0
+16 285 14.0
+101 71 1.0
+296 67 1.0
+151 68 6.0
+225 89 1.0
+1 31 11.0
+304 23 2.0
+130 79 6.0
+84 257 1.0
+568 4 1.0
+203 557 2.0
+38 330 2.0
+269 87 4.0
+436 85 2.0
+241 7 2.0
+15 582 1.0
+19 14 2.0
+17 75 3.0
+73 3 2.0
+16 154 2.0
+0 23 11.0
+70 625 200.0
+161 150 1.0
+83 2 1.0
+43 47 2.0
+220 90 2.0
+42 130 1.0
+81 185 21.0
+194 195 1.0
+25 29 1.0
+102 7 48.0
+117 62 1.0
+42 21 1.0
+536 625 1.0
+397 220 1.0
+41 119 61.0
+9 184 4.0
+158 53 1.0
+15 207 4.0
+119 47 5.0
+59 0 1.0
+75 77 1.0
+2 0 36.0
+70 179 3.0
+146 464 1.0
+21 123 2.0
+1 98 98.0
+53 7 4.0
+32 256 2.0
+93 188 1.0
+16 132 1.0
+272 220 1.0
+70 167 1.0
+69 124 10.0
+60 104 1.0
+91 15 282.0
+258 33 1.0
+479 349 1.0
+15 403 1.0
+5 380 1.0
+258 209 5.0
+415 15 2.0
+76 33 1.0
+84 142 2.0
+229 230 10.0
+405 79 1.0
+47 210 2.0
+16 304 2.0
+110 386 2.0
+134 212 1.0
+343 21 1.0
+456 60 1.0
+95 97 1.0
+16 612 1.0
+15 362 3.0
+16 277 1.0
+58 80 5.0
+76 58 2.0
+82 82 8.0
+60 317 1.0
+164 22 1.0
+210 224 1.0
+41 81 1.0
+192 212 1.0
+59 250 2.0
+101 32 54.0
+158 68 1.0
+1 449 1.0
+62 41 2.0
+69 347 1.0
+146 146 714.0
+296 15 1.0
+352 353 1.0
+16 625 1.0
+227 46 1.0
+387 27 1.0
+24 26 7.0
+34 347 1.0
+20 81 1.0
+196 73 1.0
+41 355 1.0
+51 99 3.0
+101 137 18.0
+16 566 1.0
+46 81 3.0
+16 603 2.0
+85 190 1.0
+67 124 5.0
+464 15 1.0
+188 98 1.0
+34 39 1.0
+71 212 1.0
+29 347 1.0
+222 79 1.0
+83 178 2.0
+300 300 1.0
+80 69 16.0
+243 289 1.0
+27 94 494.0
+258 10 112.0
+68 232 3.0
+554 554 1.0
+70 235 1.0
+611 7 1.0
+12 226 14.0
+343 15 6.0
+51 98 2.0
+511 23 1.0
+16 167 1.0
+154 70 1.0
+189 7 1.0
+445 445 1.0
+9 12 5.0
+376 377 1.0
+43 44 1.0
+100 16 3.0
+7 350 1.0
+51 53 19.0
+68 134 4.0
+15 174 9.0
+7 11 24.0
+40 81 1.0
+141 85 9.0
+16 409 1.0
+48 15 28.0
+437 101 1.0
+9 355 1.0
+178 334 2.0
+438 232 1.0
+16 282 3.0
+71 98 1.0
+92 32 8.0
+178 52 15.0
+65 152 2.0
+43 46 6.0
+115 35 1.0
+579 580 1.0
+15 66 1.0
+257 106 1.0
+16 73 2.0
+141 354 1.0
+16 562 1.0
+70 248 1.0
+20 217 2.0
+64 67 1.0
+110 4 1.0
+15 65 3.0
+77 13 2.0
+350 353 13.0
+94 44 2.0
+1 101 9.0
+101 399 1.0
+105 85 1.0
+528 23 2.0
+12 37 9.0
+13 14 2569.0
+16 265 1.0
+21 332 2.0
+236 7 1.0
+36 24 20.0
+12 81 5.0
+137 23 58.0
+81 124 10.0
+87 82 1.0
+250 311 6.0
+146 120 1.0
+112 76 1.0
+78 402 2.0
+32 104 1.0
+101 82 1.0
+7 75 258.0
+94 331 1.0
+274 70 2.0
+76 97 2.0
+275 16 1.0
+16 22 545.0
+23 32 109.0
+59 3 1.0
+32 7 456.0
+212 98 6.0
+543 46 2.0
+162 68 1.0
+563 574 1.0
+263 496 3.0
+619 32 1.0
+227 224 1.0
+51 3 2.0
+12 14 26.0
+63 529 1.0
+16 96 12.0
+55 113 5.0
+154 22 4.0
+81 247 1.0
+45 237 1.0
+281 210 1.0
+40 49 279.0
+322 93 1.0
+352 418 1.0
+50 109 1.0
+59 150 2.0
+300 173 1.0
+272 26 8.0
+50 173 2.0
+295 102 1.0
+1 431 2.0
+85 295 3.0
+289 191 2.0
+519 285 1.0
+85 73 9.0
+6 23 70.0
+41 155 97.0
+16 177 1.0
+79 21 1.0
+272 97 3.0
+110 604 1.0
+144 13 2.0
+13 49 10.0
+270 1 14.0
+9 28 2.0
+1 53 4.0
+7 173 1.0
+208 333 1.0
+578 579 1.0
+18 21 47.0
+327 15 25.0
+210 15 3.0
+46 176 1.0
+248 248 1.0
+93 0 1.0
+16 149 2.0
+166 3 1.0
+624 530 1.0
+80 10 3.0
+151 0 5.0
+67 90 1.0
+12 43 1.0
+71 68 4.0
+321 16 3.0
+518 63 1.0
+165 196 1.0
+67 81 6.0
+387 80 1.0
+231 231 8.0
+476 23 1.0
+207 208 2.0
+362 23 2.0
+42 222 1.0
+63 83 1.0
+41 14 5.0
+45 21 1.0
+9 439 1.0
+36 37 2.0
+44 45 140.0
+194 196 10.0
+8 258 6.0
+59 54 1.0
+481 482 2.0
+85 188 8.0
+554 80 1.0
+317 59 1.0
+6 60 3.0
+417 349 1.0
+1 348 1.0
+77 39 1.0
+0 98 2.0
+154 157 1.0
+8 143 55.0
+15 425 1.0
+126 127 2.0
+12 24 1299.0
+397 336 1.0
+81 173 207.0
+27 42 9.0
+7 423 1.0
+78 130 17.0
+215 15 11.0
+392 82 2.0
+290 148 1.0
+70 310 1.0
+59 134 4.0
+134 449 1.0
+149 87 10.0
+10 34 6.0
+356 419 1.0
+36 36 343.0
+327 69 1.0
+93 3 1.0
+423 469 1.0
+289 162 1.0
+151 170 2.0
+59 22 20.0
+16 233 1.0
+70 127 1.0
+16 385 3.0
+284 107 2.0
+124 125 1.0
+7 29 1.0
+184 28 7.0
+527 70 1.0
+0 212 4.0
+32 319 1.0
+46 185 3.0
+16 543 1.0
+114 103 1.0
+146 81 1.0
+64 10 14.0
+16 372 1.0
+85 392 1.0
+32 178 13.0
+118 18 1.0
+134 444 1.0
+7 183 4.0
+14 78 1012.0
+20 79 5.0
+272 336 2.0
+531 146 1.0
+46 79 4.0
+9 11 42.0
+41 20 6.0
+162 73 1.0
+15 233 1.0
+23 59 8.0
+243 503 1.0
+272 46 1.0
+448 7 1.0
+195 137 1.0
+135 15 1.0
+486 67 1.0
+70 164 1.0
+32 65 19.0
+247 173 1.0
+16 166 2.0
+14 130 4.0
+7 184 2.0
+624 248 1.0
+51 228 3.0
+16 561 1.0
+103 77 155.0
+51 92 10.0
+397 49 2.0
+31 82 1.0
+47 246 3.0
+34 13 1.0
+184 262 2.0
+184 146 58.0
+70 68 37.0
+425 426 1.0
+288 288 2.0
+23 65 8.0
+55 55 1.0
+149 22 12.0
+545 87 1.0
+22 23 1656.0
+85 86 62.0
+290 151 1.0
+584 538 2.0
+379 134 1.0
+103 12 3.0
+166 102 6.0
+23 178 56.0
+316 317 1.0
+183 88 1.0
+64 33 1.0
+343 10 1.0
+82 157 1.0
+11 13 1.0
+104 32 2.0
+192 68 2.0
+46 23 44.0
+310 23 1.0
+617 85 1.0
+7 55 64.0
+76 15 49.0
+1 92 33.0
+128 0 1.0
+209 33 1.0
+396 4 1.0
+40 79 4.0
+311 87 1.0
+71 23 4.0
+16 342 1.0
+144 225 1.0
+121 50 3.0
+100 625 1.0
+455 60 1.0
+194 250 1.0
+17 55 5.0
+312 313 1.0
+40 27 266.0
+7 355 8.0
+38 24 5.0
+215 215 7.0
+285 285 3.0
+1 536 3.0
+98 101 2.0
+207 32 3.0
+16 6 1.0
+101 83 5.0
+193 70 4.0
+13 336 1.0
+178 93 1.0
+4 6 51.0
+231 171 11.0
+102 137 2.0
+7 113 2.0
+68 60 9.0
+178 158 9.0
+300 15 21.0
+45 45 6.0
+603 249 1.0
+14 42 8.0
+78 349 7.0
+42 349 1.0
+15 278 2.0
+305 83 1.0
+26 14 2.0
+16 86 5.0
+16 371 1.0
+7 349 21.0
+151 6 2.0
+49 407 3.0
+158 625 1.0
+46 29 19.0
+354 87 3.0
+76 80 1.0
+11 95 1.0
+16 100 3.0
+260 14 1.0
+345 92 16.0
+32 323 2.0
+441 378 4.0
+272 80 1.0
+624 82 12.0
+23 31 1.0
+26 79 4.0
+82 137 4.0
+12 184 13.0
+4 53 1.0
+26 387 1.0
+333 16 1.0
+624 85 10.0
+50 15 18.0
+382 85 4.0
+81 81 34.0
+59 195 1.0
+362 0 3.0
+105 106 74.0
+624 101 19.0
+353 81 1.0
+30 4 46.0
+93 92 1.0
+70 274 1.0
+134 101 4.0
+8 9 1340.0
+9 37 1.0
+48 48 4.0
+73 16 1.0
+29 111 2.0
+23 85 1.0
+257 85 4.0
+166 163 1.0
+7 378 2.0
+134 320 1.0
+558 251 1.0
+37 117 1.0
+73 102 4.0
+293 15 1.0
+119 13 1.0
+16 334 3.0
+301 301 11.0
+396 0 1.0
+573 13 1.0
+260 24 12.0
+80 81 964.0
+130 15 8.0
+16 141 15.0
+23 82 2.0
+81 332 1.0
+610 7 1.0
+123 123 1.0
+306 101 1.0
+51 68 17.0
+83 256 1.0
+19 20 184.0
+134 82 3.0
+262 309 1.0
+13 300 2.0
+59 456 2.0
+367 320 3.0
+40 155 3.0
+25 15 4.0
+31 32 5.0
+40 213 1.0
+20 29 18.0
+59 165 7.0
+242 242 4.0
+99 59 1.0
+247 15 10.0
+17 18 38.0
+156 44 2.0
+15 54 9.0
+490 7 1.0
+158 16 207.0
+19 27 42.0
+287 1 1.0
+85 98 28.0
+178 16 115.0
+16 290 2.0
+402 521 1.0
+33 35 430.0
+16 241 14.0
+250 149 1.0
+311 257 1.0
+68 83 1.0
+182 22 1.0
+18 19 312.0
+16 379 1.0
+16 570 2.0
+307 82 1.0
+69 229 21.0
+82 151 21.0
+365 555 1.0
+429 167 1.0
+26 69 1.0
+60 2 1.0
+1 192 16.0
+362 22 2.0
+16 558 2.0
+3 85 9.0
+94 46 4.0
+215 69 6.0
+15 104 1.0
+4 32 9.0
+407 445 1.0
+212 93 1.0
+25 58 2.0
+105 459 1.0
+73 23 2.0
+14 146 18.0
+108 92 2.0
+1 288 1.0
+266 7 1.0
+17 17 9.0
+7 89 1.0
+469 95 1.0
+320 32 1.0
+178 206 1.0
+151 277 2.0
+59 46 14.0
+59 245 1.0
+6 16 38.0
+213 46 4.0
+350 79 6.0
+159 86 2.0
+212 68 1.0
+75 8 119.0
+16 188 1.0
+524 23 2.0
+43 262 1.0
+590 23 1.0
+261 52 10.0
+92 212 2.0
+13 13 44.0
+116 56 7.0
+63 54 1.0
+79 81 7.0
+16 87 3.0
+176 176 1.0
+12 387 5.0
+71 59 2.0
+271 78 1.0
+51 0 35.0
+520 75 2.0
+285 23 1.0
+156 47 5.0
+32 2 4.0
+2 16 6.0
+6 0 17.0
+12 135 1.0
+76 61 1.0
+486 29 1.0
+7 69 92.0
+64 76 10.0
+52 53 1.0
+70 163 13.0
+16 324 18.0
+40 227 1.0
+219 99 1.0
+582 32 1.0
+128 22 1.0
+1 59 38.0
+255 251 1.0
+560 23 2.0
+16 266 11.0
+98 5 1.0
+70 59 8.0
+154 7 1.0
+6 245 1.0
+51 359 9.0
+268 32 1.0
+229 185 2.0
+136 80 9.0
+32 60 45.0
+33 183 1.0
+247 49 2.0
+39 39 31.0
+93 70 3.0
+360 522 1.0
+273 27 2.0
+1 212 90.0
+73 0 6.0
+100 3 1.0
+79 176 2.0
+46 32 1.0
+429 82 1.0
+49 565 1.0
+80 21 74.0
+346 69 1.0
+0 164 1.0
+196 85 7.0
+276 27 1.0
+134 197 1.0
+10 12 27.0
+122 123 1.0
+69 318 2.0
+101 101 2.0
+51 93 27.0
+68 54 1.0
+537 158 2.0
+15 299 1.0
+78 176 3.0
+134 85 2.0
+51 158 115.0
+189 87 2.0
+77 116 1.0
+10 77 1113.0
+71 625 2.0
+91 347 1.0
+15 474 1.0
+228 625 1.0
+9 113 3.0
+16 313 22.0
+60 178 293.0
+51 286 1.0
+3 101 3.0
+343 387 1.0
+40 563 1.0
+84 149 1.0
+193 16 1.0
+16 422 1.0
+258 61 1.0
+429 63 1.0
+58 388 2.0
+41 213 1.0
+354 149 1.0
+16 457 2.0
+151 23 73.0
+46 53 1.0
+41 184 1.0
+387 13 1.0
+1 429 1.0
+7 222 1.0
+156 80 1.0
+192 32 4.0
+15 333 1.0
+220 80 156.0
+362 16 1.0
+235 236 7.0
+203 32 7.0
+16 515 1.0
+564 353 1.0
+70 32 305.0
+22 22 170.0
+158 170 1.0
+1 164 1.0
+170 30 1.0
+1 161 1.0
+32 380 2.0
+16 128 1.0
+42 146 7.0
+484 485 3.0
+11 301 21.0
+62 27 9.0
+15 523 1.0
+81 50 2.0
+434 435 1.0
+450 81 2.0
+335 7 1.0
+20 21 106.0
+25 41 19.0
+196 101 2.0
+155 155 6.0
+46 21 9.0
+600 23 1.0
+364 94 1.0
+103 11 74.0
+78 78 4.0
+359 7 1.0
+62 67 1.0
+259 80 1.0
+616 98 1.0
+257 153 4.0
+41 479 1.0
+52 32 9.0
+363 276 1.0
+159 87 2.0
+340 196 1.0
+16 0 12.0
+49 109 8.0
+536 82 1.0
+68 278 1.0
+149 102 5.0
+276 58 1.0
+76 9 180.0
+15 282 3.0
+267 540 1.0
+597 598 1.0
+16 602 3.0
+458 23 2.0
+134 221 1.0
+187 4 1.0
+13 220 1.0
+310 310 1.0
+136 296 2.0
+11 94 1.0
+287 83 1.0
+149 0 1.0
+15 60 109.0
+28 47 3.0
+189 190 1.0
+34 94 1.0
+181 54 1.0
+92 348 1.0
+58 44 1.0
+80 346 1.0
+316 598 1.0
+30 23 51.0
+118 41 1.0
+409 86 1.0
+188 429 2.0
+0 32 34.0
+78 262 6.0
+57 42 1.0
+47 15 579.0
+161 5 1.0
+33 34 2.0
+23 5 1.0
+81 514 1.0
+524 70 1.0
+16 392 10.0
+195 311 2.0
+178 70 4.0
+164 70 1.0
+313 87 7.0
+361 348 1.0
+16 3 12.0
+16 170 5.0
+12 69 4.0
+12 173 17.0
+204 167 1.0
+60 151 1.0
+374 137 2.0
+15 317 1.0
+58 46 9.0
+7 37 1.0
+146 176 4.0
+252 257 1.0
+47 224 1.0
+15 329 4.0
+171 22 10.0
+557 32 2.0
+297 195 1.0
+120 90 1.0
+13 315 1.0
+61 11 1.0
+78 607 1.0
+64 55 1.0
+211 7 2.0
+519 257 1.0
+251 85 2.0
+143 180 1.0
+86 306 1.0
+241 87 6.0
+213 414 1.0
+199 506 1.0
+124 347 2.0
+402 402 3.0
+115 89 4.0
+95 39 1.0
+180 144 13.0
+40 184 6.0
+15 524 1.0
+154 518 1.0
+10 11 2188.0
+15 7 145.0
+2 3 20.0
+212 4 5.0
+259 13 1.0
+355 355 1.0
+245 60 1.0
+165 150 1.0
+113 176 1.0
+324 391 3.0
+624 32 234.0
+170 583 1.0
+80 29 213.0
+40 21 1.0
+2 188 1.0
+26 184 1.0
+16 428 1.0
+326 49 7.0
+32 134 11.0
+92 5 2.0
+319 68 1.0
+323 68 1.0
+224 48 1.0
+0 59 9.0
+0 429 1.0
+336 247 2.0
+46 92 1.0
+184 130 1.0
+14 332 1.0
+178 0 1.0
+28 388 1.0
+95 13 5.0
+1 105 1.0
+159 142 1.0
+1 534 1.0
+88 8 12.0
+164 16 1.0
+59 162 19.0
+23 179 1.0
+69 125 7.0
+309 80 1.0
+20 263 1.0
+32 582 1.0
+192 53 1.0
+212 23 20.0
+73 70 3.0
+167 403 1.0
+174 7 1.0
+16 257 6.0
+245 7 1.0
+40 355 1.0
+146 78 14.0
+163 7 17.0
+106 32 1.0
+52 59 6.0
+51 334 6.0
+157 23 5.0
+607 15 1.0
+51 4 8.0
+347 15 7.0
+18 445 1.0
+80 353 4.0
+410 7 10.0
+624 429 1.0
+623 98 1.0
+32 524 1.0
+58 47 14.0
+63 7 2.0
+119 46 4.0
+31 92 3.0
+108 32 1.0
+23 212 4.0
+175 181 2.0
+10 74 1.0
+220 336 1.0
+32 523 1.0
+624 31 8.0
+16 367 9.0
+9 34 5.0
+14 124 2.0
+16 408 29.0
+70 53 5.0
+51 206 2.0
+11 25 2.0
+4 92 1.0
+172 23 1.0
+355 69 5.0
+162 32 1.0
+153 335 1.0
+78 28 5.0
+180 114 1.0
+80 246 1.0
+570 207 3.0
+93 68 2.0
+336 81 2.0
+187 23 3.0
+40 29 1.0
+137 22 36.0
+249 86 1.0
+612 303 1.0
+253 85 17.0
+241 142 4.0
+146 521 1.0
+35 111 1.0
+184 492 2.0
+155 184 1.0
+148 7 22.0
+30 6 33.0
+12 29 4.0
+0 31 1.0
+6 22 47.0
+76 292 2.0
+41 120 7.0
+127 128 5.0
+16 16 962.0
+111 15 34.0
+350 15 2.0
+18 78 1.0
+32 448 1.0
+289 87 1.0
+41 173 1.0
+289 22 1.0
+42 28 1.0
+225 35 2.0
+70 192 3.0
+16 420 1.0
+15 458 1.0
+166 93 1.0
+20 69 1.0
+32 54 1.0
+49 49 8.0
+64 75 9.0
+624 59 5.0
+74 8 5.0
+49 160 3.0
+47 49 49.0
+90 90 293.0
+152 379 1.0
+394 394 2.0
+100 70 1.0
+28 80 4.0
+32 432 1.0
+32 317 1.0
+160 15 13.0
+470 471 1.0
