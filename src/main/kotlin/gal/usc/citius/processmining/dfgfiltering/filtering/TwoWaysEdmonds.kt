@@ -7,18 +7,14 @@ import java.util.Deque
 import java.util.LinkedList
 
 /**
- * Given a connected digraph with one root and one sink vertices, and where all vertices are in, at least, a path from
- * root to sink, obtains a 2-approximation to the minimum equivalent graph (MEG) with the maximum weight (the sum of all
- * edge weights).
- *
- * The MEG is the subgraph with the lowest number of edges possible, but maintaining the connectivity among all vertices,
- * i.e., if there is a path from one vertex u to another vertex v in the original digraph, a path must exist between
- * these two vertices in the MEG.
+ * Given a connected digraph with one source and one sink vertices, and where all vertices are in, at least, a path from
+ * root to sink (i.e., a Directly Follows Graph), obtains an approximation to the maximally filtered directly follows
+ * graph (MF-DFG) maximizing (or minimizing) the total weight of the DFG by combining two arborescence with maximum
+ * (or minimum weight) using Edmonds' Algorithm.
  *
  * @param minimum if set to true search for the minimum equivalent graph with the lowest overall weight.
  *
- * @return a 2-approximation to the minimum equivalent graph with a maximum total weight (minimum if [minimum] is set to
- * true).
+ * @return an approximation to the MF-DFG problem with a maximum total weight (minimum if [minimum] is true).
  */
 fun DirectedGraph.filterEdgesTWE(minimum: Boolean = false): DirectedGraph {
     this.checkDFGCorrectness()
