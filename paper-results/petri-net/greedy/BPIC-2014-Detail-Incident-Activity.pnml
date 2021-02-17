@@ -10,6 +10,8 @@
         <name>
           <text>|&gt;</text>
         </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
       </transition>
       <transition id="Analysis/Research">
         <name>
@@ -20,6 +22,8 @@
         <name>
           <text>[]</text>
         </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
       </transition>
       <transition id="Resolved">
         <name>

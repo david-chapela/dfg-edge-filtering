@@ -10,11 +10,15 @@
         <name>
           <text>[]</text>
         </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
       </transition>
       <transition id="|&gt;">
         <name>
           <text>|&gt;</text>
         </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
       </transition>
       <transition id="Insert Date Appeal to Prefecture">
         <name>

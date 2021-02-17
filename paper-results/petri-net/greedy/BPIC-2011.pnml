@@ -220,11 +220,15 @@
         <name>
           <text>|&gt;</text>
         </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
       </transition>
       <transition id="[]">
         <name>
           <text>[]</text>
         </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
       </transition>
       <transition id="echogeleide als ass. bij punctie abdomen">
         <name>
