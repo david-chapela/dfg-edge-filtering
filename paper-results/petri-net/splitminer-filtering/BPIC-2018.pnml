@@ -1,0 +1,1300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+  <net xmlns="" id="TranslatedPetriNet" type="http://www.pnml.org/version-2009/grammar/ptnet">
+    <name>
+      <text>TranslatedPetriNet</text>
+    </name>
+    <page id="0">
+      <transition id="approve">
+        <name>
+          <text>approve</text>
+        </name>
+      </transition>
+      <transition id="remove document">
+        <name>
+          <text>remove document</text>
+        </name>
+      </transition>
+      <transition id="|&gt;">
+        <name>
+          <text>|&gt;</text>
+        </name>
+      </transition>
+      <transition id="[]">
+        <name>
+          <text>[]</text>
+        </name>
+      </transition>
+      <transition id="finish payment">
+        <name>
+          <text>finish payment</text>
+        </name>
+      </transition>
+      <transition id="revoke approval">
+        <name>
+          <text>revoke approval</text>
+        </name>
+      </transition>
+      <transition id="finish pre-check">
+        <name>
+          <text>finish pre-check</text>
+        </name>
+      </transition>
+      <transition id="mail valid">
+        <name>
+          <text>mail valid</text>
+        </name>
+      </transition>
+      <transition id="begin editing">
+        <name>
+          <text>begin editing</text>
+        </name>
+      </transition>
+      <transition id="decide">
+        <name>
+          <text>decide</text>
+        </name>
+      </transition>
+      <transition id="performed offline">
+        <name>
+          <text>performed offline</text>
+        </name>
+      </transition>
+      <transition id="begin payment">
+        <name>
+          <text>begin payment</text>
+        </name>
+      </transition>
+      <transition id="revoke withdrawal">
+        <name>
+          <text>revoke withdrawal</text>
+        </name>
+      </transition>
+      <transition id="clear">
+        <name>
+          <text>clear</text>
+        </name>
+      </transition>
+      <transition id="abort payment">
+        <name>
+          <text>abort payment</text>
+        </name>
+      </transition>
+      <transition id="save">
+        <name>
+          <text>save</text>
+        </name>
+      </transition>
+      <transition id="check admissibility">
+        <name>
+          <text>check admissibility</text>
+        </name>
+      </transition>
+      <transition id="insert document">
+        <name>
+          <text>insert document</text>
+        </name>
+      </transition>
+      <transition id="calculate">
+        <name>
+          <text>calculate</text>
+        </name>
+      </transition>
+      <transition id="withdraw">
+        <name>
+          <text>withdraw</text>
+        </name>
+      </transition>
+      <transition id="discard">
+        <name>
+          <text>discard</text>
+        </name>
+      </transition>
+      <transition id="begin preparations">
+        <name>
+          <text>begin preparations</text>
+        </name>
+      </transition>
+      <transition id="correction GFM17">
+        <name>
+          <text>correction GFM17</text>
+        </name>
+      </transition>
+      <transition id="finish preparations">
+        <name>
+          <text>finish preparations</text>
+        </name>
+      </transition>
+      <transition id="change department">
+        <name>
+          <text>change department</text>
+        </name>
+      </transition>
+      <transition id="begin admissibility check">
+        <name>
+          <text>begin admissibility check</text>
+        </name>
+      </transition>
+      <transition id="mail income">
+        <name>
+          <text>mail income</text>
+        </name>
+      </transition>
+      <transition id="plan">
+        <name>
+          <text>plan</text>
+        </name>
+      </transition>
+      <transition id="performed">
+        <name>
+          <text>performed</text>
+        </name>
+      </transition>
+      <transition id="create">
+        <name>
+          <text>create</text>
+        </name>
+      </transition>
+      <transition id="take original document">
+        <name>
+          <text>take original document</text>
+        </name>
+      </transition>
+      <transition id="begin editing from refused">
+        <name>
+          <text>begin editing from refused</text>
+        </name>
+      </transition>
+      <transition id="abort external">
+        <name>
+          <text>abort external</text>
+        </name>
+      </transition>
+      <transition id="restart editing">
+        <name>
+          <text>restart editing</text>
+        </name>
+      </transition>
+      <transition id="cancel offline">
+        <name>
+          <text>cancel offline</text>
+        </name>
+      </transition>
+      <transition id="prepare offline">
+        <name>
+          <text>prepare offline</text>
+        </name>
+      </transition>
+      <transition id="initialize">
+        <name>
+          <text>initialize</text>
+        </name>
+      </transition>
+      <transition id="finish editing">
+        <name>
+          <text>finish editing</text>
+        </name>
+      </transition>
+      <transition id="calculate protocol">
+        <name>
+          <text>calculate protocol</text>
+        </name>
+      </transition>
+      <transition id="check">
+        <name>
+          <text>check</text>
+        </name>
+      </transition>
+      <transition id="refuse">
+        <name>
+          <text>refuse</text>
+        </name>
+      </transition>
+      <transition id="prepare external">
+        <name>
+          <text>prepare external</text>
+        </name>
+      </transition>
+      <transition id="revoke decision">
+        <name>
+          <text>revoke decision</text>
+        </name>
+      </transition>
+      <transition id="refuse-&gt;insert document">
+        <name>
+          <text>refuse-&gt;insert document</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <transition id="withdraw-&gt;insert document">
+        <name>
+          <text>withdraw-&gt;insert document</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <transition id="decide-&gt;begin payment">
+        <name>
+          <text>decide-&gt;begin payment</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <transition id="finish preparations-&gt;save">
+        <name>
+          <text>finish preparations-&gt;save</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <transition id="calculate-&gt;remove document">
+        <name>
+          <text>calculate-&gt;remove document</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <transition id="calculate-&gt;check admissibility">
+        <name>
+          <text>calculate-&gt;check admissibility</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <transition id="begin payment-&gt;insert document">
+        <name>
+          <text>begin payment-&gt;insert document</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <transition id="save-&gt;finish preparations">
+        <name>
+          <text>save-&gt;finish preparations</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <transition id="finish editing-&gt;save">
+        <name>
+          <text>finish editing-&gt;save</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <transition id="begin editing-&gt;calculate">
+        <name>
+          <text>begin editing-&gt;calculate</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <transition id="create-&gt;initialize">
+        <name>
+          <text>create-&gt;initialize</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <transition id="calculate-&gt;finish editing">
+        <name>
+          <text>calculate-&gt;finish editing</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <transition id="check admissibility-&gt;calculate">
+        <name>
+          <text>check admissibility-&gt;calculate</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <transition id="finish payment-&gt;[]">
+        <name>
+          <text>finish payment-&gt;[]</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <transition id="prepare offline-&gt;save">
+        <name>
+          <text>prepare offline-&gt;save</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <transition id="initialize-&gt;begin editing">
+        <name>
+          <text>initialize-&gt;begin editing</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <transition id="save-&gt;begin admissibility check">
+        <name>
+          <text>save-&gt;begin admissibility check</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <transition id="begin editing-&gt;finish editing">
+        <name>
+          <text>begin editing-&gt;finish editing</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <transition id="begin editing from refused-&gt;calculate">
+        <name>
+          <text>begin editing from refused-&gt;calculate</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <transition id="begin preparations-&gt;prepare offline">
+        <name>
+          <text>begin preparations-&gt;prepare offline</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <transition id="save-&gt;finish editing">
+        <name>
+          <text>save-&gt;finish editing</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <place id="I_remove document">
+        <name>
+          <text>I_remove document</text>
+        </name>
+      </place>
+      <place id="I_[]">
+        <name>
+          <text>I_[]</text>
+        </name>
+      </place>
+      <place id="I_finish payment">
+        <name>
+          <text>I_finish payment</text>
+        </name>
+      </place>
+      <place id="O_finish payment">
+        <name>
+          <text>O_finish payment</text>
+        </name>
+      </place>
+      <place id="I_mail valid">
+        <name>
+          <text>I_mail valid</text>
+        </name>
+      </place>
+      <place id="I_begin editing">
+        <name>
+          <text>I_begin editing</text>
+        </name>
+      </place>
+      <place id="O_begin editing">
+        <name>
+          <text>O_begin editing</text>
+        </name>
+      </place>
+      <place id="O_decide">
+        <name>
+          <text>O_decide</text>
+        </name>
+      </place>
+      <place id="I_begin payment">
+        <name>
+          <text>I_begin payment</text>
+        </name>
+      </place>
+      <place id="O_begin payment">
+        <name>
+          <text>O_begin payment</text>
+        </name>
+      </place>
+      <place id="I_save">
+        <name>
+          <text>I_save</text>
+        </name>
+      </place>
+      <place id="O_save">
+        <name>
+          <text>O_save</text>
+        </name>
+      </place>
+      <place id="I_check admissibility">
+        <name>
+          <text>I_check admissibility</text>
+        </name>
+      </place>
+      <place id="O_check admissibility">
+        <name>
+          <text>O_check admissibility</text>
+        </name>
+      </place>
+      <place id="I_insert document">
+        <name>
+          <text>I_insert document</text>
+        </name>
+      </place>
+      <place id="I_calculate">
+        <name>
+          <text>I_calculate</text>
+        </name>
+      </place>
+      <place id="O_calculate">
+        <name>
+          <text>O_calculate</text>
+        </name>
+      </place>
+      <place id="O_withdraw">
+        <name>
+          <text>O_withdraw</text>
+        </name>
+      </place>
+      <place id="O_begin preparations">
+        <name>
+          <text>O_begin preparations</text>
+        </name>
+      </place>
+      <place id="I_finish preparations">
+        <name>
+          <text>I_finish preparations</text>
+        </name>
+      </place>
+      <place id="O_finish preparations">
+        <name>
+          <text>O_finish preparations</text>
+        </name>
+      </place>
+      <place id="I_begin admissibility check">
+        <name>
+          <text>I_begin admissibility check</text>
+        </name>
+      </place>
+      <place id="I_mail income">
+        <name>
+          <text>I_mail income</text>
+        </name>
+      </place>
+      <place id="O_create">
+        <name>
+          <text>O_create</text>
+        </name>
+      </place>
+      <place id="O_begin editing from refused">
+        <name>
+          <text>O_begin editing from refused</text>
+        </name>
+      </place>
+      <place id="I_abort external">
+        <name>
+          <text>I_abort external</text>
+        </name>
+      </place>
+      <place id="I_prepare offline">
+        <name>
+          <text>I_prepare offline</text>
+        </name>
+      </place>
+      <place id="O_prepare offline">
+        <name>
+          <text>O_prepare offline</text>
+        </name>
+      </place>
+      <place id="I_initialize">
+        <name>
+          <text>I_initialize</text>
+        </name>
+      </place>
+      <place id="O_initialize">
+        <name>
+          <text>O_initialize</text>
+        </name>
+      </place>
+      <place id="I_finish editing">
+        <name>
+          <text>I_finish editing</text>
+        </name>
+      </place>
+      <place id="O_finish editing">
+        <name>
+          <text>O_finish editing</text>
+        </name>
+      </place>
+      <place id="O_refuse">
+        <name>
+          <text>O_refuse</text>
+        </name>
+      </place>
+      <place id="StartPlace">
+        <name>
+          <text>StartPlace</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="EndPlace">
+        <name>
+          <text>EndPlace</text>
+        </name>
+      </place>
+      <arc id="I_remove document-&gt;remove document" source="I_remove document" target="remove document">
+        <name>
+          <text>[FROM(I_remove document) TO(remove document)]</text>
+        </name>
+      </arc>
+      <arc id="I_[]-&gt;[]" source="I_[]" target="[]">
+        <name>
+          <text>[FROM(I_[]) TO([])]</text>
+        </name>
+      </arc>
+      <arc id="I_finish payment-&gt;finish payment" source="I_finish payment" target="finish payment">
+        <name>
+          <text>[FROM(I_finish payment) TO(finish payment)]</text>
+        </name>
+      </arc>
+      <arc id="finish payment-&gt;O_finish payment" source="finish payment" target="O_finish payment">
+        <name>
+          <text>[FROM(finish payment) TO(O_finish payment)]</text>
+        </name>
+      </arc>
+      <arc id="I_mail valid-&gt;mail valid" source="I_mail valid" target="mail valid">
+        <name>
+          <text>[FROM(I_mail valid) TO(mail valid)]</text>
+        </name>
+      </arc>
+      <arc id="I_begin editing-&gt;begin editing" source="I_begin editing" target="begin editing">
+        <name>
+          <text>[FROM(I_begin editing) TO(begin editing)]</text>
+        </name>
+      </arc>
+      <arc id="begin editing-&gt;O_begin editing" source="begin editing" target="O_begin editing">
+        <name>
+          <text>[FROM(begin editing) TO(O_begin editing)]</text>
+        </name>
+      </arc>
+      <arc id="decide-&gt;O_decide" source="decide" target="O_decide">
+        <name>
+          <text>[FROM(decide) TO(O_decide)]</text>
+        </name>
+      </arc>
+      <arc id="I_begin payment-&gt;begin payment" source="I_begin payment" target="begin payment">
+        <name>
+          <text>[FROM(I_begin payment) TO(begin payment)]</text>
+        </name>
+      </arc>
+      <arc id="begin payment-&gt;O_begin payment" source="begin payment" target="O_begin payment">
+        <name>
+          <text>[FROM(begin payment) TO(O_begin payment)]</text>
+        </name>
+      </arc>
+      <arc id="I_save-&gt;save" source="I_save" target="save">
+        <name>
+          <text>[FROM(I_save) TO(save)]</text>
+        </name>
+      </arc>
+      <arc id="save-&gt;O_save" source="save" target="O_save">
+        <name>
+          <text>[FROM(save) TO(O_save)]</text>
+        </name>
+      </arc>
+      <arc id="I_check admissibility-&gt;check admissibility" source="I_check admissibility" target="check admissibility">
+        <name>
+          <text>[FROM(I_check admissibility) TO(check admissibility)]</text>
+        </name>
+      </arc>
+      <arc id="check admissibility-&gt;O_check admissibility" source="check admissibility" target="O_check admissibility">
+        <name>
+          <text>[FROM(check admissibility) TO(O_check admissibility)]</text>
+        </name>
+      </arc>
+      <arc id="I_insert document-&gt;insert document" source="I_insert document" target="insert document">
+        <name>
+          <text>[FROM(I_insert document) TO(insert document)]</text>
+        </name>
+      </arc>
+      <arc id="I_calculate-&gt;calculate" source="I_calculate" target="calculate">
+        <name>
+          <text>[FROM(I_calculate) TO(calculate)]</text>
+        </name>
+      </arc>
+      <arc id="calculate-&gt;O_calculate" source="calculate" target="O_calculate">
+        <name>
+          <text>[FROM(calculate) TO(O_calculate)]</text>
+        </name>
+      </arc>
+      <arc id="withdraw-&gt;O_withdraw" source="withdraw" target="O_withdraw">
+        <name>
+          <text>[FROM(withdraw) TO(O_withdraw)]</text>
+        </name>
+      </arc>
+      <arc id="begin preparations-&gt;O_begin preparations" source="begin preparations" target="O_begin preparations">
+        <name>
+          <text>[FROM(begin preparations) TO(O_begin preparations)]</text>
+        </name>
+      </arc>
+      <arc id="I_finish preparations-&gt;finish preparations" source="I_finish preparations" target="finish preparations">
+        <name>
+          <text>[FROM(I_finish preparations) TO(finish preparations)]</text>
+        </name>
+      </arc>
+      <arc id="finish preparations-&gt;O_finish preparations" source="finish preparations" target="O_finish preparations">
+        <name>
+          <text>[FROM(finish preparations) TO(O_finish preparations)]</text>
+        </name>
+      </arc>
+      <arc id="I_begin admissibility check-&gt;begin admissibility check" source="I_begin admissibility check" target="begin admissibility check">
+        <name>
+          <text>[FROM(I_begin admissibility check) TO(begin admissibility check)]</text>
+        </name>
+      </arc>
+      <arc id="I_mail income-&gt;mail income" source="I_mail income" target="mail income">
+        <name>
+          <text>[FROM(I_mail income) TO(mail income)]</text>
+        </name>
+      </arc>
+      <arc id="create-&gt;O_create" source="create" target="O_create">
+        <name>
+          <text>[FROM(create) TO(O_create)]</text>
+        </name>
+      </arc>
+      <arc id="begin editing from refused-&gt;O_begin editing from refused" source="begin editing from refused" target="O_begin editing from refused">
+        <name>
+          <text>[FROM(begin editing from refused) TO(O_begin editing from refused)]</text>
+        </name>
+      </arc>
+      <arc id="I_abort external-&gt;abort external" source="I_abort external" target="abort external">
+        <name>
+          <text>[FROM(I_abort external) TO(abort external)]</text>
+        </name>
+      </arc>
+      <arc id="I_prepare offline-&gt;prepare offline" source="I_prepare offline" target="prepare offline">
+        <name>
+          <text>[FROM(I_prepare offline) TO(prepare offline)]</text>
+        </name>
+      </arc>
+      <arc id="prepare offline-&gt;O_prepare offline" source="prepare offline" target="O_prepare offline">
+        <name>
+          <text>[FROM(prepare offline) TO(O_prepare offline)]</text>
+        </name>
+      </arc>
+      <arc id="I_initialize-&gt;initialize" source="I_initialize" target="initialize">
+        <name>
+          <text>[FROM(I_initialize) TO(initialize)]</text>
+        </name>
+      </arc>
+      <arc id="initialize-&gt;O_initialize" source="initialize" target="O_initialize">
+        <name>
+          <text>[FROM(initialize) TO(O_initialize)]</text>
+        </name>
+      </arc>
+      <arc id="I_finish editing-&gt;finish editing" source="I_finish editing" target="finish editing">
+        <name>
+          <text>[FROM(I_finish editing) TO(finish editing)]</text>
+        </name>
+      </arc>
+      <arc id="finish editing-&gt;O_finish editing" source="finish editing" target="O_finish editing">
+        <name>
+          <text>[FROM(finish editing) TO(O_finish editing)]</text>
+        </name>
+      </arc>
+      <arc id="refuse-&gt;O_refuse" source="refuse" target="O_refuse">
+        <name>
+          <text>[FROM(refuse) TO(O_refuse)]</text>
+        </name>
+      </arc>
+      <arc id="O_refuse-&gt;refuse-&gt;insert document" source="O_refuse" target="refuse-&gt;insert document">
+        <name>
+          <text>[FROM(O_refuse) TO(refuse-&gt;insert document)]</text>
+        </name>
+      </arc>
+      <arc id="refuse-&gt;insert document-&gt;I_insert document" source="refuse-&gt;insert document" target="I_insert document">
+        <name>
+          <text>[FROM(refuse-&gt;insert document) TO(I_insert document)]</text>
+        </name>
+      </arc>
+      <arc id="O_withdraw-&gt;withdraw-&gt;insert document" source="O_withdraw" target="withdraw-&gt;insert document">
+        <name>
+          <text>[FROM(O_withdraw) TO(withdraw-&gt;insert document)]</text>
+        </name>
+      </arc>
+      <arc id="withdraw-&gt;insert document-&gt;I_insert document" source="withdraw-&gt;insert document" target="I_insert document">
+        <name>
+          <text>[FROM(withdraw-&gt;insert document) TO(I_insert document)]</text>
+        </name>
+      </arc>
+      <arc id="O_decide-&gt;decide-&gt;begin payment" source="O_decide" target="decide-&gt;begin payment">
+        <name>
+          <text>[FROM(O_decide) TO(decide-&gt;begin payment)]</text>
+        </name>
+      </arc>
+      <arc id="decide-&gt;begin payment-&gt;I_begin payment" source="decide-&gt;begin payment" target="I_begin payment">
+        <name>
+          <text>[FROM(decide-&gt;begin payment) TO(I_begin payment)]</text>
+        </name>
+      </arc>
+      <arc id="O_finish preparations-&gt;finish preparations-&gt;save" source="O_finish preparations" target="finish preparations-&gt;save">
+        <name>
+          <text>[FROM(O_finish preparations) TO(finish preparations-&gt;save)]</text>
+        </name>
+      </arc>
+      <arc id="finish preparations-&gt;save-&gt;I_save" source="finish preparations-&gt;save" target="I_save">
+        <name>
+          <text>[FROM(finish preparations-&gt;save) TO(I_save)]</text>
+        </name>
+      </arc>
+      <arc id="O_calculate-&gt;calculate-&gt;remove document" source="O_calculate" target="calculate-&gt;remove document">
+        <name>
+          <text>[FROM(O_calculate) TO(calculate-&gt;remove document)]</text>
+        </name>
+      </arc>
+      <arc id="calculate-&gt;remove document-&gt;I_remove document" source="calculate-&gt;remove document" target="I_remove document">
+        <name>
+          <text>[FROM(calculate-&gt;remove document) TO(I_remove document)]</text>
+        </name>
+      </arc>
+      <arc id="O_calculate-&gt;calculate-&gt;check admissibility" source="O_calculate" target="calculate-&gt;check admissibility">
+        <name>
+          <text>[FROM(O_calculate) TO(calculate-&gt;check admissibility)]</text>
+        </name>
+      </arc>
+      <arc id="calculate-&gt;check admissibility-&gt;I_check admissibility" source="calculate-&gt;check admissibility" target="I_check admissibility">
+        <name>
+          <text>[FROM(calculate-&gt;check admissibility) TO(I_check admissibility)]</text>
+        </name>
+      </arc>
+      <arc id="O_begin payment-&gt;begin payment-&gt;insert document" source="O_begin payment" target="begin payment-&gt;insert document">
+        <name>
+          <text>[FROM(O_begin payment) TO(begin payment-&gt;insert document)]</text>
+        </name>
+      </arc>
+      <arc id="begin payment-&gt;insert document-&gt;I_insert document" source="begin payment-&gt;insert document" target="I_insert document">
+        <name>
+          <text>[FROM(begin payment-&gt;insert document) TO(I_insert document)]</text>
+        </name>
+      </arc>
+      <arc id="O_save-&gt;save-&gt;finish preparations" source="O_save" target="save-&gt;finish preparations">
+        <name>
+          <text>[FROM(O_save) TO(save-&gt;finish preparations)]</text>
+        </name>
+      </arc>
+      <arc id="save-&gt;finish preparations-&gt;I_finish preparations" source="save-&gt;finish preparations" target="I_finish preparations">
+        <name>
+          <text>[FROM(save-&gt;finish preparations) TO(I_finish preparations)]</text>
+        </name>
+      </arc>
+      <arc id="O_finish editing-&gt;finish editing-&gt;save" source="O_finish editing" target="finish editing-&gt;save">
+        <name>
+          <text>[FROM(O_finish editing) TO(finish editing-&gt;save)]</text>
+        </name>
+      </arc>
+      <arc id="finish editing-&gt;save-&gt;I_save" source="finish editing-&gt;save" target="I_save">
+        <name>
+          <text>[FROM(finish editing-&gt;save) TO(I_save)]</text>
+        </name>
+      </arc>
+      <arc id="O_begin editing-&gt;begin editing-&gt;calculate" source="O_begin editing" target="begin editing-&gt;calculate">
+        <name>
+          <text>[FROM(O_begin editing) TO(begin editing-&gt;calculate)]</text>
+        </name>
+      </arc>
+      <arc id="begin editing-&gt;calculate-&gt;I_calculate" source="begin editing-&gt;calculate" target="I_calculate">
+        <name>
+          <text>[FROM(begin editing-&gt;calculate) TO(I_calculate)]</text>
+        </name>
+      </arc>
+      <arc id="O_create-&gt;create-&gt;initialize" source="O_create" target="create-&gt;initialize">
+        <name>
+          <text>[FROM(O_create) TO(create-&gt;initialize)]</text>
+        </name>
+      </arc>
+      <arc id="create-&gt;initialize-&gt;I_initialize" source="create-&gt;initialize" target="I_initialize">
+        <name>
+          <text>[FROM(create-&gt;initialize) TO(I_initialize)]</text>
+        </name>
+      </arc>
+      <arc id="O_calculate-&gt;calculate-&gt;finish editing" source="O_calculate" target="calculate-&gt;finish editing">
+        <name>
+          <text>[FROM(O_calculate) TO(calculate-&gt;finish editing)]</text>
+        </name>
+      </arc>
+      <arc id="calculate-&gt;finish editing-&gt;I_finish editing" source="calculate-&gt;finish editing" target="I_finish editing">
+        <name>
+          <text>[FROM(calculate-&gt;finish editing) TO(I_finish editing)]</text>
+        </name>
+      </arc>
+      <arc id="O_check admissibility-&gt;check admissibility-&gt;calculate" source="O_check admissibility" target="check admissibility-&gt;calculate">
+        <name>
+          <text>[FROM(O_check admissibility) TO(check admissibility-&gt;calculate)]</text>
+        </name>
+      </arc>
+      <arc id="check admissibility-&gt;calculate-&gt;I_calculate" source="check admissibility-&gt;calculate" target="I_calculate">
+        <name>
+          <text>[FROM(check admissibility-&gt;calculate) TO(I_calculate)]</text>
+        </name>
+      </arc>
+      <arc id="O_finish payment-&gt;finish payment-&gt;[]" source="O_finish payment" target="finish payment-&gt;[]">
+        <name>
+          <text>[FROM(O_finish payment) TO(finish payment-&gt;[])]</text>
+        </name>
+      </arc>
+      <arc id="finish payment-&gt;[]-&gt;I_[]" source="finish payment-&gt;[]" target="I_[]">
+        <name>
+          <text>[FROM(finish payment-&gt;[]) TO(I_[])]</text>
+        </name>
+      </arc>
+      <arc id="O_prepare offline-&gt;prepare offline-&gt;save" source="O_prepare offline" target="prepare offline-&gt;save">
+        <name>
+          <text>[FROM(O_prepare offline) TO(prepare offline-&gt;save)]</text>
+        </name>
+      </arc>
+      <arc id="prepare offline-&gt;save-&gt;I_save" source="prepare offline-&gt;save" target="I_save">
+        <name>
+          <text>[FROM(prepare offline-&gt;save) TO(I_save)]</text>
+        </name>
+      </arc>
+      <arc id="O_initialize-&gt;initialize-&gt;begin editing" source="O_initialize" target="initialize-&gt;begin editing">
+        <name>
+          <text>[FROM(O_initialize) TO(initialize-&gt;begin editing)]</text>
+        </name>
+      </arc>
+      <arc id="initialize-&gt;begin editing-&gt;I_begin editing" source="initialize-&gt;begin editing" target="I_begin editing">
+        <name>
+          <text>[FROM(initialize-&gt;begin editing) TO(I_begin editing)]</text>
+        </name>
+      </arc>
+      <arc id="O_save-&gt;save-&gt;begin admissibility check" source="O_save" target="save-&gt;begin admissibility check">
+        <name>
+          <text>[FROM(O_save) TO(save-&gt;begin admissibility check)]</text>
+        </name>
+      </arc>
+      <arc id="save-&gt;begin admissibility check-&gt;I_begin admissibility check" source="save-&gt;begin admissibility check" target="I_begin admissibility check">
+        <name>
+          <text>[FROM(save-&gt;begin admissibility check) TO(I_begin admissibility check)]</text>
+        </name>
+      </arc>
+      <arc id="O_begin editing-&gt;begin editing-&gt;finish editing" source="O_begin editing" target="begin editing-&gt;finish editing">
+        <name>
+          <text>[FROM(O_begin editing) TO(begin editing-&gt;finish editing)]</text>
+        </name>
+      </arc>
+      <arc id="begin editing-&gt;finish editing-&gt;I_finish editing" source="begin editing-&gt;finish editing" target="I_finish editing">
+        <name>
+          <text>[FROM(begin editing-&gt;finish editing) TO(I_finish editing)]</text>
+        </name>
+      </arc>
+      <arc id="O_begin editing from refused-&gt;begin editing from refused-&gt;calculate" source="O_begin editing from refused" target="begin editing from refused-&gt;calculate">
+        <name>
+          <text>[FROM(O_begin editing from refused) TO(begin editing from refused-&gt;calculate)]</text>
+        </name>
+      </arc>
+      <arc id="begin editing from refused-&gt;calculate-&gt;I_calculate" source="begin editing from refused-&gt;calculate" target="I_calculate">
+        <name>
+          <text>[FROM(begin editing from refused-&gt;calculate) TO(I_calculate)]</text>
+        </name>
+      </arc>
+      <arc id="O_begin preparations-&gt;begin preparations-&gt;prepare offline" source="O_begin preparations" target="begin preparations-&gt;prepare offline">
+        <name>
+          <text>[FROM(O_begin preparations) TO(begin preparations-&gt;prepare offline)]</text>
+        </name>
+      </arc>
+      <arc id="begin preparations-&gt;prepare offline-&gt;I_prepare offline" source="begin preparations-&gt;prepare offline" target="I_prepare offline">
+        <name>
+          <text>[FROM(begin preparations-&gt;prepare offline) TO(I_prepare offline)]</text>
+        </name>
+      </arc>
+      <arc id="O_save-&gt;save-&gt;finish editing" source="O_save" target="save-&gt;finish editing">
+        <name>
+          <text>[FROM(O_save) TO(save-&gt;finish editing)]</text>
+        </name>
+      </arc>
+      <arc id="save-&gt;finish editing-&gt;I_finish editing" source="save-&gt;finish editing" target="I_finish editing">
+        <name>
+          <text>[FROM(save-&gt;finish editing) TO(I_finish editing)]</text>
+        </name>
+      </arc>
+      <arc id="change department-&gt;I_[]" source="change department" target="I_[]">
+        <name>
+          <text>[FROM(change department) TO(I_[])]</text>
+        </name>
+      </arc>
+      <arc id="revoke approval-&gt;I_begin admissibility check" source="revoke approval" target="I_begin admissibility check">
+        <name>
+          <text>[FROM(revoke approval) TO(I_begin admissibility check)]</text>
+        </name>
+      </arc>
+      <arc id="abort external-&gt;I_finish preparations" source="abort external" target="I_finish preparations">
+        <name>
+          <text>[FROM(abort external) TO(I_finish preparations)]</text>
+        </name>
+      </arc>
+      <arc id="take original document-&gt;I_begin editing" source="take original document" target="I_begin editing">
+        <name>
+          <text>[FROM(take original document) TO(I_begin editing)]</text>
+        </name>
+      </arc>
+      <arc id="check-&gt;I_finish editing" source="check" target="I_finish editing">
+        <name>
+          <text>[FROM(check) TO(I_finish editing)]</text>
+        </name>
+      </arc>
+      <arc id="calculate protocol-&gt;I_save" source="calculate protocol" target="I_save">
+        <name>
+          <text>[FROM(calculate protocol) TO(I_save)]</text>
+        </name>
+      </arc>
+      <arc id="performed-&gt;I_initialize" source="performed" target="I_initialize">
+        <name>
+          <text>[FROM(performed) TO(I_initialize)]</text>
+        </name>
+      </arc>
+      <arc id="insert document-&gt;I_finish payment" source="insert document" target="I_finish payment">
+        <name>
+          <text>[FROM(insert document) TO(I_finish payment)]</text>
+        </name>
+      </arc>
+      <arc id="clear-&gt;I_begin editing" source="clear" target="I_begin editing">
+        <name>
+          <text>[FROM(clear) TO(I_begin editing)]</text>
+        </name>
+      </arc>
+      <arc id="revoke withdrawal-&gt;I_remove document" source="revoke withdrawal" target="I_remove document">
+        <name>
+          <text>[FROM(revoke withdrawal) TO(I_remove document)]</text>
+        </name>
+      </arc>
+      <arc id="begin admissibility check-&gt;I_check admissibility" source="begin admissibility check" target="I_check admissibility">
+        <name>
+          <text>[FROM(begin admissibility check) TO(I_check admissibility)]</text>
+        </name>
+      </arc>
+      <arc id="approve-&gt;I_begin editing" source="approve" target="I_begin editing">
+        <name>
+          <text>[FROM(approve) TO(I_begin editing)]</text>
+        </name>
+      </arc>
+      <arc id="plan-&gt;I_save" source="plan" target="I_save">
+        <name>
+          <text>[FROM(plan) TO(I_save)]</text>
+        </name>
+      </arc>
+      <arc id="mail valid-&gt;I_initialize" source="mail valid" target="I_initialize">
+        <name>
+          <text>[FROM(mail valid) TO(I_initialize)]</text>
+        </name>
+      </arc>
+      <arc id="cancel offline-&gt;I_prepare offline" source="cancel offline" target="I_prepare offline">
+        <name>
+          <text>[FROM(cancel offline) TO(I_prepare offline)]</text>
+        </name>
+      </arc>
+      <arc id="discard-&gt;I_save" source="discard" target="I_save">
+        <name>
+          <text>[FROM(discard) TO(I_save)]</text>
+        </name>
+      </arc>
+      <arc id="performed offline-&gt;I_save" source="performed offline" target="I_save">
+        <name>
+          <text>[FROM(performed offline) TO(I_save)]</text>
+        </name>
+      </arc>
+      <arc id="revoke decision-&gt;I_calculate" source="revoke decision" target="I_calculate">
+        <name>
+          <text>[FROM(revoke decision) TO(I_calculate)]</text>
+        </name>
+      </arc>
+      <arc id="|&gt;-&gt;I_mail income" source="|&gt;" target="I_mail income">
+        <name>
+          <text>[FROM(|&gt;) TO(I_mail income)]</text>
+        </name>
+      </arc>
+      <arc id="abort payment-&gt;I_begin payment" source="abort payment" target="I_begin payment">
+        <name>
+          <text>[FROM(abort payment) TO(I_begin payment)]</text>
+        </name>
+      </arc>
+      <arc id="restart editing-&gt;I_save" source="restart editing" target="I_save">
+        <name>
+          <text>[FROM(restart editing) TO(I_save)]</text>
+        </name>
+      </arc>
+      <arc id="mail income-&gt;I_mail valid" source="mail income" target="I_mail valid">
+        <name>
+          <text>[FROM(mail income) TO(I_mail valid)]</text>
+        </name>
+      </arc>
+      <arc id="finish pre-check-&gt;I_finish editing" source="finish pre-check" target="I_finish editing">
+        <name>
+          <text>[FROM(finish pre-check) TO(I_finish editing)]</text>
+        </name>
+      </arc>
+      <arc id="remove document-&gt;I_insert document" source="remove document" target="I_insert document">
+        <name>
+          <text>[FROM(remove document) TO(I_insert document)]</text>
+        </name>
+      </arc>
+      <arc id="correction GFM17-&gt;I_calculate" source="correction GFM17" target="I_calculate">
+        <name>
+          <text>[FROM(correction GFM17) TO(I_calculate)]</text>
+        </name>
+      </arc>
+      <arc id="prepare external-&gt;I_abort external" source="prepare external" target="I_abort external">
+        <name>
+          <text>[FROM(prepare external) TO(I_abort external)]</text>
+        </name>
+      </arc>
+      <arc id="[]-&gt;EndPlace" source="[]" target="EndPlace">
+        <name>
+          <text>[FROM([]) TO(EndPlace)]</text>
+        </name>
+      </arc>
+      <arc id="O_prepare offline-&gt;cancel offline" source="O_prepare offline" target="cancel offline">
+        <name>
+          <text>[FROM(O_prepare offline) TO(cancel offline)]</text>
+        </name>
+      </arc>
+      <arc id="O_refuse-&gt;begin editing from refused" source="O_refuse" target="begin editing from refused">
+        <name>
+          <text>[FROM(O_refuse) TO(begin editing from refused)]</text>
+        </name>
+      </arc>
+      <arc id="O_check admissibility-&gt;refuse" source="O_check admissibility" target="refuse">
+        <name>
+          <text>[FROM(O_check admissibility) TO(refuse)]</text>
+        </name>
+      </arc>
+      <arc id="O_begin preparations-&gt;prepare external" source="O_begin preparations" target="prepare external">
+        <name>
+          <text>[FROM(O_begin preparations) TO(prepare external)]</text>
+        </name>
+      </arc>
+      <arc id="O_begin editing-&gt;discard" source="O_begin editing" target="discard">
+        <name>
+          <text>[FROM(O_begin editing) TO(discard)]</text>
+        </name>
+      </arc>
+      <arc id="O_finish editing-&gt;take original document" source="O_finish editing" target="take original document">
+        <name>
+          <text>[FROM(O_finish editing) TO(take original document)]</text>
+        </name>
+      </arc>
+      <arc id="O_begin editing from refused-&gt;revoke approval" source="O_begin editing from refused" target="revoke approval">
+        <name>
+          <text>[FROM(O_begin editing from refused) TO(revoke approval)]</text>
+        </name>
+      </arc>
+      <arc id="O_finish editing-&gt;decide" source="O_finish editing" target="decide">
+        <name>
+          <text>[FROM(O_finish editing) TO(decide)]</text>
+        </name>
+      </arc>
+      <arc id="O_decide-&gt;revoke decision" source="O_decide" target="revoke decision">
+        <name>
+          <text>[FROM(O_decide) TO(revoke decision)]</text>
+        </name>
+      </arc>
+      <arc id="O_save-&gt;calculate protocol" source="O_save" target="calculate protocol">
+        <name>
+          <text>[FROM(O_save) TO(calculate protocol)]</text>
+        </name>
+      </arc>
+      <arc id="O_create-&gt;clear" source="O_create" target="clear">
+        <name>
+          <text>[FROM(O_create) TO(clear)]</text>
+        </name>
+      </arc>
+      <arc id="O_create-&gt;correction GFM17" source="O_create" target="correction GFM17">
+        <name>
+          <text>[FROM(O_create) TO(correction GFM17)]</text>
+        </name>
+      </arc>
+      <arc id="O_finish editing-&gt;restart editing" source="O_finish editing" target="restart editing">
+        <name>
+          <text>[FROM(O_finish editing) TO(restart editing)]</text>
+        </name>
+      </arc>
+      <arc id="O_withdraw-&gt;revoke withdrawal" source="O_withdraw" target="revoke withdrawal">
+        <name>
+          <text>[FROM(O_withdraw) TO(revoke withdrawal)]</text>
+        </name>
+      </arc>
+      <arc id="O_calculate-&gt;withdraw" source="O_calculate" target="withdraw">
+        <name>
+          <text>[FROM(O_calculate) TO(withdraw)]</text>
+        </name>
+      </arc>
+      <arc id="O_save-&gt;performed offline" source="O_save" target="performed offline">
+        <name>
+          <text>[FROM(O_save) TO(performed offline)]</text>
+        </name>
+      </arc>
+      <arc id="O_begin editing-&gt;finish pre-check" source="O_begin editing" target="finish pre-check">
+        <name>
+          <text>[FROM(O_begin editing) TO(finish pre-check)]</text>
+        </name>
+      </arc>
+      <arc id="O_initialize-&gt;plan" source="O_initialize" target="plan">
+        <name>
+          <text>[FROM(O_initialize) TO(plan)]</text>
+        </name>
+      </arc>
+      <arc id="O_finish preparations-&gt;begin preparations" source="O_finish preparations" target="begin preparations">
+        <name>
+          <text>[FROM(O_finish preparations) TO(begin preparations)]</text>
+        </name>
+      </arc>
+      <arc id="O_finish editing-&gt;create" source="O_finish editing" target="create">
+        <name>
+          <text>[FROM(O_finish editing) TO(create)]</text>
+        </name>
+      </arc>
+      <arc id="O_finish payment-&gt;change department" source="O_finish payment" target="change department">
+        <name>
+          <text>[FROM(O_finish payment) TO(change department)]</text>
+        </name>
+      </arc>
+      <arc id="O_initialize-&gt;performed" source="O_initialize" target="performed">
+        <name>
+          <text>[FROM(O_initialize) TO(performed)]</text>
+        </name>
+      </arc>
+      <arc id="O_check admissibility-&gt;approve" source="O_check admissibility" target="approve">
+        <name>
+          <text>[FROM(O_check admissibility) TO(approve)]</text>
+        </name>
+      </arc>
+      <arc id="O_save-&gt;check" source="O_save" target="check">
+        <name>
+          <text>[FROM(O_save) TO(check)]</text>
+        </name>
+      </arc>
+      <arc id="O_begin payment-&gt;abort payment" source="O_begin payment" target="abort payment">
+        <name>
+          <text>[FROM(O_begin payment) TO(abort payment)]</text>
+        </name>
+      </arc>
+      <arc id="StartPlace-&gt;|&gt;" source="StartPlace" target="|&gt;">
+        <name>
+          <text>[FROM(StartPlace) TO(|&gt;)]</text>
+        </name>
+      </arc>
+    </page>
+    <finalMarkings>
+      <marking>
+        <place idref="I_remove document">
+          <text>0</text>
+        </place>
+        <place idref="I_[]">
+          <text>0</text>
+        </place>
+        <place idref="I_finish payment">
+          <text>0</text>
+        </place>
+        <place idref="O_finish payment">
+          <text>0</text>
+        </place>
+        <place idref="I_mail valid">
+          <text>0</text>
+        </place>
+        <place idref="I_begin editing">
+          <text>0</text>
+        </place>
+        <place idref="O_begin editing">
+          <text>0</text>
+        </place>
+        <place idref="O_decide">
+          <text>0</text>
+        </place>
+        <place idref="I_begin payment">
+          <text>0</text>
+        </place>
+        <place idref="O_begin payment">
+          <text>0</text>
+        </place>
+        <place idref="I_save">
+          <text>0</text>
+        </place>
+        <place idref="O_save">
+          <text>0</text>
+        </place>
+        <place idref="I_check admissibility">
+          <text>0</text>
+        </place>
+        <place idref="O_check admissibility">
+          <text>0</text>
+        </place>
+        <place idref="I_insert document">
+          <text>0</text>
+        </place>
+        <place idref="I_calculate">
+          <text>0</text>
+        </place>
+        <place idref="O_calculate">
+          <text>0</text>
+        </place>
+        <place idref="O_withdraw">
+          <text>0</text>
+        </place>
+        <place idref="O_begin preparations">
+          <text>0</text>
+        </place>
+        <place idref="I_finish preparations">
+          <text>0</text>
+        </place>
+        <place idref="O_finish preparations">
+          <text>0</text>
+        </place>
+        <place idref="I_begin admissibility check">
+          <text>0</text>
+        </place>
+        <place idref="I_mail income">
+          <text>0</text>
+        </place>
+        <place idref="O_create">
+          <text>0</text>
+        </place>
+        <place idref="O_begin editing from refused">
+          <text>0</text>
+        </place>
+        <place idref="I_abort external">
+          <text>0</text>
+        </place>
+        <place idref="I_prepare offline">
+          <text>0</text>
+        </place>
+        <place idref="O_prepare offline">
+          <text>0</text>
+        </place>
+        <place idref="I_initialize">
+          <text>0</text>
+        </place>
+        <place idref="O_initialize">
+          <text>0</text>
+        </place>
+        <place idref="I_finish editing">
+          <text>0</text>
+        </place>
+        <place idref="O_finish editing">
+          <text>0</text>
+        </place>
+        <place idref="O_refuse">
+          <text>0</text>
+        </place>
+        <place idref="StartPlace">
+          <text>0</text>
+        </place>
+        <place idref="EndPlace">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalMarkings>
+  </net>
+</pnml>

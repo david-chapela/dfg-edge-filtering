@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+  <net xmlns="" id="TranslatedPetriNet" type="http://www.pnml.org/version-2009/grammar/ptnet">
+    <name>
+      <text>TranslatedPetriNet</text>
+    </name>
+    <page id="0">
+      <transition id="|&gt;">
+        <name>
+          <text>|&gt;</text>
+        </name>
+      </transition>
+      <transition id="[]">
+        <name>
+          <text>[]</text>
+        </name>
+      </transition>
+      <transition id="W_Shortened completion">
+        <name>
+          <text>W_Shortened completion</text>
+        </name>
+      </transition>
+      <transition id="O_Create Offer">
+        <name>
+          <text>O_Create Offer</text>
+        </name>
+      </transition>
+      <transition id="O_Returned">
+        <name>
+          <text>O_Returned</text>
+        </name>
+      </transition>
+      <transition id="W_Call incomplete files">
+        <name>
+          <text>W_Call incomplete files</text>
+        </name>
+      </transition>
+      <transition id="O_Sent (online only)">
+        <name>
+          <text>O_Sent (online only)</text>
+        </name>
+      </transition>
+      <transition id="W_Call after offers">
+        <name>
+          <text>W_Call after offers</text>
+        </name>
+      </transition>
+      <transition id="W_Complete application">
+        <name>
+          <text>W_Complete application</text>
+        </name>
+      </transition>
+      <transition id="O_Refused">
+        <name>
+          <text>O_Refused</text>
+        </name>
+      </transition>
+      <transition id="W_Handle leads">
+        <name>
+          <text>W_Handle leads</text>
+        </name>
+      </transition>
+      <transition id="A_Accepted">
+        <name>
+          <text>A_Accepted</text>
+        </name>
+      </transition>
+      <transition id="O_Created">
+        <name>
+          <text>O_Created</text>
+        </name>
+      </transition>
+      <transition id="O_Accepted">
+        <name>
+          <text>O_Accepted</text>
+        </name>
+      </transition>
+      <transition id="O_Cancelled">
+        <name>
+          <text>O_Cancelled</text>
+        </name>
+      </transition>
+      <transition id="W_Assess potential fraud">
+        <name>
+          <text>W_Assess potential fraud</text>
+        </name>
+      </transition>
+      <transition id="A_Validating">
+        <name>
+          <text>A_Validating</text>
+        </name>
+      </transition>
+      <transition id="A_Complete">
+        <name>
+          <text>A_Complete</text>
+        </name>
+      </transition>
+      <transition id="A_Incomplete">
+        <name>
+          <text>A_Incomplete</text>
+        </name>
+      </transition>
+      <transition id="W_Validate application">
+        <name>
+          <text>W_Validate application</text>
+        </name>
+      </transition>
+      <transition id="A_Cancelled">
+        <name>
+          <text>A_Cancelled</text>
+        </name>
+      </transition>
+      <transition id="A_Denied">
+        <name>
+          <text>A_Denied</text>
+        </name>
+      </transition>
+      <transition id="A_Create Application">
+        <name>
+          <text>A_Create Application</text>
+        </name>
+      </transition>
+      <transition id="W_Personal Loan collection">
+        <name>
+          <text>W_Personal Loan collection</text>
+        </name>
+      </transition>
+      <transition id="A_Submitted">
+        <name>
+          <text>A_Submitted</text>
+        </name>
+      </transition>
+      <transition id="A_Concept">
+        <name>
+          <text>A_Concept</text>
+        </name>
+      </transition>
+      <transition id="O_Sent (mail and online)">
+        <name>
+          <text>O_Sent (mail and online)</text>
+        </name>
+      </transition>
+      <transition id="A_Pending">
+        <name>
+          <text>A_Pending</text>
+        </name>
+      </transition>
+      <transition id="W_Call after offers-&gt;W_Validate application">
+        <name>
+          <text>W_Call after offers-&gt;W_Validate application</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <transition id="W_Call incomplete files-&gt;W_Validate application">
+        <name>
+          <text>W_Call incomplete files-&gt;W_Validate application</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <transition id="W_Complete application-&gt;W_Call after offers">
+        <name>
+          <text>W_Complete application-&gt;W_Call after offers</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <place id="I_[]">
+        <name>
+          <text>I_[]</text>
+        </name>
+      </place>
+      <place id="I_W_Shortened completion">
+        <name>
+          <text>I_W_Shortened completion</text>
+        </name>
+      </place>
+      <place id="I_O_Create Offer">
+        <name>
+          <text>I_O_Create Offer</text>
+        </name>
+      </place>
+      <place id="I_O_Returned">
+        <name>
+          <text>I_O_Returned</text>
+        </name>
+      </place>
+      <place id="I_W_Call incomplete files">
+        <name>
+          <text>I_W_Call incomplete files</text>
+        </name>
+      </place>
+      <place id="O_W_Call incomplete files">
+        <name>
+          <text>O_W_Call incomplete files</text>
+        </name>
+      </place>
+      <place id="I_W_Call after offers">
+        <name>
+          <text>I_W_Call after offers</text>
+        </name>
+      </place>
+      <place id="O_W_Call after offers">
+        <name>
+          <text>O_W_Call after offers</text>
+        </name>
+      </place>
+      <place id="I_W_Complete application">
+        <name>
+          <text>I_W_Complete application</text>
+        </name>
+      </place>
+      <place id="O_W_Complete application">
+        <name>
+          <text>O_W_Complete application</text>
+        </name>
+      </place>
+      <place id="I_O_Refused">
+        <name>
+          <text>I_O_Refused</text>
+        </name>
+      </place>
+      <place id="I_W_Handle leads">
+        <name>
+          <text>I_W_Handle leads</text>
+        </name>
+      </place>
+      <place id="I_O_Created">
+        <name>
+          <text>I_O_Created</text>
+        </name>
+      </place>
+      <place id="O_O_Created">
+        <name>
+          <text>O_O_Created</text>
+        </name>
+      </place>
+      <place id="I_O_Cancelled">
+        <name>
+          <text>I_O_Cancelled</text>
+        </name>
+      </place>
+      <place id="I_W_Validate application">
+        <name>
+          <text>I_W_Validate application</text>
+        </name>
+      </place>
+      <place id="O_W_Validate application">
+        <name>
+          <text>O_W_Validate application</text>
+        </name>
+      </place>
+      <place id="I_A_Create Application">
+        <name>
+          <text>I_A_Create Application</text>
+        </name>
+      </place>
+      <place id="I_A_Submitted">
+        <name>
+          <text>I_A_Submitted</text>
+        </name>
+      </place>
+      <place id="I_A_Pending">
+        <name>
+          <text>I_A_Pending</text>
+        </name>
+      </place>
+      <place id="StartPlace">
+        <name>
+          <text>StartPlace</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="EndPlace">
+        <name>
+          <text>EndPlace</text>
+        </name>
+      </place>
+      <arc id="I_[]-&gt;[]" source="I_[]" target="[]">
+        <name>
+          <text>[FROM(I_[]) TO([])]</text>
+        </name>
+      </arc>
+      <arc id="I_W_Shortened completion-&gt;W_Shortened completion" source="I_W_Shortened completion" target="W_Shortened completion">
+        <name>
+          <text>[FROM(I_W_Shortened completion) TO(W_Shortened completion)]</text>
+        </name>
+      </arc>
+      <arc id="I_O_Create Offer-&gt;O_Create Offer" source="I_O_Create Offer" target="O_Create Offer">
+        <name>
+          <text>[FROM(I_O_Create Offer) TO(O_Create Offer)]</text>
+        </name>
+      </arc>
+      <arc id="I_O_Returned-&gt;O_Returned" source="I_O_Returned" target="O_Returned">
+        <name>
+          <text>[FROM(I_O_Returned) TO(O_Returned)]</text>
+        </name>
+      </arc>
+      <arc id="I_W_Call incomplete files-&gt;W_Call incomplete files" source="I_W_Call incomplete files" target="W_Call incomplete files">
+        <name>
+          <text>[FROM(I_W_Call incomplete files) TO(W_Call incomplete files)]</text>
+        </name>
+      </arc>
+      <arc id="W_Call incomplete files-&gt;O_W_Call incomplete files" source="W_Call incomplete files" target="O_W_Call incomplete files">
+        <name>
+          <text>[FROM(W_Call incomplete files) TO(O_W_Call incomplete files)]</text>
+        </name>
+      </arc>
+      <arc id="I_W_Call after offers-&gt;W_Call after offers" source="I_W_Call after offers" target="W_Call after offers">
+        <name>
+          <text>[FROM(I_W_Call after offers) TO(W_Call after offers)]</text>
+        </name>
+      </arc>
+      <arc id="W_Call after offers-&gt;O_W_Call after offers" source="W_Call after offers" target="O_W_Call after offers">
+        <name>
+          <text>[FROM(W_Call after offers) TO(O_W_Call after offers)]</text>
+        </name>
+      </arc>
+      <arc id="I_W_Complete application-&gt;W_Complete application" source="I_W_Complete application" target="W_Complete application">
+        <name>
+          <text>[FROM(I_W_Complete application) TO(W_Complete application)]</text>
+        </name>
+      </arc>
+      <arc id="W_Complete application-&gt;O_W_Complete application" source="W_Complete application" target="O_W_Complete application">
+        <name>
+          <text>[FROM(W_Complete application) TO(O_W_Complete application)]</text>
+        </name>
+      </arc>
+      <arc id="I_O_Refused-&gt;O_Refused" source="I_O_Refused" target="O_Refused">
+        <name>
+          <text>[FROM(I_O_Refused) TO(O_Refused)]</text>
+        </name>
+      </arc>
+      <arc id="I_W_Handle leads-&gt;W_Handle leads" source="I_W_Handle leads" target="W_Handle leads">
+        <name>
+          <text>[FROM(I_W_Handle leads) TO(W_Handle leads)]</text>
+        </name>
+      </arc>
+      <arc id="I_O_Created-&gt;O_Created" source="I_O_Created" target="O_Created">
+        <name>
+          <text>[FROM(I_O_Created) TO(O_Created)]</text>
+        </name>
+      </arc>
+      <arc id="O_Created-&gt;O_O_Created" source="O_Created" target="O_O_Created">
+        <name>
+          <text>[FROM(O_Created) TO(O_O_Created)]</text>
+        </name>
+      </arc>
+      <arc id="I_O_Cancelled-&gt;O_Cancelled" source="I_O_Cancelled" target="O_Cancelled">
+        <name>
+          <text>[FROM(I_O_Cancelled) TO(O_Cancelled)]</text>
+        </name>
+      </arc>
+      <arc id="I_W_Validate application-&gt;W_Validate application" source="I_W_Validate application" target="W_Validate application">
+        <name>
+          <text>[FROM(I_W_Validate application) TO(W_Validate application)]</text>
+        </name>
+      </arc>
+      <arc id="W_Validate application-&gt;O_W_Validate application" source="W_Validate application" target="O_W_Validate application">
+        <name>
+          <text>[FROM(W_Validate application) TO(O_W_Validate application)]</text>
+        </name>
+      </arc>
+      <arc id="I_A_Create Application-&gt;A_Create Application" source="I_A_Create Application" target="A_Create Application">
+        <name>
+          <text>[FROM(I_A_Create Application) TO(A_Create Application)]</text>
+        </name>
+      </arc>
+      <arc id="I_A_Submitted-&gt;A_Submitted" source="I_A_Submitted" target="A_Submitted">
+        <name>
+          <text>[FROM(I_A_Submitted) TO(A_Submitted)]</text>
+        </name>
+      </arc>
+      <arc id="I_A_Pending-&gt;A_Pending" source="I_A_Pending" target="A_Pending">
+        <name>
+          <text>[FROM(I_A_Pending) TO(A_Pending)]</text>
+        </name>
+      </arc>
+      <arc id="O_W_Call after offers-&gt;W_Call after offers-&gt;W_Validate application" source="O_W_Call after offers" target="W_Call after offers-&gt;W_Validate application">
+        <name>
+          <text>[FROM(O_W_Call after offers) TO(W_Call after offers-&gt;W_Validate application)]</text>
+        </name>
+      </arc>
+      <arc id="W_Call after offers-&gt;W_Validate application-&gt;I_W_Validate application" source="W_Call after offers-&gt;W_Validate application" target="I_W_Validate application">
+        <name>
+          <text>[FROM(W_Call after offers-&gt;W_Validate application) TO(I_W_Validate application)]</text>
+        </name>
+      </arc>
+      <arc id="O_W_Call incomplete files-&gt;W_Call incomplete files-&gt;W_Validate application" source="O_W_Call incomplete files" target="W_Call incomplete files-&gt;W_Validate application">
+        <name>
+          <text>[FROM(O_W_Call incomplete files) TO(W_Call incomplete files-&gt;W_Validate application)]</text>
+        </name>
+      </arc>
+      <arc id="W_Call incomplete files-&gt;W_Validate application-&gt;I_W_Validate application" source="W_Call incomplete files-&gt;W_Validate application" target="I_W_Validate application">
+        <name>
+          <text>[FROM(W_Call incomplete files-&gt;W_Validate application) TO(I_W_Validate application)]</text>
+        </name>
+      </arc>
+      <arc id="O_W_Complete application-&gt;W_Complete application-&gt;W_Call after offers" source="O_W_Complete application" target="W_Complete application-&gt;W_Call after offers">
+        <name>
+          <text>[FROM(O_W_Complete application) TO(W_Complete application-&gt;W_Call after offers)]</text>
+        </name>
+      </arc>
+      <arc id="W_Complete application-&gt;W_Call after offers-&gt;I_W_Call after offers" source="W_Complete application-&gt;W_Call after offers" target="I_W_Call after offers">
+        <name>
+          <text>[FROM(W_Complete application-&gt;W_Call after offers) TO(I_W_Call after offers)]</text>
+        </name>
+      </arc>
+      <arc id="A_Submitted-&gt;I_W_Handle leads" source="A_Submitted" target="I_W_Handle leads">
+        <name>
+          <text>[FROM(A_Submitted) TO(I_W_Handle leads)]</text>
+        </name>
+      </arc>
+      <arc id="W_Shortened completion-&gt;I_W_Call after offers" source="W_Shortened completion" target="I_W_Call after offers">
+        <name>
+          <text>[FROM(W_Shortened completion) TO(I_W_Call after offers)]</text>
+        </name>
+      </arc>
+      <arc id="O_Accepted-&gt;I_A_Pending" source="O_Accepted" target="I_A_Pending">
+        <name>
+          <text>[FROM(O_Accepted) TO(I_A_Pending)]</text>
+        </name>
+      </arc>
+      <arc id="W_Assess potential fraud-&gt;I_W_Validate application" source="W_Assess potential fraud" target="I_W_Validate application">
+        <name>
+          <text>[FROM(W_Assess potential fraud) TO(I_W_Validate application)]</text>
+        </name>
+      </arc>
+      <arc id="A_Incomplete-&gt;I_W_Call incomplete files" source="A_Incomplete" target="I_W_Call incomplete files">
+        <name>
+          <text>[FROM(A_Incomplete) TO(I_W_Call incomplete files)]</text>
+        </name>
+      </arc>
+      <arc id="A_Validating-&gt;I_O_Returned" source="A_Validating" target="I_O_Returned">
+        <name>
+          <text>[FROM(A_Validating) TO(I_O_Returned)]</text>
+        </name>
+      </arc>
+      <arc id="O_Returned-&gt;I_W_Validate application" source="O_Returned" target="I_W_Validate application">
+        <name>
+          <text>[FROM(O_Returned) TO(I_W_Validate application)]</text>
+        </name>
+      </arc>
+      <arc id="A_Complete-&gt;I_W_Shortened completion" source="A_Complete" target="I_W_Shortened completion">
+        <name>
+          <text>[FROM(A_Complete) TO(I_W_Shortened completion)]</text>
+        </name>
+      </arc>
+      <arc id="A_Denied-&gt;I_O_Refused" source="A_Denied" target="I_O_Refused">
+        <name>
+          <text>[FROM(A_Denied) TO(I_O_Refused)]</text>
+        </name>
+      </arc>
+      <arc id="|&gt;-&gt;I_A_Create Application" source="|&gt;" target="I_A_Create Application">
+        <name>
+          <text>[FROM(|&gt;) TO(I_A_Create Application)]</text>
+        </name>
+      </arc>
+      <arc id="W_Handle leads-&gt;I_W_Complete application" source="W_Handle leads" target="I_W_Complete application">
+        <name>
+          <text>[FROM(W_Handle leads) TO(I_W_Complete application)]</text>
+        </name>
+      </arc>
+      <arc id="O_Sent (mail and online)-&gt;I_W_Complete application" source="O_Sent (mail and online)" target="I_W_Complete application">
+        <name>
+          <text>[FROM(O_Sent (mail and online)) TO(I_W_Complete application)]</text>
+        </name>
+      </arc>
+      <arc id="A_Create Application-&gt;I_A_Submitted" source="A_Create Application" target="I_A_Submitted">
+        <name>
+          <text>[FROM(A_Create Application) TO(I_A_Submitted)]</text>
+        </name>
+      </arc>
+      <arc id="O_Sent (online only)-&gt;I_W_Call incomplete files" source="O_Sent (online only)" target="I_W_Call incomplete files">
+        <name>
+          <text>[FROM(O_Sent (online only)) TO(I_W_Call incomplete files)]</text>
+        </name>
+      </arc>
+      <arc id="A_Concept-&gt;I_W_Complete application" source="A_Concept" target="I_W_Complete application">
+        <name>
+          <text>[FROM(A_Concept) TO(I_W_Complete application)]</text>
+        </name>
+      </arc>
+      <arc id="A_Cancelled-&gt;I_O_Cancelled" source="A_Cancelled" target="I_O_Cancelled">
+        <name>
+          <text>[FROM(A_Cancelled) TO(I_O_Cancelled)]</text>
+        </name>
+      </arc>
+      <arc id="A_Pending-&gt;I_W_Validate application" source="A_Pending" target="I_W_Validate application">
+        <name>
+          <text>[FROM(A_Pending) TO(I_W_Validate application)]</text>
+        </name>
+      </arc>
+      <arc id="O_Refused-&gt;I_W_Validate application" source="O_Refused" target="I_W_Validate application">
+        <name>
+          <text>[FROM(O_Refused) TO(I_W_Validate application)]</text>
+        </name>
+      </arc>
+      <arc id="A_Accepted-&gt;I_O_Create Offer" source="A_Accepted" target="I_O_Create Offer">
+        <name>
+          <text>[FROM(A_Accepted) TO(I_O_Create Offer)]</text>
+        </name>
+      </arc>
+      <arc id="O_Cancelled-&gt;I_W_Call after offers" source="O_Cancelled" target="I_W_Call after offers">
+        <name>
+          <text>[FROM(O_Cancelled) TO(I_W_Call after offers)]</text>
+        </name>
+      </arc>
+      <arc id="W_Personal Loan collection-&gt;I_[]" source="W_Personal Loan collection" target="I_[]">
+        <name>
+          <text>[FROM(W_Personal Loan collection) TO(I_[])]</text>
+        </name>
+      </arc>
+      <arc id="O_Create Offer-&gt;I_O_Created" source="O_Create Offer" target="I_O_Created">
+        <name>
+          <text>[FROM(O_Create Offer) TO(I_O_Created)]</text>
+        </name>
+      </arc>
+      <arc id="[]-&gt;EndPlace" source="[]" target="EndPlace">
+        <name>
+          <text>[FROM([]) TO(EndPlace)]</text>
+        </name>
+      </arc>
+      <arc id="O_W_Call after offers-&gt;A_Complete" source="O_W_Call after offers" target="A_Complete">
+        <name>
+          <text>[FROM(O_W_Call after offers) TO(A_Complete)]</text>
+        </name>
+      </arc>
+      <arc id="O_W_Call incomplete files-&gt;A_Incomplete" source="O_W_Call incomplete files" target="A_Incomplete">
+        <name>
+          <text>[FROM(O_W_Call incomplete files) TO(A_Incomplete)]</text>
+        </name>
+      </arc>
+      <arc id="O_W_Validate application-&gt;A_Validating" source="O_W_Validate application" target="A_Validating">
+        <name>
+          <text>[FROM(O_W_Validate application) TO(A_Validating)]</text>
+        </name>
+      </arc>
+      <arc id="O_W_Complete application-&gt;A_Concept" source="O_W_Complete application" target="A_Concept">
+        <name>
+          <text>[FROM(O_W_Complete application) TO(A_Concept)]</text>
+        </name>
+      </arc>
+      <arc id="O_W_Validate application-&gt;A_Denied" source="O_W_Validate application" target="A_Denied">
+        <name>
+          <text>[FROM(O_W_Validate application) TO(A_Denied)]</text>
+        </name>
+      </arc>
+      <arc id="O_W_Validate application-&gt;O_Accepted" source="O_W_Validate application" target="O_Accepted">
+        <name>
+          <text>[FROM(O_W_Validate application) TO(O_Accepted)]</text>
+        </name>
+      </arc>
+      <arc id="O_O_Created-&gt;O_Sent (online only)" source="O_O_Created" target="O_Sent (online only)">
+        <name>
+          <text>[FROM(O_O_Created) TO(O_Sent (online only))]</text>
+        </name>
+      </arc>
+      <arc id="O_O_Created-&gt;O_Sent (mail and online)" source="O_O_Created" target="O_Sent (mail and online)">
+        <name>
+          <text>[FROM(O_O_Created) TO(O_Sent (mail and online))]</text>
+        </name>
+      </arc>
+      <arc id="O_W_Validate application-&gt;W_Personal Loan collection" source="O_W_Validate application" target="W_Personal Loan collection">
+        <name>
+          <text>[FROM(O_W_Validate application) TO(W_Personal Loan collection)]</text>
+        </name>
+      </arc>
+      <arc id="O_W_Validate application-&gt;W_Assess potential fraud" source="O_W_Validate application" target="W_Assess potential fraud">
+        <name>
+          <text>[FROM(O_W_Validate application) TO(W_Assess potential fraud)]</text>
+        </name>
+      </arc>
+      <arc id="O_W_Call after offers-&gt;A_Cancelled" source="O_W_Call after offers" target="A_Cancelled">
+        <name>
+          <text>[FROM(O_W_Call after offers) TO(A_Cancelled)]</text>
+        </name>
+      </arc>
+      <arc id="O_W_Complete application-&gt;A_Accepted" source="O_W_Complete application" target="A_Accepted">
+        <name>
+          <text>[FROM(O_W_Complete application) TO(A_Accepted)]</text>
+        </name>
+      </arc>
+      <arc id="StartPlace-&gt;|&gt;" source="StartPlace" target="|&gt;">
+        <name>
+          <text>[FROM(StartPlace) TO(|&gt;)]</text>
+        </name>
+      </arc>
+    </page>
+    <finalMarkings>
+      <marking>
+        <place idref="I_[]">
+          <text>0</text>
+        </place>
+        <place idref="I_W_Shortened completion">
+          <text>0</text>
+        </place>
+        <place idref="I_O_Create Offer">
+          <text>0</text>
+        </place>
+        <place idref="I_O_Returned">
+          <text>0</text>
+        </place>
+        <place idref="I_W_Call incomplete files">
+          <text>0</text>
+        </place>
+        <place idref="O_W_Call incomplete files">
+          <text>0</text>
+        </place>
+        <place idref="I_W_Call after offers">
+          <text>0</text>
+        </place>
+        <place idref="O_W_Call after offers">
+          <text>0</text>
+        </place>
+        <place idref="I_W_Complete application">
+          <text>0</text>
+        </place>
+        <place idref="O_W_Complete application">
+          <text>0</text>
+        </place>
+        <place idref="I_O_Refused">
+          <text>0</text>
+        </place>
+        <place idref="I_W_Handle leads">
+          <text>0</text>
+        </place>
+        <place idref="I_O_Created">
+          <text>0</text>
+        </place>
+        <place idref="O_O_Created">
+          <text>0</text>
+        </place>
+        <place idref="I_O_Cancelled">
+          <text>0</text>
+        </place>
+        <place idref="I_W_Validate application">
+          <text>0</text>
+        </place>
+        <place idref="O_W_Validate application">
+          <text>0</text>
+        </place>
+        <place idref="I_A_Create Application">
+          <text>0</text>
+        </place>
+        <place idref="I_A_Submitted">
+          <text>0</text>
+        </place>
+        <place idref="I_A_Pending">
+          <text>0</text>
+        </place>
+        <place idref="StartPlace">
+          <text>0</text>
+        </place>
+        <place idref="EndPlace">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalMarkings>
+  </net>
+</pnml>

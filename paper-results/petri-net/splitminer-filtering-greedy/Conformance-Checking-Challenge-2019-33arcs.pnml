@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+  <net xmlns="" id="TranslatedPetriNet" type="http://www.pnml.org/version-2009/grammar/ptnet">
+    <name>
+      <text>TranslatedPetriNet</text>
+    </name>
+    <page id="0">
+      <transition id="[]">
+        <name>
+          <text>[]</text>
+        </name>
+      </transition>
+      <transition id="|&gt;">
+        <name>
+          <text>|&gt;</text>
+        </name>
+      </transition>
+      <transition id="Remove syringe">
+        <name>
+          <text>Remove syringe</text>
+        </name>
+      </transition>
+      <transition id="Remove guidewire">
+        <name>
+          <text>Remove guidewire</text>
+        </name>
+      </transition>
+      <transition id="Prepare implements">
+        <name>
+          <text>Prepare implements</text>
+        </name>
+      </transition>
+      <transition id="Hand washing">
+        <name>
+          <text>Hand washing</text>
+        </name>
+      </transition>
+      <transition id="Clean puncture area">
+        <name>
+          <text>Clean puncture area</text>
+        </name>
+      </transition>
+      <transition id="Check wire in short axis">
+        <name>
+          <text>Check wire in short axis</text>
+        </name>
+      </transition>
+      <transition id="Cover probe">
+        <name>
+          <text>Cover probe</text>
+        </name>
+      </transition>
+      <transition id="Guidewire install">
+        <name>
+          <text>Guidewire install</text>
+        </name>
+      </transition>
+      <transition id="Compression identification">
+        <name>
+          <text>Compression identification</text>
+        </name>
+      </transition>
+      <transition id="Drap puncture area">
+        <name>
+          <text>Drap puncture area</text>
+        </name>
+      </transition>
+      <transition id="Advance catheter">
+        <name>
+          <text>Advance catheter</text>
+        </name>
+      </transition>
+      <transition id="Ultrasound configuration">
+        <name>
+          <text>Ultrasound configuration</text>
+        </name>
+      </transition>
+      <transition id="Position patient">
+        <name>
+          <text>Position patient</text>
+        </name>
+      </transition>
+      <transition id="Check wire in long axis">
+        <name>
+          <text>Check wire in long axis</text>
+        </name>
+      </transition>
+      <transition id="Wire in good position">
+        <name>
+          <text>Wire in good position</text>
+        </name>
+      </transition>
+      <transition id="Remove trocar">
+        <name>
+          <text>Remove trocar</text>
+        </name>
+      </transition>
+      <transition id="Anatomic identification">
+        <name>
+          <text>Anatomic identification</text>
+        </name>
+      </transition>
+      <transition id="Put sterile gel">
+        <name>
+          <text>Put sterile gel</text>
+        </name>
+      </transition>
+      <transition id="Get in sterile clothes">
+        <name>
+          <text>Get in sterile clothes</text>
+        </name>
+      </transition>
+      <transition id="Anesthetize">
+        <name>
+          <text>Anesthetize</text>
+        </name>
+      </transition>
+      <transition id="Blood return">
+        <name>
+          <text>Blood return</text>
+        </name>
+      </transition>
+      <transition id="Widen pathway">
+        <name>
+          <text>Widen pathway</text>
+        </name>
+      </transition>
+      <transition id="Check flow and reflow">
+        <name>
+          <text>Check flow and reflow</text>
+        </name>
+      </transition>
+      <transition id="Check catheter position">
+        <name>
+          <text>Check catheter position</text>
+        </name>
+      </transition>
+      <transition id="Gel in probe">
+        <name>
+          <text>Gel in probe</text>
+        </name>
+      </transition>
+      <transition id="Drop probe">
+        <name>
+          <text>Drop probe</text>
+        </name>
+      </transition>
+      <transition id="Puncture">
+        <name>
+          <text>Puncture</text>
+        </name>
+      </transition>
+      <transition id="Doppler identification">
+        <name>
+          <text>Doppler identification</text>
+        </name>
+      </transition>
+      <transition id="Position probe">
+        <name>
+          <text>Position probe</text>
+        </name>
+      </transition>
+      <transition id="Anatomic identification-&gt;Compression identification">
+        <name>
+          <text>Anatomic identification-&gt;Compression identification</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <place id="I_[]">
+        <name>
+          <text>I_[]</text>
+        </name>
+      </place>
+      <place id="I_Remove syringe">
+        <name>
+          <text>I_Remove syringe</text>
+        </name>
+      </place>
+      <place id="I_Remove guidewire">
+        <name>
+          <text>I_Remove guidewire</text>
+        </name>
+      </place>
+      <place id="I_Prepare implements">
+        <name>
+          <text>I_Prepare implements</text>
+        </name>
+      </place>
+      <place id="O_Prepare implements">
+        <name>
+          <text>O_Prepare implements</text>
+        </name>
+      </place>
+      <place id="I_Hand washing">
+        <name>
+          <text>I_Hand washing</text>
+        </name>
+      </place>
+      <place id="I_Check wire in short axis">
+        <name>
+          <text>I_Check wire in short axis</text>
+        </name>
+      </place>
+      <place id="I_Cover probe">
+        <name>
+          <text>I_Cover probe</text>
+        </name>
+      </place>
+      <place id="I_Guidewire install">
+        <name>
+          <text>I_Guidewire install</text>
+        </name>
+      </place>
+      <place id="I_Compression identification">
+        <name>
+          <text>I_Compression identification</text>
+        </name>
+      </place>
+      <place id="I_Drap puncture area">
+        <name>
+          <text>I_Drap puncture area</text>
+        </name>
+      </place>
+      <place id="I_Advance catheter">
+        <name>
+          <text>I_Advance catheter</text>
+        </name>
+      </place>
+      <place id="I_Check wire in long axis">
+        <name>
+          <text>I_Check wire in long axis</text>
+        </name>
+      </place>
+      <place id="I_Wire in good position">
+        <name>
+          <text>I_Wire in good position</text>
+        </name>
+      </place>
+      <place id="I_Remove trocar">
+        <name>
+          <text>I_Remove trocar</text>
+        </name>
+      </place>
+      <place id="I_Anatomic identification">
+        <name>
+          <text>I_Anatomic identification</text>
+        </name>
+      </place>
+      <place id="O_Anatomic identification">
+        <name>
+          <text>O_Anatomic identification</text>
+        </name>
+      </place>
+      <place id="I_Put sterile gel">
+        <name>
+          <text>I_Put sterile gel</text>
+        </name>
+      </place>
+      <place id="I_Get in sterile clothes">
+        <name>
+          <text>I_Get in sterile clothes</text>
+        </name>
+      </place>
+      <place id="I_Anesthetize">
+        <name>
+          <text>I_Anesthetize</text>
+        </name>
+      </place>
+      <place id="I_Blood return">
+        <name>
+          <text>I_Blood return</text>
+        </name>
+      </place>
+      <place id="I_Widen pathway">
+        <name>
+          <text>I_Widen pathway</text>
+        </name>
+      </place>
+      <place id="I_Check flow and reflow">
+        <name>
+          <text>I_Check flow and reflow</text>
+        </name>
+      </place>
+      <place id="I_Check catheter position">
+        <name>
+          <text>I_Check catheter position</text>
+        </name>
+      </place>
+      <place id="I_Drop probe">
+        <name>
+          <text>I_Drop probe</text>
+        </name>
+      </place>
+      <place id="I_Puncture">
+        <name>
+          <text>I_Puncture</text>
+        </name>
+      </place>
+      <place id="I_Doppler identification">
+        <name>
+          <text>I_Doppler identification</text>
+        </name>
+      </place>
+      <place id="I_Position probe">
+        <name>
+          <text>I_Position probe</text>
+        </name>
+      </place>
+      <place id="StartPlace">
+        <name>
+          <text>StartPlace</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="EndPlace">
+        <name>
+          <text>EndPlace</text>
+        </name>
+      </place>
+      <arc id="I_[]-&gt;[]" source="I_[]" target="[]">
+        <name>
+          <text>[FROM(I_[]) TO([])]</text>
+        </name>
+      </arc>
+      <arc id="I_Remove syringe-&gt;Remove syringe" source="I_Remove syringe" target="Remove syringe">
+        <name>
+          <text>[FROM(I_Remove syringe) TO(Remove syringe)]</text>
+        </name>
+      </arc>
+      <arc id="I_Remove guidewire-&gt;Remove guidewire" source="I_Remove guidewire" target="Remove guidewire">
+        <name>
+          <text>[FROM(I_Remove guidewire) TO(Remove guidewire)]</text>
+        </name>
+      </arc>
+      <arc id="I_Prepare implements-&gt;Prepare implements" source="I_Prepare implements" target="Prepare implements">
+        <name>
+          <text>[FROM(I_Prepare implements) TO(Prepare implements)]</text>
+        </name>
+      </arc>
+      <arc id="Prepare implements-&gt;O_Prepare implements" source="Prepare implements" target="O_Prepare implements">
+        <name>
+          <text>[FROM(Prepare implements) TO(O_Prepare implements)]</text>
+        </name>
+      </arc>
+      <arc id="I_Hand washing-&gt;Hand washing" source="I_Hand washing" target="Hand washing">
+        <name>
+          <text>[FROM(I_Hand washing) TO(Hand washing)]</text>
+        </name>
+      </arc>
+      <arc id="I_Check wire in short axis-&gt;Check wire in short axis" source="I_Check wire in short axis" target="Check wire in short axis">
+        <name>
+          <text>[FROM(I_Check wire in short axis) TO(Check wire in short axis)]</text>
+        </name>
+      </arc>
+      <arc id="I_Cover probe-&gt;Cover probe" source="I_Cover probe" target="Cover probe">
+        <name>
+          <text>[FROM(I_Cover probe) TO(Cover probe)]</text>
+        </name>
+      </arc>
+      <arc id="I_Guidewire install-&gt;Guidewire install" source="I_Guidewire install" target="Guidewire install">
+        <name>
+          <text>[FROM(I_Guidewire install) TO(Guidewire install)]</text>
+        </name>
+      </arc>
+      <arc id="I_Compression identification-&gt;Compression identification" source="I_Compression identification" target="Compression identification">
+        <name>
+          <text>[FROM(I_Compression identification) TO(Compression identification)]</text>
+        </name>
+      </arc>
+      <arc id="I_Drap puncture area-&gt;Drap puncture area" source="I_Drap puncture area" target="Drap puncture area">
+        <name>
+          <text>[FROM(I_Drap puncture area) TO(Drap puncture area)]</text>
+        </name>
+      </arc>
+      <arc id="I_Advance catheter-&gt;Advance catheter" source="I_Advance catheter" target="Advance catheter">
+        <name>
+          <text>[FROM(I_Advance catheter) TO(Advance catheter)]</text>
+        </name>
+      </arc>
+      <arc id="I_Check wire in long axis-&gt;Check wire in long axis" source="I_Check wire in long axis" target="Check wire in long axis">
+        <name>
+          <text>[FROM(I_Check wire in long axis) TO(Check wire in long axis)]</text>
+        </name>
+      </arc>
+      <arc id="I_Wire in good position-&gt;Wire in good position" source="I_Wire in good position" target="Wire in good position">
+        <name>
+          <text>[FROM(I_Wire in good position) TO(Wire in good position)]</text>
+        </name>
+      </arc>
+      <arc id="I_Remove trocar-&gt;Remove trocar" source="I_Remove trocar" target="Remove trocar">
+        <name>
+          <text>[FROM(I_Remove trocar) TO(Remove trocar)]</text>
+        </name>
+      </arc>
+      <arc id="I_Anatomic identification-&gt;Anatomic identification" source="I_Anatomic identification" target="Anatomic identification">
+        <name>
+          <text>[FROM(I_Anatomic identification) TO(Anatomic identification)]</text>
+        </name>
+      </arc>
+      <arc id="Anatomic identification-&gt;O_Anatomic identification" source="Anatomic identification" target="O_Anatomic identification">
+        <name>
+          <text>[FROM(Anatomic identification) TO(O_Anatomic identification)]</text>
+        </name>
+      </arc>
+      <arc id="I_Put sterile gel-&gt;Put sterile gel" source="I_Put sterile gel" target="Put sterile gel">
+        <name>
+          <text>[FROM(I_Put sterile gel) TO(Put sterile gel)]</text>
+        </name>
+      </arc>
+      <arc id="I_Get in sterile clothes-&gt;Get in sterile clothes" source="I_Get in sterile clothes" target="Get in sterile clothes">
+        <name>
+          <text>[FROM(I_Get in sterile clothes) TO(Get in sterile clothes)]</text>
+        </name>
+      </arc>
+      <arc id="I_Anesthetize-&gt;Anesthetize" source="I_Anesthetize" target="Anesthetize">
+        <name>
+          <text>[FROM(I_Anesthetize) TO(Anesthetize)]</text>
+        </name>
+      </arc>
+      <arc id="I_Blood return-&gt;Blood return" source="I_Blood return" target="Blood return">
+        <name>
+          <text>[FROM(I_Blood return) TO(Blood return)]</text>
+        </name>
+      </arc>
+      <arc id="I_Widen pathway-&gt;Widen pathway" source="I_Widen pathway" target="Widen pathway">
+        <name>
+          <text>[FROM(I_Widen pathway) TO(Widen pathway)]</text>
+        </name>
+      </arc>
+      <arc id="I_Check flow and reflow-&gt;Check flow and reflow" source="I_Check flow and reflow" target="Check flow and reflow">
+        <name>
+          <text>[FROM(I_Check flow and reflow) TO(Check flow and reflow)]</text>
+        </name>
+      </arc>
+      <arc id="I_Check catheter position-&gt;Check catheter position" source="I_Check catheter position" target="Check catheter position">
+        <name>
+          <text>[FROM(I_Check catheter position) TO(Check catheter position)]</text>
+        </name>
+      </arc>
+      <arc id="I_Drop probe-&gt;Drop probe" source="I_Drop probe" target="Drop probe">
+        <name>
+          <text>[FROM(I_Drop probe) TO(Drop probe)]</text>
+        </name>
+      </arc>
+      <arc id="I_Puncture-&gt;Puncture" source="I_Puncture" target="Puncture">
+        <name>
+          <text>[FROM(I_Puncture) TO(Puncture)]</text>
+        </name>
+      </arc>
+      <arc id="I_Doppler identification-&gt;Doppler identification" source="I_Doppler identification" target="Doppler identification">
+        <name>
+          <text>[FROM(I_Doppler identification) TO(Doppler identification)]</text>
+        </name>
+      </arc>
+      <arc id="I_Position probe-&gt;Position probe" source="I_Position probe" target="Position probe">
+        <name>
+          <text>[FROM(I_Position probe) TO(Position probe)]</text>
+        </name>
+      </arc>
+      <arc id="O_Anatomic identification-&gt;Anatomic identification-&gt;Compression identification" source="O_Anatomic identification" target="Anatomic identification-&gt;Compression identification">
+        <name>
+          <text>[FROM(O_Anatomic identification) TO(Anatomic identification-&gt;Compression identification)]</text>
+        </name>
+      </arc>
+      <arc id="Anatomic identification-&gt;Compression identification-&gt;I_Compression identification" source="Anatomic identification-&gt;Compression identification" target="I_Compression identification">
+        <name>
+          <text>[FROM(Anatomic identification-&gt;Compression identification) TO(I_Compression identification)]</text>
+        </name>
+      </arc>
+      <arc id="Position patient-&gt;I_Hand washing" source="Position patient" target="I_Hand washing">
+        <name>
+          <text>[FROM(Position patient) TO(I_Hand washing)]</text>
+        </name>
+      </arc>
+      <arc id="Check catheter position-&gt;I_[]" source="Check catheter position" target="I_[]">
+        <name>
+          <text>[FROM(Check catheter position) TO(I_[])]</text>
+        </name>
+      </arc>
+      <arc id="Cover probe-&gt;I_Put sterile gel" source="Cover probe" target="I_Put sterile gel">
+        <name>
+          <text>[FROM(Cover probe) TO(I_Put sterile gel)]</text>
+        </name>
+      </arc>
+      <arc id="|&gt;-&gt;I_Prepare implements" source="|&gt;" target="I_Prepare implements">
+        <name>
+          <text>[FROM(|&gt;) TO(I_Prepare implements)]</text>
+        </name>
+      </arc>
+      <arc id="Guidewire install-&gt;I_Remove trocar" source="Guidewire install" target="I_Remove trocar">
+        <name>
+          <text>[FROM(Guidewire install) TO(I_Remove trocar)]</text>
+        </name>
+      </arc>
+      <arc id="Clean puncture area-&gt;I_Drap puncture area" source="Clean puncture area" target="I_Drap puncture area">
+        <name>
+          <text>[FROM(Clean puncture area) TO(I_Drap puncture area)]</text>
+        </name>
+      </arc>
+      <arc id="Advance catheter-&gt;I_Remove guidewire" source="Advance catheter" target="I_Remove guidewire">
+        <name>
+          <text>[FROM(Advance catheter) TO(I_Remove guidewire)]</text>
+        </name>
+      </arc>
+      <arc id="Remove trocar-&gt;I_Check wire in short axis" source="Remove trocar" target="I_Check wire in short axis">
+        <name>
+          <text>[FROM(Remove trocar) TO(I_Check wire in short axis)]</text>
+        </name>
+      </arc>
+      <arc id="Anesthetize-&gt;I_Puncture" source="Anesthetize" target="I_Puncture">
+        <name>
+          <text>[FROM(Anesthetize) TO(I_Puncture)]</text>
+        </name>
+      </arc>
+      <arc id="Check flow and reflow-&gt;I_Check catheter position" source="Check flow and reflow" target="I_Check catheter position">
+        <name>
+          <text>[FROM(Check flow and reflow) TO(I_Check catheter position)]</text>
+        </name>
+      </arc>
+      <arc id="Wire in good position-&gt;I_Widen pathway" source="Wire in good position" target="I_Widen pathway">
+        <name>
+          <text>[FROM(Wire in good position) TO(I_Widen pathway)]</text>
+        </name>
+      </arc>
+      <arc id="Check wire in long axis-&gt;I_Wire in good position" source="Check wire in long axis" target="I_Wire in good position">
+        <name>
+          <text>[FROM(Check wire in long axis) TO(I_Wire in good position)]</text>
+        </name>
+      </arc>
+      <arc id="Remove syringe-&gt;I_Guidewire install" source="Remove syringe" target="I_Guidewire install">
+        <name>
+          <text>[FROM(Remove syringe) TO(I_Guidewire install)]</text>
+        </name>
+      </arc>
+      <arc id="Check wire in short axis-&gt;I_Check wire in long axis" source="Check wire in short axis" target="I_Check wire in long axis">
+        <name>
+          <text>[FROM(Check wire in short axis) TO(I_Check wire in long axis)]</text>
+        </name>
+      </arc>
+      <arc id="Position probe-&gt;I_Anatomic identification" source="Position probe" target="I_Anatomic identification">
+        <name>
+          <text>[FROM(Position probe) TO(I_Anatomic identification)]</text>
+        </name>
+      </arc>
+      <arc id="Put sterile gel-&gt;I_Position probe" source="Put sterile gel" target="I_Position probe">
+        <name>
+          <text>[FROM(Put sterile gel) TO(I_Position probe)]</text>
+        </name>
+      </arc>
+      <arc id="Hand washing-&gt;I_Get in sterile clothes" source="Hand washing" target="I_Get in sterile clothes">
+        <name>
+          <text>[FROM(Hand washing) TO(I_Get in sterile clothes)]</text>
+        </name>
+      </arc>
+      <arc id="Ultrasound configuration-&gt;I_Compression identification" source="Ultrasound configuration" target="I_Compression identification">
+        <name>
+          <text>[FROM(Ultrasound configuration) TO(I_Compression identification)]</text>
+        </name>
+      </arc>
+      <arc id="Compression identification-&gt;I_Doppler identification" source="Compression identification" target="I_Doppler identification">
+        <name>
+          <text>[FROM(Compression identification) TO(I_Doppler identification)]</text>
+        </name>
+      </arc>
+      <arc id="Widen pathway-&gt;I_Advance catheter" source="Widen pathway" target="I_Advance catheter">
+        <name>
+          <text>[FROM(Widen pathway) TO(I_Advance catheter)]</text>
+        </name>
+      </arc>
+      <arc id="Gel in probe-&gt;I_Cover probe" source="Gel in probe" target="I_Cover probe">
+        <name>
+          <text>[FROM(Gel in probe) TO(I_Cover probe)]</text>
+        </name>
+      </arc>
+      <arc id="Drap puncture area-&gt;I_Prepare implements" source="Drap puncture area" target="I_Prepare implements">
+        <name>
+          <text>[FROM(Drap puncture area) TO(I_Prepare implements)]</text>
+        </name>
+      </arc>
+      <arc id="Puncture-&gt;I_Blood return" source="Puncture" target="I_Blood return">
+        <name>
+          <text>[FROM(Puncture) TO(I_Blood return)]</text>
+        </name>
+      </arc>
+      <arc id="Blood return-&gt;I_Drop probe" source="Blood return" target="I_Drop probe">
+        <name>
+          <text>[FROM(Blood return) TO(I_Drop probe)]</text>
+        </name>
+      </arc>
+      <arc id="Doppler identification-&gt;I_Anesthetize" source="Doppler identification" target="I_Anesthetize">
+        <name>
+          <text>[FROM(Doppler identification) TO(I_Anesthetize)]</text>
+        </name>
+      </arc>
+      <arc id="Get in sterile clothes-&gt;I_Prepare implements" source="Get in sterile clothes" target="I_Prepare implements">
+        <name>
+          <text>[FROM(Get in sterile clothes) TO(I_Prepare implements)]</text>
+        </name>
+      </arc>
+      <arc id="Remove guidewire-&gt;I_Check flow and reflow" source="Remove guidewire" target="I_Check flow and reflow">
+        <name>
+          <text>[FROM(Remove guidewire) TO(I_Check flow and reflow)]</text>
+        </name>
+      </arc>
+      <arc id="Drop probe-&gt;I_Remove syringe" source="Drop probe" target="I_Remove syringe">
+        <name>
+          <text>[FROM(Drop probe) TO(I_Remove syringe)]</text>
+        </name>
+      </arc>
+      <arc id="[]-&gt;EndPlace" source="[]" target="EndPlace">
+        <name>
+          <text>[FROM([]) TO(EndPlace)]</text>
+        </name>
+      </arc>
+      <arc id="O_Prepare implements-&gt;Position patient" source="O_Prepare implements" target="Position patient">
+        <name>
+          <text>[FROM(O_Prepare implements) TO(Position patient)]</text>
+        </name>
+      </arc>
+      <arc id="O_Prepare implements-&gt;Clean puncture area" source="O_Prepare implements" target="Clean puncture area">
+        <name>
+          <text>[FROM(O_Prepare implements) TO(Clean puncture area)]</text>
+        </name>
+      </arc>
+      <arc id="O_Prepare implements-&gt;Gel in probe" source="O_Prepare implements" target="Gel in probe">
+        <name>
+          <text>[FROM(O_Prepare implements) TO(Gel in probe)]</text>
+        </name>
+      </arc>
+      <arc id="O_Anatomic identification-&gt;Ultrasound configuration" source="O_Anatomic identification" target="Ultrasound configuration">
+        <name>
+          <text>[FROM(O_Anatomic identification) TO(Ultrasound configuration)]</text>
+        </name>
+      </arc>
+      <arc id="StartPlace-&gt;|&gt;" source="StartPlace" target="|&gt;">
+        <name>
+          <text>[FROM(StartPlace) TO(|&gt;)]</text>
+        </name>
+      </arc>
+    </page>
+    <finalMarkings>
+      <marking>
+        <place idref="I_[]">
+          <text>0</text>
+        </place>
+        <place idref="I_Remove syringe">
+          <text>0</text>
+        </place>
+        <place idref="I_Remove guidewire">
+          <text>0</text>
+        </place>
+        <place idref="I_Prepare implements">
+          <text>0</text>
+        </place>
+        <place idref="O_Prepare implements">
+          <text>0</text>
+        </place>
+        <place idref="I_Hand washing">
+          <text>0</text>
+        </place>
+        <place idref="I_Check wire in short axis">
+          <text>0</text>
+        </place>
+        <place idref="I_Cover probe">
+          <text>0</text>
+        </place>
+        <place idref="I_Guidewire install">
+          <text>0</text>
+        </place>
+        <place idref="I_Compression identification">
+          <text>0</text>
+        </place>
+        <place idref="I_Drap puncture area">
+          <text>0</text>
+        </place>
+        <place idref="I_Advance catheter">
+          <text>0</text>
+        </place>
+        <place idref="I_Check wire in long axis">
+          <text>0</text>
+        </place>
+        <place idref="I_Wire in good position">
+          <text>0</text>
+        </place>
+        <place idref="I_Remove trocar">
+          <text>0</text>
+        </place>
+        <place idref="I_Anatomic identification">
+          <text>0</text>
+        </place>
+        <place idref="O_Anatomic identification">
+          <text>0</text>
+        </place>
+        <place idref="I_Put sterile gel">
+          <text>0</text>
+        </place>
+        <place idref="I_Get in sterile clothes">
+          <text>0</text>
+        </place>
+        <place idref="I_Anesthetize">
+          <text>0</text>
+        </place>
+        <place idref="I_Blood return">
+          <text>0</text>
+        </place>
+        <place idref="I_Widen pathway">
+          <text>0</text>
+        </place>
+        <place idref="I_Check flow and reflow">
+          <text>0</text>
+        </place>
+        <place idref="I_Check catheter position">
+          <text>0</text>
+        </place>
+        <place idref="I_Drop probe">
+          <text>0</text>
+        </place>
+        <place idref="I_Puncture">
+          <text>0</text>
+        </place>
+        <place idref="I_Doppler identification">
+          <text>0</text>
+        </place>
+        <place idref="I_Position probe">
+          <text>0</text>
+        </place>
+        <place idref="StartPlace">
+          <text>0</text>
+        </place>
+        <place idref="EndPlace">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalMarkings>
+  </net>
+</pnml>

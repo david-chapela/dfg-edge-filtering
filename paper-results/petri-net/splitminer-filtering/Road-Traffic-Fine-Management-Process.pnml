@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+  <net xmlns="" id="TranslatedPetriNet" type="http://www.pnml.org/version-2009/grammar/ptnet">
+    <name>
+      <text>TranslatedPetriNet</text>
+    </name>
+    <page id="0">
+      <transition id="[]">
+        <name>
+          <text>[]</text>
+        </name>
+      </transition>
+      <transition id="|&gt;">
+        <name>
+          <text>|&gt;</text>
+        </name>
+      </transition>
+      <transition id="Insert Date Appeal to Prefecture">
+        <name>
+          <text>Insert Date Appeal to Prefecture</text>
+        </name>
+      </transition>
+      <transition id="Send Fine">
+        <name>
+          <text>Send Fine</text>
+        </name>
+      </transition>
+      <transition id="Appeal to Judge">
+        <name>
+          <text>Appeal to Judge</text>
+        </name>
+      </transition>
+      <transition id="Send for Credit Collection">
+        <name>
+          <text>Send for Credit Collection</text>
+        </name>
+      </transition>
+      <transition id="Receive Result Appeal from Prefecture">
+        <name>
+          <text>Receive Result Appeal from Prefecture</text>
+        </name>
+      </transition>
+      <transition id="Create Fine">
+        <name>
+          <text>Create Fine</text>
+        </name>
+      </transition>
+      <transition id="Send Appeal to Prefecture">
+        <name>
+          <text>Send Appeal to Prefecture</text>
+        </name>
+      </transition>
+      <transition id="Add penalty">
+        <name>
+          <text>Add penalty</text>
+        </name>
+      </transition>
+      <transition id="Payment">
+        <name>
+          <text>Payment</text>
+        </name>
+      </transition>
+      <transition id="Insert Fine Notification">
+        <name>
+          <text>Insert Fine Notification</text>
+        </name>
+      </transition>
+      <transition id="Notify Result Appeal to Offender">
+        <name>
+          <text>Notify Result Appeal to Offender</text>
+        </name>
+      </transition>
+      <transition id="Create Fine-&gt;Payment">
+        <name>
+          <text>Create Fine-&gt;Payment</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <transition id="Insert Fine Notification-&gt;Add penalty">
+        <name>
+          <text>Insert Fine Notification-&gt;Add penalty</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <transition id="Send Appeal to Prefecture-&gt;[]">
+        <name>
+          <text>Send Appeal to Prefecture-&gt;[]</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <place id="I_[]">
+        <name>
+          <text>I_[]</text>
+        </name>
+      </place>
+      <place id="I_Create Fine">
+        <name>
+          <text>I_Create Fine</text>
+        </name>
+      </place>
+      <place id="O_Create Fine">
+        <name>
+          <text>O_Create Fine</text>
+        </name>
+      </place>
+      <place id="O_Send Appeal to Prefecture">
+        <name>
+          <text>O_Send Appeal to Prefecture</text>
+        </name>
+      </place>
+      <place id="I_Add penalty">
+        <name>
+          <text>I_Add penalty</text>
+        </name>
+      </place>
+      <place id="O_Add penalty">
+        <name>
+          <text>O_Add penalty</text>
+        </name>
+      </place>
+      <place id="I_Payment">
+        <name>
+          <text>I_Payment</text>
+        </name>
+      </place>
+      <place id="I_Insert Fine Notification">
+        <name>
+          <text>I_Insert Fine Notification</text>
+        </name>
+      </place>
+      <place id="O_Insert Fine Notification">
+        <name>
+          <text>O_Insert Fine Notification</text>
+        </name>
+      </place>
+      <place id="I_Notify Result Appeal to Offender">
+        <name>
+          <text>I_Notify Result Appeal to Offender</text>
+        </name>
+      </place>
+      <place id="StartPlace">
+        <name>
+          <text>StartPlace</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="EndPlace">
+        <name>
+          <text>EndPlace</text>
+        </name>
+      </place>
+      <arc id="I_[]-&gt;[]" source="I_[]" target="[]">
+        <name>
+          <text>[FROM(I_[]) TO([])]</text>
+        </name>
+      </arc>
+      <arc id="I_Create Fine-&gt;Create Fine" source="I_Create Fine" target="Create Fine">
+        <name>
+          <text>[FROM(I_Create Fine) TO(Create Fine)]</text>
+        </name>
+      </arc>
+      <arc id="Create Fine-&gt;O_Create Fine" source="Create Fine" target="O_Create Fine">
+        <name>
+          <text>[FROM(Create Fine) TO(O_Create Fine)]</text>
+        </name>
+      </arc>
+      <arc id="Send Appeal to Prefecture-&gt;O_Send Appeal to Prefecture" source="Send Appeal to Prefecture" target="O_Send Appeal to Prefecture">
+        <name>
+          <text>[FROM(Send Appeal to Prefecture) TO(O_Send Appeal to Prefecture)]</text>
+        </name>
+      </arc>
+      <arc id="I_Add penalty-&gt;Add penalty" source="I_Add penalty" target="Add penalty">
+        <name>
+          <text>[FROM(I_Add penalty) TO(Add penalty)]</text>
+        </name>
+      </arc>
+      <arc id="Add penalty-&gt;O_Add penalty" source="Add penalty" target="O_Add penalty">
+        <name>
+          <text>[FROM(Add penalty) TO(O_Add penalty)]</text>
+        </name>
+      </arc>
+      <arc id="I_Payment-&gt;Payment" source="I_Payment" target="Payment">
+        <name>
+          <text>[FROM(I_Payment) TO(Payment)]</text>
+        </name>
+      </arc>
+      <arc id="I_Insert Fine Notification-&gt;Insert Fine Notification" source="I_Insert Fine Notification" target="Insert Fine Notification">
+        <name>
+          <text>[FROM(I_Insert Fine Notification) TO(Insert Fine Notification)]</text>
+        </name>
+      </arc>
+      <arc id="Insert Fine Notification-&gt;O_Insert Fine Notification" source="Insert Fine Notification" target="O_Insert Fine Notification">
+        <name>
+          <text>[FROM(Insert Fine Notification) TO(O_Insert Fine Notification)]</text>
+        </name>
+      </arc>
+      <arc id="I_Notify Result Appeal to Offender-&gt;Notify Result Appeal to Offender" source="I_Notify Result Appeal to Offender" target="Notify Result Appeal to Offender">
+        <name>
+          <text>[FROM(I_Notify Result Appeal to Offender) TO(Notify Result Appeal to Offender)]</text>
+        </name>
+      </arc>
+      <arc id="O_Create Fine-&gt;Create Fine-&gt;Payment" source="O_Create Fine" target="Create Fine-&gt;Payment">
+        <name>
+          <text>[FROM(O_Create Fine) TO(Create Fine-&gt;Payment)]</text>
+        </name>
+      </arc>
+      <arc id="Create Fine-&gt;Payment-&gt;I_Payment" source="Create Fine-&gt;Payment" target="I_Payment">
+        <name>
+          <text>[FROM(Create Fine-&gt;Payment) TO(I_Payment)]</text>
+        </name>
+      </arc>
+      <arc id="O_Insert Fine Notification-&gt;Insert Fine Notification-&gt;Add penalty" source="O_Insert Fine Notification" target="Insert Fine Notification-&gt;Add penalty">
+        <name>
+          <text>[FROM(O_Insert Fine Notification) TO(Insert Fine Notification-&gt;Add penalty)]</text>
+        </name>
+      </arc>
+      <arc id="Insert Fine Notification-&gt;Add penalty-&gt;I_Add penalty" source="Insert Fine Notification-&gt;Add penalty" target="I_Add penalty">
+        <name>
+          <text>[FROM(Insert Fine Notification-&gt;Add penalty) TO(I_Add penalty)]</text>
+        </name>
+      </arc>
+      <arc id="O_Send Appeal to Prefecture-&gt;Send Appeal to Prefecture-&gt;[]" source="O_Send Appeal to Prefecture" target="Send Appeal to Prefecture-&gt;[]">
+        <name>
+          <text>[FROM(O_Send Appeal to Prefecture) TO(Send Appeal to Prefecture-&gt;[])]</text>
+        </name>
+      </arc>
+      <arc id="Send Appeal to Prefecture-&gt;[]-&gt;I_[]" source="Send Appeal to Prefecture-&gt;[]" target="I_[]">
+        <name>
+          <text>[FROM(Send Appeal to Prefecture-&gt;[]) TO(I_[])]</text>
+        </name>
+      </arc>
+      <arc id="|&gt;-&gt;I_Create Fine" source="|&gt;" target="I_Create Fine">
+        <name>
+          <text>[FROM(|&gt;) TO(I_Create Fine)]</text>
+        </name>
+      </arc>
+      <arc id="Insert Date Appeal to Prefecture-&gt;I_Add penalty" source="Insert Date Appeal to Prefecture" target="I_Add penalty">
+        <name>
+          <text>[FROM(Insert Date Appeal to Prefecture) TO(I_Add penalty)]</text>
+        </name>
+      </arc>
+      <arc id="Payment-&gt;I_[]" source="Payment" target="I_[]">
+        <name>
+          <text>[FROM(Payment) TO(I_[])]</text>
+        </name>
+      </arc>
+      <arc id="Send Fine-&gt;I_Insert Fine Notification" source="Send Fine" target="I_Insert Fine Notification">
+        <name>
+          <text>[FROM(Send Fine) TO(I_Insert Fine Notification)]</text>
+        </name>
+      </arc>
+      <arc id="Receive Result Appeal from Prefecture-&gt;I_Notify Result Appeal to Offender" source="Receive Result Appeal from Prefecture" target="I_Notify Result Appeal to Offender">
+        <name>
+          <text>[FROM(Receive Result Appeal from Prefecture) TO(I_Notify Result Appeal to Offender)]</text>
+        </name>
+      </arc>
+      <arc id="Send for Credit Collection-&gt;I_[]" source="Send for Credit Collection" target="I_[]">
+        <name>
+          <text>[FROM(Send for Credit Collection) TO(I_[])]</text>
+        </name>
+      </arc>
+      <arc id="Notify Result Appeal to Offender-&gt;I_Payment" source="Notify Result Appeal to Offender" target="I_Payment">
+        <name>
+          <text>[FROM(Notify Result Appeal to Offender) TO(I_Payment)]</text>
+        </name>
+      </arc>
+      <arc id="Appeal to Judge-&gt;I_Add penalty" source="Appeal to Judge" target="I_Add penalty">
+        <name>
+          <text>[FROM(Appeal to Judge) TO(I_Add penalty)]</text>
+        </name>
+      </arc>
+      <arc id="[]-&gt;EndPlace" source="[]" target="EndPlace">
+        <name>
+          <text>[FROM([]) TO(EndPlace)]</text>
+        </name>
+      </arc>
+      <arc id="O_Create Fine-&gt;Send Fine" source="O_Create Fine" target="Send Fine">
+        <name>
+          <text>[FROM(O_Create Fine) TO(Send Fine)]</text>
+        </name>
+      </arc>
+      <arc id="O_Add penalty-&gt;Send Appeal to Prefecture" source="O_Add penalty" target="Send Appeal to Prefecture">
+        <name>
+          <text>[FROM(O_Add penalty) TO(Send Appeal to Prefecture)]</text>
+        </name>
+      </arc>
+      <arc id="O_Send Appeal to Prefecture-&gt;Receive Result Appeal from Prefecture" source="O_Send Appeal to Prefecture" target="Receive Result Appeal from Prefecture">
+        <name>
+          <text>[FROM(O_Send Appeal to Prefecture) TO(Receive Result Appeal from Prefecture)]</text>
+        </name>
+      </arc>
+      <arc id="O_Insert Fine Notification-&gt;Insert Date Appeal to Prefecture" source="O_Insert Fine Notification" target="Insert Date Appeal to Prefecture">
+        <name>
+          <text>[FROM(O_Insert Fine Notification) TO(Insert Date Appeal to Prefecture)]</text>
+        </name>
+      </arc>
+      <arc id="O_Add penalty-&gt;Send for Credit Collection" source="O_Add penalty" target="Send for Credit Collection">
+        <name>
+          <text>[FROM(O_Add penalty) TO(Send for Credit Collection)]</text>
+        </name>
+      </arc>
+      <arc id="O_Insert Fine Notification-&gt;Appeal to Judge" source="O_Insert Fine Notification" target="Appeal to Judge">
+        <name>
+          <text>[FROM(O_Insert Fine Notification) TO(Appeal to Judge)]</text>
+        </name>
+      </arc>
+      <arc id="StartPlace-&gt;|&gt;" source="StartPlace" target="|&gt;">
+        <name>
+          <text>[FROM(StartPlace) TO(|&gt;)]</text>
+        </name>
+      </arc>
+    </page>
+    <finalMarkings>
+      <marking>
+        <place idref="I_[]">
+          <text>0</text>
+        </place>
+        <place idref="I_Create Fine">
+          <text>0</text>
+        </place>
+        <place idref="O_Create Fine">
+          <text>0</text>
+        </place>
+        <place idref="O_Send Appeal to Prefecture">
+          <text>0</text>
+        </place>
+        <place idref="I_Add penalty">
+          <text>0</text>
+        </place>
+        <place idref="O_Add penalty">
+          <text>0</text>
+        </place>
+        <place idref="I_Payment">
+          <text>0</text>
+        </place>
+        <place idref="I_Insert Fine Notification">
+          <text>0</text>
+        </place>
+        <place idref="O_Insert Fine Notification">
+          <text>0</text>
+        </place>
+        <place idref="I_Notify Result Appeal to Offender">
+          <text>0</text>
+        </place>
+        <place idref="StartPlace">
+          <text>0</text>
+        </place>
+        <place idref="EndPlace">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalMarkings>
+  </net>
+</pnml>

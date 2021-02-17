@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+  <net xmlns="" id="TranslatedPetriNet" type="http://www.pnml.org/version-2009/grammar/ptnet">
+    <name>
+      <text>TranslatedPetriNet</text>
+    </name>
+    <page id="0">
+      <transition id="[]">
+        <name>
+          <text>[]</text>
+        </name>
+      </transition>
+      <transition id="|&gt;">
+        <name>
+          <text>|&gt;</text>
+        </name>
+      </transition>
+      <transition id="Overleden">
+        <name>
+          <text>Overleden</text>
+        </name>
+      </transition>
+      <transition id="Nog Opgenomen">
+        <name>
+          <text>Nog Opgenomen</text>
+        </name>
+      </transition>
+      <transition id="SEH">
+        <name>
+          <text>SEH</text>
+        </name>
+      </transition>
+      <transition id="Huis">
+        <name>
+          <text>Huis</text>
+        </name>
+      </transition>
+      <transition id="Nazorg in andere instelling">
+        <name>
+          <text>Nazorg in andere instelling</text>
+        </name>
+      </transition>
+      <transition id="Hospice">
+        <name>
+          <text>Hospice</text>
+        </name>
+      </transition>
+      <transition id="Onbekend">
+        <name>
+          <text>Onbekend</text>
+        </name>
+      </transition>
+      <transition id="Ander ziekenhuis">
+        <name>
+          <text>Ander ziekenhuis</text>
+        </name>
+      </transition>
+      <transition id="Ontslag">
+        <name>
+          <text>Ontslag</text>
+        </name>
+      </transition>
+      <transition id="Kliniek">
+        <name>
+          <text>Kliniek</text>
+        </name>
+      </transition>
+      <place id="I_[]">
+        <name>
+          <text>I_[]</text>
+        </name>
+      </place>
+      <place id="I_SEH">
+        <name>
+          <text>I_SEH</text>
+        </name>
+      </place>
+      <place id="O_Ontslag">
+        <name>
+          <text>O_Ontslag</text>
+        </name>
+      </place>
+      <place id="I_Kliniek">
+        <name>
+          <text>I_Kliniek</text>
+        </name>
+      </place>
+      <place id="O_Kliniek">
+        <name>
+          <text>O_Kliniek</text>
+        </name>
+      </place>
+      <place id="StartPlace">
+        <name>
+          <text>StartPlace</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="EndPlace">
+        <name>
+          <text>EndPlace</text>
+        </name>
+      </place>
+      <arc id="I_[]-&gt;[]" source="I_[]" target="[]">
+        <name>
+          <text>[FROM(I_[]) TO([])]</text>
+        </name>
+      </arc>
+      <arc id="I_SEH-&gt;SEH" source="I_SEH" target="SEH">
+        <name>
+          <text>[FROM(I_SEH) TO(SEH)]</text>
+        </name>
+      </arc>
+      <arc id="Ontslag-&gt;O_Ontslag" source="Ontslag" target="O_Ontslag">
+        <name>
+          <text>[FROM(Ontslag) TO(O_Ontslag)]</text>
+        </name>
+      </arc>
+      <arc id="I_Kliniek-&gt;Kliniek" source="I_Kliniek" target="Kliniek">
+        <name>
+          <text>[FROM(I_Kliniek) TO(Kliniek)]</text>
+        </name>
+      </arc>
+      <arc id="Kliniek-&gt;O_Kliniek" source="Kliniek" target="O_Kliniek">
+        <name>
+          <text>[FROM(Kliniek) TO(O_Kliniek)]</text>
+        </name>
+      </arc>
+      <arc id="SEH-&gt;I_Kliniek" source="SEH" target="I_Kliniek">
+        <name>
+          <text>[FROM(SEH) TO(I_Kliniek)]</text>
+        </name>
+      </arc>
+      <arc id="Nazorg in andere instelling-&gt;I_[]" source="Nazorg in andere instelling" target="I_[]">
+        <name>
+          <text>[FROM(Nazorg in andere instelling) TO(I_[])]</text>
+        </name>
+      </arc>
+      <arc id="Hospice-&gt;I_[]" source="Hospice" target="I_[]">
+        <name>
+          <text>[FROM(Hospice) TO(I_[])]</text>
+        </name>
+      </arc>
+      <arc id="Huis-&gt;I_[]" source="Huis" target="I_[]">
+        <name>
+          <text>[FROM(Huis) TO(I_[])]</text>
+        </name>
+      </arc>
+      <arc id="Nog Opgenomen-&gt;I_[]" source="Nog Opgenomen" target="I_[]">
+        <name>
+          <text>[FROM(Nog Opgenomen) TO(I_[])]</text>
+        </name>
+      </arc>
+      <arc id="Ander ziekenhuis-&gt;I_[]" source="Ander ziekenhuis" target="I_[]">
+        <name>
+          <text>[FROM(Ander ziekenhuis) TO(I_[])]</text>
+        </name>
+      </arc>
+      <arc id="Onbekend-&gt;I_[]" source="Onbekend" target="I_[]">
+        <name>
+          <text>[FROM(Onbekend) TO(I_[])]</text>
+        </name>
+      </arc>
+      <arc id="|&gt;-&gt;I_SEH" source="|&gt;" target="I_SEH">
+        <name>
+          <text>[FROM(|&gt;) TO(I_SEH)]</text>
+        </name>
+      </arc>
+      <arc id="Overleden-&gt;I_[]" source="Overleden" target="I_[]">
+        <name>
+          <text>[FROM(Overleden) TO(I_[])]</text>
+        </name>
+      </arc>
+      <arc id="[]-&gt;EndPlace" source="[]" target="EndPlace">
+        <name>
+          <text>[FROM([]) TO(EndPlace)]</text>
+        </name>
+      </arc>
+      <arc id="O_Kliniek-&gt;Ontslag" source="O_Kliniek" target="Ontslag">
+        <name>
+          <text>[FROM(O_Kliniek) TO(Ontslag)]</text>
+        </name>
+      </arc>
+      <arc id="O_Ontslag-&gt;Overleden" source="O_Ontslag" target="Overleden">
+        <name>
+          <text>[FROM(O_Ontslag) TO(Overleden)]</text>
+        </name>
+      </arc>
+      <arc id="O_Ontslag-&gt;Ander ziekenhuis" source="O_Ontslag" target="Ander ziekenhuis">
+        <name>
+          <text>[FROM(O_Ontslag) TO(Ander ziekenhuis)]</text>
+        </name>
+      </arc>
+      <arc id="O_Ontslag-&gt;Onbekend" source="O_Ontslag" target="Onbekend">
+        <name>
+          <text>[FROM(O_Ontslag) TO(Onbekend)]</text>
+        </name>
+      </arc>
+      <arc id="O_Ontslag-&gt;Huis" source="O_Ontslag" target="Huis">
+        <name>
+          <text>[FROM(O_Ontslag) TO(Huis)]</text>
+        </name>
+      </arc>
+      <arc id="O_Kliniek-&gt;Nog Opgenomen" source="O_Kliniek" target="Nog Opgenomen">
+        <name>
+          <text>[FROM(O_Kliniek) TO(Nog Opgenomen)]</text>
+        </name>
+      </arc>
+      <arc id="O_Ontslag-&gt;Nazorg in andere instelling" source="O_Ontslag" target="Nazorg in andere instelling">
+        <name>
+          <text>[FROM(O_Ontslag) TO(Nazorg in andere instelling)]</text>
+        </name>
+      </arc>
+      <arc id="O_Ontslag-&gt;Hospice" source="O_Ontslag" target="Hospice">
+        <name>
+          <text>[FROM(O_Ontslag) TO(Hospice)]</text>
+        </name>
+      </arc>
+      <arc id="StartPlace-&gt;|&gt;" source="StartPlace" target="|&gt;">
+        <name>
+          <text>[FROM(StartPlace) TO(|&gt;)]</text>
+        </name>
+      </arc>
+    </page>
+    <finalMarkings>
+      <marking>
+        <place idref="I_[]">
+          <text>0</text>
+        </place>
+        <place idref="I_SEH">
+          <text>0</text>
+        </place>
+        <place idref="O_Ontslag">
+          <text>0</text>
+        </place>
+        <place idref="I_Kliniek">
+          <text>0</text>
+        </place>
+        <place idref="O_Kliniek">
+          <text>0</text>
+        </place>
+        <place idref="StartPlace">
+          <text>0</text>
+        </place>
+        <place idref="EndPlace">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalMarkings>
+  </net>
+</pnml>

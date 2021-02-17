@@ -1,0 +1,1256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+  <net xmlns="" id="TranslatedPetriNet" type="http://www.pnml.org/version-2009/grammar/ptnet">
+    <name>
+      <text>TranslatedPetriNet</text>
+    </name>
+    <page id="0">
+      <transition id="Permit REJECTED by DIRECTOR">
+        <name>
+          <text>Permit REJECTED by DIRECTOR</text>
+        </name>
+      </transition>
+      <transition id="Request For Payment REJECTED by MISSING">
+        <name>
+          <text>Request For Payment REJECTED by MISSING</text>
+        </name>
+      </transition>
+      <transition id="Declaration REJECTED by MISSING">
+        <name>
+          <text>Declaration REJECTED by MISSING</text>
+        </name>
+      </transition>
+      <transition id="Declaration REJECTED by ADMINISTRATION">
+        <name>
+          <text>Declaration REJECTED by ADMINISTRATION</text>
+        </name>
+      </transition>
+      <transition id="Permit REJECTED by SUPERVISOR">
+        <name>
+          <text>Permit REJECTED by SUPERVISOR</text>
+        </name>
+      </transition>
+      <transition id="Declaration REJECTED by SUPERVISOR">
+        <name>
+          <text>Declaration REJECTED by SUPERVISOR</text>
+        </name>
+      </transition>
+      <transition id="Request For Payment APPROVED by PRE_APPROVER">
+        <name>
+          <text>Request For Payment APPROVED by PRE_APPROVER</text>
+        </name>
+      </transition>
+      <transition id="Declaration FINAL_APPROVED by DIRECTOR">
+        <name>
+          <text>Declaration FINAL_APPROVED by DIRECTOR</text>
+        </name>
+      </transition>
+      <transition id="Declaration REJECTED by EMPLOYEE">
+        <name>
+          <text>Declaration REJECTED by EMPLOYEE</text>
+        </name>
+      </transition>
+      <transition id="Request For Payment SUBMITTED by EMPLOYEE">
+        <name>
+          <text>Request For Payment SUBMITTED by EMPLOYEE</text>
+        </name>
+      </transition>
+      <transition id="Declaration APPROVED by PRE_APPROVER">
+        <name>
+          <text>Declaration APPROVED by PRE_APPROVER</text>
+        </name>
+      </transition>
+      <transition id="Permit APPROVED by PRE_APPROVER">
+        <name>
+          <text>Permit APPROVED by PRE_APPROVER</text>
+        </name>
+      </transition>
+      <transition id="Request For Payment REJECTED by PRE_APPROVER">
+        <name>
+          <text>Request For Payment REJECTED by PRE_APPROVER</text>
+        </name>
+      </transition>
+      <transition id="Permit APPROVED by SUPERVISOR">
+        <name>
+          <text>Permit APPROVED by SUPERVISOR</text>
+        </name>
+      </transition>
+      <transition id="Declaration APPROVED by SUPERVISOR">
+        <name>
+          <text>Declaration APPROVED by SUPERVISOR</text>
+        </name>
+      </transition>
+      <transition id="Declaration APPROVED by ADMINISTRATION">
+        <name>
+          <text>Declaration APPROVED by ADMINISTRATION</text>
+        </name>
+      </transition>
+      <transition id="Request Payment">
+        <name>
+          <text>Request Payment</text>
+        </name>
+      </transition>
+      <transition id="Declaration REJECTED by PRE_APPROVER">
+        <name>
+          <text>Declaration REJECTED by PRE_APPROVER</text>
+        </name>
+      </transition>
+      <transition id="Request For Payment REJECTED by EMPLOYEE">
+        <name>
+          <text>Request For Payment REJECTED by EMPLOYEE</text>
+        </name>
+      </transition>
+      <transition id="Permit APPROVED by BUDGET OWNER">
+        <name>
+          <text>Permit APPROVED by BUDGET OWNER</text>
+        </name>
+      </transition>
+      <transition id="Request For Payment REJECTED by BUDGET OWNER">
+        <name>
+          <text>Request For Payment REJECTED by BUDGET OWNER</text>
+        </name>
+      </transition>
+      <transition id="Request For Payment REJECTED by ADMINISTRATION">
+        <name>
+          <text>Request For Payment REJECTED by ADMINISTRATION</text>
+        </name>
+      </transition>
+      <transition id="Permit REJECTED by MISSING">
+        <name>
+          <text>Permit REJECTED by MISSING</text>
+        </name>
+      </transition>
+      <transition id="Declaration REJECTED by BUDGET OWNER">
+        <name>
+          <text>Declaration REJECTED by BUDGET OWNER</text>
+        </name>
+      </transition>
+      <transition id="Request For Payment FINAL_APPROVED by DIRECTOR">
+        <name>
+          <text>Request For Payment FINAL_APPROVED by DIRECTOR</text>
+        </name>
+      </transition>
+      <transition id="Declaration SUBMITTED by EMPLOYEE">
+        <name>
+          <text>Declaration SUBMITTED by EMPLOYEE</text>
+        </name>
+      </transition>
+      <transition id="|&gt;">
+        <name>
+          <text>|&gt;</text>
+        </name>
+      </transition>
+      <transition id="[]">
+        <name>
+          <text>[]</text>
+        </name>
+      </transition>
+      <transition id="Declaration FINAL_APPROVED by SUPERVISOR">
+        <name>
+          <text>Declaration FINAL_APPROVED by SUPERVISOR</text>
+        </name>
+      </transition>
+      <transition id="Request For Payment FINAL_APPROVED by SUPERVISOR">
+        <name>
+          <text>Request For Payment FINAL_APPROVED by SUPERVISOR</text>
+        </name>
+      </transition>
+      <transition id="Declaration REJECTED by DIRECTOR">
+        <name>
+          <text>Declaration REJECTED by DIRECTOR</text>
+        </name>
+      </transition>
+      <transition id="Permit REJECTED by ADMINISTRATION">
+        <name>
+          <text>Permit REJECTED by ADMINISTRATION</text>
+        </name>
+      </transition>
+      <transition id="Permit SUBMITTED by EMPLOYEE">
+        <name>
+          <text>Permit SUBMITTED by EMPLOYEE</text>
+        </name>
+      </transition>
+      <transition id="Permit FOR_APPROVAL by SUPERVISOR">
+        <name>
+          <text>Permit FOR_APPROVAL by SUPERVISOR</text>
+        </name>
+      </transition>
+      <transition id="End trip">
+        <name>
+          <text>End trip</text>
+        </name>
+      </transition>
+      <transition id="Request For Payment REJECTED by SUPERVISOR">
+        <name>
+          <text>Request For Payment REJECTED by SUPERVISOR</text>
+        </name>
+      </transition>
+      <transition id="Permit FINAL_APPROVED by DIRECTOR">
+        <name>
+          <text>Permit FINAL_APPROVED by DIRECTOR</text>
+        </name>
+      </transition>
+      <transition id="Permit REJECTED by EMPLOYEE">
+        <name>
+          <text>Permit REJECTED by EMPLOYEE</text>
+        </name>
+      </transition>
+      <transition id="Request For Payment SAVED by EMPLOYEE">
+        <name>
+          <text>Request For Payment SAVED by EMPLOYEE</text>
+        </name>
+      </transition>
+      <transition id="Permit APPROVED by ADMINISTRATION">
+        <name>
+          <text>Permit APPROVED by ADMINISTRATION</text>
+        </name>
+      </transition>
+      <transition id="Start trip">
+        <name>
+          <text>Start trip</text>
+        </name>
+      </transition>
+      <transition id="Payment Handled">
+        <name>
+          <text>Payment Handled</text>
+        </name>
+      </transition>
+      <transition id="Request For Payment APPROVED by BUDGET OWNER">
+        <name>
+          <text>Request For Payment APPROVED by BUDGET OWNER</text>
+        </name>
+      </transition>
+      <transition id="Request For Payment APPROVED by SUPERVISOR">
+        <name>
+          <text>Request For Payment APPROVED by SUPERVISOR</text>
+        </name>
+      </transition>
+      <transition id="Permit REJECTED by PRE_APPROVER">
+        <name>
+          <text>Permit REJECTED by PRE_APPROVER</text>
+        </name>
+      </transition>
+      <transition id="Declaration APPROVED by BUDGET OWNER">
+        <name>
+          <text>Declaration APPROVED by BUDGET OWNER</text>
+        </name>
+      </transition>
+      <transition id="Send Reminder">
+        <name>
+          <text>Send Reminder</text>
+        </name>
+      </transition>
+      <transition id="Permit REJECTED by BUDGET OWNER">
+        <name>
+          <text>Permit REJECTED by BUDGET OWNER</text>
+        </name>
+      </transition>
+      <transition id="Permit FOR_APPROVAL by ADMINISTRATION">
+        <name>
+          <text>Permit FOR_APPROVAL by ADMINISTRATION</text>
+        </name>
+      </transition>
+      <transition id="Permit SAVED by EMPLOYEE">
+        <name>
+          <text>Permit SAVED by EMPLOYEE</text>
+        </name>
+      </transition>
+      <transition id="Declaration SAVED by EMPLOYEE">
+        <name>
+          <text>Declaration SAVED by EMPLOYEE</text>
+        </name>
+      </transition>
+      <transition id="Permit FINAL_APPROVED by SUPERVISOR">
+        <name>
+          <text>Permit FINAL_APPROVED by SUPERVISOR</text>
+        </name>
+      </transition>
+      <transition id="Request For Payment APPROVED by ADMINISTRATION">
+        <name>
+          <text>Request For Payment APPROVED by ADMINISTRATION</text>
+        </name>
+      </transition>
+      <transition id="End trip-&gt;Declaration SUBMITTED by EMPLOYEE">
+        <name>
+          <text>End trip-&gt;Declaration SUBMITTED by EMPLOYEE</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <transition id="Permit APPROVED by BUDGET OWNER-&gt;Permit FINAL_APPROVED by SUPERVISOR">
+        <name>
+          <text>Permit APPROVED by BUDGET OWNER-&gt;Permit FINAL_APPROVED by SUPERVISOR</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <transition id="Permit FINAL_APPROVED by SUPERVISOR-&gt;Request For Payment SUBMITTED by EMPLOYEE">
+        <name>
+          <text>Permit FINAL_APPROVED by SUPERVISOR-&gt;Request For Payment SUBMITTED by EMPLOYEE</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <transition id="Declaration APPROVED by ADMINISTRATION-&gt;Declaration FINAL_APPROVED by SUPERVISOR">
+        <name>
+          <text>Declaration APPROVED by ADMINISTRATION-&gt;Declaration FINAL_APPROVED by SUPERVISOR</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <transition id="Declaration FINAL_APPROVED by SUPERVISOR-&gt;Request Payment">
+        <name>
+          <text>Declaration FINAL_APPROVED by SUPERVISOR-&gt;Request Payment</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <transition id="End trip-&gt;Send Reminder">
+        <name>
+          <text>End trip-&gt;Send Reminder</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <transition id="Permit FINAL_APPROVED by SUPERVISOR-&gt;Start trip">
+        <name>
+          <text>Permit FINAL_APPROVED by SUPERVISOR-&gt;Start trip</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <transition id="|&gt;-&gt;Permit SUBMITTED by EMPLOYEE">
+        <name>
+          <text>|&gt;-&gt;Permit SUBMITTED by EMPLOYEE</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <transition id="Request For Payment FINAL_APPROVED by SUPERVISOR-&gt;Request Payment">
+        <name>
+          <text>Request For Payment FINAL_APPROVED by SUPERVISOR-&gt;Request Payment</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <transition id="Permit APPROVED by ADMINISTRATION-&gt;Permit FINAL_APPROVED by SUPERVISOR">
+        <name>
+          <text>Permit APPROVED by ADMINISTRATION-&gt;Permit FINAL_APPROVED by SUPERVISOR</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <transition id="Request For Payment APPROVED by ADMINISTRATION-&gt;Request For Payment FINAL_APPROVED by SUPERVISOR">
+        <name>
+          <text>Request For Payment APPROVED by ADMINISTRATION-&gt;Request For Payment FINAL_APPROVED by SUPERVISOR</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <place id="I_Declaration REJECTED by EMPLOYEE">
+        <name>
+          <text>I_Declaration REJECTED by EMPLOYEE</text>
+        </name>
+      </place>
+      <place id="I_Request For Payment SUBMITTED by EMPLOYEE">
+        <name>
+          <text>I_Request For Payment SUBMITTED by EMPLOYEE</text>
+        </name>
+      </place>
+      <place id="O_Request For Payment SUBMITTED by EMPLOYEE">
+        <name>
+          <text>O_Request For Payment SUBMITTED by EMPLOYEE</text>
+        </name>
+      </place>
+      <place id="O_Permit APPROVED by SUPERVISOR">
+        <name>
+          <text>O_Permit APPROVED by SUPERVISOR</text>
+        </name>
+      </place>
+      <place id="O_Declaration APPROVED by SUPERVISOR">
+        <name>
+          <text>O_Declaration APPROVED by SUPERVISOR</text>
+        </name>
+      </place>
+      <place id="O_Declaration APPROVED by ADMINISTRATION">
+        <name>
+          <text>O_Declaration APPROVED by ADMINISTRATION</text>
+        </name>
+      </place>
+      <place id="I_Request Payment">
+        <name>
+          <text>I_Request Payment</text>
+        </name>
+      </place>
+      <place id="I_Request For Payment REJECTED by EMPLOYEE">
+        <name>
+          <text>I_Request For Payment REJECTED by EMPLOYEE</text>
+        </name>
+      </place>
+      <place id="O_Permit APPROVED by BUDGET OWNER">
+        <name>
+          <text>O_Permit APPROVED by BUDGET OWNER</text>
+        </name>
+      </place>
+      <place id="I_Request For Payment FINAL_APPROVED by DIRECTOR">
+        <name>
+          <text>I_Request For Payment FINAL_APPROVED by DIRECTOR</text>
+        </name>
+      </place>
+      <place id="I_Declaration SUBMITTED by EMPLOYEE">
+        <name>
+          <text>I_Declaration SUBMITTED by EMPLOYEE</text>
+        </name>
+      </place>
+      <place id="O_Declaration SUBMITTED by EMPLOYEE">
+        <name>
+          <text>O_Declaration SUBMITTED by EMPLOYEE</text>
+        </name>
+      </place>
+      <place id="O_|&gt;">
+        <name>
+          <text>O_|&gt;</text>
+        </name>
+      </place>
+      <place id="I_[]">
+        <name>
+          <text>I_[]</text>
+        </name>
+      </place>
+      <place id="I_Declaration FINAL_APPROVED by SUPERVISOR">
+        <name>
+          <text>I_Declaration FINAL_APPROVED by SUPERVISOR</text>
+        </name>
+      </place>
+      <place id="O_Declaration FINAL_APPROVED by SUPERVISOR">
+        <name>
+          <text>O_Declaration FINAL_APPROVED by SUPERVISOR</text>
+        </name>
+      </place>
+      <place id="I_Request For Payment FINAL_APPROVED by SUPERVISOR">
+        <name>
+          <text>I_Request For Payment FINAL_APPROVED by SUPERVISOR</text>
+        </name>
+      </place>
+      <place id="O_Request For Payment FINAL_APPROVED by SUPERVISOR">
+        <name>
+          <text>O_Request For Payment FINAL_APPROVED by SUPERVISOR</text>
+        </name>
+      </place>
+      <place id="I_Permit SUBMITTED by EMPLOYEE">
+        <name>
+          <text>I_Permit SUBMITTED by EMPLOYEE</text>
+        </name>
+      </place>
+      <place id="O_Permit SUBMITTED by EMPLOYEE">
+        <name>
+          <text>O_Permit SUBMITTED by EMPLOYEE</text>
+        </name>
+      </place>
+      <place id="I_End trip">
+        <name>
+          <text>I_End trip</text>
+        </name>
+      </place>
+      <place id="O_End trip">
+        <name>
+          <text>O_End trip</text>
+        </name>
+      </place>
+      <place id="I_Permit REJECTED by EMPLOYEE">
+        <name>
+          <text>I_Permit REJECTED by EMPLOYEE</text>
+        </name>
+      </place>
+      <place id="O_Permit APPROVED by ADMINISTRATION">
+        <name>
+          <text>O_Permit APPROVED by ADMINISTRATION</text>
+        </name>
+      </place>
+      <place id="I_Start trip">
+        <name>
+          <text>I_Start trip</text>
+        </name>
+      </place>
+      <place id="I_Payment Handled">
+        <name>
+          <text>I_Payment Handled</text>
+        </name>
+      </place>
+      <place id="I_Send Reminder">
+        <name>
+          <text>I_Send Reminder</text>
+        </name>
+      </place>
+      <place id="I_Permit FINAL_APPROVED by SUPERVISOR">
+        <name>
+          <text>I_Permit FINAL_APPROVED by SUPERVISOR</text>
+        </name>
+      </place>
+      <place id="O_Permit FINAL_APPROVED by SUPERVISOR">
+        <name>
+          <text>O_Permit FINAL_APPROVED by SUPERVISOR</text>
+        </name>
+      </place>
+      <place id="O_Request For Payment APPROVED by ADMINISTRATION">
+        <name>
+          <text>O_Request For Payment APPROVED by ADMINISTRATION</text>
+        </name>
+      </place>
+      <place id="StartPlace">
+        <name>
+          <text>StartPlace</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="EndPlace">
+        <name>
+          <text>EndPlace</text>
+        </name>
+      </place>
+      <arc id="I_Declaration REJECTED by EMPLOYEE-&gt;Declaration REJECTED by EMPLOYEE" source="I_Declaration REJECTED by EMPLOYEE" target="Declaration REJECTED by EMPLOYEE">
+        <name>
+          <text>[FROM(I_Declaration REJECTED by EMPLOYEE) TO(Declaration REJECTED by EMPLOYEE)]</text>
+        </name>
+      </arc>
+      <arc id="I_Request For Payment SUBMITTED by EMPLOYEE-&gt;Request For Payment SUBMITTED by EMPLOYEE" source="I_Request For Payment SUBMITTED by EMPLOYEE" target="Request For Payment SUBMITTED by EMPLOYEE">
+        <name>
+          <text>[FROM(I_Request For Payment SUBMITTED by EMPLOYEE) TO(Request For Payment SUBMITTED by EMPLOYEE)]</text>
+        </name>
+      </arc>
+      <arc id="Request For Payment SUBMITTED by EMPLOYEE-&gt;O_Request For Payment SUBMITTED by EMPLOYEE" source="Request For Payment SUBMITTED by EMPLOYEE" target="O_Request For Payment SUBMITTED by EMPLOYEE">
+        <name>
+          <text>[FROM(Request For Payment SUBMITTED by EMPLOYEE) TO(O_Request For Payment SUBMITTED by EMPLOYEE)]</text>
+        </name>
+      </arc>
+      <arc id="Permit APPROVED by SUPERVISOR-&gt;O_Permit APPROVED by SUPERVISOR" source="Permit APPROVED by SUPERVISOR" target="O_Permit APPROVED by SUPERVISOR">
+        <name>
+          <text>[FROM(Permit APPROVED by SUPERVISOR) TO(O_Permit APPROVED by SUPERVISOR)]</text>
+        </name>
+      </arc>
+      <arc id="Declaration APPROVED by SUPERVISOR-&gt;O_Declaration APPROVED by SUPERVISOR" source="Declaration APPROVED by SUPERVISOR" target="O_Declaration APPROVED by SUPERVISOR">
+        <name>
+          <text>[FROM(Declaration APPROVED by SUPERVISOR) TO(O_Declaration APPROVED by SUPERVISOR)]</text>
+        </name>
+      </arc>
+      <arc id="Declaration APPROVED by ADMINISTRATION-&gt;O_Declaration APPROVED by ADMINISTRATION" source="Declaration APPROVED by ADMINISTRATION" target="O_Declaration APPROVED by ADMINISTRATION">
+        <name>
+          <text>[FROM(Declaration APPROVED by ADMINISTRATION) TO(O_Declaration APPROVED by ADMINISTRATION)]</text>
+        </name>
+      </arc>
+      <arc id="I_Request Payment-&gt;Request Payment" source="I_Request Payment" target="Request Payment">
+        <name>
+          <text>[FROM(I_Request Payment) TO(Request Payment)]</text>
+        </name>
+      </arc>
+      <arc id="I_Request For Payment REJECTED by EMPLOYEE-&gt;Request For Payment REJECTED by EMPLOYEE" source="I_Request For Payment REJECTED by EMPLOYEE" target="Request For Payment REJECTED by EMPLOYEE">
+        <name>
+          <text>[FROM(I_Request For Payment REJECTED by EMPLOYEE) TO(Request For Payment REJECTED by EMPLOYEE)]</text>
+        </name>
+      </arc>
+      <arc id="Permit APPROVED by BUDGET OWNER-&gt;O_Permit APPROVED by BUDGET OWNER" source="Permit APPROVED by BUDGET OWNER" target="O_Permit APPROVED by BUDGET OWNER">
+        <name>
+          <text>[FROM(Permit APPROVED by BUDGET OWNER) TO(O_Permit APPROVED by BUDGET OWNER)]</text>
+        </name>
+      </arc>
+      <arc id="I_Request For Payment FINAL_APPROVED by DIRECTOR-&gt;Request For Payment FINAL_APPROVED by DIRECTOR" source="I_Request For Payment FINAL_APPROVED by DIRECTOR" target="Request For Payment FINAL_APPROVED by DIRECTOR">
+        <name>
+          <text>[FROM(I_Request For Payment FINAL_APPROVED by DIRECTOR) TO(Request For Payment FINAL_APPROVED by DIRECTOR)]</text>
+        </name>
+      </arc>
+      <arc id="I_Declaration SUBMITTED by EMPLOYEE-&gt;Declaration SUBMITTED by EMPLOYEE" source="I_Declaration SUBMITTED by EMPLOYEE" target="Declaration SUBMITTED by EMPLOYEE">
+        <name>
+          <text>[FROM(I_Declaration SUBMITTED by EMPLOYEE) TO(Declaration SUBMITTED by EMPLOYEE)]</text>
+        </name>
+      </arc>
+      <arc id="Declaration SUBMITTED by EMPLOYEE-&gt;O_Declaration SUBMITTED by EMPLOYEE" source="Declaration SUBMITTED by EMPLOYEE" target="O_Declaration SUBMITTED by EMPLOYEE">
+        <name>
+          <text>[FROM(Declaration SUBMITTED by EMPLOYEE) TO(O_Declaration SUBMITTED by EMPLOYEE)]</text>
+        </name>
+      </arc>
+      <arc id="|&gt;-&gt;O_|&gt;" source="|&gt;" target="O_|&gt;">
+        <name>
+          <text>[FROM(|&gt;) TO(O_|&gt;)]</text>
+        </name>
+      </arc>
+      <arc id="I_[]-&gt;[]" source="I_[]" target="[]">
+        <name>
+          <text>[FROM(I_[]) TO([])]</text>
+        </name>
+      </arc>
+      <arc id="I_Declaration FINAL_APPROVED by SUPERVISOR-&gt;Declaration FINAL_APPROVED by SUPERVISOR" source="I_Declaration FINAL_APPROVED by SUPERVISOR" target="Declaration FINAL_APPROVED by SUPERVISOR">
+        <name>
+          <text>[FROM(I_Declaration FINAL_APPROVED by SUPERVISOR) TO(Declaration FINAL_APPROVED by SUPERVISOR)]</text>
+        </name>
+      </arc>
+      <arc id="Declaration FINAL_APPROVED by SUPERVISOR-&gt;O_Declaration FINAL_APPROVED by SUPERVISOR" source="Declaration FINAL_APPROVED by SUPERVISOR" target="O_Declaration FINAL_APPROVED by SUPERVISOR">
+        <name>
+          <text>[FROM(Declaration FINAL_APPROVED by SUPERVISOR) TO(O_Declaration FINAL_APPROVED by SUPERVISOR)]</text>
+        </name>
+      </arc>
+      <arc id="I_Request For Payment FINAL_APPROVED by SUPERVISOR-&gt;Request For Payment FINAL_APPROVED by SUPERVISOR" source="I_Request For Payment FINAL_APPROVED by SUPERVISOR" target="Request For Payment FINAL_APPROVED by SUPERVISOR">
+        <name>
+          <text>[FROM(I_Request For Payment FINAL_APPROVED by SUPERVISOR) TO(Request For Payment FINAL_APPROVED by SUPERVISOR)]</text>
+        </name>
+      </arc>
+      <arc id="Request For Payment FINAL_APPROVED by SUPERVISOR-&gt;O_Request For Payment FINAL_APPROVED by SUPERVISOR" source="Request For Payment FINAL_APPROVED by SUPERVISOR" target="O_Request For Payment FINAL_APPROVED by SUPERVISOR">
+        <name>
+          <text>[FROM(Request For Payment FINAL_APPROVED by SUPERVISOR) TO(O_Request For Payment FINAL_APPROVED by SUPERVISOR)]</text>
+        </name>
+      </arc>
+      <arc id="I_Permit SUBMITTED by EMPLOYEE-&gt;Permit SUBMITTED by EMPLOYEE" source="I_Permit SUBMITTED by EMPLOYEE" target="Permit SUBMITTED by EMPLOYEE">
+        <name>
+          <text>[FROM(I_Permit SUBMITTED by EMPLOYEE) TO(Permit SUBMITTED by EMPLOYEE)]</text>
+        </name>
+      </arc>
+      <arc id="Permit SUBMITTED by EMPLOYEE-&gt;O_Permit SUBMITTED by EMPLOYEE" source="Permit SUBMITTED by EMPLOYEE" target="O_Permit SUBMITTED by EMPLOYEE">
+        <name>
+          <text>[FROM(Permit SUBMITTED by EMPLOYEE) TO(O_Permit SUBMITTED by EMPLOYEE)]</text>
+        </name>
+      </arc>
+      <arc id="I_End trip-&gt;End trip" source="I_End trip" target="End trip">
+        <name>
+          <text>[FROM(I_End trip) TO(End trip)]</text>
+        </name>
+      </arc>
+      <arc id="End trip-&gt;O_End trip" source="End trip" target="O_End trip">
+        <name>
+          <text>[FROM(End trip) TO(O_End trip)]</text>
+        </name>
+      </arc>
+      <arc id="I_Permit REJECTED by EMPLOYEE-&gt;Permit REJECTED by EMPLOYEE" source="I_Permit REJECTED by EMPLOYEE" target="Permit REJECTED by EMPLOYEE">
+        <name>
+          <text>[FROM(I_Permit REJECTED by EMPLOYEE) TO(Permit REJECTED by EMPLOYEE)]</text>
+        </name>
+      </arc>
+      <arc id="Permit APPROVED by ADMINISTRATION-&gt;O_Permit APPROVED by ADMINISTRATION" source="Permit APPROVED by ADMINISTRATION" target="O_Permit APPROVED by ADMINISTRATION">
+        <name>
+          <text>[FROM(Permit APPROVED by ADMINISTRATION) TO(O_Permit APPROVED by ADMINISTRATION)]</text>
+        </name>
+      </arc>
+      <arc id="I_Start trip-&gt;Start trip" source="I_Start trip" target="Start trip">
+        <name>
+          <text>[FROM(I_Start trip) TO(Start trip)]</text>
+        </name>
+      </arc>
+      <arc id="I_Payment Handled-&gt;Payment Handled" source="I_Payment Handled" target="Payment Handled">
+        <name>
+          <text>[FROM(I_Payment Handled) TO(Payment Handled)]</text>
+        </name>
+      </arc>
+      <arc id="I_Send Reminder-&gt;Send Reminder" source="I_Send Reminder" target="Send Reminder">
+        <name>
+          <text>[FROM(I_Send Reminder) TO(Send Reminder)]</text>
+        </name>
+      </arc>
+      <arc id="I_Permit FINAL_APPROVED by SUPERVISOR-&gt;Permit FINAL_APPROVED by SUPERVISOR" source="I_Permit FINAL_APPROVED by SUPERVISOR" target="Permit FINAL_APPROVED by SUPERVISOR">
+        <name>
+          <text>[FROM(I_Permit FINAL_APPROVED by SUPERVISOR) TO(Permit FINAL_APPROVED by SUPERVISOR)]</text>
+        </name>
+      </arc>
+      <arc id="Permit FINAL_APPROVED by SUPERVISOR-&gt;O_Permit FINAL_APPROVED by SUPERVISOR" source="Permit FINAL_APPROVED by SUPERVISOR" target="O_Permit FINAL_APPROVED by SUPERVISOR">
+        <name>
+          <text>[FROM(Permit FINAL_APPROVED by SUPERVISOR) TO(O_Permit FINAL_APPROVED by SUPERVISOR)]</text>
+        </name>
+      </arc>
+      <arc id="Request For Payment APPROVED by ADMINISTRATION-&gt;O_Request For Payment APPROVED by ADMINISTRATION" source="Request For Payment APPROVED by ADMINISTRATION" target="O_Request For Payment APPROVED by ADMINISTRATION">
+        <name>
+          <text>[FROM(Request For Payment APPROVED by ADMINISTRATION) TO(O_Request For Payment APPROVED by ADMINISTRATION)]</text>
+        </name>
+      </arc>
+      <arc id="O_End trip-&gt;End trip-&gt;Declaration SUBMITTED by EMPLOYEE" source="O_End trip" target="End trip-&gt;Declaration SUBMITTED by EMPLOYEE">
+        <name>
+          <text>[FROM(O_End trip) TO(End trip-&gt;Declaration SUBMITTED by EMPLOYEE)]</text>
+        </name>
+      </arc>
+      <arc id="End trip-&gt;Declaration SUBMITTED by EMPLOYEE-&gt;I_Declaration SUBMITTED by EMPLOYEE" source="End trip-&gt;Declaration SUBMITTED by EMPLOYEE" target="I_Declaration SUBMITTED by EMPLOYEE">
+        <name>
+          <text>[FROM(End trip-&gt;Declaration SUBMITTED by EMPLOYEE) TO(I_Declaration SUBMITTED by EMPLOYEE)]</text>
+        </name>
+      </arc>
+      <arc id="O_Permit APPROVED by BUDGET OWNER-&gt;Permit APPROVED by BUDGET OWNER-&gt;Permit FINAL_APPROVED by SUPERVISOR" source="O_Permit APPROVED by BUDGET OWNER" target="Permit APPROVED by BUDGET OWNER-&gt;Permit FINAL_APPROVED by SUPERVISOR">
+        <name>
+          <text>[FROM(O_Permit APPROVED by BUDGET OWNER) TO(Permit APPROVED by BUDGET OWNER-&gt;Permit FINAL_APPROVED by SUPERVISOR)]</text>
+        </name>
+      </arc>
+      <arc id="Permit APPROVED by BUDGET OWNER-&gt;Permit FINAL_APPROVED by SUPERVISOR-&gt;I_Permit FINAL_APPROVED by SUPERVISOR" source="Permit APPROVED by BUDGET OWNER-&gt;Permit FINAL_APPROVED by SUPERVISOR" target="I_Permit FINAL_APPROVED by SUPERVISOR">
+        <name>
+          <text>[FROM(Permit APPROVED by BUDGET OWNER-&gt;Permit FINAL_APPROVED by SUPERVISOR) TO(I_Permit FINAL_APPROVED by SUPERVISOR)]</text>
+        </name>
+      </arc>
+      <arc id="O_Permit FINAL_APPROVED by SUPERVISOR-&gt;Permit FINAL_APPROVED by SUPERVISOR-&gt;Request For Payment SUBMITTED by EMPLOYEE" source="O_Permit FINAL_APPROVED by SUPERVISOR" target="Permit FINAL_APPROVED by SUPERVISOR-&gt;Request For Payment SUBMITTED by EMPLOYEE">
+        <name>
+          <text>[FROM(O_Permit FINAL_APPROVED by SUPERVISOR) TO(Permit FINAL_APPROVED by SUPERVISOR-&gt;Request For Payment SUBMITTED by EMPLOYEE)]</text>
+        </name>
+      </arc>
+      <arc id="Permit FINAL_APPROVED by SUPERVISOR-&gt;Request For Payment SUBMITTED by EMPLOYEE-&gt;I_Request For Payment SUBMITTED by EMPLOYEE" source="Permit FINAL_APPROVED by SUPERVISOR-&gt;Request For Payment SUBMITTED by EMPLOYEE" target="I_Request For Payment SUBMITTED by EMPLOYEE">
+        <name>
+          <text>[FROM(Permit FINAL_APPROVED by SUPERVISOR-&gt;Request For Payment SUBMITTED by EMPLOYEE) TO(I_Request For Payment SUBMITTED by EMPLOYEE)]</text>
+        </name>
+      </arc>
+      <arc id="O_Declaration APPROVED by ADMINISTRATION-&gt;Declaration APPROVED by ADMINISTRATION-&gt;Declaration FINAL_APPROVED by SUPERVISOR" source="O_Declaration APPROVED by ADMINISTRATION" target="Declaration APPROVED by ADMINISTRATION-&gt;Declaration FINAL_APPROVED by SUPERVISOR">
+        <name>
+          <text>[FROM(O_Declaration APPROVED by ADMINISTRATION) TO(Declaration APPROVED by ADMINISTRATION-&gt;Declaration FINAL_APPROVED by SUPERVISOR)]</text>
+        </name>
+      </arc>
+      <arc id="Declaration APPROVED by ADMINISTRATION-&gt;Declaration FINAL_APPROVED by SUPERVISOR-&gt;I_Declaration FINAL_APPROVED by SUPERVISOR" source="Declaration APPROVED by ADMINISTRATION-&gt;Declaration FINAL_APPROVED by SUPERVISOR" target="I_Declaration FINAL_APPROVED by SUPERVISOR">
+        <name>
+          <text>[FROM(Declaration APPROVED by ADMINISTRATION-&gt;Declaration FINAL_APPROVED by SUPERVISOR) TO(I_Declaration FINAL_APPROVED by SUPERVISOR)]</text>
+        </name>
+      </arc>
+      <arc id="O_Declaration FINAL_APPROVED by SUPERVISOR-&gt;Declaration FINAL_APPROVED by SUPERVISOR-&gt;Request Payment" source="O_Declaration FINAL_APPROVED by SUPERVISOR" target="Declaration FINAL_APPROVED by SUPERVISOR-&gt;Request Payment">
+        <name>
+          <text>[FROM(O_Declaration FINAL_APPROVED by SUPERVISOR) TO(Declaration FINAL_APPROVED by SUPERVISOR-&gt;Request Payment)]</text>
+        </name>
+      </arc>
+      <arc id="Declaration FINAL_APPROVED by SUPERVISOR-&gt;Request Payment-&gt;I_Request Payment" source="Declaration FINAL_APPROVED by SUPERVISOR-&gt;Request Payment" target="I_Request Payment">
+        <name>
+          <text>[FROM(Declaration FINAL_APPROVED by SUPERVISOR-&gt;Request Payment) TO(I_Request Payment)]</text>
+        </name>
+      </arc>
+      <arc id="O_End trip-&gt;End trip-&gt;Send Reminder" source="O_End trip" target="End trip-&gt;Send Reminder">
+        <name>
+          <text>[FROM(O_End trip) TO(End trip-&gt;Send Reminder)]</text>
+        </name>
+      </arc>
+      <arc id="End trip-&gt;Send Reminder-&gt;I_Send Reminder" source="End trip-&gt;Send Reminder" target="I_Send Reminder">
+        <name>
+          <text>[FROM(End trip-&gt;Send Reminder) TO(I_Send Reminder)]</text>
+        </name>
+      </arc>
+      <arc id="O_Permit FINAL_APPROVED by SUPERVISOR-&gt;Permit FINAL_APPROVED by SUPERVISOR-&gt;Start trip" source="O_Permit FINAL_APPROVED by SUPERVISOR" target="Permit FINAL_APPROVED by SUPERVISOR-&gt;Start trip">
+        <name>
+          <text>[FROM(O_Permit FINAL_APPROVED by SUPERVISOR) TO(Permit FINAL_APPROVED by SUPERVISOR-&gt;Start trip)]</text>
+        </name>
+      </arc>
+      <arc id="Permit FINAL_APPROVED by SUPERVISOR-&gt;Start trip-&gt;I_Start trip" source="Permit FINAL_APPROVED by SUPERVISOR-&gt;Start trip" target="I_Start trip">
+        <name>
+          <text>[FROM(Permit FINAL_APPROVED by SUPERVISOR-&gt;Start trip) TO(I_Start trip)]</text>
+        </name>
+      </arc>
+      <arc id="O_|&gt;-&gt;|&gt;-&gt;Permit SUBMITTED by EMPLOYEE" source="O_|&gt;" target="|&gt;-&gt;Permit SUBMITTED by EMPLOYEE">
+        <name>
+          <text>[FROM(O_|&gt;) TO(|&gt;-&gt;Permit SUBMITTED by EMPLOYEE)]</text>
+        </name>
+      </arc>
+      <arc id="|&gt;-&gt;Permit SUBMITTED by EMPLOYEE-&gt;I_Permit SUBMITTED by EMPLOYEE" source="|&gt;-&gt;Permit SUBMITTED by EMPLOYEE" target="I_Permit SUBMITTED by EMPLOYEE">
+        <name>
+          <text>[FROM(|&gt;-&gt;Permit SUBMITTED by EMPLOYEE) TO(I_Permit SUBMITTED by EMPLOYEE)]</text>
+        </name>
+      </arc>
+      <arc id="O_Request For Payment FINAL_APPROVED by SUPERVISOR-&gt;Request For Payment FINAL_APPROVED by SUPERVISOR-&gt;Request Payment" source="O_Request For Payment FINAL_APPROVED by SUPERVISOR" target="Request For Payment FINAL_APPROVED by SUPERVISOR-&gt;Request Payment">
+        <name>
+          <text>[FROM(O_Request For Payment FINAL_APPROVED by SUPERVISOR) TO(Request For Payment FINAL_APPROVED by SUPERVISOR-&gt;Request Payment)]</text>
+        </name>
+      </arc>
+      <arc id="Request For Payment FINAL_APPROVED by SUPERVISOR-&gt;Request Payment-&gt;I_Request Payment" source="Request For Payment FINAL_APPROVED by SUPERVISOR-&gt;Request Payment" target="I_Request Payment">
+        <name>
+          <text>[FROM(Request For Payment FINAL_APPROVED by SUPERVISOR-&gt;Request Payment) TO(I_Request Payment)]</text>
+        </name>
+      </arc>
+      <arc id="O_Permit APPROVED by ADMINISTRATION-&gt;Permit APPROVED by ADMINISTRATION-&gt;Permit FINAL_APPROVED by SUPERVISOR" source="O_Permit APPROVED by ADMINISTRATION" target="Permit APPROVED by ADMINISTRATION-&gt;Permit FINAL_APPROVED by SUPERVISOR">
+        <name>
+          <text>[FROM(O_Permit APPROVED by ADMINISTRATION) TO(Permit APPROVED by ADMINISTRATION-&gt;Permit FINAL_APPROVED by SUPERVISOR)]</text>
+        </name>
+      </arc>
+      <arc id="Permit APPROVED by ADMINISTRATION-&gt;Permit FINAL_APPROVED by SUPERVISOR-&gt;I_Permit FINAL_APPROVED by SUPERVISOR" source="Permit APPROVED by ADMINISTRATION-&gt;Permit FINAL_APPROVED by SUPERVISOR" target="I_Permit FINAL_APPROVED by SUPERVISOR">
+        <name>
+          <text>[FROM(Permit APPROVED by ADMINISTRATION-&gt;Permit FINAL_APPROVED by SUPERVISOR) TO(I_Permit FINAL_APPROVED by SUPERVISOR)]</text>
+        </name>
+      </arc>
+      <arc id="O_Request For Payment APPROVED by ADMINISTRATION-&gt;Request For Payment APPROVED by ADMINISTRATION-&gt;Request For Payment FINAL_APPROVED by SUPERVISOR" source="O_Request For Payment APPROVED by ADMINISTRATION" target="Request For Payment APPROVED by ADMINISTRATION-&gt;Request For Payment FINAL_APPROVED by SUPERVISOR">
+        <name>
+          <text>[FROM(O_Request For Payment APPROVED by ADMINISTRATION) TO(Request For Payment APPROVED by ADMINISTRATION-&gt;Request For Payment FINAL_APPROVED by SUPERVISOR)]</text>
+        </name>
+      </arc>
+      <arc id="Request For Payment APPROVED by ADMINISTRATION-&gt;Request For Payment FINAL_APPROVED by SUPERVISOR-&gt;I_Request For Payment FINAL_APPROVED by SUPERVISOR" source="Request For Payment APPROVED by ADMINISTRATION-&gt;Request For Payment FINAL_APPROVED by SUPERVISOR" target="I_Request For Payment FINAL_APPROVED by SUPERVISOR">
+        <name>
+          <text>[FROM(Request For Payment APPROVED by ADMINISTRATION-&gt;Request For Payment FINAL_APPROVED by SUPERVISOR) TO(I_Request For Payment FINAL_APPROVED by SUPERVISOR)]</text>
+        </name>
+      </arc>
+      <arc id="Request For Payment REJECTED by SUPERVISOR-&gt;I_Request For Payment REJECTED by EMPLOYEE" source="Request For Payment REJECTED by SUPERVISOR" target="I_Request For Payment REJECTED by EMPLOYEE">
+        <name>
+          <text>[FROM(Request For Payment REJECTED by SUPERVISOR) TO(I_Request For Payment REJECTED by EMPLOYEE)]</text>
+        </name>
+      </arc>
+      <arc id="Request Payment-&gt;I_Payment Handled" source="Request Payment" target="I_Payment Handled">
+        <name>
+          <text>[FROM(Request Payment) TO(I_Payment Handled)]</text>
+        </name>
+      </arc>
+      <arc id="Request For Payment FINAL_APPROVED by DIRECTOR-&gt;I_Request Payment" source="Request For Payment FINAL_APPROVED by DIRECTOR" target="I_Request Payment">
+        <name>
+          <text>[FROM(Request For Payment FINAL_APPROVED by DIRECTOR) TO(I_Request Payment)]</text>
+        </name>
+      </arc>
+      <arc id="Permit REJECTED by MISSING-&gt;I_[]" source="Permit REJECTED by MISSING" target="I_[]">
+        <name>
+          <text>[FROM(Permit REJECTED by MISSING) TO(I_[])]</text>
+        </name>
+      </arc>
+      <arc id="Request For Payment REJECTED by MISSING-&gt;I_Request For Payment SUBMITTED by EMPLOYEE" source="Request For Payment REJECTED by MISSING" target="I_Request For Payment SUBMITTED by EMPLOYEE">
+        <name>
+          <text>[FROM(Request For Payment REJECTED by MISSING) TO(I_Request For Payment SUBMITTED by EMPLOYEE)]</text>
+        </name>
+      </arc>
+      <arc id="Declaration REJECTED by ADMINISTRATION-&gt;I_Declaration REJECTED by EMPLOYEE" source="Declaration REJECTED by ADMINISTRATION" target="I_Declaration REJECTED by EMPLOYEE">
+        <name>
+          <text>[FROM(Declaration REJECTED by ADMINISTRATION) TO(I_Declaration REJECTED by EMPLOYEE)]</text>
+        </name>
+      </arc>
+      <arc id="Permit SAVED by EMPLOYEE-&gt;I_Start trip" source="Permit SAVED by EMPLOYEE" target="I_Start trip">
+        <name>
+          <text>[FROM(Permit SAVED by EMPLOYEE) TO(I_Start trip)]</text>
+        </name>
+      </arc>
+      <arc id="Permit FINAL_APPROVED by DIRECTOR-&gt;I_Start trip" source="Permit FINAL_APPROVED by DIRECTOR" target="I_Start trip">
+        <name>
+          <text>[FROM(Permit FINAL_APPROVED by DIRECTOR) TO(I_Start trip)]</text>
+        </name>
+      </arc>
+      <arc id="Declaration REJECTED by EMPLOYEE-&gt;I_Declaration SUBMITTED by EMPLOYEE" source="Declaration REJECTED by EMPLOYEE" target="I_Declaration SUBMITTED by EMPLOYEE">
+        <name>
+          <text>[FROM(Declaration REJECTED by EMPLOYEE) TO(I_Declaration SUBMITTED by EMPLOYEE)]</text>
+        </name>
+      </arc>
+      <arc id="Request For Payment APPROVED by BUDGET OWNER-&gt;I_Request For Payment FINAL_APPROVED by SUPERVISOR" source="Request For Payment APPROVED by BUDGET OWNER" target="I_Request For Payment FINAL_APPROVED by SUPERVISOR">
+        <name>
+          <text>[FROM(Request For Payment APPROVED by BUDGET OWNER) TO(I_Request For Payment FINAL_APPROVED by SUPERVISOR)]</text>
+        </name>
+      </arc>
+      <arc id="Declaration REJECTED by PRE_APPROVER-&gt;I_Declaration REJECTED by EMPLOYEE" source="Declaration REJECTED by PRE_APPROVER" target="I_Declaration REJECTED by EMPLOYEE">
+        <name>
+          <text>[FROM(Declaration REJECTED by PRE_APPROVER) TO(I_Declaration REJECTED by EMPLOYEE)]</text>
+        </name>
+      </arc>
+      <arc id="Request For Payment APPROVED by PRE_APPROVER-&gt;I_Request For Payment FINAL_APPROVED by SUPERVISOR" source="Request For Payment APPROVED by PRE_APPROVER" target="I_Request For Payment FINAL_APPROVED by SUPERVISOR">
+        <name>
+          <text>[FROM(Request For Payment APPROVED by PRE_APPROVER) TO(I_Request For Payment FINAL_APPROVED by SUPERVISOR)]</text>
+        </name>
+      </arc>
+      <arc id="Declaration APPROVED by BUDGET OWNER-&gt;I_Declaration FINAL_APPROVED by SUPERVISOR" source="Declaration APPROVED by BUDGET OWNER" target="I_Declaration FINAL_APPROVED by SUPERVISOR">
+        <name>
+          <text>[FROM(Declaration APPROVED by BUDGET OWNER) TO(I_Declaration FINAL_APPROVED by SUPERVISOR)]</text>
+        </name>
+      </arc>
+      <arc id="Declaration APPROVED by PRE_APPROVER-&gt;I_Declaration FINAL_APPROVED by SUPERVISOR" source="Declaration APPROVED by PRE_APPROVER" target="I_Declaration FINAL_APPROVED by SUPERVISOR">
+        <name>
+          <text>[FROM(Declaration APPROVED by PRE_APPROVER) TO(I_Declaration FINAL_APPROVED by SUPERVISOR)]</text>
+        </name>
+      </arc>
+      <arc id="Permit REJECTED by ADMINISTRATION-&gt;I_Permit REJECTED by EMPLOYEE" source="Permit REJECTED by ADMINISTRATION" target="I_Permit REJECTED by EMPLOYEE">
+        <name>
+          <text>[FROM(Permit REJECTED by ADMINISTRATION) TO(I_Permit REJECTED by EMPLOYEE)]</text>
+        </name>
+      </arc>
+      <arc id="Declaration SAVED by EMPLOYEE-&gt;I_[]" source="Declaration SAVED by EMPLOYEE" target="I_[]">
+        <name>
+          <text>[FROM(Declaration SAVED by EMPLOYEE) TO(I_[])]</text>
+        </name>
+      </arc>
+      <arc id="Declaration FINAL_APPROVED by DIRECTOR-&gt;I_Request Payment" source="Declaration FINAL_APPROVED by DIRECTOR" target="I_Request Payment">
+        <name>
+          <text>[FROM(Declaration FINAL_APPROVED by DIRECTOR) TO(I_Request Payment)]</text>
+        </name>
+      </arc>
+      <arc id="Request For Payment REJECTED by PRE_APPROVER-&gt;I_Request For Payment REJECTED by EMPLOYEE" source="Request For Payment REJECTED by PRE_APPROVER" target="I_Request For Payment REJECTED by EMPLOYEE">
+        <name>
+          <text>[FROM(Request For Payment REJECTED by PRE_APPROVER) TO(I_Request For Payment REJECTED by EMPLOYEE)]</text>
+        </name>
+      </arc>
+      <arc id="Declaration REJECTED by MISSING-&gt;I_Declaration SUBMITTED by EMPLOYEE" source="Declaration REJECTED by MISSING" target="I_Declaration SUBMITTED by EMPLOYEE">
+        <name>
+          <text>[FROM(Declaration REJECTED by MISSING) TO(I_Declaration SUBMITTED by EMPLOYEE)]</text>
+        </name>
+      </arc>
+      <arc id="Permit FOR_APPROVAL by ADMINISTRATION-&gt;I_Start trip" source="Permit FOR_APPROVAL by ADMINISTRATION" target="I_Start trip">
+        <name>
+          <text>[FROM(Permit FOR_APPROVAL by ADMINISTRATION) TO(I_Start trip)]</text>
+        </name>
+      </arc>
+      <arc id="Request For Payment APPROVED by SUPERVISOR-&gt;I_Request For Payment FINAL_APPROVED by DIRECTOR" source="Request For Payment APPROVED by SUPERVISOR" target="I_Request For Payment FINAL_APPROVED by DIRECTOR">
+        <name>
+          <text>[FROM(Request For Payment APPROVED by SUPERVISOR) TO(I_Request For Payment FINAL_APPROVED by DIRECTOR)]</text>
+        </name>
+      </arc>
+      <arc id="Permit APPROVED by PRE_APPROVER-&gt;I_Permit FINAL_APPROVED by SUPERVISOR" source="Permit APPROVED by PRE_APPROVER" target="I_Permit FINAL_APPROVED by SUPERVISOR">
+        <name>
+          <text>[FROM(Permit APPROVED by PRE_APPROVER) TO(I_Permit FINAL_APPROVED by SUPERVISOR)]</text>
+        </name>
+      </arc>
+      <arc id="Request For Payment REJECTED by ADMINISTRATION-&gt;I_Request For Payment REJECTED by EMPLOYEE" source="Request For Payment REJECTED by ADMINISTRATION" target="I_Request For Payment REJECTED by EMPLOYEE">
+        <name>
+          <text>[FROM(Request For Payment REJECTED by ADMINISTRATION) TO(I_Request For Payment REJECTED by EMPLOYEE)]</text>
+        </name>
+      </arc>
+      <arc id="Permit REJECTED by BUDGET OWNER-&gt;I_Permit REJECTED by EMPLOYEE" source="Permit REJECTED by BUDGET OWNER" target="I_Permit REJECTED by EMPLOYEE">
+        <name>
+          <text>[FROM(Permit REJECTED by BUDGET OWNER) TO(I_Permit REJECTED by EMPLOYEE)]</text>
+        </name>
+      </arc>
+      <arc id="Start trip-&gt;I_End trip" source="Start trip" target="I_End trip">
+        <name>
+          <text>[FROM(Start trip) TO(I_End trip)]</text>
+        </name>
+      </arc>
+      <arc id="Declaration REJECTED by SUPERVISOR-&gt;I_Declaration REJECTED by EMPLOYEE" source="Declaration REJECTED by SUPERVISOR" target="I_Declaration REJECTED by EMPLOYEE">
+        <name>
+          <text>[FROM(Declaration REJECTED by SUPERVISOR) TO(I_Declaration REJECTED by EMPLOYEE)]</text>
+        </name>
+      </arc>
+      <arc id="Permit REJECTED by PRE_APPROVER-&gt;I_Permit REJECTED by EMPLOYEE" source="Permit REJECTED by PRE_APPROVER" target="I_Permit REJECTED by EMPLOYEE">
+        <name>
+          <text>[FROM(Permit REJECTED by PRE_APPROVER) TO(I_Permit REJECTED by EMPLOYEE)]</text>
+        </name>
+      </arc>
+      <arc id="Declaration REJECTED by DIRECTOR-&gt;I_Declaration REJECTED by EMPLOYEE" source="Declaration REJECTED by DIRECTOR" target="I_Declaration REJECTED by EMPLOYEE">
+        <name>
+          <text>[FROM(Declaration REJECTED by DIRECTOR) TO(I_Declaration REJECTED by EMPLOYEE)]</text>
+        </name>
+      </arc>
+      <arc id="Permit REJECTED by DIRECTOR-&gt;I_Permit REJECTED by EMPLOYEE" source="Permit REJECTED by DIRECTOR" target="I_Permit REJECTED by EMPLOYEE">
+        <name>
+          <text>[FROM(Permit REJECTED by DIRECTOR) TO(I_Permit REJECTED by EMPLOYEE)]</text>
+        </name>
+      </arc>
+      <arc id="Request For Payment SAVED by EMPLOYEE-&gt;I_Declaration SUBMITTED by EMPLOYEE" source="Request For Payment SAVED by EMPLOYEE" target="I_Declaration SUBMITTED by EMPLOYEE">
+        <name>
+          <text>[FROM(Request For Payment SAVED by EMPLOYEE) TO(I_Declaration SUBMITTED by EMPLOYEE)]</text>
+        </name>
+      </arc>
+      <arc id="Permit REJECTED by SUPERVISOR-&gt;I_Permit REJECTED by EMPLOYEE" source="Permit REJECTED by SUPERVISOR" target="I_Permit REJECTED by EMPLOYEE">
+        <name>
+          <text>[FROM(Permit REJECTED by SUPERVISOR) TO(I_Permit REJECTED by EMPLOYEE)]</text>
+        </name>
+      </arc>
+      <arc id="Request For Payment REJECTED by BUDGET OWNER-&gt;I_Request For Payment REJECTED by EMPLOYEE" source="Request For Payment REJECTED by BUDGET OWNER" target="I_Request For Payment REJECTED by EMPLOYEE">
+        <name>
+          <text>[FROM(Request For Payment REJECTED by BUDGET OWNER) TO(I_Request For Payment REJECTED by EMPLOYEE)]</text>
+        </name>
+      </arc>
+      <arc id="Send Reminder-&gt;I_[]" source="Send Reminder" target="I_[]">
+        <name>
+          <text>[FROM(Send Reminder) TO(I_[])]</text>
+        </name>
+      </arc>
+      <arc id="Declaration REJECTED by BUDGET OWNER-&gt;I_Declaration REJECTED by EMPLOYEE" source="Declaration REJECTED by BUDGET OWNER" target="I_Declaration REJECTED by EMPLOYEE">
+        <name>
+          <text>[FROM(Declaration REJECTED by BUDGET OWNER) TO(I_Declaration REJECTED by EMPLOYEE)]</text>
+        </name>
+      </arc>
+      <arc id="Payment Handled-&gt;I_[]" source="Payment Handled" target="I_[]">
+        <name>
+          <text>[FROM(Payment Handled) TO(I_[])]</text>
+        </name>
+      </arc>
+      <arc id="Permit REJECTED by EMPLOYEE-&gt;I_Permit SUBMITTED by EMPLOYEE" source="Permit REJECTED by EMPLOYEE" target="I_Permit SUBMITTED by EMPLOYEE">
+        <name>
+          <text>[FROM(Permit REJECTED by EMPLOYEE) TO(I_Permit SUBMITTED by EMPLOYEE)]</text>
+        </name>
+      </arc>
+      <arc id="Permit FOR_APPROVAL by SUPERVISOR-&gt;I_Send Reminder" source="Permit FOR_APPROVAL by SUPERVISOR" target="I_Send Reminder">
+        <name>
+          <text>[FROM(Permit FOR_APPROVAL by SUPERVISOR) TO(I_Send Reminder)]</text>
+        </name>
+      </arc>
+      <arc id="Request For Payment REJECTED by EMPLOYEE-&gt;I_Request For Payment SUBMITTED by EMPLOYEE" source="Request For Payment REJECTED by EMPLOYEE" target="I_Request For Payment SUBMITTED by EMPLOYEE">
+        <name>
+          <text>[FROM(Request For Payment REJECTED by EMPLOYEE) TO(I_Request For Payment SUBMITTED by EMPLOYEE)]</text>
+        </name>
+      </arc>
+      <arc id="[]-&gt;EndPlace" source="[]" target="EndPlace">
+        <name>
+          <text>[FROM([]) TO(EndPlace)]</text>
+        </name>
+      </arc>
+      <arc id="O_Permit SUBMITTED by EMPLOYEE-&gt;Permit REJECTED by ADMINISTRATION" source="O_Permit SUBMITTED by EMPLOYEE" target="Permit REJECTED by ADMINISTRATION">
+        <name>
+          <text>[FROM(O_Permit SUBMITTED by EMPLOYEE) TO(Permit REJECTED by ADMINISTRATION)]</text>
+        </name>
+      </arc>
+      <arc id="O_Declaration APPROVED by ADMINISTRATION-&gt;Declaration APPROVED by SUPERVISOR" source="O_Declaration APPROVED by ADMINISTRATION" target="Declaration APPROVED by SUPERVISOR">
+        <name>
+          <text>[FROM(O_Declaration APPROVED by ADMINISTRATION) TO(Declaration APPROVED by SUPERVISOR)]</text>
+        </name>
+      </arc>
+      <arc id="O_Permit APPROVED by ADMINISTRATION-&gt;Request For Payment SAVED by EMPLOYEE" source="O_Permit APPROVED by ADMINISTRATION" target="Request For Payment SAVED by EMPLOYEE">
+        <name>
+          <text>[FROM(O_Permit APPROVED by ADMINISTRATION) TO(Request For Payment SAVED by EMPLOYEE)]</text>
+        </name>
+      </arc>
+      <arc id="O_Declaration APPROVED by SUPERVISOR-&gt;Declaration REJECTED by DIRECTOR" source="O_Declaration APPROVED by SUPERVISOR" target="Declaration REJECTED by DIRECTOR">
+        <name>
+          <text>[FROM(O_Declaration APPROVED by SUPERVISOR) TO(Declaration REJECTED by DIRECTOR)]</text>
+        </name>
+      </arc>
+      <arc id="O_Permit APPROVED by SUPERVISOR-&gt;Permit REJECTED by DIRECTOR" source="O_Permit APPROVED by SUPERVISOR" target="Permit REJECTED by DIRECTOR">
+        <name>
+          <text>[FROM(O_Permit APPROVED by SUPERVISOR) TO(Permit REJECTED by DIRECTOR)]</text>
+        </name>
+      </arc>
+      <arc id="O_Request For Payment SUBMITTED by EMPLOYEE-&gt;Request For Payment APPROVED by PRE_APPROVER" source="O_Request For Payment SUBMITTED by EMPLOYEE" target="Request For Payment APPROVED by PRE_APPROVER">
+        <name>
+          <text>[FROM(O_Request For Payment SUBMITTED by EMPLOYEE) TO(Request For Payment APPROVED by PRE_APPROVER)]</text>
+        </name>
+      </arc>
+      <arc id="O_Permit APPROVED by ADMINISTRATION-&gt;Permit REJECTED by BUDGET OWNER" source="O_Permit APPROVED by ADMINISTRATION" target="Permit REJECTED by BUDGET OWNER">
+        <name>
+          <text>[FROM(O_Permit APPROVED by ADMINISTRATION) TO(Permit REJECTED by BUDGET OWNER)]</text>
+        </name>
+      </arc>
+      <arc id="O_Permit SUBMITTED by EMPLOYEE-&gt;Permit APPROVED by ADMINISTRATION" source="O_Permit SUBMITTED by EMPLOYEE" target="Permit APPROVED by ADMINISTRATION">
+        <name>
+          <text>[FROM(O_Permit SUBMITTED by EMPLOYEE) TO(Permit APPROVED by ADMINISTRATION)]</text>
+        </name>
+      </arc>
+      <arc id="O_Request For Payment SUBMITTED by EMPLOYEE-&gt;Request For Payment REJECTED by ADMINISTRATION" source="O_Request For Payment SUBMITTED by EMPLOYEE" target="Request For Payment REJECTED by ADMINISTRATION">
+        <name>
+          <text>[FROM(O_Request For Payment SUBMITTED by EMPLOYEE) TO(Request For Payment REJECTED by ADMINISTRATION)]</text>
+        </name>
+      </arc>
+      <arc id="O_Permit APPROVED by ADMINISTRATION-&gt;Permit REJECTED by SUPERVISOR" source="O_Permit APPROVED by ADMINISTRATION" target="Permit REJECTED by SUPERVISOR">
+        <name>
+          <text>[FROM(O_Permit APPROVED by ADMINISTRATION) TO(Permit REJECTED by SUPERVISOR)]</text>
+        </name>
+      </arc>
+      <arc id="O_Request For Payment APPROVED by ADMINISTRATION-&gt;Request For Payment APPROVED by BUDGET OWNER" source="O_Request For Payment APPROVED by ADMINISTRATION" target="Request For Payment APPROVED by BUDGET OWNER">
+        <name>
+          <text>[FROM(O_Request For Payment APPROVED by ADMINISTRATION) TO(Request For Payment APPROVED by BUDGET OWNER)]</text>
+        </name>
+      </arc>
+      <arc id="O_End trip-&gt;Declaration SAVED by EMPLOYEE" source="O_End trip" target="Declaration SAVED by EMPLOYEE">
+        <name>
+          <text>[FROM(O_End trip) TO(Declaration SAVED by EMPLOYEE)]</text>
+        </name>
+      </arc>
+      <arc id="O_Declaration APPROVED by ADMINISTRATION-&gt;Declaration REJECTED by BUDGET OWNER" source="O_Declaration APPROVED by ADMINISTRATION" target="Declaration REJECTED by BUDGET OWNER">
+        <name>
+          <text>[FROM(O_Declaration APPROVED by ADMINISTRATION) TO(Declaration REJECTED by BUDGET OWNER)]</text>
+        </name>
+      </arc>
+      <arc id="O_Request For Payment FINAL_APPROVED by SUPERVISOR-&gt;Request For Payment REJECTED by MISSING" source="O_Request For Payment FINAL_APPROVED by SUPERVISOR" target="Request For Payment REJECTED by MISSING">
+        <name>
+          <text>[FROM(O_Request For Payment FINAL_APPROVED by SUPERVISOR) TO(Request For Payment REJECTED by MISSING)]</text>
+        </name>
+      </arc>
+      <arc id="O_Declaration SUBMITTED by EMPLOYEE-&gt;Declaration APPROVED by ADMINISTRATION" source="O_Declaration SUBMITTED by EMPLOYEE" target="Declaration APPROVED by ADMINISTRATION">
+        <name>
+          <text>[FROM(O_Declaration SUBMITTED by EMPLOYEE) TO(Declaration APPROVED by ADMINISTRATION)]</text>
+        </name>
+      </arc>
+      <arc id="O_Request For Payment APPROVED by ADMINISTRATION-&gt;Request For Payment REJECTED by SUPERVISOR" source="O_Request For Payment APPROVED by ADMINISTRATION" target="Request For Payment REJECTED by SUPERVISOR">
+        <name>
+          <text>[FROM(O_Request For Payment APPROVED by ADMINISTRATION) TO(Request For Payment REJECTED by SUPERVISOR)]</text>
+        </name>
+      </arc>
+      <arc id="O_Permit SUBMITTED by EMPLOYEE-&gt;Permit FOR_APPROVAL by ADMINISTRATION" source="O_Permit SUBMITTED by EMPLOYEE" target="Permit FOR_APPROVAL by ADMINISTRATION">
+        <name>
+          <text>[FROM(O_Permit SUBMITTED by EMPLOYEE) TO(Permit FOR_APPROVAL by ADMINISTRATION)]</text>
+        </name>
+      </arc>
+      <arc id="O_Permit APPROVED by SUPERVISOR-&gt;Permit FINAL_APPROVED by DIRECTOR" source="O_Permit APPROVED by SUPERVISOR" target="Permit FINAL_APPROVED by DIRECTOR">
+        <name>
+          <text>[FROM(O_Permit APPROVED by SUPERVISOR) TO(Permit FINAL_APPROVED by DIRECTOR)]</text>
+        </name>
+      </arc>
+      <arc id="O_Declaration APPROVED by ADMINISTRATION-&gt;Declaration APPROVED by BUDGET OWNER" source="O_Declaration APPROVED by ADMINISTRATION" target="Declaration APPROVED by BUDGET OWNER">
+        <name>
+          <text>[FROM(O_Declaration APPROVED by ADMINISTRATION) TO(Declaration APPROVED by BUDGET OWNER)]</text>
+        </name>
+      </arc>
+      <arc id="O_Declaration APPROVED by SUPERVISOR-&gt;Declaration FINAL_APPROVED by DIRECTOR" source="O_Declaration APPROVED by SUPERVISOR" target="Declaration FINAL_APPROVED by DIRECTOR">
+        <name>
+          <text>[FROM(O_Declaration APPROVED by SUPERVISOR) TO(Declaration FINAL_APPROVED by DIRECTOR)]</text>
+        </name>
+      </arc>
+      <arc id="O_Declaration FINAL_APPROVED by SUPERVISOR-&gt;Declaration REJECTED by MISSING" source="O_Declaration FINAL_APPROVED by SUPERVISOR" target="Declaration REJECTED by MISSING">
+        <name>
+          <text>[FROM(O_Declaration FINAL_APPROVED by SUPERVISOR) TO(Declaration REJECTED by MISSING)]</text>
+        </name>
+      </arc>
+      <arc id="O_Permit APPROVED by BUDGET OWNER-&gt;Permit FOR_APPROVAL by SUPERVISOR" source="O_Permit APPROVED by BUDGET OWNER" target="Permit FOR_APPROVAL by SUPERVISOR">
+        <name>
+          <text>[FROM(O_Permit APPROVED by BUDGET OWNER) TO(Permit FOR_APPROVAL by SUPERVISOR)]</text>
+        </name>
+      </arc>
+      <arc id="O_Declaration SUBMITTED by EMPLOYEE-&gt;Declaration REJECTED by ADMINISTRATION" source="O_Declaration SUBMITTED by EMPLOYEE" target="Declaration REJECTED by ADMINISTRATION">
+        <name>
+          <text>[FROM(O_Declaration SUBMITTED by EMPLOYEE) TO(Declaration REJECTED by ADMINISTRATION)]</text>
+        </name>
+      </arc>
+      <arc id="O_Permit SUBMITTED by EMPLOYEE-&gt;Permit REJECTED by PRE_APPROVER" source="O_Permit SUBMITTED by EMPLOYEE" target="Permit REJECTED by PRE_APPROVER">
+        <name>
+          <text>[FROM(O_Permit SUBMITTED by EMPLOYEE) TO(Permit REJECTED by PRE_APPROVER)]</text>
+        </name>
+      </arc>
+      <arc id="O_Request For Payment SUBMITTED by EMPLOYEE-&gt;Request For Payment APPROVED by ADMINISTRATION" source="O_Request For Payment SUBMITTED by EMPLOYEE" target="Request For Payment APPROVED by ADMINISTRATION">
+        <name>
+          <text>[FROM(O_Request For Payment SUBMITTED by EMPLOYEE) TO(Request For Payment APPROVED by ADMINISTRATION)]</text>
+        </name>
+      </arc>
+      <arc id="O_Request For Payment SUBMITTED by EMPLOYEE-&gt;Request For Payment REJECTED by PRE_APPROVER" source="O_Request For Payment SUBMITTED by EMPLOYEE" target="Request For Payment REJECTED by PRE_APPROVER">
+        <name>
+          <text>[FROM(O_Request For Payment SUBMITTED by EMPLOYEE) TO(Request For Payment REJECTED by PRE_APPROVER)]</text>
+        </name>
+      </arc>
+      <arc id="O_Permit SUBMITTED by EMPLOYEE-&gt;Permit APPROVED by PRE_APPROVER" source="O_Permit SUBMITTED by EMPLOYEE" target="Permit APPROVED by PRE_APPROVER">
+        <name>
+          <text>[FROM(O_Permit SUBMITTED by EMPLOYEE) TO(Permit APPROVED by PRE_APPROVER)]</text>
+        </name>
+      </arc>
+      <arc id="O_Permit APPROVED by ADMINISTRATION-&gt;Permit APPROVED by SUPERVISOR" source="O_Permit APPROVED by ADMINISTRATION" target="Permit APPROVED by SUPERVISOR">
+        <name>
+          <text>[FROM(O_Permit APPROVED by ADMINISTRATION) TO(Permit APPROVED by SUPERVISOR)]</text>
+        </name>
+      </arc>
+      <arc id="O_Declaration APPROVED by ADMINISTRATION-&gt;Declaration REJECTED by SUPERVISOR" source="O_Declaration APPROVED by ADMINISTRATION" target="Declaration REJECTED by SUPERVISOR">
+        <name>
+          <text>[FROM(O_Declaration APPROVED by ADMINISTRATION) TO(Declaration REJECTED by SUPERVISOR)]</text>
+        </name>
+      </arc>
+      <arc id="O_Request For Payment APPROVED by ADMINISTRATION-&gt;Request For Payment APPROVED by SUPERVISOR" source="O_Request For Payment APPROVED by ADMINISTRATION" target="Request For Payment APPROVED by SUPERVISOR">
+        <name>
+          <text>[FROM(O_Request For Payment APPROVED by ADMINISTRATION) TO(Request For Payment APPROVED by SUPERVISOR)]</text>
+        </name>
+      </arc>
+      <arc id="O_Declaration SUBMITTED by EMPLOYEE-&gt;Declaration APPROVED by PRE_APPROVER" source="O_Declaration SUBMITTED by EMPLOYEE" target="Declaration APPROVED by PRE_APPROVER">
+        <name>
+          <text>[FROM(O_Declaration SUBMITTED by EMPLOYEE) TO(Declaration APPROVED by PRE_APPROVER)]</text>
+        </name>
+      </arc>
+      <arc id="O_Request For Payment APPROVED by ADMINISTRATION-&gt;Request For Payment REJECTED by BUDGET OWNER" source="O_Request For Payment APPROVED by ADMINISTRATION" target="Request For Payment REJECTED by BUDGET OWNER">
+        <name>
+          <text>[FROM(O_Request For Payment APPROVED by ADMINISTRATION) TO(Request For Payment REJECTED by BUDGET OWNER)]</text>
+        </name>
+      </arc>
+      <arc id="O_End trip-&gt;Permit REJECTED by MISSING" source="O_End trip" target="Permit REJECTED by MISSING">
+        <name>
+          <text>[FROM(O_End trip) TO(Permit REJECTED by MISSING)]</text>
+        </name>
+      </arc>
+      <arc id="O_Permit APPROVED by ADMINISTRATION-&gt;Permit APPROVED by BUDGET OWNER" source="O_Permit APPROVED by ADMINISTRATION" target="Permit APPROVED by BUDGET OWNER">
+        <name>
+          <text>[FROM(O_Permit APPROVED by ADMINISTRATION) TO(Permit APPROVED by BUDGET OWNER)]</text>
+        </name>
+      </arc>
+      <arc id="O_Declaration SUBMITTED by EMPLOYEE-&gt;Declaration REJECTED by PRE_APPROVER" source="O_Declaration SUBMITTED by EMPLOYEE" target="Declaration REJECTED by PRE_APPROVER">
+        <name>
+          <text>[FROM(O_Declaration SUBMITTED by EMPLOYEE) TO(Declaration REJECTED by PRE_APPROVER)]</text>
+        </name>
+      </arc>
+      <arc id="O_|&gt;-&gt;Permit SAVED by EMPLOYEE" source="O_|&gt;" target="Permit SAVED by EMPLOYEE">
+        <name>
+          <text>[FROM(O_|&gt;) TO(Permit SAVED by EMPLOYEE)]</text>
+        </name>
+      </arc>
+      <arc id="StartPlace-&gt;|&gt;" source="StartPlace" target="|&gt;">
+        <name>
+          <text>[FROM(StartPlace) TO(|&gt;)]</text>
+        </name>
+      </arc>
+    </page>
+    <finalMarkings>
+      <marking>
+        <place idref="I_Declaration REJECTED by EMPLOYEE">
+          <text>0</text>
+        </place>
+        <place idref="I_Request For Payment SUBMITTED by EMPLOYEE">
+          <text>0</text>
+        </place>
+        <place idref="O_Request For Payment SUBMITTED by EMPLOYEE">
+          <text>0</text>
+        </place>
+        <place idref="O_Permit APPROVED by SUPERVISOR">
+          <text>0</text>
+        </place>
+        <place idref="O_Declaration APPROVED by SUPERVISOR">
+          <text>0</text>
+        </place>
+        <place idref="O_Declaration APPROVED by ADMINISTRATION">
+          <text>0</text>
+        </place>
+        <place idref="I_Request Payment">
+          <text>0</text>
+        </place>
+        <place idref="I_Request For Payment REJECTED by EMPLOYEE">
+          <text>0</text>
+        </place>
+        <place idref="O_Permit APPROVED by BUDGET OWNER">
+          <text>0</text>
+        </place>
+        <place idref="I_Request For Payment FINAL_APPROVED by DIRECTOR">
+          <text>0</text>
+        </place>
+        <place idref="I_Declaration SUBMITTED by EMPLOYEE">
+          <text>0</text>
+        </place>
+        <place idref="O_Declaration SUBMITTED by EMPLOYEE">
+          <text>0</text>
+        </place>
+        <place idref="O_|&gt;">
+          <text>0</text>
+        </place>
+        <place idref="I_[]">
+          <text>0</text>
+        </place>
+        <place idref="I_Declaration FINAL_APPROVED by SUPERVISOR">
+          <text>0</text>
+        </place>
+        <place idref="O_Declaration FINAL_APPROVED by SUPERVISOR">
+          <text>0</text>
+        </place>
+        <place idref="I_Request For Payment FINAL_APPROVED by SUPERVISOR">
+          <text>0</text>
+        </place>
+        <place idref="O_Request For Payment FINAL_APPROVED by SUPERVISOR">
+          <text>0</text>
+        </place>
+        <place idref="I_Permit SUBMITTED by EMPLOYEE">
+          <text>0</text>
+        </place>
+        <place idref="O_Permit SUBMITTED by EMPLOYEE">
+          <text>0</text>
+        </place>
+        <place idref="I_End trip">
+          <text>0</text>
+        </place>
+        <place idref="O_End trip">
+          <text>0</text>
+        </place>
+        <place idref="I_Permit REJECTED by EMPLOYEE">
+          <text>0</text>
+        </place>
+        <place idref="O_Permit APPROVED by ADMINISTRATION">
+          <text>0</text>
+        </place>
+        <place idref="I_Start trip">
+          <text>0</text>
+        </place>
+        <place idref="I_Payment Handled">
+          <text>0</text>
+        </place>
+        <place idref="I_Send Reminder">
+          <text>0</text>
+        </place>
+        <place idref="I_Permit FINAL_APPROVED by SUPERVISOR">
+          <text>0</text>
+        </place>
+        <place idref="O_Permit FINAL_APPROVED by SUPERVISOR">
+          <text>0</text>
+        </place>
+        <place idref="O_Request For Payment APPROVED by ADMINISTRATION">
+          <text>0</text>
+        </place>
+        <place idref="StartPlace">
+          <text>0</text>
+        </place>
+        <place idref="EndPlace">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalMarkings>
+  </net>
+</pnml>

@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+  <net xmlns="" id="TranslatedPetriNet" type="http://www.pnml.org/version-2009/grammar/ptnet">
+    <name>
+      <text>TranslatedPetriNet</text>
+    </name>
+    <page id="0">
+      <transition id="|&gt;">
+        <name>
+          <text>|&gt;</text>
+        </name>
+      </transition>
+      <transition id="[]">
+        <name>
+          <text>[]</text>
+        </name>
+      </transition>
+      <transition id="O_SENT_BACK">
+        <name>
+          <text>O_SENT_BACK</text>
+        </name>
+      </transition>
+      <transition id="W_Completeren aanvraag">
+        <name>
+          <text>W_Completeren aanvraag</text>
+        </name>
+      </transition>
+      <transition id="A_ACTIVATED">
+        <name>
+          <text>A_ACTIVATED</text>
+        </name>
+      </transition>
+      <transition id="W_Beoordelen fraude">
+        <name>
+          <text>W_Beoordelen fraude</text>
+        </name>
+      </transition>
+      <transition id="A_REGISTERED">
+        <name>
+          <text>A_REGISTERED</text>
+        </name>
+      </transition>
+      <transition id="W_Nabellen incomplete dossiers">
+        <name>
+          <text>W_Nabellen incomplete dossiers</text>
+        </name>
+      </transition>
+      <transition id="O_SENT">
+        <name>
+          <text>O_SENT</text>
+        </name>
+      </transition>
+      <transition id="A_ACCEPTED">
+        <name>
+          <text>A_ACCEPTED</text>
+        </name>
+      </transition>
+      <transition id="O_ACCEPTED">
+        <name>
+          <text>O_ACCEPTED</text>
+        </name>
+      </transition>
+      <transition id="A_DECLINED">
+        <name>
+          <text>A_DECLINED</text>
+        </name>
+      </transition>
+      <transition id="O_DECLINED">
+        <name>
+          <text>O_DECLINED</text>
+        </name>
+      </transition>
+      <transition id="W_Valideren aanvraag">
+        <name>
+          <text>W_Valideren aanvraag</text>
+        </name>
+      </transition>
+      <transition id="W_Wijzigen contractgegevens">
+        <name>
+          <text>W_Wijzigen contractgegevens</text>
+        </name>
+      </transition>
+      <transition id="A_FINALIZED">
+        <name>
+          <text>A_FINALIZED</text>
+        </name>
+      </transition>
+      <transition id="W_Afhandelen leads">
+        <name>
+          <text>W_Afhandelen leads</text>
+        </name>
+      </transition>
+      <transition id="A_APPROVED">
+        <name>
+          <text>A_APPROVED</text>
+        </name>
+      </transition>
+      <transition id="A_PARTLYSUBMITTED">
+        <name>
+          <text>A_PARTLYSUBMITTED</text>
+        </name>
+      </transition>
+      <transition id="O_CANCELLED">
+        <name>
+          <text>O_CANCELLED</text>
+        </name>
+      </transition>
+      <transition id="A_CANCELLED">
+        <name>
+          <text>A_CANCELLED</text>
+        </name>
+      </transition>
+      <transition id="A_PREACCEPTED">
+        <name>
+          <text>A_PREACCEPTED</text>
+        </name>
+      </transition>
+      <transition id="W_Nabellen offertes">
+        <name>
+          <text>W_Nabellen offertes</text>
+        </name>
+      </transition>
+      <transition id="A_SUBMITTED">
+        <name>
+          <text>A_SUBMITTED</text>
+        </name>
+      </transition>
+      <transition id="O_CREATED">
+        <name>
+          <text>O_CREATED</text>
+        </name>
+      </transition>
+      <transition id="O_SELECTED">
+        <name>
+          <text>O_SELECTED</text>
+        </name>
+      </transition>
+      <transition id="A_PARTLYSUBMITTED-&gt;A_DECLINED">
+        <name>
+          <text>A_PARTLYSUBMITTED-&gt;A_DECLINED</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <transition id="A_DECLINED-&gt;[]">
+        <name>
+          <text>A_DECLINED-&gt;[]</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <place id="I_[]">
+        <name>
+          <text>I_[]</text>
+        </name>
+      </place>
+      <place id="I_O_SENT_BACK">
+        <name>
+          <text>I_O_SENT_BACK</text>
+        </name>
+      </place>
+      <place id="I_W_Completeren aanvraag">
+        <name>
+          <text>I_W_Completeren aanvraag</text>
+        </name>
+      </place>
+      <place id="O_W_Completeren aanvraag">
+        <name>
+          <text>O_W_Completeren aanvraag</text>
+        </name>
+      </place>
+      <place id="I_A_ACTIVATED">
+        <name>
+          <text>I_A_ACTIVATED</text>
+        </name>
+      </place>
+      <place id="I_O_SENT">
+        <name>
+          <text>I_O_SENT</text>
+        </name>
+      </place>
+      <place id="O_O_ACCEPTED">
+        <name>
+          <text>O_O_ACCEPTED</text>
+        </name>
+      </place>
+      <place id="I_A_DECLINED">
+        <name>
+          <text>I_A_DECLINED</text>
+        </name>
+      </place>
+      <place id="O_A_DECLINED">
+        <name>
+          <text>O_A_DECLINED</text>
+        </name>
+      </place>
+      <place id="I_W_Valideren aanvraag">
+        <name>
+          <text>I_W_Valideren aanvraag</text>
+        </name>
+      </place>
+      <place id="O_W_Valideren aanvraag">
+        <name>
+          <text>O_W_Valideren aanvraag</text>
+        </name>
+      </place>
+      <place id="I_A_FINALIZED">
+        <name>
+          <text>I_A_FINALIZED</text>
+        </name>
+      </place>
+      <place id="I_A_PARTLYSUBMITTED">
+        <name>
+          <text>I_A_PARTLYSUBMITTED</text>
+        </name>
+      </place>
+      <place id="O_A_PARTLYSUBMITTED">
+        <name>
+          <text>O_A_PARTLYSUBMITTED</text>
+        </name>
+      </place>
+      <place id="I_O_CANCELLED">
+        <name>
+          <text>I_O_CANCELLED</text>
+        </name>
+      </place>
+      <place id="I_W_Nabellen offertes">
+        <name>
+          <text>I_W_Nabellen offertes</text>
+        </name>
+      </place>
+      <place id="I_A_SUBMITTED">
+        <name>
+          <text>I_A_SUBMITTED</text>
+        </name>
+      </place>
+      <place id="I_O_CREATED">
+        <name>
+          <text>I_O_CREATED</text>
+        </name>
+      </place>
+      <place id="I_O_SELECTED">
+        <name>
+          <text>I_O_SELECTED</text>
+        </name>
+      </place>
+      <place id="StartPlace">
+        <name>
+          <text>StartPlace</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="EndPlace">
+        <name>
+          <text>EndPlace</text>
+        </name>
+      </place>
+      <arc id="I_[]-&gt;[]" source="I_[]" target="[]">
+        <name>
+          <text>[FROM(I_[]) TO([])]</text>
+        </name>
+      </arc>
+      <arc id="I_O_SENT_BACK-&gt;O_SENT_BACK" source="I_O_SENT_BACK" target="O_SENT_BACK">
+        <name>
+          <text>[FROM(I_O_SENT_BACK) TO(O_SENT_BACK)]</text>
+        </name>
+      </arc>
+      <arc id="I_W_Completeren aanvraag-&gt;W_Completeren aanvraag" source="I_W_Completeren aanvraag" target="W_Completeren aanvraag">
+        <name>
+          <text>[FROM(I_W_Completeren aanvraag) TO(W_Completeren aanvraag)]</text>
+        </name>
+      </arc>
+      <arc id="W_Completeren aanvraag-&gt;O_W_Completeren aanvraag" source="W_Completeren aanvraag" target="O_W_Completeren aanvraag">
+        <name>
+          <text>[FROM(W_Completeren aanvraag) TO(O_W_Completeren aanvraag)]</text>
+        </name>
+      </arc>
+      <arc id="I_A_ACTIVATED-&gt;A_ACTIVATED" source="I_A_ACTIVATED" target="A_ACTIVATED">
+        <name>
+          <text>[FROM(I_A_ACTIVATED) TO(A_ACTIVATED)]</text>
+        </name>
+      </arc>
+      <arc id="I_O_SENT-&gt;O_SENT" source="I_O_SENT" target="O_SENT">
+        <name>
+          <text>[FROM(I_O_SENT) TO(O_SENT)]</text>
+        </name>
+      </arc>
+      <arc id="O_ACCEPTED-&gt;O_O_ACCEPTED" source="O_ACCEPTED" target="O_O_ACCEPTED">
+        <name>
+          <text>[FROM(O_ACCEPTED) TO(O_O_ACCEPTED)]</text>
+        </name>
+      </arc>
+      <arc id="I_A_DECLINED-&gt;A_DECLINED" source="I_A_DECLINED" target="A_DECLINED">
+        <name>
+          <text>[FROM(I_A_DECLINED) TO(A_DECLINED)]</text>
+        </name>
+      </arc>
+      <arc id="A_DECLINED-&gt;O_A_DECLINED" source="A_DECLINED" target="O_A_DECLINED">
+        <name>
+          <text>[FROM(A_DECLINED) TO(O_A_DECLINED)]</text>
+        </name>
+      </arc>
+      <arc id="I_W_Valideren aanvraag-&gt;W_Valideren aanvraag" source="I_W_Valideren aanvraag" target="W_Valideren aanvraag">
+        <name>
+          <text>[FROM(I_W_Valideren aanvraag) TO(W_Valideren aanvraag)]</text>
+        </name>
+      </arc>
+      <arc id="W_Valideren aanvraag-&gt;O_W_Valideren aanvraag" source="W_Valideren aanvraag" target="O_W_Valideren aanvraag">
+        <name>
+          <text>[FROM(W_Valideren aanvraag) TO(O_W_Valideren aanvraag)]</text>
+        </name>
+      </arc>
+      <arc id="I_A_FINALIZED-&gt;A_FINALIZED" source="I_A_FINALIZED" target="A_FINALIZED">
+        <name>
+          <text>[FROM(I_A_FINALIZED) TO(A_FINALIZED)]</text>
+        </name>
+      </arc>
+      <arc id="I_A_PARTLYSUBMITTED-&gt;A_PARTLYSUBMITTED" source="I_A_PARTLYSUBMITTED" target="A_PARTLYSUBMITTED">
+        <name>
+          <text>[FROM(I_A_PARTLYSUBMITTED) TO(A_PARTLYSUBMITTED)]</text>
+        </name>
+      </arc>
+      <arc id="A_PARTLYSUBMITTED-&gt;O_A_PARTLYSUBMITTED" source="A_PARTLYSUBMITTED" target="O_A_PARTLYSUBMITTED">
+        <name>
+          <text>[FROM(A_PARTLYSUBMITTED) TO(O_A_PARTLYSUBMITTED)]</text>
+        </name>
+      </arc>
+      <arc id="I_O_CANCELLED-&gt;O_CANCELLED" source="I_O_CANCELLED" target="O_CANCELLED">
+        <name>
+          <text>[FROM(I_O_CANCELLED) TO(O_CANCELLED)]</text>
+        </name>
+      </arc>
+      <arc id="I_W_Nabellen offertes-&gt;W_Nabellen offertes" source="I_W_Nabellen offertes" target="W_Nabellen offertes">
+        <name>
+          <text>[FROM(I_W_Nabellen offertes) TO(W_Nabellen offertes)]</text>
+        </name>
+      </arc>
+      <arc id="I_A_SUBMITTED-&gt;A_SUBMITTED" source="I_A_SUBMITTED" target="A_SUBMITTED">
+        <name>
+          <text>[FROM(I_A_SUBMITTED) TO(A_SUBMITTED)]</text>
+        </name>
+      </arc>
+      <arc id="I_O_CREATED-&gt;O_CREATED" source="I_O_CREATED" target="O_CREATED">
+        <name>
+          <text>[FROM(I_O_CREATED) TO(O_CREATED)]</text>
+        </name>
+      </arc>
+      <arc id="I_O_SELECTED-&gt;O_SELECTED" source="I_O_SELECTED" target="O_SELECTED">
+        <name>
+          <text>[FROM(I_O_SELECTED) TO(O_SELECTED)]</text>
+        </name>
+      </arc>
+      <arc id="O_A_PARTLYSUBMITTED-&gt;A_PARTLYSUBMITTED-&gt;A_DECLINED" source="O_A_PARTLYSUBMITTED" target="A_PARTLYSUBMITTED-&gt;A_DECLINED">
+        <name>
+          <text>[FROM(O_A_PARTLYSUBMITTED) TO(A_PARTLYSUBMITTED-&gt;A_DECLINED)]</text>
+        </name>
+      </arc>
+      <arc id="A_PARTLYSUBMITTED-&gt;A_DECLINED-&gt;I_A_DECLINED" source="A_PARTLYSUBMITTED-&gt;A_DECLINED" target="I_A_DECLINED">
+        <name>
+          <text>[FROM(A_PARTLYSUBMITTED-&gt;A_DECLINED) TO(I_A_DECLINED)]</text>
+        </name>
+      </arc>
+      <arc id="O_A_DECLINED-&gt;A_DECLINED-&gt;[]" source="O_A_DECLINED" target="A_DECLINED-&gt;[]">
+        <name>
+          <text>[FROM(O_A_DECLINED) TO(A_DECLINED-&gt;[])]</text>
+        </name>
+      </arc>
+      <arc id="A_DECLINED-&gt;[]-&gt;I_[]" source="A_DECLINED-&gt;[]" target="I_[]">
+        <name>
+          <text>[FROM(A_DECLINED-&gt;[]) TO(I_[])]</text>
+        </name>
+      </arc>
+      <arc id="W_Wijzigen contractgegevens-&gt;I_[]" source="W_Wijzigen contractgegevens" target="I_[]">
+        <name>
+          <text>[FROM(W_Wijzigen contractgegevens) TO(I_[])]</text>
+        </name>
+      </arc>
+      <arc id="W_Afhandelen leads-&gt;I_W_Completeren aanvraag" source="W_Afhandelen leads" target="I_W_Completeren aanvraag">
+        <name>
+          <text>[FROM(W_Afhandelen leads) TO(I_W_Completeren aanvraag)]</text>
+        </name>
+      </arc>
+      <arc id="A_ACCEPTED-&gt;I_O_SELECTED" source="A_ACCEPTED" target="I_O_SELECTED">
+        <name>
+          <text>[FROM(A_ACCEPTED) TO(I_O_SELECTED)]</text>
+        </name>
+      </arc>
+      <arc id="|&gt;-&gt;I_A_SUBMITTED" source="|&gt;" target="I_A_SUBMITTED">
+        <name>
+          <text>[FROM(|&gt;) TO(I_A_SUBMITTED)]</text>
+        </name>
+      </arc>
+      <arc id="A_SUBMITTED-&gt;I_A_PARTLYSUBMITTED" source="A_SUBMITTED" target="I_A_PARTLYSUBMITTED">
+        <name>
+          <text>[FROM(A_SUBMITTED) TO(I_A_PARTLYSUBMITTED)]</text>
+        </name>
+      </arc>
+      <arc id="W_Beoordelen fraude-&gt;I_W_Valideren aanvraag" source="W_Beoordelen fraude" target="I_W_Valideren aanvraag">
+        <name>
+          <text>[FROM(W_Beoordelen fraude) TO(I_W_Valideren aanvraag)]</text>
+        </name>
+      </arc>
+      <arc id="A_REGISTERED-&gt;I_A_ACTIVATED" source="A_REGISTERED" target="I_A_ACTIVATED">
+        <name>
+          <text>[FROM(A_REGISTERED) TO(I_A_ACTIVATED)]</text>
+        </name>
+      </arc>
+      <arc id="A_FINALIZED-&gt;I_O_CREATED" source="A_FINALIZED" target="I_O_CREATED">
+        <name>
+          <text>[FROM(A_FINALIZED) TO(I_O_CREATED)]</text>
+        </name>
+      </arc>
+      <arc id="O_CANCELLED-&gt;I_O_SELECTED" source="O_CANCELLED" target="I_O_SELECTED">
+        <name>
+          <text>[FROM(O_CANCELLED) TO(I_O_SELECTED)]</text>
+        </name>
+      </arc>
+      <arc id="A_ACTIVATED-&gt;I_W_Valideren aanvraag" source="A_ACTIVATED" target="I_W_Valideren aanvraag">
+        <name>
+          <text>[FROM(A_ACTIVATED) TO(I_W_Valideren aanvraag)]</text>
+        </name>
+      </arc>
+      <arc id="O_CREATED-&gt;I_O_SENT" source="O_CREATED" target="I_O_SENT">
+        <name>
+          <text>[FROM(O_CREATED) TO(I_O_SENT)]</text>
+        </name>
+      </arc>
+      <arc id="A_CANCELLED-&gt;I_O_CANCELLED" source="A_CANCELLED" target="I_O_CANCELLED">
+        <name>
+          <text>[FROM(A_CANCELLED) TO(I_O_CANCELLED)]</text>
+        </name>
+      </arc>
+      <arc id="W_Nabellen offertes-&gt;I_O_SENT_BACK" source="W_Nabellen offertes" target="I_O_SENT_BACK">
+        <name>
+          <text>[FROM(W_Nabellen offertes) TO(I_O_SENT_BACK)]</text>
+        </name>
+      </arc>
+      <arc id="A_PREACCEPTED-&gt;I_W_Completeren aanvraag" source="A_PREACCEPTED" target="I_W_Completeren aanvraag">
+        <name>
+          <text>[FROM(A_PREACCEPTED) TO(I_W_Completeren aanvraag)]</text>
+        </name>
+      </arc>
+      <arc id="W_Nabellen incomplete dossiers-&gt;I_W_Valideren aanvraag" source="W_Nabellen incomplete dossiers" target="I_W_Valideren aanvraag">
+        <name>
+          <text>[FROM(W_Nabellen incomplete dossiers) TO(I_W_Valideren aanvraag)]</text>
+        </name>
+      </arc>
+      <arc id="O_SENT-&gt;I_W_Nabellen offertes" source="O_SENT" target="I_W_Nabellen offertes">
+        <name>
+          <text>[FROM(O_SENT) TO(I_W_Nabellen offertes)]</text>
+        </name>
+      </arc>
+      <arc id="O_DECLINED-&gt;I_A_DECLINED" source="O_DECLINED" target="I_A_DECLINED">
+        <name>
+          <text>[FROM(O_DECLINED) TO(I_A_DECLINED)]</text>
+        </name>
+      </arc>
+      <arc id="O_SENT_BACK-&gt;I_W_Valideren aanvraag" source="O_SENT_BACK" target="I_W_Valideren aanvraag">
+        <name>
+          <text>[FROM(O_SENT_BACK) TO(I_W_Valideren aanvraag)]</text>
+        </name>
+      </arc>
+      <arc id="A_APPROVED-&gt;I_A_ACTIVATED" source="A_APPROVED" target="I_A_ACTIVATED">
+        <name>
+          <text>[FROM(A_APPROVED) TO(I_A_ACTIVATED)]</text>
+        </name>
+      </arc>
+      <arc id="O_SELECTED-&gt;I_A_FINALIZED" source="O_SELECTED" target="I_A_FINALIZED">
+        <name>
+          <text>[FROM(O_SELECTED) TO(I_A_FINALIZED)]</text>
+        </name>
+      </arc>
+      <arc id="[]-&gt;EndPlace" source="[]" target="EndPlace">
+        <name>
+          <text>[FROM([]) TO(EndPlace)]</text>
+        </name>
+      </arc>
+      <arc id="O_O_ACCEPTED-&gt;A_REGISTERED" source="O_O_ACCEPTED" target="A_REGISTERED">
+        <name>
+          <text>[FROM(O_O_ACCEPTED) TO(A_REGISTERED)]</text>
+        </name>
+      </arc>
+      <arc id="O_A_DECLINED-&gt;O_DECLINED" source="O_A_DECLINED" target="O_DECLINED">
+        <name>
+          <text>[FROM(O_A_DECLINED) TO(O_DECLINED)]</text>
+        </name>
+      </arc>
+      <arc id="O_A_PARTLYSUBMITTED-&gt;A_PREACCEPTED" source="O_A_PARTLYSUBMITTED" target="A_PREACCEPTED">
+        <name>
+          <text>[FROM(O_A_PARTLYSUBMITTED) TO(A_PREACCEPTED)]</text>
+        </name>
+      </arc>
+      <arc id="O_A_PARTLYSUBMITTED-&gt;W_Afhandelen leads" source="O_A_PARTLYSUBMITTED" target="W_Afhandelen leads">
+        <name>
+          <text>[FROM(O_A_PARTLYSUBMITTED) TO(W_Afhandelen leads)]</text>
+        </name>
+      </arc>
+      <arc id="O_W_Completeren aanvraag-&gt;A_CANCELLED" source="O_W_Completeren aanvraag" target="A_CANCELLED">
+        <name>
+          <text>[FROM(O_W_Completeren aanvraag) TO(A_CANCELLED)]</text>
+        </name>
+      </arc>
+      <arc id="O_W_Valideren aanvraag-&gt;W_Wijzigen contractgegevens" source="O_W_Valideren aanvraag" target="W_Wijzigen contractgegevens">
+        <name>
+          <text>[FROM(O_W_Valideren aanvraag) TO(W_Wijzigen contractgegevens)]</text>
+        </name>
+      </arc>
+      <arc id="O_W_Valideren aanvraag-&gt;W_Beoordelen fraude" source="O_W_Valideren aanvraag" target="W_Beoordelen fraude">
+        <name>
+          <text>[FROM(O_W_Valideren aanvraag) TO(W_Beoordelen fraude)]</text>
+        </name>
+      </arc>
+      <arc id="O_O_ACCEPTED-&gt;A_APPROVED" source="O_O_ACCEPTED" target="A_APPROVED">
+        <name>
+          <text>[FROM(O_O_ACCEPTED) TO(A_APPROVED)]</text>
+        </name>
+      </arc>
+      <arc id="O_W_Completeren aanvraag-&gt;A_ACCEPTED" source="O_W_Completeren aanvraag" target="A_ACCEPTED">
+        <name>
+          <text>[FROM(O_W_Completeren aanvraag) TO(A_ACCEPTED)]</text>
+        </name>
+      </arc>
+      <arc id="O_W_Valideren aanvraag-&gt;W_Nabellen incomplete dossiers" source="O_W_Valideren aanvraag" target="W_Nabellen incomplete dossiers">
+        <name>
+          <text>[FROM(O_W_Valideren aanvraag) TO(W_Nabellen incomplete dossiers)]</text>
+        </name>
+      </arc>
+      <arc id="O_W_Valideren aanvraag-&gt;O_ACCEPTED" source="O_W_Valideren aanvraag" target="O_ACCEPTED">
+        <name>
+          <text>[FROM(O_W_Valideren aanvraag) TO(O_ACCEPTED)]</text>
+        </name>
+      </arc>
+      <arc id="StartPlace-&gt;|&gt;" source="StartPlace" target="|&gt;">
+        <name>
+          <text>[FROM(StartPlace) TO(|&gt;)]</text>
+        </name>
+      </arc>
+    </page>
+    <finalMarkings>
+      <marking>
+        <place idref="I_[]">
+          <text>0</text>
+        </place>
+        <place idref="I_O_SENT_BACK">
+          <text>0</text>
+        </place>
+        <place idref="I_W_Completeren aanvraag">
+          <text>0</text>
+        </place>
+        <place idref="O_W_Completeren aanvraag">
+          <text>0</text>
+        </place>
+        <place idref="I_A_ACTIVATED">
+          <text>0</text>
+        </place>
+        <place idref="I_O_SENT">
+          <text>0</text>
+        </place>
+        <place idref="O_O_ACCEPTED">
+          <text>0</text>
+        </place>
+        <place idref="I_A_DECLINED">
+          <text>0</text>
+        </place>
+        <place idref="O_A_DECLINED">
+          <text>0</text>
+        </place>
+        <place idref="I_W_Valideren aanvraag">
+          <text>0</text>
+        </place>
+        <place idref="O_W_Valideren aanvraag">
+          <text>0</text>
+        </place>
+        <place idref="I_A_FINALIZED">
+          <text>0</text>
+        </place>
+        <place idref="I_A_PARTLYSUBMITTED">
+          <text>0</text>
+        </place>
+        <place idref="O_A_PARTLYSUBMITTED">
+          <text>0</text>
+        </place>
+        <place idref="I_O_CANCELLED">
+          <text>0</text>
+        </place>
+        <place idref="I_W_Nabellen offertes">
+          <text>0</text>
+        </place>
+        <place idref="I_A_SUBMITTED">
+          <text>0</text>
+        </place>
+        <place idref="I_O_CREATED">
+          <text>0</text>
+        </place>
+        <place idref="I_O_SELECTED">
+          <text>0</text>
+        </place>
+        <place idref="StartPlace">
+          <text>0</text>
+        </place>
+        <place idref="EndPlace">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalMarkings>
+  </net>
+</pnml>

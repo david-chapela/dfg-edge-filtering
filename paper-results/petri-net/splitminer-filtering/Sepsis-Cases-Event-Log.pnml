@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+  <net xmlns="" id="TranslatedPetriNet" type="http://www.pnml.org/version-2009/grammar/ptnet">
+    <name>
+      <text>TranslatedPetriNet</text>
+    </name>
+    <page id="0">
+      <transition id="CRP">
+        <name>
+          <text>CRP</text>
+        </name>
+      </transition>
+      <transition id="|&gt;">
+        <name>
+          <text>|&gt;</text>
+        </name>
+      </transition>
+      <transition id="[]">
+        <name>
+          <text>[]</text>
+        </name>
+      </transition>
+      <transition id="IV Antibiotics">
+        <name>
+          <text>IV Antibiotics</text>
+        </name>
+      </transition>
+      <transition id="Return ER">
+        <name>
+          <text>Return ER</text>
+        </name>
+      </transition>
+      <transition id="IV Liquid">
+        <name>
+          <text>IV Liquid</text>
+        </name>
+      </transition>
+      <transition id="ER Sepsis Triage">
+        <name>
+          <text>ER Sepsis Triage</text>
+        </name>
+      </transition>
+      <transition id="ER Registration">
+        <name>
+          <text>ER Registration</text>
+        </name>
+      </transition>
+      <transition id="Release B">
+        <name>
+          <text>Release B</text>
+        </name>
+      </transition>
+      <transition id="Release E">
+        <name>
+          <text>Release E</text>
+        </name>
+      </transition>
+      <transition id="Release D">
+        <name>
+          <text>Release D</text>
+        </name>
+      </transition>
+      <transition id="Release A">
+        <name>
+          <text>Release A</text>
+        </name>
+      </transition>
+      <transition id="Release C">
+        <name>
+          <text>Release C</text>
+        </name>
+      </transition>
+      <transition id="ER Triage">
+        <name>
+          <text>ER Triage</text>
+        </name>
+      </transition>
+      <transition id="Leucocytes">
+        <name>
+          <text>Leucocytes</text>
+        </name>
+      </transition>
+      <transition id="Admission IC">
+        <name>
+          <text>Admission IC</text>
+        </name>
+      </transition>
+      <transition id="LacticAcid">
+        <name>
+          <text>LacticAcid</text>
+        </name>
+      </transition>
+      <transition id="Admission NC">
+        <name>
+          <text>Admission NC</text>
+        </name>
+      </transition>
+      <transition id="Release A-&gt;[]">
+        <name>
+          <text>Release A-&gt;[]</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <transition id="Admission NC-&gt;CRP">
+        <name>
+          <text>Admission NC-&gt;CRP</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <transition id="CRP-&gt;LacticAcid">
+        <name>
+          <text>CRP-&gt;LacticAcid</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <place id="I_CRP">
+        <name>
+          <text>I_CRP</text>
+        </name>
+      </place>
+      <place id="O_CRP">
+        <name>
+          <text>O_CRP</text>
+        </name>
+      </place>
+      <place id="I_[]">
+        <name>
+          <text>I_[]</text>
+        </name>
+      </place>
+      <place id="I_IV Antibiotics">
+        <name>
+          <text>I_IV Antibiotics</text>
+        </name>
+      </place>
+      <place id="O_IV Antibiotics">
+        <name>
+          <text>O_IV Antibiotics</text>
+        </name>
+      </place>
+      <place id="I_IV Liquid">
+        <name>
+          <text>I_IV Liquid</text>
+        </name>
+      </place>
+      <place id="I_ER Sepsis Triage">
+        <name>
+          <text>I_ER Sepsis Triage</text>
+        </name>
+      </place>
+      <place id="I_ER Registration">
+        <name>
+          <text>I_ER Registration</text>
+        </name>
+      </place>
+      <place id="O_Release A">
+        <name>
+          <text>O_Release A</text>
+        </name>
+      </place>
+      <place id="I_ER Triage">
+        <name>
+          <text>I_ER Triage</text>
+        </name>
+      </place>
+      <place id="I_LacticAcid">
+        <name>
+          <text>I_LacticAcid</text>
+        </name>
+      </place>
+      <place id="O_Admission NC">
+        <name>
+          <text>O_Admission NC</text>
+        </name>
+      </place>
+      <place id="StartPlace">
+        <name>
+          <text>StartPlace</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="EndPlace">
+        <name>
+          <text>EndPlace</text>
+        </name>
+      </place>
+      <arc id="I_CRP-&gt;CRP" source="I_CRP" target="CRP">
+        <name>
+          <text>[FROM(I_CRP) TO(CRP)]</text>
+        </name>
+      </arc>
+      <arc id="CRP-&gt;O_CRP" source="CRP" target="O_CRP">
+        <name>
+          <text>[FROM(CRP) TO(O_CRP)]</text>
+        </name>
+      </arc>
+      <arc id="I_[]-&gt;[]" source="I_[]" target="[]">
+        <name>
+          <text>[FROM(I_[]) TO([])]</text>
+        </name>
+      </arc>
+      <arc id="I_IV Antibiotics-&gt;IV Antibiotics" source="I_IV Antibiotics" target="IV Antibiotics">
+        <name>
+          <text>[FROM(I_IV Antibiotics) TO(IV Antibiotics)]</text>
+        </name>
+      </arc>
+      <arc id="IV Antibiotics-&gt;O_IV Antibiotics" source="IV Antibiotics" target="O_IV Antibiotics">
+        <name>
+          <text>[FROM(IV Antibiotics) TO(O_IV Antibiotics)]</text>
+        </name>
+      </arc>
+      <arc id="I_IV Liquid-&gt;IV Liquid" source="I_IV Liquid" target="IV Liquid">
+        <name>
+          <text>[FROM(I_IV Liquid) TO(IV Liquid)]</text>
+        </name>
+      </arc>
+      <arc id="I_ER Sepsis Triage-&gt;ER Sepsis Triage" source="I_ER Sepsis Triage" target="ER Sepsis Triage">
+        <name>
+          <text>[FROM(I_ER Sepsis Triage) TO(ER Sepsis Triage)]</text>
+        </name>
+      </arc>
+      <arc id="I_ER Registration-&gt;ER Registration" source="I_ER Registration" target="ER Registration">
+        <name>
+          <text>[FROM(I_ER Registration) TO(ER Registration)]</text>
+        </name>
+      </arc>
+      <arc id="Release A-&gt;O_Release A" source="Release A" target="O_Release A">
+        <name>
+          <text>[FROM(Release A) TO(O_Release A)]</text>
+        </name>
+      </arc>
+      <arc id="I_ER Triage-&gt;ER Triage" source="I_ER Triage" target="ER Triage">
+        <name>
+          <text>[FROM(I_ER Triage) TO(ER Triage)]</text>
+        </name>
+      </arc>
+      <arc id="I_LacticAcid-&gt;LacticAcid" source="I_LacticAcid" target="LacticAcid">
+        <name>
+          <text>[FROM(I_LacticAcid) TO(LacticAcid)]</text>
+        </name>
+      </arc>
+      <arc id="Admission NC-&gt;O_Admission NC" source="Admission NC" target="O_Admission NC">
+        <name>
+          <text>[FROM(Admission NC) TO(O_Admission NC)]</text>
+        </name>
+      </arc>
+      <arc id="O_Release A-&gt;Release A-&gt;[]" source="O_Release A" target="Release A-&gt;[]">
+        <name>
+          <text>[FROM(O_Release A) TO(Release A-&gt;[])]</text>
+        </name>
+      </arc>
+      <arc id="Release A-&gt;[]-&gt;I_[]" source="Release A-&gt;[]" target="I_[]">
+        <name>
+          <text>[FROM(Release A-&gt;[]) TO(I_[])]</text>
+        </name>
+      </arc>
+      <arc id="O_Admission NC-&gt;Admission NC-&gt;CRP" source="O_Admission NC" target="Admission NC-&gt;CRP">
+        <name>
+          <text>[FROM(O_Admission NC) TO(Admission NC-&gt;CRP)]</text>
+        </name>
+      </arc>
+      <arc id="Admission NC-&gt;CRP-&gt;I_CRP" source="Admission NC-&gt;CRP" target="I_CRP">
+        <name>
+          <text>[FROM(Admission NC-&gt;CRP) TO(I_CRP)]</text>
+        </name>
+      </arc>
+      <arc id="O_CRP-&gt;CRP-&gt;LacticAcid" source="O_CRP" target="CRP-&gt;LacticAcid">
+        <name>
+          <text>[FROM(O_CRP) TO(CRP-&gt;LacticAcid)]</text>
+        </name>
+      </arc>
+      <arc id="CRP-&gt;LacticAcid-&gt;I_LacticAcid" source="CRP-&gt;LacticAcid" target="I_LacticAcid">
+        <name>
+          <text>[FROM(CRP-&gt;LacticAcid) TO(I_LacticAcid)]</text>
+        </name>
+      </arc>
+      <arc id="|&gt;-&gt;I_ER Registration" source="|&gt;" target="I_ER Registration">
+        <name>
+          <text>[FROM(|&gt;) TO(I_ER Registration)]</text>
+        </name>
+      </arc>
+      <arc id="ER Triage-&gt;I_ER Sepsis Triage" source="ER Triage" target="I_ER Sepsis Triage">
+        <name>
+          <text>[FROM(ER Triage) TO(I_ER Sepsis Triage)]</text>
+        </name>
+      </arc>
+      <arc id="IV Liquid-&gt;I_IV Antibiotics" source="IV Liquid" target="I_IV Antibiotics">
+        <name>
+          <text>[FROM(IV Liquid) TO(I_IV Antibiotics)]</text>
+        </name>
+      </arc>
+      <arc id="Release D-&gt;I_[]" source="Release D" target="I_[]">
+        <name>
+          <text>[FROM(Release D) TO(I_[])]</text>
+        </name>
+      </arc>
+      <arc id="Leucocytes-&gt;I_CRP" source="Leucocytes" target="I_CRP">
+        <name>
+          <text>[FROM(Leucocytes) TO(I_CRP)]</text>
+        </name>
+      </arc>
+      <arc id="LacticAcid-&gt;I_CRP" source="LacticAcid" target="I_CRP">
+        <name>
+          <text>[FROM(LacticAcid) TO(I_CRP)]</text>
+        </name>
+      </arc>
+      <arc id="Release E-&gt;I_[]" source="Release E" target="I_[]">
+        <name>
+          <text>[FROM(Release E) TO(I_[])]</text>
+        </name>
+      </arc>
+      <arc id="ER Sepsis Triage-&gt;I_IV Liquid" source="ER Sepsis Triage" target="I_IV Liquid">
+        <name>
+          <text>[FROM(ER Sepsis Triage) TO(I_IV Liquid)]</text>
+        </name>
+      </arc>
+      <arc id="Admission IC-&gt;I_LacticAcid" source="Admission IC" target="I_LacticAcid">
+        <name>
+          <text>[FROM(Admission IC) TO(I_LacticAcid)]</text>
+        </name>
+      </arc>
+      <arc id="Return ER-&gt;I_[]" source="Return ER" target="I_[]">
+        <name>
+          <text>[FROM(Return ER) TO(I_[])]</text>
+        </name>
+      </arc>
+      <arc id="Release B-&gt;I_[]" source="Release B" target="I_[]">
+        <name>
+          <text>[FROM(Release B) TO(I_[])]</text>
+        </name>
+      </arc>
+      <arc id="ER Registration-&gt;I_ER Triage" source="ER Registration" target="I_ER Triage">
+        <name>
+          <text>[FROM(ER Registration) TO(I_ER Triage)]</text>
+        </name>
+      </arc>
+      <arc id="Release C-&gt;I_[]" source="Release C" target="I_[]">
+        <name>
+          <text>[FROM(Release C) TO(I_[])]</text>
+        </name>
+      </arc>
+      <arc id="[]-&gt;EndPlace" source="[]" target="EndPlace">
+        <name>
+          <text>[FROM([]) TO(EndPlace)]</text>
+        </name>
+      </arc>
+      <arc id="O_CRP-&gt;Release C" source="O_CRP" target="Release C">
+        <name>
+          <text>[FROM(O_CRP) TO(Release C)]</text>
+        </name>
+      </arc>
+      <arc id="O_IV Antibiotics-&gt;Admission IC" source="O_IV Antibiotics" target="Admission IC">
+        <name>
+          <text>[FROM(O_IV Antibiotics) TO(Admission IC)]</text>
+        </name>
+      </arc>
+      <arc id="O_CRP-&gt;Release A" source="O_CRP" target="Release A">
+        <name>
+          <text>[FROM(O_CRP) TO(Release A)]</text>
+        </name>
+      </arc>
+      <arc id="O_Release A-&gt;Return ER" source="O_Release A" target="Return ER">
+        <name>
+          <text>[FROM(O_Release A) TO(Return ER)]</text>
+        </name>
+      </arc>
+      <arc id="O_Admission NC-&gt;Leucocytes" source="O_Admission NC" target="Leucocytes">
+        <name>
+          <text>[FROM(O_Admission NC) TO(Leucocytes)]</text>
+        </name>
+      </arc>
+      <arc id="O_IV Antibiotics-&gt;Admission NC" source="O_IV Antibiotics" target="Admission NC">
+        <name>
+          <text>[FROM(O_IV Antibiotics) TO(Admission NC)]</text>
+        </name>
+      </arc>
+      <arc id="O_CRP-&gt;Release E" source="O_CRP" target="Release E">
+        <name>
+          <text>[FROM(O_CRP) TO(Release E)]</text>
+        </name>
+      </arc>
+      <arc id="O_CRP-&gt;Release D" source="O_CRP" target="Release D">
+        <name>
+          <text>[FROM(O_CRP) TO(Release D)]</text>
+        </name>
+      </arc>
+      <arc id="O_CRP-&gt;Release B" source="O_CRP" target="Release B">
+        <name>
+          <text>[FROM(O_CRP) TO(Release B)]</text>
+        </name>
+      </arc>
+      <arc id="StartPlace-&gt;|&gt;" source="StartPlace" target="|&gt;">
+        <name>
+          <text>[FROM(StartPlace) TO(|&gt;)]</text>
+        </name>
+      </arc>
+    </page>
+    <finalMarkings>
+      <marking>
+        <place idref="I_CRP">
+          <text>0</text>
+        </place>
+        <place idref="O_CRP">
+          <text>0</text>
+        </place>
+        <place idref="I_[]">
+          <text>0</text>
+        </place>
+        <place idref="I_IV Antibiotics">
+          <text>0</text>
+        </place>
+        <place idref="O_IV Antibiotics">
+          <text>0</text>
+        </place>
+        <place idref="I_IV Liquid">
+          <text>0</text>
+        </place>
+        <place idref="I_ER Sepsis Triage">
+          <text>0</text>
+        </place>
+        <place idref="I_ER Registration">
+          <text>0</text>
+        </place>
+        <place idref="O_Release A">
+          <text>0</text>
+        </place>
+        <place idref="I_ER Triage">
+          <text>0</text>
+        </place>
+        <place idref="I_LacticAcid">
+          <text>0</text>
+        </place>
+        <place idref="O_Admission NC">
+          <text>0</text>
+        </place>
+        <place idref="StartPlace">
+          <text>0</text>
+        </place>
+        <place idref="EndPlace">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalMarkings>
+  </net>
+</pnml>

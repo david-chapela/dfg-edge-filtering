@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+  <net xmlns="" id="TranslatedPetriNet" type="http://www.pnml.org/version-2009/grammar/ptnet">
+    <name>
+      <text>TranslatedPetriNet</text>
+    </name>
+    <page id="0">
+      <transition id="CHANGE DIAGN">
+        <name>
+          <text>CHANGE DIAGN</text>
+        </name>
+      </transition>
+      <transition id="|&gt;">
+        <name>
+          <text>|&gt;</text>
+        </name>
+      </transition>
+      <transition id="[]">
+        <name>
+          <text>[]</text>
+        </name>
+      </transition>
+      <transition id="FIN">
+        <name>
+          <text>FIN</text>
+        </name>
+      </transition>
+      <transition id="STORNO">
+        <name>
+          <text>STORNO</text>
+        </name>
+      </transition>
+      <transition id="NEW">
+        <name>
+          <text>NEW</text>
+        </name>
+      </transition>
+      <transition id="ZDBC_BEHAN">
+        <name>
+          <text>ZDBC_BEHAN</text>
+        </name>
+      </transition>
+      <transition id="BILLED">
+        <name>
+          <text>BILLED</text>
+        </name>
+      </transition>
+      <transition id="CHANGE END">
+        <name>
+          <text>CHANGE END</text>
+        </name>
+      </transition>
+      <transition id="REJECT">
+        <name>
+          <text>REJECT</text>
+        </name>
+      </transition>
+      <transition id="SET STATUS">
+        <name>
+          <text>SET STATUS</text>
+        </name>
+      </transition>
+      <transition id="CODE OK">
+        <name>
+          <text>CODE OK</text>
+        </name>
+      </transition>
+      <transition id="DELETE">
+        <name>
+          <text>DELETE</text>
+        </name>
+      </transition>
+      <transition id="EMPTY">
+        <name>
+          <text>EMPTY</text>
+        </name>
+      </transition>
+      <transition id="CODE NOK">
+        <name>
+          <text>CODE NOK</text>
+        </name>
+      </transition>
+      <transition id="CODE ERROR">
+        <name>
+          <text>CODE ERROR</text>
+        </name>
+      </transition>
+      <transition id="RELEASE">
+        <name>
+          <text>RELEASE</text>
+        </name>
+      </transition>
+      <transition id="REOPEN">
+        <name>
+          <text>REOPEN</text>
+        </name>
+      </transition>
+      <transition id="MANUAL">
+        <name>
+          <text>MANUAL</text>
+        </name>
+      </transition>
+      <transition id="JOIN-PAT">
+        <name>
+          <text>JOIN-PAT</text>
+        </name>
+      </transition>
+      <transition id="CODE OK-&gt;BILLED">
+        <name>
+          <text>CODE OK-&gt;BILLED</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <transition id="BILLED-&gt;[]">
+        <name>
+          <text>BILLED-&gt;[]</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <transition id="CODE OK-&gt;REOPEN">
+        <name>
+          <text>CODE OK-&gt;REOPEN</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <transition id="CODE NOK-&gt;BILLED">
+        <name>
+          <text>CODE NOK-&gt;BILLED</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <place id="I_[]">
+        <name>
+          <text>I_[]</text>
+        </name>
+      </place>
+      <place id="I_FIN">
+        <name>
+          <text>I_FIN</text>
+        </name>
+      </place>
+      <place id="I_NEW">
+        <name>
+          <text>I_NEW</text>
+        </name>
+      </place>
+      <place id="O_NEW">
+        <name>
+          <text>O_NEW</text>
+        </name>
+      </place>
+      <place id="I_BILLED">
+        <name>
+          <text>I_BILLED</text>
+        </name>
+      </place>
+      <place id="O_BILLED">
+        <name>
+          <text>O_BILLED</text>
+        </name>
+      </place>
+      <place id="I_REJECT">
+        <name>
+          <text>I_REJECT</text>
+        </name>
+      </place>
+      <place id="O_CODE OK">
+        <name>
+          <text>O_CODE OK</text>
+        </name>
+      </place>
+      <place id="O_CODE NOK">
+        <name>
+          <text>O_CODE NOK</text>
+        </name>
+      </place>
+      <place id="I_RELEASE">
+        <name>
+          <text>I_RELEASE</text>
+        </name>
+      </place>
+      <place id="O_RELEASE">
+        <name>
+          <text>O_RELEASE</text>
+        </name>
+      </place>
+      <place id="I_REOPEN">
+        <name>
+          <text>I_REOPEN</text>
+        </name>
+      </place>
+      <place id="StartPlace">
+        <name>
+          <text>StartPlace</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="EndPlace">
+        <name>
+          <text>EndPlace</text>
+        </name>
+      </place>
+      <arc id="I_[]-&gt;[]" source="I_[]" target="[]">
+        <name>
+          <text>[FROM(I_[]) TO([])]</text>
+        </name>
+      </arc>
+      <arc id="I_FIN-&gt;FIN" source="I_FIN" target="FIN">
+        <name>
+          <text>[FROM(I_FIN) TO(FIN)]</text>
+        </name>
+      </arc>
+      <arc id="I_NEW-&gt;NEW" source="I_NEW" target="NEW">
+        <name>
+          <text>[FROM(I_NEW) TO(NEW)]</text>
+        </name>
+      </arc>
+      <arc id="NEW-&gt;O_NEW" source="NEW" target="O_NEW">
+        <name>
+          <text>[FROM(NEW) TO(O_NEW)]</text>
+        </name>
+      </arc>
+      <arc id="I_BILLED-&gt;BILLED" source="I_BILLED" target="BILLED">
+        <name>
+          <text>[FROM(I_BILLED) TO(BILLED)]</text>
+        </name>
+      </arc>
+      <arc id="BILLED-&gt;O_BILLED" source="BILLED" target="O_BILLED">
+        <name>
+          <text>[FROM(BILLED) TO(O_BILLED)]</text>
+        </name>
+      </arc>
+      <arc id="I_REJECT-&gt;REJECT" source="I_REJECT" target="REJECT">
+        <name>
+          <text>[FROM(I_REJECT) TO(REJECT)]</text>
+        </name>
+      </arc>
+      <arc id="CODE OK-&gt;O_CODE OK" source="CODE OK" target="O_CODE OK">
+        <name>
+          <text>[FROM(CODE OK) TO(O_CODE OK)]</text>
+        </name>
+      </arc>
+      <arc id="CODE NOK-&gt;O_CODE NOK" source="CODE NOK" target="O_CODE NOK">
+        <name>
+          <text>[FROM(CODE NOK) TO(O_CODE NOK)]</text>
+        </name>
+      </arc>
+      <arc id="I_RELEASE-&gt;RELEASE" source="I_RELEASE" target="RELEASE">
+        <name>
+          <text>[FROM(I_RELEASE) TO(RELEASE)]</text>
+        </name>
+      </arc>
+      <arc id="RELEASE-&gt;O_RELEASE" source="RELEASE" target="O_RELEASE">
+        <name>
+          <text>[FROM(RELEASE) TO(O_RELEASE)]</text>
+        </name>
+      </arc>
+      <arc id="I_REOPEN-&gt;REOPEN" source="I_REOPEN" target="REOPEN">
+        <name>
+          <text>[FROM(I_REOPEN) TO(REOPEN)]</text>
+        </name>
+      </arc>
+      <arc id="O_CODE OK-&gt;CODE OK-&gt;BILLED" source="O_CODE OK" target="CODE OK-&gt;BILLED">
+        <name>
+          <text>[FROM(O_CODE OK) TO(CODE OK-&gt;BILLED)]</text>
+        </name>
+      </arc>
+      <arc id="CODE OK-&gt;BILLED-&gt;I_BILLED" source="CODE OK-&gt;BILLED" target="I_BILLED">
+        <name>
+          <text>[FROM(CODE OK-&gt;BILLED) TO(I_BILLED)]</text>
+        </name>
+      </arc>
+      <arc id="O_BILLED-&gt;BILLED-&gt;[]" source="O_BILLED" target="BILLED-&gt;[]">
+        <name>
+          <text>[FROM(O_BILLED) TO(BILLED-&gt;[])]</text>
+        </name>
+      </arc>
+      <arc id="BILLED-&gt;[]-&gt;I_[]" source="BILLED-&gt;[]" target="I_[]">
+        <name>
+          <text>[FROM(BILLED-&gt;[]) TO(I_[])]</text>
+        </name>
+      </arc>
+      <arc id="O_CODE OK-&gt;CODE OK-&gt;REOPEN" source="O_CODE OK" target="CODE OK-&gt;REOPEN">
+        <name>
+          <text>[FROM(O_CODE OK) TO(CODE OK-&gt;REOPEN)]</text>
+        </name>
+      </arc>
+      <arc id="CODE OK-&gt;REOPEN-&gt;I_REOPEN" source="CODE OK-&gt;REOPEN" target="I_REOPEN">
+        <name>
+          <text>[FROM(CODE OK-&gt;REOPEN) TO(I_REOPEN)]</text>
+        </name>
+      </arc>
+      <arc id="O_CODE NOK-&gt;CODE NOK-&gt;BILLED" source="O_CODE NOK" target="CODE NOK-&gt;BILLED">
+        <name>
+          <text>[FROM(O_CODE NOK) TO(CODE NOK-&gt;BILLED)]</text>
+        </name>
+      </arc>
+      <arc id="CODE NOK-&gt;BILLED-&gt;I_BILLED" source="CODE NOK-&gt;BILLED" target="I_BILLED">
+        <name>
+          <text>[FROM(CODE NOK-&gt;BILLED) TO(I_BILLED)]</text>
+        </name>
+      </arc>
+      <arc id="MANUAL-&gt;I_[]" source="MANUAL" target="I_[]">
+        <name>
+          <text>[FROM(MANUAL) TO(I_[])]</text>
+        </name>
+      </arc>
+      <arc id="DELETE-&gt;I_[]" source="DELETE" target="I_[]">
+        <name>
+          <text>[FROM(DELETE) TO(I_[])]</text>
+        </name>
+      </arc>
+      <arc id="CHANGE END-&gt;I_FIN" source="CHANGE END" target="I_FIN">
+        <name>
+          <text>[FROM(CHANGE END) TO(I_FIN)]</text>
+        </name>
+      </arc>
+      <arc id="EMPTY-&gt;I_[]" source="EMPTY" target="I_[]">
+        <name>
+          <text>[FROM(EMPTY) TO(I_[])]</text>
+        </name>
+      </arc>
+      <arc id="FIN-&gt;I_RELEASE" source="FIN" target="I_RELEASE">
+        <name>
+          <text>[FROM(FIN) TO(I_RELEASE)]</text>
+        </name>
+      </arc>
+      <arc id="JOIN-PAT-&gt;I_[]" source="JOIN-PAT" target="I_[]">
+        <name>
+          <text>[FROM(JOIN-PAT) TO(I_[])]</text>
+        </name>
+      </arc>
+      <arc id="SET STATUS-&gt;I_[]" source="SET STATUS" target="I_[]">
+        <name>
+          <text>[FROM(SET STATUS) TO(I_[])]</text>
+        </name>
+      </arc>
+      <arc id="CODE ERROR-&gt;I_REOPEN" source="CODE ERROR" target="I_REOPEN">
+        <name>
+          <text>[FROM(CODE ERROR) TO(I_REOPEN)]</text>
+        </name>
+      </arc>
+      <arc id="REOPEN-&gt;I_FIN" source="REOPEN" target="I_FIN">
+        <name>
+          <text>[FROM(REOPEN) TO(I_FIN)]</text>
+        </name>
+      </arc>
+      <arc id="REJECT-&gt;I_REOPEN" source="REJECT" target="I_REOPEN">
+        <name>
+          <text>[FROM(REJECT) TO(I_REOPEN)]</text>
+        </name>
+      </arc>
+      <arc id="STORNO-&gt;I_REJECT" source="STORNO" target="I_REJECT">
+        <name>
+          <text>[FROM(STORNO) TO(I_REJECT)]</text>
+        </name>
+      </arc>
+      <arc id="|&gt;-&gt;I_NEW" source="|&gt;" target="I_NEW">
+        <name>
+          <text>[FROM(|&gt;) TO(I_NEW)]</text>
+        </name>
+      </arc>
+      <arc id="ZDBC_BEHAN-&gt;I_BILLED" source="ZDBC_BEHAN" target="I_BILLED">
+        <name>
+          <text>[FROM(ZDBC_BEHAN) TO(I_BILLED)]</text>
+        </name>
+      </arc>
+      <arc id="CHANGE DIAGN-&gt;I_FIN" source="CHANGE DIAGN" target="I_FIN">
+        <name>
+          <text>[FROM(CHANGE DIAGN) TO(I_FIN)]</text>
+        </name>
+      </arc>
+      <arc id="[]-&gt;EndPlace" source="[]" target="EndPlace">
+        <name>
+          <text>[FROM([]) TO(EndPlace)]</text>
+        </name>
+      </arc>
+      <arc id="O_NEW-&gt;DELETE" source="O_NEW" target="DELETE">
+        <name>
+          <text>[FROM(O_NEW) TO(DELETE)]</text>
+        </name>
+      </arc>
+      <arc id="O_NEW-&gt;CHANGE DIAGN" source="O_NEW" target="CHANGE DIAGN">
+        <name>
+          <text>[FROM(O_NEW) TO(CHANGE DIAGN)]</text>
+        </name>
+      </arc>
+      <arc id="O_RELEASE-&gt;CODE NOK" source="O_RELEASE" target="CODE NOK">
+        <name>
+          <text>[FROM(O_RELEASE) TO(CODE NOK)]</text>
+        </name>
+      </arc>
+      <arc id="O_BILLED-&gt;STORNO" source="O_BILLED" target="STORNO">
+        <name>
+          <text>[FROM(O_BILLED) TO(STORNO)]</text>
+        </name>
+      </arc>
+      <arc id="O_RELEASE-&gt;CODE OK" source="O_RELEASE" target="CODE OK">
+        <name>
+          <text>[FROM(O_RELEASE) TO(CODE OK)]</text>
+        </name>
+      </arc>
+      <arc id="O_NEW-&gt;CHANGE END" source="O_NEW" target="CHANGE END">
+        <name>
+          <text>[FROM(O_NEW) TO(CHANGE END)]</text>
+        </name>
+      </arc>
+      <arc id="O_RELEASE-&gt;CODE ERROR" source="O_RELEASE" target="CODE ERROR">
+        <name>
+          <text>[FROM(O_RELEASE) TO(CODE ERROR)]</text>
+        </name>
+      </arc>
+      <arc id="O_CODE NOK-&gt;EMPTY" source="O_CODE NOK" target="EMPTY">
+        <name>
+          <text>[FROM(O_CODE NOK) TO(EMPTY)]</text>
+        </name>
+      </arc>
+      <arc id="O_NEW-&gt;JOIN-PAT" source="O_NEW" target="JOIN-PAT">
+        <name>
+          <text>[FROM(O_NEW) TO(JOIN-PAT)]</text>
+        </name>
+      </arc>
+      <arc id="O_CODE OK-&gt;MANUAL" source="O_CODE OK" target="MANUAL">
+        <name>
+          <text>[FROM(O_CODE OK) TO(MANUAL)]</text>
+        </name>
+      </arc>
+      <arc id="O_CODE NOK-&gt;SET STATUS" source="O_CODE NOK" target="SET STATUS">
+        <name>
+          <text>[FROM(O_CODE NOK) TO(SET STATUS)]</text>
+        </name>
+      </arc>
+      <arc id="O_RELEASE-&gt;ZDBC_BEHAN" source="O_RELEASE" target="ZDBC_BEHAN">
+        <name>
+          <text>[FROM(O_RELEASE) TO(ZDBC_BEHAN)]</text>
+        </name>
+      </arc>
+      <arc id="StartPlace-&gt;|&gt;" source="StartPlace" target="|&gt;">
+        <name>
+          <text>[FROM(StartPlace) TO(|&gt;)]</text>
+        </name>
+      </arc>
+    </page>
+    <finalMarkings>
+      <marking>
+        <place idref="I_[]">
+          <text>0</text>
+        </place>
+        <place idref="I_FIN">
+          <text>0</text>
+        </place>
+        <place idref="I_NEW">
+          <text>0</text>
+        </place>
+        <place idref="O_NEW">
+          <text>0</text>
+        </place>
+        <place idref="I_BILLED">
+          <text>0</text>
+        </place>
+        <place idref="O_BILLED">
+          <text>0</text>
+        </place>
+        <place idref="I_REJECT">
+          <text>0</text>
+        </place>
+        <place idref="O_CODE OK">
+          <text>0</text>
+        </place>
+        <place idref="O_CODE NOK">
+          <text>0</text>
+        </place>
+        <place idref="I_RELEASE">
+          <text>0</text>
+        </place>
+        <place idref="O_RELEASE">
+          <text>0</text>
+        </place>
+        <place idref="I_REOPEN">
+          <text>0</text>
+        </place>
+        <place idref="StartPlace">
+          <text>0</text>
+        </place>
+        <place idref="EndPlace">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalMarkings>
+  </net>
+</pnml>

@@ -1,0 +1,944 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+  <net xmlns="" id="TranslatedPetriNet" type="http://www.pnml.org/version-2009/grammar/ptnet">
+    <name>
+      <text>TranslatedPetriNet</text>
+    </name>
+    <page id="0">
+      <transition id="Analysis/Research">
+        <name>
+          <text>Analysis/Research</text>
+        </name>
+      </transition>
+      <transition id="|&gt;">
+        <name>
+          <text>|&gt;</text>
+        </name>
+      </transition>
+      <transition id="[]">
+        <name>
+          <text>[]</text>
+        </name>
+      </transition>
+      <transition id="Update">
+        <name>
+          <text>Update</text>
+        </name>
+      </transition>
+      <transition id="Resolved">
+        <name>
+          <text>Resolved</text>
+        </name>
+      </transition>
+      <transition id="Contact Change">
+        <name>
+          <text>Contact Change</text>
+        </name>
+      </transition>
+      <transition id="External update">
+        <name>
+          <text>External update</text>
+        </name>
+      </transition>
+      <transition id="Update from customer">
+        <name>
+          <text>Update from customer</text>
+        </name>
+      </transition>
+      <transition id="Status Change">
+        <name>
+          <text>Status Change</text>
+        </name>
+      </transition>
+      <transition id="Assignment">
+        <name>
+          <text>Assignment</text>
+        </name>
+      </transition>
+      <transition id="Notify By Change">
+        <name>
+          <text>Notify By Change</text>
+        </name>
+      </transition>
+      <transition id="Description Update">
+        <name>
+          <text>Description Update</text>
+        </name>
+      </transition>
+      <transition id="Affected CI Change">
+        <name>
+          <text>Affected CI Change</text>
+        </name>
+      </transition>
+      <transition id="Pending vendor">
+        <name>
+          <text>Pending vendor</text>
+        </name>
+      </transition>
+      <transition id="External Vendor Assignment">
+        <name>
+          <text>External Vendor Assignment</text>
+        </name>
+      </transition>
+      <transition id="Closed">
+        <name>
+          <text>Closed</text>
+        </name>
+      </transition>
+      <transition id="Vendor Reference Change">
+        <name>
+          <text>Vendor Reference Change</text>
+        </name>
+      </transition>
+      <transition id="Mail to Customer">
+        <name>
+          <text>Mail to Customer</text>
+        </name>
+      </transition>
+      <transition id="Impact Change">
+        <name>
+          <text>Impact Change</text>
+        </name>
+      </transition>
+      <transition id="Reassignment">
+        <name>
+          <text>Reassignment</text>
+        </name>
+      </transition>
+      <transition id="Urgency Change">
+        <name>
+          <text>Urgency Change</text>
+        </name>
+      </transition>
+      <transition id="alert stage 1">
+        <name>
+          <text>alert stage 1</text>
+        </name>
+      </transition>
+      <transition id="Quality Indicator">
+        <name>
+          <text>Quality Indicator</text>
+        </name>
+      </transition>
+      <transition id="Caused By CI">
+        <name>
+          <text>Caused By CI</text>
+        </name>
+      </transition>
+      <transition id="Problem Closure">
+        <name>
+          <text>Problem Closure</text>
+        </name>
+      </transition>
+      <transition id="External Vendor Reassignment">
+        <name>
+          <text>External Vendor Reassignment</text>
+        </name>
+      </transition>
+      <transition id="Quality Indicator Set">
+        <name>
+          <text>Quality Indicator Set</text>
+        </name>
+      </transition>
+      <transition id="Dial-in">
+        <name>
+          <text>Dial-in</text>
+        </name>
+      </transition>
+      <transition id="Service Change">
+        <name>
+          <text>Service Change</text>
+        </name>
+      </transition>
+      <transition id="OO Response">
+        <name>
+          <text>OO Response</text>
+        </name>
+      </transition>
+      <transition id="Callback Request">
+        <name>
+          <text>Callback Request</text>
+        </name>
+      </transition>
+      <transition id="Vendor Reference">
+        <name>
+          <text>Vendor Reference</text>
+        </name>
+      </transition>
+      <transition id="Open">
+        <name>
+          <text>Open</text>
+        </name>
+      </transition>
+      <transition id="Communication with customer">
+        <name>
+          <text>Communication with customer</text>
+        </name>
+      </transition>
+      <transition id="Reopen">
+        <name>
+          <text>Reopen</text>
+        </name>
+      </transition>
+      <transition id="Communication with vendor">
+        <name>
+          <text>Communication with vendor</text>
+        </name>
+      </transition>
+      <transition id="Incident reproduction">
+        <name>
+          <text>Incident reproduction</text>
+        </name>
+      </transition>
+      <transition id="Operator Update">
+        <name>
+          <text>Operator Update</text>
+        </name>
+      </transition>
+      <transition id="Referred">
+        <name>
+          <text>Referred</text>
+        </name>
+      </transition>
+      <transition id="Problem Workaround">
+        <name>
+          <text>Problem Workaround</text>
+        </name>
+      </transition>
+      <transition id="Quality Indicator Fixed">
+        <name>
+          <text>Quality Indicator Fixed</text>
+        </name>
+      </transition>
+      <transition id="Update-&gt;Assignment">
+        <name>
+          <text>Update-&gt;Assignment</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <transition id="Assignment-&gt;Update">
+        <name>
+          <text>Assignment-&gt;Update</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <transition id="Operator Update-&gt;Assignment">
+        <name>
+          <text>Operator Update-&gt;Assignment</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <transition id="Status Change-&gt;Pending vendor">
+        <name>
+          <text>Status Change-&gt;Pending vendor</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <transition id="Assignment-&gt;Reassignment">
+        <name>
+          <text>Assignment-&gt;Reassignment</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <transition id="Pending vendor-&gt;Status Change">
+        <name>
+          <text>Pending vendor-&gt;Status Change</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <transition id="Reassignment-&gt;Assignment">
+        <name>
+          <text>Reassignment-&gt;Assignment</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <place id="I_[]">
+        <name>
+          <text>I_[]</text>
+        </name>
+      </place>
+      <place id="I_Update">
+        <name>
+          <text>I_Update</text>
+        </name>
+      </place>
+      <place id="O_Update">
+        <name>
+          <text>O_Update</text>
+        </name>
+      </place>
+      <place id="I_Status Change">
+        <name>
+          <text>I_Status Change</text>
+        </name>
+      </place>
+      <place id="O_Status Change">
+        <name>
+          <text>O_Status Change</text>
+        </name>
+      </place>
+      <place id="I_Assignment">
+        <name>
+          <text>I_Assignment</text>
+        </name>
+      </place>
+      <place id="O_Assignment">
+        <name>
+          <text>O_Assignment</text>
+        </name>
+      </place>
+      <place id="I_Notify By Change">
+        <name>
+          <text>I_Notify By Change</text>
+        </name>
+      </place>
+      <place id="I_Pending vendor">
+        <name>
+          <text>I_Pending vendor</text>
+        </name>
+      </place>
+      <place id="O_Pending vendor">
+        <name>
+          <text>O_Pending vendor</text>
+        </name>
+      </place>
+      <place id="I_Closed">
+        <name>
+          <text>I_Closed</text>
+        </name>
+      </place>
+      <place id="O_Closed">
+        <name>
+          <text>O_Closed</text>
+        </name>
+      </place>
+      <place id="I_Mail to Customer">
+        <name>
+          <text>I_Mail to Customer</text>
+        </name>
+      </place>
+      <place id="I_Impact Change">
+        <name>
+          <text>I_Impact Change</text>
+        </name>
+      </place>
+      <place id="I_Reassignment">
+        <name>
+          <text>I_Reassignment</text>
+        </name>
+      </place>
+      <place id="O_Reassignment">
+        <name>
+          <text>O_Reassignment</text>
+        </name>
+      </place>
+      <place id="I_Urgency Change">
+        <name>
+          <text>I_Urgency Change</text>
+        </name>
+      </place>
+      <place id="I_Service Change">
+        <name>
+          <text>I_Service Change</text>
+        </name>
+      </place>
+      <place id="I_Open">
+        <name>
+          <text>I_Open</text>
+        </name>
+      </place>
+      <place id="O_Open">
+        <name>
+          <text>O_Open</text>
+        </name>
+      </place>
+      <place id="I_Operator Update">
+        <name>
+          <text>I_Operator Update</text>
+        </name>
+      </place>
+      <place id="O_Operator Update">
+        <name>
+          <text>O_Operator Update</text>
+        </name>
+      </place>
+      <place id="StartPlace">
+        <name>
+          <text>StartPlace</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="EndPlace">
+        <name>
+          <text>EndPlace</text>
+        </name>
+      </place>
+      <arc id="I_[]-&gt;[]" source="I_[]" target="[]">
+        <name>
+          <text>[FROM(I_[]) TO([])]</text>
+        </name>
+      </arc>
+      <arc id="I_Update-&gt;Update" source="I_Update" target="Update">
+        <name>
+          <text>[FROM(I_Update) TO(Update)]</text>
+        </name>
+      </arc>
+      <arc id="Update-&gt;O_Update" source="Update" target="O_Update">
+        <name>
+          <text>[FROM(Update) TO(O_Update)]</text>
+        </name>
+      </arc>
+      <arc id="I_Status Change-&gt;Status Change" source="I_Status Change" target="Status Change">
+        <name>
+          <text>[FROM(I_Status Change) TO(Status Change)]</text>
+        </name>
+      </arc>
+      <arc id="Status Change-&gt;O_Status Change" source="Status Change" target="O_Status Change">
+        <name>
+          <text>[FROM(Status Change) TO(O_Status Change)]</text>
+        </name>
+      </arc>
+      <arc id="I_Assignment-&gt;Assignment" source="I_Assignment" target="Assignment">
+        <name>
+          <text>[FROM(I_Assignment) TO(Assignment)]</text>
+        </name>
+      </arc>
+      <arc id="Assignment-&gt;O_Assignment" source="Assignment" target="O_Assignment">
+        <name>
+          <text>[FROM(Assignment) TO(O_Assignment)]</text>
+        </name>
+      </arc>
+      <arc id="I_Notify By Change-&gt;Notify By Change" source="I_Notify By Change" target="Notify By Change">
+        <name>
+          <text>[FROM(I_Notify By Change) TO(Notify By Change)]</text>
+        </name>
+      </arc>
+      <arc id="I_Pending vendor-&gt;Pending vendor" source="I_Pending vendor" target="Pending vendor">
+        <name>
+          <text>[FROM(I_Pending vendor) TO(Pending vendor)]</text>
+        </name>
+      </arc>
+      <arc id="Pending vendor-&gt;O_Pending vendor" source="Pending vendor" target="O_Pending vendor">
+        <name>
+          <text>[FROM(Pending vendor) TO(O_Pending vendor)]</text>
+        </name>
+      </arc>
+      <arc id="I_Closed-&gt;Closed" source="I_Closed" target="Closed">
+        <name>
+          <text>[FROM(I_Closed) TO(Closed)]</text>
+        </name>
+      </arc>
+      <arc id="Closed-&gt;O_Closed" source="Closed" target="O_Closed">
+        <name>
+          <text>[FROM(Closed) TO(O_Closed)]</text>
+        </name>
+      </arc>
+      <arc id="I_Mail to Customer-&gt;Mail to Customer" source="I_Mail to Customer" target="Mail to Customer">
+        <name>
+          <text>[FROM(I_Mail to Customer) TO(Mail to Customer)]</text>
+        </name>
+      </arc>
+      <arc id="I_Impact Change-&gt;Impact Change" source="I_Impact Change" target="Impact Change">
+        <name>
+          <text>[FROM(I_Impact Change) TO(Impact Change)]</text>
+        </name>
+      </arc>
+      <arc id="I_Reassignment-&gt;Reassignment" source="I_Reassignment" target="Reassignment">
+        <name>
+          <text>[FROM(I_Reassignment) TO(Reassignment)]</text>
+        </name>
+      </arc>
+      <arc id="Reassignment-&gt;O_Reassignment" source="Reassignment" target="O_Reassignment">
+        <name>
+          <text>[FROM(Reassignment) TO(O_Reassignment)]</text>
+        </name>
+      </arc>
+      <arc id="I_Urgency Change-&gt;Urgency Change" source="I_Urgency Change" target="Urgency Change">
+        <name>
+          <text>[FROM(I_Urgency Change) TO(Urgency Change)]</text>
+        </name>
+      </arc>
+      <arc id="I_Service Change-&gt;Service Change" source="I_Service Change" target="Service Change">
+        <name>
+          <text>[FROM(I_Service Change) TO(Service Change)]</text>
+        </name>
+      </arc>
+      <arc id="I_Open-&gt;Open" source="I_Open" target="Open">
+        <name>
+          <text>[FROM(I_Open) TO(Open)]</text>
+        </name>
+      </arc>
+      <arc id="Open-&gt;O_Open" source="Open" target="O_Open">
+        <name>
+          <text>[FROM(Open) TO(O_Open)]</text>
+        </name>
+      </arc>
+      <arc id="I_Operator Update-&gt;Operator Update" source="I_Operator Update" target="Operator Update">
+        <name>
+          <text>[FROM(I_Operator Update) TO(Operator Update)]</text>
+        </name>
+      </arc>
+      <arc id="Operator Update-&gt;O_Operator Update" source="Operator Update" target="O_Operator Update">
+        <name>
+          <text>[FROM(Operator Update) TO(O_Operator Update)]</text>
+        </name>
+      </arc>
+      <arc id="O_Update-&gt;Update-&gt;Assignment" source="O_Update" target="Update-&gt;Assignment">
+        <name>
+          <text>[FROM(O_Update) TO(Update-&gt;Assignment)]</text>
+        </name>
+      </arc>
+      <arc id="Update-&gt;Assignment-&gt;I_Assignment" source="Update-&gt;Assignment" target="I_Assignment">
+        <name>
+          <text>[FROM(Update-&gt;Assignment) TO(I_Assignment)]</text>
+        </name>
+      </arc>
+      <arc id="O_Assignment-&gt;Assignment-&gt;Update" source="O_Assignment" target="Assignment-&gt;Update">
+        <name>
+          <text>[FROM(O_Assignment) TO(Assignment-&gt;Update)]</text>
+        </name>
+      </arc>
+      <arc id="Assignment-&gt;Update-&gt;I_Update" source="Assignment-&gt;Update" target="I_Update">
+        <name>
+          <text>[FROM(Assignment-&gt;Update) TO(I_Update)]</text>
+        </name>
+      </arc>
+      <arc id="O_Operator Update-&gt;Operator Update-&gt;Assignment" source="O_Operator Update" target="Operator Update-&gt;Assignment">
+        <name>
+          <text>[FROM(O_Operator Update) TO(Operator Update-&gt;Assignment)]</text>
+        </name>
+      </arc>
+      <arc id="Operator Update-&gt;Assignment-&gt;I_Assignment" source="Operator Update-&gt;Assignment" target="I_Assignment">
+        <name>
+          <text>[FROM(Operator Update-&gt;Assignment) TO(I_Assignment)]</text>
+        </name>
+      </arc>
+      <arc id="O_Status Change-&gt;Status Change-&gt;Pending vendor" source="O_Status Change" target="Status Change-&gt;Pending vendor">
+        <name>
+          <text>[FROM(O_Status Change) TO(Status Change-&gt;Pending vendor)]</text>
+        </name>
+      </arc>
+      <arc id="Status Change-&gt;Pending vendor-&gt;I_Pending vendor" source="Status Change-&gt;Pending vendor" target="I_Pending vendor">
+        <name>
+          <text>[FROM(Status Change-&gt;Pending vendor) TO(I_Pending vendor)]</text>
+        </name>
+      </arc>
+      <arc id="O_Assignment-&gt;Assignment-&gt;Reassignment" source="O_Assignment" target="Assignment-&gt;Reassignment">
+        <name>
+          <text>[FROM(O_Assignment) TO(Assignment-&gt;Reassignment)]</text>
+        </name>
+      </arc>
+      <arc id="Assignment-&gt;Reassignment-&gt;I_Reassignment" source="Assignment-&gt;Reassignment" target="I_Reassignment">
+        <name>
+          <text>[FROM(Assignment-&gt;Reassignment) TO(I_Reassignment)]</text>
+        </name>
+      </arc>
+      <arc id="O_Pending vendor-&gt;Pending vendor-&gt;Status Change" source="O_Pending vendor" target="Pending vendor-&gt;Status Change">
+        <name>
+          <text>[FROM(O_Pending vendor) TO(Pending vendor-&gt;Status Change)]</text>
+        </name>
+      </arc>
+      <arc id="Pending vendor-&gt;Status Change-&gt;I_Status Change" source="Pending vendor-&gt;Status Change" target="I_Status Change">
+        <name>
+          <text>[FROM(Pending vendor-&gt;Status Change) TO(I_Status Change)]</text>
+        </name>
+      </arc>
+      <arc id="O_Reassignment-&gt;Reassignment-&gt;Assignment" source="O_Reassignment" target="Reassignment-&gt;Assignment">
+        <name>
+          <text>[FROM(O_Reassignment) TO(Reassignment-&gt;Assignment)]</text>
+        </name>
+      </arc>
+      <arc id="Reassignment-&gt;Assignment-&gt;I_Assignment" source="Reassignment-&gt;Assignment" target="I_Assignment">
+        <name>
+          <text>[FROM(Reassignment-&gt;Assignment) TO(I_Assignment)]</text>
+        </name>
+      </arc>
+      <arc id="Communication with vendor-&gt;I_Status Change" source="Communication with vendor" target="I_Status Change">
+        <name>
+          <text>[FROM(Communication with vendor) TO(I_Status Change)]</text>
+        </name>
+      </arc>
+      <arc id="OO Response-&gt;I_Reassignment" source="OO Response" target="I_Reassignment">
+        <name>
+          <text>[FROM(OO Response) TO(I_Reassignment)]</text>
+        </name>
+      </arc>
+      <arc id="Caused By CI-&gt;I_Closed" source="Caused By CI" target="I_Closed">
+        <name>
+          <text>[FROM(Caused By CI) TO(I_Closed)]</text>
+        </name>
+      </arc>
+      <arc id="Quality Indicator-&gt;I_[]" source="Quality Indicator" target="I_[]">
+        <name>
+          <text>[FROM(Quality Indicator) TO(I_[])]</text>
+        </name>
+      </arc>
+      <arc id="External Vendor Assignment-&gt;I_Status Change" source="External Vendor Assignment" target="I_Status Change">
+        <name>
+          <text>[FROM(External Vendor Assignment) TO(I_Status Change)]</text>
+        </name>
+      </arc>
+      <arc id="Problem Workaround-&gt;I_Status Change" source="Problem Workaround" target="I_Status Change">
+        <name>
+          <text>[FROM(Problem Workaround) TO(I_Status Change)]</text>
+        </name>
+      </arc>
+      <arc id="Referred-&gt;I_Closed" source="Referred" target="I_Closed">
+        <name>
+          <text>[FROM(Referred) TO(I_Closed)]</text>
+        </name>
+      </arc>
+      <arc id="Problem Closure-&gt;I_Status Change" source="Problem Closure" target="I_Status Change">
+        <name>
+          <text>[FROM(Problem Closure) TO(I_Status Change)]</text>
+        </name>
+      </arc>
+      <arc id="Callback Request-&gt;I_Status Change" source="Callback Request" target="I_Status Change">
+        <name>
+          <text>[FROM(Callback Request) TO(I_Status Change)]</text>
+        </name>
+      </arc>
+      <arc id="Notify By Change-&gt;I_Assignment" source="Notify By Change" target="I_Assignment">
+        <name>
+          <text>[FROM(Notify By Change) TO(I_Assignment)]</text>
+        </name>
+      </arc>
+      <arc id="Mail to Customer-&gt;I_Closed" source="Mail to Customer" target="I_Closed">
+        <name>
+          <text>[FROM(Mail to Customer) TO(I_Closed)]</text>
+        </name>
+      </arc>
+      <arc id="alert stage 1-&gt;I_Operator Update" source="alert stage 1" target="I_Operator Update">
+        <name>
+          <text>[FROM(alert stage 1) TO(I_Operator Update)]</text>
+        </name>
+      </arc>
+      <arc id="|&gt;-&gt;I_Open" source="|&gt;" target="I_Open">
+        <name>
+          <text>[FROM(|&gt;) TO(I_Open)]</text>
+        </name>
+      </arc>
+      <arc id="Reopen-&gt;I_Update" source="Reopen" target="I_Update">
+        <name>
+          <text>[FROM(Reopen) TO(I_Update)]</text>
+        </name>
+      </arc>
+      <arc id="Quality Indicator Set-&gt;I_Mail to Customer" source="Quality Indicator Set" target="I_Mail to Customer">
+        <name>
+          <text>[FROM(Quality Indicator Set) TO(I_Mail to Customer)]</text>
+        </name>
+      </arc>
+      <arc id="Resolved-&gt;I_Closed" source="Resolved" target="I_Closed">
+        <name>
+          <text>[FROM(Resolved) TO(I_Closed)]</text>
+        </name>
+      </arc>
+      <arc id="Vendor Reference Change-&gt;I_Update" source="Vendor Reference Change" target="I_Update">
+        <name>
+          <text>[FROM(Vendor Reference Change) TO(I_Update)]</text>
+        </name>
+      </arc>
+      <arc id="Analysis/Research-&gt;I_Assignment" source="Analysis/Research" target="I_Assignment">
+        <name>
+          <text>[FROM(Analysis/Research) TO(I_Assignment)]</text>
+        </name>
+      </arc>
+      <arc id="External update-&gt;I_Closed" source="External update" target="I_Closed">
+        <name>
+          <text>[FROM(External update) TO(I_Closed)]</text>
+        </name>
+      </arc>
+      <arc id="Impact Change-&gt;I_Urgency Change" source="Impact Change" target="I_Urgency Change">
+        <name>
+          <text>[FROM(Impact Change) TO(I_Urgency Change)]</text>
+        </name>
+      </arc>
+      <arc id="Quality Indicator Fixed-&gt;I_[]" source="Quality Indicator Fixed" target="I_[]">
+        <name>
+          <text>[FROM(Quality Indicator Fixed) TO(I_[])]</text>
+        </name>
+      </arc>
+      <arc id="External Vendor Reassignment-&gt;I_Pending vendor" source="External Vendor Reassignment" target="I_Pending vendor">
+        <name>
+          <text>[FROM(External Vendor Reassignment) TO(I_Pending vendor)]</text>
+        </name>
+      </arc>
+      <arc id="Description Update-&gt;I_Assignment" source="Description Update" target="I_Assignment">
+        <name>
+          <text>[FROM(Description Update) TO(I_Assignment)]</text>
+        </name>
+      </arc>
+      <arc id="Urgency Change-&gt;I_Operator Update" source="Urgency Change" target="I_Operator Update">
+        <name>
+          <text>[FROM(Urgency Change) TO(I_Operator Update)]</text>
+        </name>
+      </arc>
+      <arc id="Update from customer-&gt;I_Reassignment" source="Update from customer" target="I_Reassignment">
+        <name>
+          <text>[FROM(Update from customer) TO(I_Reassignment)]</text>
+        </name>
+      </arc>
+      <arc id="Affected CI Change-&gt;I_Service Change" source="Affected CI Change" target="I_Service Change">
+        <name>
+          <text>[FROM(Affected CI Change) TO(I_Service Change)]</text>
+        </name>
+      </arc>
+      <arc id="Dial-in-&gt;I_Notify By Change" source="Dial-in" target="I_Notify By Change">
+        <name>
+          <text>[FROM(Dial-in) TO(I_Notify By Change)]</text>
+        </name>
+      </arc>
+      <arc id="Service Change-&gt;I_Impact Change" source="Service Change" target="I_Impact Change">
+        <name>
+          <text>[FROM(Service Change) TO(I_Impact Change)]</text>
+        </name>
+      </arc>
+      <arc id="Contact Change-&gt;I_Assignment" source="Contact Change" target="I_Assignment">
+        <name>
+          <text>[FROM(Contact Change) TO(I_Assignment)]</text>
+        </name>
+      </arc>
+      <arc id="Vendor Reference-&gt;I_Assignment" source="Vendor Reference" target="I_Assignment">
+        <name>
+          <text>[FROM(Vendor Reference) TO(I_Assignment)]</text>
+        </name>
+      </arc>
+      <arc id="Communication with customer-&gt;I_Status Change" source="Communication with customer" target="I_Status Change">
+        <name>
+          <text>[FROM(Communication with customer) TO(I_Status Change)]</text>
+        </name>
+      </arc>
+      <arc id="Incident reproduction-&gt;I_Status Change" source="Incident reproduction" target="I_Status Change">
+        <name>
+          <text>[FROM(Incident reproduction) TO(I_Status Change)]</text>
+        </name>
+      </arc>
+      <arc id="[]-&gt;EndPlace" source="[]" target="EndPlace">
+        <name>
+          <text>[FROM([]) TO(EndPlace)]</text>
+        </name>
+      </arc>
+      <arc id="O_Reassignment-&gt;OO Response" source="O_Reassignment" target="OO Response">
+        <name>
+          <text>[FROM(O_Reassignment) TO(OO Response)]</text>
+        </name>
+      </arc>
+      <arc id="O_Assignment-&gt;Analysis/Research" source="O_Assignment" target="Analysis/Research">
+        <name>
+          <text>[FROM(O_Assignment) TO(Analysis/Research)]</text>
+        </name>
+      </arc>
+      <arc id="O_Status Change-&gt;Communication with customer" source="O_Status Change" target="Communication with customer">
+        <name>
+          <text>[FROM(O_Status Change) TO(Communication with customer)]</text>
+        </name>
+      </arc>
+      <arc id="O_Pending vendor-&gt;External Vendor Reassignment" source="O_Pending vendor" target="External Vendor Reassignment">
+        <name>
+          <text>[FROM(O_Pending vendor) TO(External Vendor Reassignment)]</text>
+        </name>
+      </arc>
+      <arc id="O_Assignment-&gt;Referred" source="O_Assignment" target="Referred">
+        <name>
+          <text>[FROM(O_Assignment) TO(Referred)]</text>
+        </name>
+      </arc>
+      <arc id="O_Open-&gt;Description Update" source="O_Open" target="Description Update">
+        <name>
+          <text>[FROM(O_Open) TO(Description Update)]</text>
+        </name>
+      </arc>
+      <arc id="O_Closed-&gt;Quality Indicator Fixed" source="O_Closed" target="Quality Indicator Fixed">
+        <name>
+          <text>[FROM(O_Closed) TO(Quality Indicator Fixed)]</text>
+        </name>
+      </arc>
+      <arc id="O_Update-&gt;Reopen" source="O_Update" target="Reopen">
+        <name>
+          <text>[FROM(O_Update) TO(Reopen)]</text>
+        </name>
+      </arc>
+      <arc id="O_Open-&gt;Contact Change" source="O_Open" target="Contact Change">
+        <name>
+          <text>[FROM(O_Open) TO(Contact Change)]</text>
+        </name>
+      </arc>
+      <arc id="O_Closed-&gt;Caused By CI" source="O_Closed" target="Caused By CI">
+        <name>
+          <text>[FROM(O_Closed) TO(Caused By CI)]</text>
+        </name>
+      </arc>
+      <arc id="O_Open-&gt;Affected CI Change" source="O_Open" target="Affected CI Change">
+        <name>
+          <text>[FROM(O_Open) TO(Affected CI Change)]</text>
+        </name>
+      </arc>
+      <arc id="O_Assignment-&gt;Vendor Reference" source="O_Assignment" target="Vendor Reference">
+        <name>
+          <text>[FROM(O_Assignment) TO(Vendor Reference)]</text>
+        </name>
+      </arc>
+      <arc id="O_Update-&gt;Vendor Reference Change" source="O_Update" target="Vendor Reference Change">
+        <name>
+          <text>[FROM(O_Update) TO(Vendor Reference Change)]</text>
+        </name>
+      </arc>
+      <arc id="O_Reassignment-&gt;Update from customer" source="O_Reassignment" target="Update from customer">
+        <name>
+          <text>[FROM(O_Reassignment) TO(Update from customer)]</text>
+        </name>
+      </arc>
+      <arc id="O_Assignment-&gt;Incident reproduction" source="O_Assignment" target="Incident reproduction">
+        <name>
+          <text>[FROM(O_Assignment) TO(Incident reproduction)]</text>
+        </name>
+      </arc>
+      <arc id="O_Assignment-&gt;Communication with vendor" source="O_Assignment" target="Communication with vendor">
+        <name>
+          <text>[FROM(O_Assignment) TO(Communication with vendor)]</text>
+        </name>
+      </arc>
+      <arc id="O_Closed-&gt;Quality Indicator" source="O_Closed" target="Quality Indicator">
+        <name>
+          <text>[FROM(O_Closed) TO(Quality Indicator)]</text>
+        </name>
+      </arc>
+      <arc id="O_Status Change-&gt;Problem Workaround" source="O_Status Change" target="Problem Workaround">
+        <name>
+          <text>[FROM(O_Status Change) TO(Problem Workaround)]</text>
+        </name>
+      </arc>
+      <arc id="O_Status Change-&gt;External update" source="O_Status Change" target="External update">
+        <name>
+          <text>[FROM(O_Status Change) TO(External update)]</text>
+        </name>
+      </arc>
+      <arc id="O_Status Change-&gt;Callback Request" source="O_Status Change" target="Callback Request">
+        <name>
+          <text>[FROM(O_Status Change) TO(Callback Request)]</text>
+        </name>
+      </arc>
+      <arc id="O_Assignment-&gt;Resolved" source="O_Assignment" target="Resolved">
+        <name>
+          <text>[FROM(O_Assignment) TO(Resolved)]</text>
+        </name>
+      </arc>
+      <arc id="O_Assignment-&gt;Dial-in" source="O_Assignment" target="Dial-in">
+        <name>
+          <text>[FROM(O_Assignment) TO(Dial-in)]</text>
+        </name>
+      </arc>
+      <arc id="O_Assignment-&gt;Quality Indicator Set" source="O_Assignment" target="Quality Indicator Set">
+        <name>
+          <text>[FROM(O_Assignment) TO(Quality Indicator Set)]</text>
+        </name>
+      </arc>
+      <arc id="O_Status Change-&gt;Problem Closure" source="O_Status Change" target="Problem Closure">
+        <name>
+          <text>[FROM(O_Status Change) TO(Problem Closure)]</text>
+        </name>
+      </arc>
+      <arc id="O_Operator Update-&gt;alert stage 1" source="O_Operator Update" target="alert stage 1">
+        <name>
+          <text>[FROM(O_Operator Update) TO(alert stage 1)]</text>
+        </name>
+      </arc>
+      <arc id="O_Status Change-&gt;External Vendor Assignment" source="O_Status Change" target="External Vendor Assignment">
+        <name>
+          <text>[FROM(O_Status Change) TO(External Vendor Assignment)]</text>
+        </name>
+      </arc>
+      <arc id="StartPlace-&gt;|&gt;" source="StartPlace" target="|&gt;">
+        <name>
+          <text>[FROM(StartPlace) TO(|&gt;)]</text>
+        </name>
+      </arc>
+    </page>
+    <finalMarkings>
+      <marking>
+        <place idref="I_[]">
+          <text>0</text>
+        </place>
+        <place idref="I_Update">
+          <text>0</text>
+        </place>
+        <place idref="O_Update">
+          <text>0</text>
+        </place>
+        <place idref="I_Status Change">
+          <text>0</text>
+        </place>
+        <place idref="O_Status Change">
+          <text>0</text>
+        </place>
+        <place idref="I_Assignment">
+          <text>0</text>
+        </place>
+        <place idref="O_Assignment">
+          <text>0</text>
+        </place>
+        <place idref="I_Notify By Change">
+          <text>0</text>
+        </place>
+        <place idref="I_Pending vendor">
+          <text>0</text>
+        </place>
+        <place idref="O_Pending vendor">
+          <text>0</text>
+        </place>
+        <place idref="I_Closed">
+          <text>0</text>
+        </place>
+        <place idref="O_Closed">
+          <text>0</text>
+        </place>
+        <place idref="I_Mail to Customer">
+          <text>0</text>
+        </place>
+        <place idref="I_Impact Change">
+          <text>0</text>
+        </place>
+        <place idref="I_Reassignment">
+          <text>0</text>
+        </place>
+        <place idref="O_Reassignment">
+          <text>0</text>
+        </place>
+        <place idref="I_Urgency Change">
+          <text>0</text>
+        </place>
+        <place idref="I_Service Change">
+          <text>0</text>
+        </place>
+        <place idref="I_Open">
+          <text>0</text>
+        </place>
+        <place idref="O_Open">
+          <text>0</text>
+        </place>
+        <place idref="I_Operator Update">
+          <text>0</text>
+        </place>
+        <place idref="O_Operator Update">
+          <text>0</text>
+        </place>
+        <place idref="StartPlace">
+          <text>0</text>
+        </place>
+        <place idref="EndPlace">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalMarkings>
+  </net>
+</pnml>

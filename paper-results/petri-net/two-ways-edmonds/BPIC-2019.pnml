@@ -1,0 +1,1198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+  <net xmlns="" id="TranslatedPetriNet" type="http://www.pnml.org/version-2009/grammar/ptnet">
+    <name>
+      <text>TranslatedPetriNet</text>
+    </name>
+    <page id="0">
+      <transition id="|&gt;">
+        <name>
+          <text>|&gt;</text>
+        </name>
+      </transition>
+      <transition id="[]">
+        <name>
+          <text>[]</text>
+        </name>
+      </transition>
+      <transition id="Record Invoice Receipt">
+        <name>
+          <text>Record Invoice Receipt</text>
+        </name>
+      </transition>
+      <transition id="SRM: Ordered">
+        <name>
+          <text>SRM: Ordered</text>
+        </name>
+      </transition>
+      <transition id="SRM: Awaiting Approval">
+        <name>
+          <text>SRM: Awaiting Approval</text>
+        </name>
+      </transition>
+      <transition id="Change Final Invoice Indicator">
+        <name>
+          <text>Change Final Invoice Indicator</text>
+        </name>
+      </transition>
+      <transition id="Remove Payment Block">
+        <name>
+          <text>Remove Payment Block</text>
+        </name>
+      </transition>
+      <transition id="Change payment term">
+        <name>
+          <text>Change payment term</text>
+        </name>
+      </transition>
+      <transition id="Update Order Confirmation">
+        <name>
+          <text>Update Order Confirmation</text>
+        </name>
+      </transition>
+      <transition id="Vendor creates debit memo">
+        <name>
+          <text>Vendor creates debit memo</text>
+        </name>
+      </transition>
+      <transition id="Change Quantity">
+        <name>
+          <text>Change Quantity</text>
+        </name>
+      </transition>
+      <transition id="Cancel Goods Receipt">
+        <name>
+          <text>Cancel Goods Receipt</text>
+        </name>
+      </transition>
+      <transition id="Change Delivery Indicator">
+        <name>
+          <text>Change Delivery Indicator</text>
+        </name>
+      </transition>
+      <transition id="SRM: Document Completed">
+        <name>
+          <text>SRM: Document Completed</text>
+        </name>
+      </transition>
+      <transition id="Change Approval for Purchase Order">
+        <name>
+          <text>Change Approval for Purchase Order</text>
+        </name>
+      </transition>
+      <transition id="SRM: Created">
+        <name>
+          <text>SRM: Created</text>
+        </name>
+      </transition>
+      <transition id="Clear Invoice">
+        <name>
+          <text>Clear Invoice</text>
+        </name>
+      </transition>
+      <transition id="Release Purchase Order">
+        <name>
+          <text>Release Purchase Order</text>
+        </name>
+      </transition>
+      <transition id="Change Storage Location">
+        <name>
+          <text>Change Storage Location</text>
+        </name>
+      </transition>
+      <transition id="Receive Order Confirmation">
+        <name>
+          <text>Receive Order Confirmation</text>
+        </name>
+      </transition>
+      <transition id="Record Service Entry Sheet">
+        <name>
+          <text>Record Service Entry Sheet</text>
+        </name>
+      </transition>
+      <transition id="SRM: Incomplete">
+        <name>
+          <text>SRM: Incomplete</text>
+        </name>
+      </transition>
+      <transition id="Create Purchase Requisition Item">
+        <name>
+          <text>Create Purchase Requisition Item</text>
+        </name>
+      </transition>
+      <transition id="Vendor creates invoice">
+        <name>
+          <text>Vendor creates invoice</text>
+        </name>
+      </transition>
+      <transition id="SRM: Transfer Failed (E.Sys.)">
+        <name>
+          <text>SRM: Transfer Failed (E.Sys.)</text>
+        </name>
+      </transition>
+      <transition id="Set Payment Block">
+        <name>
+          <text>Set Payment Block</text>
+        </name>
+      </transition>
+      <transition id="Release Purchase Requisition">
+        <name>
+          <text>Release Purchase Requisition</text>
+        </name>
+      </transition>
+      <transition id="Cancel Subsequent Invoice">
+        <name>
+          <text>Cancel Subsequent Invoice</text>
+        </name>
+      </transition>
+      <transition id="Record Goods Receipt">
+        <name>
+          <text>Record Goods Receipt</text>
+        </name>
+      </transition>
+      <transition id="Block Purchase Order Item">
+        <name>
+          <text>Block Purchase Order Item</text>
+        </name>
+      </transition>
+      <transition id="Change Rejection Indicator">
+        <name>
+          <text>Change Rejection Indicator</text>
+        </name>
+      </transition>
+      <transition id="SRM: Held">
+        <name>
+          <text>SRM: Held</text>
+        </name>
+      </transition>
+      <transition id="SRM: Deleted">
+        <name>
+          <text>SRM: Deleted</text>
+        </name>
+      </transition>
+      <transition id="SRM: Transaction Completed">
+        <name>
+          <text>SRM: Transaction Completed</text>
+        </name>
+      </transition>
+      <transition id="Cancel Invoice Receipt">
+        <name>
+          <text>Cancel Invoice Receipt</text>
+        </name>
+      </transition>
+      <transition id="SRM: Change was Transmitted">
+        <name>
+          <text>SRM: Change was Transmitted</text>
+        </name>
+      </transition>
+      <transition id="Delete Purchase Order Item">
+        <name>
+          <text>Delete Purchase Order Item</text>
+        </name>
+      </transition>
+      <transition id="Change Price">
+        <name>
+          <text>Change Price</text>
+        </name>
+      </transition>
+      <transition id="Record Subsequent Invoice">
+        <name>
+          <text>Record Subsequent Invoice</text>
+        </name>
+      </transition>
+      <transition id="SRM: In Transfer to Execution Syst.">
+        <name>
+          <text>SRM: In Transfer to Execution Syst.</text>
+        </name>
+      </transition>
+      <transition id="SRM: Complete">
+        <name>
+          <text>SRM: Complete</text>
+        </name>
+      </transition>
+      <transition id="Create Purchase Order Item">
+        <name>
+          <text>Create Purchase Order Item</text>
+        </name>
+      </transition>
+      <transition id="Reactivate Purchase Order Item">
+        <name>
+          <text>Reactivate Purchase Order Item</text>
+        </name>
+      </transition>
+      <transition id="Change Currency">
+        <name>
+          <text>Change Currency</text>
+        </name>
+      </transition>
+      <transition id="Create Purchase Requisition Item-&gt;Create Purchase Order Item">
+        <name>
+          <text>Create Purchase Requisition Item-&gt;Create Purchase Order Item</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <transition id="|&gt;-&gt;Create Purchase Order Item">
+        <name>
+          <text>|&gt;-&gt;Create Purchase Order Item</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <transition id="Delete Purchase Order Item-&gt;Reactivate Purchase Order Item">
+        <name>
+          <text>Delete Purchase Order Item-&gt;Reactivate Purchase Order Item</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <transition id="Delete Purchase Order Item-&gt;[]">
+        <name>
+          <text>Delete Purchase Order Item-&gt;[]</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <transition id="Change Delivery Indicator-&gt;[]">
+        <name>
+          <text>Change Delivery Indicator-&gt;[]</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <transition id="Vendor creates invoice-&gt;Record Goods Receipt">
+        <name>
+          <text>Vendor creates invoice-&gt;Record Goods Receipt</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <transition id="Record Invoice Receipt-&gt;Clear Invoice">
+        <name>
+          <text>Record Invoice Receipt-&gt;Clear Invoice</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <transition id="Create Purchase Order Item-&gt;Change Price">
+        <name>
+          <text>Create Purchase Order Item-&gt;Change Price</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <transition id="Vendor creates debit memo-&gt;Vendor creates invoice">
+        <name>
+          <text>Vendor creates debit memo-&gt;Vendor creates invoice</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <transition id="Receive Order Confirmation-&gt;Record Goods Receipt">
+        <name>
+          <text>Receive Order Confirmation-&gt;Record Goods Receipt</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <transition id="Clear Invoice-&gt;[]">
+        <name>
+          <text>Clear Invoice-&gt;[]</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <transition id="SRM: Created-&gt;SRM: Complete">
+        <name>
+          <text>SRM: Created-&gt;SRM: Complete</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <transition id="Create Purchase Order Item-&gt;Vendor creates invoice">
+        <name>
+          <text>Create Purchase Order Item-&gt;Vendor creates invoice</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <transition id="Create Purchase Order Item-&gt;Change Approval for Purchase Order">
+        <name>
+          <text>Create Purchase Order Item-&gt;Change Approval for Purchase Order</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <transition id="Change Quantity-&gt;Record Goods Receipt">
+        <name>
+          <text>Change Quantity-&gt;Record Goods Receipt</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <transition id="Change Price-&gt;Vendor creates invoice">
+        <name>
+          <text>Change Price-&gt;Vendor creates invoice</text>
+        </name>
+        <toolspecific tool="gal.usc.citius.processmining" version="DEV" invisible="true"/>
+        <toolspecific tool="ProM" version="6.7" activity="$invisible$"/>
+      </transition>
+      <place id="O_|&gt;">
+        <name>
+          <text>O_|&gt;</text>
+        </name>
+      </place>
+      <place id="I_[]">
+        <name>
+          <text>I_[]</text>
+        </name>
+      </place>
+      <place id="O_Record Invoice Receipt">
+        <name>
+          <text>O_Record Invoice Receipt</text>
+        </name>
+      </place>
+      <place id="O_SRM: Ordered">
+        <name>
+          <text>O_SRM: Ordered</text>
+        </name>
+      </place>
+      <place id="I_SRM: Awaiting Approval">
+        <name>
+          <text>I_SRM: Awaiting Approval</text>
+        </name>
+      </place>
+      <place id="O_Vendor creates debit memo">
+        <name>
+          <text>O_Vendor creates debit memo</text>
+        </name>
+      </place>
+      <place id="O_Change Quantity">
+        <name>
+          <text>O_Change Quantity</text>
+        </name>
+      </place>
+      <place id="O_Change Delivery Indicator">
+        <name>
+          <text>O_Change Delivery Indicator</text>
+        </name>
+      </place>
+      <place id="I_SRM: Document Completed">
+        <name>
+          <text>I_SRM: Document Completed</text>
+        </name>
+      </place>
+      <place id="I_Change Approval for Purchase Order">
+        <name>
+          <text>I_Change Approval for Purchase Order</text>
+        </name>
+      </place>
+      <place id="O_SRM: Created">
+        <name>
+          <text>O_SRM: Created</text>
+        </name>
+      </place>
+      <place id="I_Clear Invoice">
+        <name>
+          <text>I_Clear Invoice</text>
+        </name>
+      </place>
+      <place id="O_Clear Invoice">
+        <name>
+          <text>O_Clear Invoice</text>
+        </name>
+      </place>
+      <place id="O_Receive Order Confirmation">
+        <name>
+          <text>O_Receive Order Confirmation</text>
+        </name>
+      </place>
+      <place id="O_Create Purchase Requisition Item">
+        <name>
+          <text>O_Create Purchase Requisition Item</text>
+        </name>
+      </place>
+      <place id="I_Vendor creates invoice">
+        <name>
+          <text>I_Vendor creates invoice</text>
+        </name>
+      </place>
+      <place id="O_Vendor creates invoice">
+        <name>
+          <text>O_Vendor creates invoice</text>
+        </name>
+      </place>
+      <place id="I_Record Goods Receipt">
+        <name>
+          <text>I_Record Goods Receipt</text>
+        </name>
+      </place>
+      <place id="O_Record Goods Receipt">
+        <name>
+          <text>O_Record Goods Receipt</text>
+        </name>
+      </place>
+      <place id="I_SRM: Held">
+        <name>
+          <text>I_SRM: Held</text>
+        </name>
+      </place>
+      <place id="O_Delete Purchase Order Item">
+        <name>
+          <text>O_Delete Purchase Order Item</text>
+        </name>
+      </place>
+      <place id="I_Change Price">
+        <name>
+          <text>I_Change Price</text>
+        </name>
+      </place>
+      <place id="O_Change Price">
+        <name>
+          <text>O_Change Price</text>
+        </name>
+      </place>
+      <place id="I_SRM: In Transfer to Execution Syst.">
+        <name>
+          <text>I_SRM: In Transfer to Execution Syst.</text>
+        </name>
+      </place>
+      <place id="O_SRM: In Transfer to Execution Syst.">
+        <name>
+          <text>O_SRM: In Transfer to Execution Syst.</text>
+        </name>
+      </place>
+      <place id="I_SRM: Complete">
+        <name>
+          <text>I_SRM: Complete</text>
+        </name>
+      </place>
+      <place id="I_Create Purchase Order Item">
+        <name>
+          <text>I_Create Purchase Order Item</text>
+        </name>
+      </place>
+      <place id="O_Create Purchase Order Item">
+        <name>
+          <text>O_Create Purchase Order Item</text>
+        </name>
+      </place>
+      <place id="I_Reactivate Purchase Order Item">
+        <name>
+          <text>I_Reactivate Purchase Order Item</text>
+        </name>
+      </place>
+      <place id="StartPlace">
+        <name>
+          <text>StartPlace</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="EndPlace">
+        <name>
+          <text>EndPlace</text>
+        </name>
+      </place>
+      <arc id="|&gt;-&gt;O_|&gt;" source="|&gt;" target="O_|&gt;">
+        <name>
+          <text>[FROM(|&gt;) TO(O_|&gt;)]</text>
+        </name>
+      </arc>
+      <arc id="I_[]-&gt;[]" source="I_[]" target="[]">
+        <name>
+          <text>[FROM(I_[]) TO([])]</text>
+        </name>
+      </arc>
+      <arc id="Record Invoice Receipt-&gt;O_Record Invoice Receipt" source="Record Invoice Receipt" target="O_Record Invoice Receipt">
+        <name>
+          <text>[FROM(Record Invoice Receipt) TO(O_Record Invoice Receipt)]</text>
+        </name>
+      </arc>
+      <arc id="SRM: Ordered-&gt;O_SRM: Ordered" source="SRM: Ordered" target="O_SRM: Ordered">
+        <name>
+          <text>[FROM(SRM: Ordered) TO(O_SRM: Ordered)]</text>
+        </name>
+      </arc>
+      <arc id="I_SRM: Awaiting Approval-&gt;SRM: Awaiting Approval" source="I_SRM: Awaiting Approval" target="SRM: Awaiting Approval">
+        <name>
+          <text>[FROM(I_SRM: Awaiting Approval) TO(SRM: Awaiting Approval)]</text>
+        </name>
+      </arc>
+      <arc id="Vendor creates debit memo-&gt;O_Vendor creates debit memo" source="Vendor creates debit memo" target="O_Vendor creates debit memo">
+        <name>
+          <text>[FROM(Vendor creates debit memo) TO(O_Vendor creates debit memo)]</text>
+        </name>
+      </arc>
+      <arc id="Change Quantity-&gt;O_Change Quantity" source="Change Quantity" target="O_Change Quantity">
+        <name>
+          <text>[FROM(Change Quantity) TO(O_Change Quantity)]</text>
+        </name>
+      </arc>
+      <arc id="Change Delivery Indicator-&gt;O_Change Delivery Indicator" source="Change Delivery Indicator" target="O_Change Delivery Indicator">
+        <name>
+          <text>[FROM(Change Delivery Indicator) TO(O_Change Delivery Indicator)]</text>
+        </name>
+      </arc>
+      <arc id="I_SRM: Document Completed-&gt;SRM: Document Completed" source="I_SRM: Document Completed" target="SRM: Document Completed">
+        <name>
+          <text>[FROM(I_SRM: Document Completed) TO(SRM: Document Completed)]</text>
+        </name>
+      </arc>
+      <arc id="I_Change Approval for Purchase Order-&gt;Change Approval for Purchase Order" source="I_Change Approval for Purchase Order" target="Change Approval for Purchase Order">
+        <name>
+          <text>[FROM(I_Change Approval for Purchase Order) TO(Change Approval for Purchase Order)]</text>
+        </name>
+      </arc>
+      <arc id="SRM: Created-&gt;O_SRM: Created" source="SRM: Created" target="O_SRM: Created">
+        <name>
+          <text>[FROM(SRM: Created) TO(O_SRM: Created)]</text>
+        </name>
+      </arc>
+      <arc id="I_Clear Invoice-&gt;Clear Invoice" source="I_Clear Invoice" target="Clear Invoice">
+        <name>
+          <text>[FROM(I_Clear Invoice) TO(Clear Invoice)]</text>
+        </name>
+      </arc>
+      <arc id="Clear Invoice-&gt;O_Clear Invoice" source="Clear Invoice" target="O_Clear Invoice">
+        <name>
+          <text>[FROM(Clear Invoice) TO(O_Clear Invoice)]</text>
+        </name>
+      </arc>
+      <arc id="Receive Order Confirmation-&gt;O_Receive Order Confirmation" source="Receive Order Confirmation" target="O_Receive Order Confirmation">
+        <name>
+          <text>[FROM(Receive Order Confirmation) TO(O_Receive Order Confirmation)]</text>
+        </name>
+      </arc>
+      <arc id="Create Purchase Requisition Item-&gt;O_Create Purchase Requisition Item" source="Create Purchase Requisition Item" target="O_Create Purchase Requisition Item">
+        <name>
+          <text>[FROM(Create Purchase Requisition Item) TO(O_Create Purchase Requisition Item)]</text>
+        </name>
+      </arc>
+      <arc id="I_Vendor creates invoice-&gt;Vendor creates invoice" source="I_Vendor creates invoice" target="Vendor creates invoice">
+        <name>
+          <text>[FROM(I_Vendor creates invoice) TO(Vendor creates invoice)]</text>
+        </name>
+      </arc>
+      <arc id="Vendor creates invoice-&gt;O_Vendor creates invoice" source="Vendor creates invoice" target="O_Vendor creates invoice">
+        <name>
+          <text>[FROM(Vendor creates invoice) TO(O_Vendor creates invoice)]</text>
+        </name>
+      </arc>
+      <arc id="I_Record Goods Receipt-&gt;Record Goods Receipt" source="I_Record Goods Receipt" target="Record Goods Receipt">
+        <name>
+          <text>[FROM(I_Record Goods Receipt) TO(Record Goods Receipt)]</text>
+        </name>
+      </arc>
+      <arc id="Record Goods Receipt-&gt;O_Record Goods Receipt" source="Record Goods Receipt" target="O_Record Goods Receipt">
+        <name>
+          <text>[FROM(Record Goods Receipt) TO(O_Record Goods Receipt)]</text>
+        </name>
+      </arc>
+      <arc id="I_SRM: Held-&gt;SRM: Held" source="I_SRM: Held" target="SRM: Held">
+        <name>
+          <text>[FROM(I_SRM: Held) TO(SRM: Held)]</text>
+        </name>
+      </arc>
+      <arc id="Delete Purchase Order Item-&gt;O_Delete Purchase Order Item" source="Delete Purchase Order Item" target="O_Delete Purchase Order Item">
+        <name>
+          <text>[FROM(Delete Purchase Order Item) TO(O_Delete Purchase Order Item)]</text>
+        </name>
+      </arc>
+      <arc id="I_Change Price-&gt;Change Price" source="I_Change Price" target="Change Price">
+        <name>
+          <text>[FROM(I_Change Price) TO(Change Price)]</text>
+        </name>
+      </arc>
+      <arc id="Change Price-&gt;O_Change Price" source="Change Price" target="O_Change Price">
+        <name>
+          <text>[FROM(Change Price) TO(O_Change Price)]</text>
+        </name>
+      </arc>
+      <arc id="I_SRM: In Transfer to Execution Syst.-&gt;SRM: In Transfer to Execution Syst." source="I_SRM: In Transfer to Execution Syst." target="SRM: In Transfer to Execution Syst.">
+        <name>
+          <text>[FROM(I_SRM: In Transfer to Execution Syst.) TO(SRM: In Transfer to Execution Syst.)]</text>
+        </name>
+      </arc>
+      <arc id="SRM: In Transfer to Execution Syst.-&gt;O_SRM: In Transfer to Execution Syst." source="SRM: In Transfer to Execution Syst." target="O_SRM: In Transfer to Execution Syst.">
+        <name>
+          <text>[FROM(SRM: In Transfer to Execution Syst.) TO(O_SRM: In Transfer to Execution Syst.)]</text>
+        </name>
+      </arc>
+      <arc id="I_SRM: Complete-&gt;SRM: Complete" source="I_SRM: Complete" target="SRM: Complete">
+        <name>
+          <text>[FROM(I_SRM: Complete) TO(SRM: Complete)]</text>
+        </name>
+      </arc>
+      <arc id="I_Create Purchase Order Item-&gt;Create Purchase Order Item" source="I_Create Purchase Order Item" target="Create Purchase Order Item">
+        <name>
+          <text>[FROM(I_Create Purchase Order Item) TO(Create Purchase Order Item)]</text>
+        </name>
+      </arc>
+      <arc id="Create Purchase Order Item-&gt;O_Create Purchase Order Item" source="Create Purchase Order Item" target="O_Create Purchase Order Item">
+        <name>
+          <text>[FROM(Create Purchase Order Item) TO(O_Create Purchase Order Item)]</text>
+        </name>
+      </arc>
+      <arc id="I_Reactivate Purchase Order Item-&gt;Reactivate Purchase Order Item" source="I_Reactivate Purchase Order Item" target="Reactivate Purchase Order Item">
+        <name>
+          <text>[FROM(I_Reactivate Purchase Order Item) TO(Reactivate Purchase Order Item)]</text>
+        </name>
+      </arc>
+      <arc id="O_Create Purchase Requisition Item-&gt;Create Purchase Requisition Item-&gt;Create Purchase Order Item" source="O_Create Purchase Requisition Item" target="Create Purchase Requisition Item-&gt;Create Purchase Order Item">
+        <name>
+          <text>[FROM(O_Create Purchase Requisition Item) TO(Create Purchase Requisition Item-&gt;Create Purchase Order Item)]</text>
+        </name>
+      </arc>
+      <arc id="Create Purchase Requisition Item-&gt;Create Purchase Order Item-&gt;I_Create Purchase Order Item" source="Create Purchase Requisition Item-&gt;Create Purchase Order Item" target="I_Create Purchase Order Item">
+        <name>
+          <text>[FROM(Create Purchase Requisition Item-&gt;Create Purchase Order Item) TO(I_Create Purchase Order Item)]</text>
+        </name>
+      </arc>
+      <arc id="O_|&gt;-&gt;|&gt;-&gt;Create Purchase Order Item" source="O_|&gt;" target="|&gt;-&gt;Create Purchase Order Item">
+        <name>
+          <text>[FROM(O_|&gt;) TO(|&gt;-&gt;Create Purchase Order Item)]</text>
+        </name>
+      </arc>
+      <arc id="|&gt;-&gt;Create Purchase Order Item-&gt;I_Create Purchase Order Item" source="|&gt;-&gt;Create Purchase Order Item" target="I_Create Purchase Order Item">
+        <name>
+          <text>[FROM(|&gt;-&gt;Create Purchase Order Item) TO(I_Create Purchase Order Item)]</text>
+        </name>
+      </arc>
+      <arc id="O_Delete Purchase Order Item-&gt;Delete Purchase Order Item-&gt;Reactivate Purchase Order Item" source="O_Delete Purchase Order Item" target="Delete Purchase Order Item-&gt;Reactivate Purchase Order Item">
+        <name>
+          <text>[FROM(O_Delete Purchase Order Item) TO(Delete Purchase Order Item-&gt;Reactivate Purchase Order Item)]</text>
+        </name>
+      </arc>
+      <arc id="Delete Purchase Order Item-&gt;Reactivate Purchase Order Item-&gt;I_Reactivate Purchase Order Item" source="Delete Purchase Order Item-&gt;Reactivate Purchase Order Item" target="I_Reactivate Purchase Order Item">
+        <name>
+          <text>[FROM(Delete Purchase Order Item-&gt;Reactivate Purchase Order Item) TO(I_Reactivate Purchase Order Item)]</text>
+        </name>
+      </arc>
+      <arc id="O_Delete Purchase Order Item-&gt;Delete Purchase Order Item-&gt;[]" source="O_Delete Purchase Order Item" target="Delete Purchase Order Item-&gt;[]">
+        <name>
+          <text>[FROM(O_Delete Purchase Order Item) TO(Delete Purchase Order Item-&gt;[])]</text>
+        </name>
+      </arc>
+      <arc id="Delete Purchase Order Item-&gt;[]-&gt;I_[]" source="Delete Purchase Order Item-&gt;[]" target="I_[]">
+        <name>
+          <text>[FROM(Delete Purchase Order Item-&gt;[]) TO(I_[])]</text>
+        </name>
+      </arc>
+      <arc id="O_Change Delivery Indicator-&gt;Change Delivery Indicator-&gt;[]" source="O_Change Delivery Indicator" target="Change Delivery Indicator-&gt;[]">
+        <name>
+          <text>[FROM(O_Change Delivery Indicator) TO(Change Delivery Indicator-&gt;[])]</text>
+        </name>
+      </arc>
+      <arc id="Change Delivery Indicator-&gt;[]-&gt;I_[]" source="Change Delivery Indicator-&gt;[]" target="I_[]">
+        <name>
+          <text>[FROM(Change Delivery Indicator-&gt;[]) TO(I_[])]</text>
+        </name>
+      </arc>
+      <arc id="O_Vendor creates invoice-&gt;Vendor creates invoice-&gt;Record Goods Receipt" source="O_Vendor creates invoice" target="Vendor creates invoice-&gt;Record Goods Receipt">
+        <name>
+          <text>[FROM(O_Vendor creates invoice) TO(Vendor creates invoice-&gt;Record Goods Receipt)]</text>
+        </name>
+      </arc>
+      <arc id="Vendor creates invoice-&gt;Record Goods Receipt-&gt;I_Record Goods Receipt" source="Vendor creates invoice-&gt;Record Goods Receipt" target="I_Record Goods Receipt">
+        <name>
+          <text>[FROM(Vendor creates invoice-&gt;Record Goods Receipt) TO(I_Record Goods Receipt)]</text>
+        </name>
+      </arc>
+      <arc id="O_Record Invoice Receipt-&gt;Record Invoice Receipt-&gt;Clear Invoice" source="O_Record Invoice Receipt" target="Record Invoice Receipt-&gt;Clear Invoice">
+        <name>
+          <text>[FROM(O_Record Invoice Receipt) TO(Record Invoice Receipt-&gt;Clear Invoice)]</text>
+        </name>
+      </arc>
+      <arc id="Record Invoice Receipt-&gt;Clear Invoice-&gt;I_Clear Invoice" source="Record Invoice Receipt-&gt;Clear Invoice" target="I_Clear Invoice">
+        <name>
+          <text>[FROM(Record Invoice Receipt-&gt;Clear Invoice) TO(I_Clear Invoice)]</text>
+        </name>
+      </arc>
+      <arc id="O_Create Purchase Order Item-&gt;Create Purchase Order Item-&gt;Change Price" source="O_Create Purchase Order Item" target="Create Purchase Order Item-&gt;Change Price">
+        <name>
+          <text>[FROM(O_Create Purchase Order Item) TO(Create Purchase Order Item-&gt;Change Price)]</text>
+        </name>
+      </arc>
+      <arc id="Create Purchase Order Item-&gt;Change Price-&gt;I_Change Price" source="Create Purchase Order Item-&gt;Change Price" target="I_Change Price">
+        <name>
+          <text>[FROM(Create Purchase Order Item-&gt;Change Price) TO(I_Change Price)]</text>
+        </name>
+      </arc>
+      <arc id="O_Vendor creates debit memo-&gt;Vendor creates debit memo-&gt;Vendor creates invoice" source="O_Vendor creates debit memo" target="Vendor creates debit memo-&gt;Vendor creates invoice">
+        <name>
+          <text>[FROM(O_Vendor creates debit memo) TO(Vendor creates debit memo-&gt;Vendor creates invoice)]</text>
+        </name>
+      </arc>
+      <arc id="Vendor creates debit memo-&gt;Vendor creates invoice-&gt;I_Vendor creates invoice" source="Vendor creates debit memo-&gt;Vendor creates invoice" target="I_Vendor creates invoice">
+        <name>
+          <text>[FROM(Vendor creates debit memo-&gt;Vendor creates invoice) TO(I_Vendor creates invoice)]</text>
+        </name>
+      </arc>
+      <arc id="O_Receive Order Confirmation-&gt;Receive Order Confirmation-&gt;Record Goods Receipt" source="O_Receive Order Confirmation" target="Receive Order Confirmation-&gt;Record Goods Receipt">
+        <name>
+          <text>[FROM(O_Receive Order Confirmation) TO(Receive Order Confirmation-&gt;Record Goods Receipt)]</text>
+        </name>
+      </arc>
+      <arc id="Receive Order Confirmation-&gt;Record Goods Receipt-&gt;I_Record Goods Receipt" source="Receive Order Confirmation-&gt;Record Goods Receipt" target="I_Record Goods Receipt">
+        <name>
+          <text>[FROM(Receive Order Confirmation-&gt;Record Goods Receipt) TO(I_Record Goods Receipt)]</text>
+        </name>
+      </arc>
+      <arc id="O_Clear Invoice-&gt;Clear Invoice-&gt;[]" source="O_Clear Invoice" target="Clear Invoice-&gt;[]">
+        <name>
+          <text>[FROM(O_Clear Invoice) TO(Clear Invoice-&gt;[])]</text>
+        </name>
+      </arc>
+      <arc id="Clear Invoice-&gt;[]-&gt;I_[]" source="Clear Invoice-&gt;[]" target="I_[]">
+        <name>
+          <text>[FROM(Clear Invoice-&gt;[]) TO(I_[])]</text>
+        </name>
+      </arc>
+      <arc id="O_SRM: Created-&gt;SRM: Created-&gt;SRM: Complete" source="O_SRM: Created" target="SRM: Created-&gt;SRM: Complete">
+        <name>
+          <text>[FROM(O_SRM: Created) TO(SRM: Created-&gt;SRM: Complete)]</text>
+        </name>
+      </arc>
+      <arc id="SRM: Created-&gt;SRM: Complete-&gt;I_SRM: Complete" source="SRM: Created-&gt;SRM: Complete" target="I_SRM: Complete">
+        <name>
+          <text>[FROM(SRM: Created-&gt;SRM: Complete) TO(I_SRM: Complete)]</text>
+        </name>
+      </arc>
+      <arc id="O_Create Purchase Order Item-&gt;Create Purchase Order Item-&gt;Vendor creates invoice" source="O_Create Purchase Order Item" target="Create Purchase Order Item-&gt;Vendor creates invoice">
+        <name>
+          <text>[FROM(O_Create Purchase Order Item) TO(Create Purchase Order Item-&gt;Vendor creates invoice)]</text>
+        </name>
+      </arc>
+      <arc id="Create Purchase Order Item-&gt;Vendor creates invoice-&gt;I_Vendor creates invoice" source="Create Purchase Order Item-&gt;Vendor creates invoice" target="I_Vendor creates invoice">
+        <name>
+          <text>[FROM(Create Purchase Order Item-&gt;Vendor creates invoice) TO(I_Vendor creates invoice)]</text>
+        </name>
+      </arc>
+      <arc id="O_Create Purchase Order Item-&gt;Create Purchase Order Item-&gt;Change Approval for Purchase Order" source="O_Create Purchase Order Item" target="Create Purchase Order Item-&gt;Change Approval for Purchase Order">
+        <name>
+          <text>[FROM(O_Create Purchase Order Item) TO(Create Purchase Order Item-&gt;Change Approval for Purchase Order)]</text>
+        </name>
+      </arc>
+      <arc id="Create Purchase Order Item-&gt;Change Approval for Purchase Order-&gt;I_Change Approval for Purchase Order" source="Create Purchase Order Item-&gt;Change Approval for Purchase Order" target="I_Change Approval for Purchase Order">
+        <name>
+          <text>[FROM(Create Purchase Order Item-&gt;Change Approval for Purchase Order) TO(I_Change Approval for Purchase Order)]</text>
+        </name>
+      </arc>
+      <arc id="O_Change Quantity-&gt;Change Quantity-&gt;Record Goods Receipt" source="O_Change Quantity" target="Change Quantity-&gt;Record Goods Receipt">
+        <name>
+          <text>[FROM(O_Change Quantity) TO(Change Quantity-&gt;Record Goods Receipt)]</text>
+        </name>
+      </arc>
+      <arc id="Change Quantity-&gt;Record Goods Receipt-&gt;I_Record Goods Receipt" source="Change Quantity-&gt;Record Goods Receipt" target="I_Record Goods Receipt">
+        <name>
+          <text>[FROM(Change Quantity-&gt;Record Goods Receipt) TO(I_Record Goods Receipt)]</text>
+        </name>
+      </arc>
+      <arc id="O_Change Price-&gt;Change Price-&gt;Vendor creates invoice" source="O_Change Price" target="Change Price-&gt;Vendor creates invoice">
+        <name>
+          <text>[FROM(O_Change Price) TO(Change Price-&gt;Vendor creates invoice)]</text>
+        </name>
+      </arc>
+      <arc id="Change Price-&gt;Vendor creates invoice-&gt;I_Vendor creates invoice" source="Change Price-&gt;Vendor creates invoice" target="I_Vendor creates invoice">
+        <name>
+          <text>[FROM(Change Price-&gt;Vendor creates invoice) TO(I_Vendor creates invoice)]</text>
+        </name>
+      </arc>
+      <arc id="SRM: Complete-&gt;I_SRM: Awaiting Approval" source="SRM: Complete" target="I_SRM: Awaiting Approval">
+        <name>
+          <text>[FROM(SRM: Complete) TO(I_SRM: Awaiting Approval)]</text>
+        </name>
+      </arc>
+      <arc id="Record Service Entry Sheet-&gt;I_Record Goods Receipt" source="Record Service Entry Sheet" target="I_Record Goods Receipt">
+        <name>
+          <text>[FROM(Record Service Entry Sheet) TO(I_Record Goods Receipt)]</text>
+        </name>
+      </arc>
+      <arc id="Cancel Invoice Receipt-&gt;I_Clear Invoice" source="Cancel Invoice Receipt" target="I_Clear Invoice">
+        <name>
+          <text>[FROM(Cancel Invoice Receipt) TO(I_Clear Invoice)]</text>
+        </name>
+      </arc>
+      <arc id="Update Order Confirmation-&gt;I_Record Goods Receipt" source="Update Order Confirmation" target="I_Record Goods Receipt">
+        <name>
+          <text>[FROM(Update Order Confirmation) TO(I_Record Goods Receipt)]</text>
+        </name>
+      </arc>
+      <arc id="Change Rejection Indicator-&gt;I_Reactivate Purchase Order Item" source="Change Rejection Indicator" target="I_Reactivate Purchase Order Item">
+        <name>
+          <text>[FROM(Change Rejection Indicator) TO(I_Reactivate Purchase Order Item)]</text>
+        </name>
+      </arc>
+      <arc id="Record Subsequent Invoice-&gt;I_Clear Invoice" source="Record Subsequent Invoice" target="I_Clear Invoice">
+        <name>
+          <text>[FROM(Record Subsequent Invoice) TO(I_Clear Invoice)]</text>
+        </name>
+      </arc>
+      <arc id="Change Approval for Purchase Order-&gt;I_[]" source="Change Approval for Purchase Order" target="I_[]">
+        <name>
+          <text>[FROM(Change Approval for Purchase Order) TO(I_[])]</text>
+        </name>
+      </arc>
+      <arc id="SRM: Held-&gt;I_SRM: Complete" source="SRM: Held" target="I_SRM: Complete">
+        <name>
+          <text>[FROM(SRM: Held) TO(I_SRM: Complete)]</text>
+        </name>
+      </arc>
+      <arc id="Set Payment Block-&gt;I_[]" source="Set Payment Block" target="I_[]">
+        <name>
+          <text>[FROM(Set Payment Block) TO(I_[])]</text>
+        </name>
+      </arc>
+      <arc id="SRM: Transfer Failed (E.Sys.)-&gt;I_[]" source="SRM: Transfer Failed (E.Sys.)" target="I_[]">
+        <name>
+          <text>[FROM(SRM: Transfer Failed (E.Sys.)) TO(I_[])]</text>
+        </name>
+      </arc>
+      <arc id="SRM: Awaiting Approval-&gt;I_SRM: Document Completed" source="SRM: Awaiting Approval" target="I_SRM: Document Completed">
+        <name>
+          <text>[FROM(SRM: Awaiting Approval) TO(I_SRM: Document Completed)]</text>
+        </name>
+      </arc>
+      <arc id="Change Final Invoice Indicator-&gt;I_Clear Invoice" source="Change Final Invoice Indicator" target="I_Clear Invoice">
+        <name>
+          <text>[FROM(Change Final Invoice Indicator) TO(I_Clear Invoice)]</text>
+        </name>
+      </arc>
+      <arc id="SRM: Incomplete-&gt;I_SRM: Held" source="SRM: Incomplete" target="I_SRM: Held">
+        <name>
+          <text>[FROM(SRM: Incomplete) TO(I_SRM: Held)]</text>
+        </name>
+      </arc>
+      <arc id="SRM: Transaction Completed-&gt;I_[]" source="SRM: Transaction Completed" target="I_[]">
+        <name>
+          <text>[FROM(SRM: Transaction Completed) TO(I_[])]</text>
+        </name>
+      </arc>
+      <arc id="SRM: Document Completed-&gt;I_SRM: In Transfer to Execution Syst." source="SRM: Document Completed" target="I_SRM: In Transfer to Execution Syst.">
+        <name>
+          <text>[FROM(SRM: Document Completed) TO(I_SRM: In Transfer to Execution Syst.)]</text>
+        </name>
+      </arc>
+      <arc id="Change Storage Location-&gt;I_Record Goods Receipt" source="Change Storage Location" target="I_Record Goods Receipt">
+        <name>
+          <text>[FROM(Change Storage Location) TO(I_Record Goods Receipt)]</text>
+        </name>
+      </arc>
+      <arc id="Cancel Subsequent Invoice-&gt;I_Clear Invoice" source="Cancel Subsequent Invoice" target="I_Clear Invoice">
+        <name>
+          <text>[FROM(Cancel Subsequent Invoice) TO(I_Clear Invoice)]</text>
+        </name>
+      </arc>
+      <arc id="Block Purchase Order Item-&gt;I_[]" source="Block Purchase Order Item" target="I_[]">
+        <name>
+          <text>[FROM(Block Purchase Order Item) TO(I_[])]</text>
+        </name>
+      </arc>
+      <arc id="Release Purchase Order-&gt;I_Change Approval for Purchase Order" source="Release Purchase Order" target="I_Change Approval for Purchase Order">
+        <name>
+          <text>[FROM(Release Purchase Order) TO(I_Change Approval for Purchase Order)]</text>
+        </name>
+      </arc>
+      <arc id="SRM: Change was Transmitted-&gt;I_Create Purchase Order Item" source="SRM: Change was Transmitted" target="I_Create Purchase Order Item">
+        <name>
+          <text>[FROM(SRM: Change was Transmitted) TO(I_Create Purchase Order Item)]</text>
+        </name>
+      </arc>
+      <arc id="Change payment term-&gt;I_Record Goods Receipt" source="Change payment term" target="I_Record Goods Receipt">
+        <name>
+          <text>[FROM(Change payment term) TO(I_Record Goods Receipt)]</text>
+        </name>
+      </arc>
+      <arc id="Cancel Goods Receipt-&gt;I_Record Goods Receipt" source="Cancel Goods Receipt" target="I_Record Goods Receipt">
+        <name>
+          <text>[FROM(Cancel Goods Receipt) TO(I_Record Goods Receipt)]</text>
+        </name>
+      </arc>
+      <arc id="Reactivate Purchase Order Item-&gt;I_Record Goods Receipt" source="Reactivate Purchase Order Item" target="I_Record Goods Receipt">
+        <name>
+          <text>[FROM(Reactivate Purchase Order Item) TO(I_Record Goods Receipt)]</text>
+        </name>
+      </arc>
+      <arc id="Change Currency-&gt;I_Vendor creates invoice" source="Change Currency" target="I_Vendor creates invoice">
+        <name>
+          <text>[FROM(Change Currency) TO(I_Vendor creates invoice)]</text>
+        </name>
+      </arc>
+      <arc id="SRM: Deleted-&gt;I_Change Price" source="SRM: Deleted" target="I_Change Price">
+        <name>
+          <text>[FROM(SRM: Deleted) TO(I_Change Price)]</text>
+        </name>
+      </arc>
+      <arc id="Release Purchase Requisition-&gt;I_Create Purchase Order Item" source="Release Purchase Requisition" target="I_Create Purchase Order Item">
+        <name>
+          <text>[FROM(Release Purchase Requisition) TO(I_Create Purchase Order Item)]</text>
+        </name>
+      </arc>
+      <arc id="Remove Payment Block-&gt;I_Clear Invoice" source="Remove Payment Block" target="I_Clear Invoice">
+        <name>
+          <text>[FROM(Remove Payment Block) TO(I_Clear Invoice)]</text>
+        </name>
+      </arc>
+      <arc id="[]-&gt;EndPlace" source="[]" target="EndPlace">
+        <name>
+          <text>[FROM([]) TO(EndPlace)]</text>
+        </name>
+      </arc>
+      <arc id="O_SRM: In Transfer to Execution Syst.-&gt;SRM: Ordered" source="O_SRM: In Transfer to Execution Syst." target="SRM: Ordered">
+        <name>
+          <text>[FROM(O_SRM: In Transfer to Execution Syst.) TO(SRM: Ordered)]</text>
+        </name>
+      </arc>
+      <arc id="O_SRM: Created-&gt;SRM: Incomplete" source="O_SRM: Created" target="SRM: Incomplete">
+        <name>
+          <text>[FROM(O_SRM: Created) TO(SRM: Incomplete)]</text>
+        </name>
+      </arc>
+      <arc id="O_Create Purchase Order Item-&gt;Receive Order Confirmation" source="O_Create Purchase Order Item" target="Receive Order Confirmation">
+        <name>
+          <text>[FROM(O_Create Purchase Order Item) TO(Receive Order Confirmation)]</text>
+        </name>
+      </arc>
+      <arc id="O_|&gt;-&gt;Create Purchase Requisition Item" source="O_|&gt;" target="Create Purchase Requisition Item">
+        <name>
+          <text>[FROM(O_|&gt;) TO(Create Purchase Requisition Item)]</text>
+        </name>
+      </arc>
+      <arc id="O_SRM: Ordered-&gt;SRM: Change was Transmitted" source="O_SRM: Ordered" target="SRM: Change was Transmitted">
+        <name>
+          <text>[FROM(O_SRM: Ordered) TO(SRM: Change was Transmitted)]</text>
+        </name>
+      </arc>
+      <arc id="O_Record Goods Receipt-&gt;Record Service Entry Sheet" source="O_Record Goods Receipt" target="Record Service Entry Sheet">
+        <name>
+          <text>[FROM(O_Record Goods Receipt) TO(Record Service Entry Sheet)]</text>
+        </name>
+      </arc>
+      <arc id="O_Record Invoice Receipt-&gt;Remove Payment Block" source="O_Record Invoice Receipt" target="Remove Payment Block">
+        <name>
+          <text>[FROM(O_Record Invoice Receipt) TO(Remove Payment Block)]</text>
+        </name>
+      </arc>
+      <arc id="O_Create Purchase Order Item-&gt;Block Purchase Order Item" source="O_Create Purchase Order Item" target="Block Purchase Order Item">
+        <name>
+          <text>[FROM(O_Create Purchase Order Item) TO(Block Purchase Order Item)]</text>
+        </name>
+      </arc>
+      <arc id="O_Change Price-&gt;Change Currency" source="O_Change Price" target="Change Currency">
+        <name>
+          <text>[FROM(O_Change Price) TO(Change Currency)]</text>
+        </name>
+      </arc>
+      <arc id="O_Create Purchase Order Item-&gt;Change Storage Location" source="O_Create Purchase Order Item" target="Change Storage Location">
+        <name>
+          <text>[FROM(O_Create Purchase Order Item) TO(Change Storage Location)]</text>
+        </name>
+      </arc>
+      <arc id="O_Create Purchase Order Item-&gt;Delete Purchase Order Item" source="O_Create Purchase Order Item" target="Delete Purchase Order Item">
+        <name>
+          <text>[FROM(O_Create Purchase Order Item) TO(Delete Purchase Order Item)]</text>
+        </name>
+      </arc>
+      <arc id="O_Create Purchase Order Item-&gt;Change Quantity" source="O_Create Purchase Order Item" target="Change Quantity">
+        <name>
+          <text>[FROM(O_Create Purchase Order Item) TO(Change Quantity)]</text>
+        </name>
+      </arc>
+      <arc id="O_Record Invoice Receipt-&gt;Set Payment Block" source="O_Record Invoice Receipt" target="Set Payment Block">
+        <name>
+          <text>[FROM(O_Record Invoice Receipt) TO(Set Payment Block)]</text>
+        </name>
+      </arc>
+      <arc id="O_Create Purchase Requisition Item-&gt;Release Purchase Requisition" source="O_Create Purchase Requisition Item" target="Release Purchase Requisition">
+        <name>
+          <text>[FROM(O_Create Purchase Requisition Item) TO(Release Purchase Requisition)]</text>
+        </name>
+      </arc>
+      <arc id="O_|&gt;-&gt;SRM: Created" source="O_|&gt;" target="SRM: Created">
+        <name>
+          <text>[FROM(O_|&gt;) TO(SRM: Created)]</text>
+        </name>
+      </arc>
+      <arc id="O_Vendor creates invoice-&gt;Vendor creates debit memo" source="O_Vendor creates invoice" target="Vendor creates debit memo">
+        <name>
+          <text>[FROM(O_Vendor creates invoice) TO(Vendor creates debit memo)]</text>
+        </name>
+      </arc>
+      <arc id="O_Record Goods Receipt-&gt;Record Invoice Receipt" source="O_Record Goods Receipt" target="Record Invoice Receipt">
+        <name>
+          <text>[FROM(O_Record Goods Receipt) TO(Record Invoice Receipt)]</text>
+        </name>
+      </arc>
+      <arc id="O_Change Quantity-&gt;Change Delivery Indicator" source="O_Change Quantity" target="Change Delivery Indicator">
+        <name>
+          <text>[FROM(O_Change Quantity) TO(Change Delivery Indicator)]</text>
+        </name>
+      </arc>
+      <arc id="O_Record Goods Receipt-&gt;Cancel Goods Receipt" source="O_Record Goods Receipt" target="Cancel Goods Receipt">
+        <name>
+          <text>[FROM(O_Record Goods Receipt) TO(Cancel Goods Receipt)]</text>
+        </name>
+      </arc>
+      <arc id="O_Create Purchase Order Item-&gt;Change payment term" source="O_Create Purchase Order Item" target="Change payment term">
+        <name>
+          <text>[FROM(O_Create Purchase Order Item) TO(Change payment term)]</text>
+        </name>
+      </arc>
+      <arc id="O_Delete Purchase Order Item-&gt;Change Rejection Indicator" source="O_Delete Purchase Order Item" target="Change Rejection Indicator">
+        <name>
+          <text>[FROM(O_Delete Purchase Order Item) TO(Change Rejection Indicator)]</text>
+        </name>
+      </arc>
+      <arc id="O_Clear Invoice-&gt;Record Subsequent Invoice" source="O_Clear Invoice" target="Record Subsequent Invoice">
+        <name>
+          <text>[FROM(O_Clear Invoice) TO(Record Subsequent Invoice)]</text>
+        </name>
+      </arc>
+      <arc id="O_Record Invoice Receipt-&gt;Cancel Invoice Receipt" source="O_Record Invoice Receipt" target="Cancel Invoice Receipt">
+        <name>
+          <text>[FROM(O_Record Invoice Receipt) TO(Cancel Invoice Receipt)]</text>
+        </name>
+      </arc>
+      <arc id="O_Delete Purchase Order Item-&gt;SRM: Transaction Completed" source="O_Delete Purchase Order Item" target="SRM: Transaction Completed">
+        <name>
+          <text>[FROM(O_Delete Purchase Order Item) TO(SRM: Transaction Completed)]</text>
+        </name>
+      </arc>
+      <arc id="O_Vendor creates debit memo-&gt;Cancel Subsequent Invoice" source="O_Vendor creates debit memo" target="Cancel Subsequent Invoice">
+        <name>
+          <text>[FROM(O_Vendor creates debit memo) TO(Cancel Subsequent Invoice)]</text>
+        </name>
+      </arc>
+      <arc id="O_Change Delivery Indicator-&gt;Change Final Invoice Indicator" source="O_Change Delivery Indicator" target="Change Final Invoice Indicator">
+        <name>
+          <text>[FROM(O_Change Delivery Indicator) TO(Change Final Invoice Indicator)]</text>
+        </name>
+      </arc>
+      <arc id="O_Create Purchase Order Item-&gt;Release Purchase Order" source="O_Create Purchase Order Item" target="Release Purchase Order">
+        <name>
+          <text>[FROM(O_Create Purchase Order Item) TO(Release Purchase Order)]</text>
+        </name>
+      </arc>
+      <arc id="O_SRM: In Transfer to Execution Syst.-&gt;SRM: Transfer Failed (E.Sys.)" source="O_SRM: In Transfer to Execution Syst." target="SRM: Transfer Failed (E.Sys.)">
+        <name>
+          <text>[FROM(O_SRM: In Transfer to Execution Syst.) TO(SRM: Transfer Failed (E.Sys.))]</text>
+        </name>
+      </arc>
+      <arc id="O_SRM: Ordered-&gt;SRM: Deleted" source="O_SRM: Ordered" target="SRM: Deleted">
+        <name>
+          <text>[FROM(O_SRM: Ordered) TO(SRM: Deleted)]</text>
+        </name>
+      </arc>
+      <arc id="O_Receive Order Confirmation-&gt;Update Order Confirmation" source="O_Receive Order Confirmation" target="Update Order Confirmation">
+        <name>
+          <text>[FROM(O_Receive Order Confirmation) TO(Update Order Confirmation)]</text>
+        </name>
+      </arc>
+      <arc id="StartPlace-&gt;|&gt;" source="StartPlace" target="|&gt;">
+        <name>
+          <text>[FROM(StartPlace) TO(|&gt;)]</text>
+        </name>
+      </arc>
+    </page>
+    <finalMarkings>
+      <marking>
+        <place idref="O_|&gt;">
+          <text>0</text>
+        </place>
+        <place idref="I_[]">
+          <text>0</text>
+        </place>
+        <place idref="O_Record Invoice Receipt">
+          <text>0</text>
+        </place>
+        <place idref="O_SRM: Ordered">
+          <text>0</text>
+        </place>
+        <place idref="I_SRM: Awaiting Approval">
+          <text>0</text>
+        </place>
+        <place idref="O_Vendor creates debit memo">
+          <text>0</text>
+        </place>
+        <place idref="O_Change Quantity">
+          <text>0</text>
+        </place>
+        <place idref="O_Change Delivery Indicator">
+          <text>0</text>
+        </place>
+        <place idref="I_SRM: Document Completed">
+          <text>0</text>
+        </place>
+        <place idref="I_Change Approval for Purchase Order">
+          <text>0</text>
+        </place>
+        <place idref="O_SRM: Created">
+          <text>0</text>
+        </place>
+        <place idref="I_Clear Invoice">
+          <text>0</text>
+        </place>
+        <place idref="O_Clear Invoice">
+          <text>0</text>
+        </place>
+        <place idref="O_Receive Order Confirmation">
+          <text>0</text>
+        </place>
+        <place idref="O_Create Purchase Requisition Item">
+          <text>0</text>
+        </place>
+        <place idref="I_Vendor creates invoice">
+          <text>0</text>
+        </place>
+        <place idref="O_Vendor creates invoice">
+          <text>0</text>
+        </place>
+        <place idref="I_Record Goods Receipt">
+          <text>0</text>
+        </place>
+        <place idref="O_Record Goods Receipt">
+          <text>0</text>
+        </place>
+        <place idref="I_SRM: Held">
+          <text>0</text>
+        </place>
+        <place idref="O_Delete Purchase Order Item">
+          <text>0</text>
+        </place>
+        <place idref="I_Change Price">
+          <text>0</text>
+        </place>
+        <place idref="O_Change Price">
+          <text>0</text>
+        </place>
+        <place idref="I_SRM: In Transfer to Execution Syst.">
+          <text>0</text>
+        </place>
+        <place idref="O_SRM: In Transfer to Execution Syst.">
+          <text>0</text>
+        </place>
+        <place idref="I_SRM: Complete">
+          <text>0</text>
+        </place>
+        <place idref="I_Create Purchase Order Item">
+          <text>0</text>
+        </place>
+        <place idref="O_Create Purchase Order Item">
+          <text>0</text>
+        </place>
+        <place idref="I_Reactivate Purchase Order Item">
+          <text>0</text>
+        </place>
+        <place idref="StartPlace">
+          <text>0</text>
+        </place>
+        <place idref="EndPlace">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalMarkings>
+  </net>
+</pnml>
