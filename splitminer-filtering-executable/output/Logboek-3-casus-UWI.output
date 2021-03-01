@@ -1,0 +1,28 @@
+Ontslag > Hospice [16]
+Ontslag > Huis [1545]
+Ontslag > Onbekend [9]
+Overleden > autogen-end [53]
+Nog Opgenomen > autogen-end [9]
+Onbekend > autogen-end [8]
+Ander ziekenhuis > autogen-end [24]
+Kliniek > Nog Opgenomen [9]
+Ontslag > Ander ziekenhuis [29]
+autogen-start > SEH [1649]
+Kliniek > Ontslag [1289]
+Ontslag > Nazorg in andere instelling [231]
+SEH > Kliniek [1301]
+Huis > autogen-end [1330]
+Nazorg in andere instelling > autogen-end [205]
+Ontslag > Overleden [53]
+Hospice > autogen-end [16]
+#
+9
+10
+10
+9
+15
+9
+10
+10
+9
+12

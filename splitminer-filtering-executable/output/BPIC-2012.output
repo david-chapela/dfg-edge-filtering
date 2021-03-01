@@ -1,0 +1,49 @@
+A_DECLINED > autogen-end [3429]
+O_SENT_BACK > W_Valideren aanvraag [3454]
+A_APPROVED > A_ACTIVATED [789]
+W_Valideren aanvraag > O_ACCEPTED [1136]
+W_Nabellen offertes > O_SENT_BACK [3254]
+A_PREACCEPTED > W_Completeren aanvraag [7367]
+W_Completeren aanvraag > A_CANCELLED [1120]
+W_Nabellen offertes > O_CANCELLED [1555]
+O_SENT > W_Nabellen offertes [6633]
+W_Nabellen offertes > W_Valideren aanvraag [3208]
+A_PARTLYSUBMITTED > A_PREACCEPTED [4852]
+A_PARTLYSUBMITTED > A_DECLINED [3429]
+A_SUBMITTED > A_PARTLYSUBMITTED [13087]
+O_SELECTED > O_CREATED [3148]
+A_ACTIVATED > W_Valideren aanvraag [941]
+W_Valideren aanvraag > W_Beoordelen fraude [93]
+W_Valideren aanvraag > autogen-end [2747]
+O_CREATED > O_SENT [7030]
+A_CANCELLED > O_CANCELLED [864]
+A_ACCEPTED > O_SELECTED [2879]
+W_Wijzigen contractgegevens > autogen-end [4]
+W_Valideren aanvraag > W_Wijzigen contractgegevens [4]
+W_Afhandelen leads > W_Completeren aanvraag [2517]
+A_DECLINED > O_DECLINED [383]
+A_REGISTERED > A_ACTIVATED [670]
+O_SELECTED > A_FINALIZED [2907]
+O_CANCELLED > O_SELECTED [1041]
+W_Completeren aanvraag > W_Nabellen offertes [5015]
+W_Valideren aanvraag > W_Nabellen incomplete dossiers [5911]
+W_Nabellen incomplete dossiers > W_Valideren aanvraag [5459]
+W_Completeren aanvraag > A_ACCEPTED [5113]
+O_ACCEPTED > A_APPROVED [654]
+A_PARTLYSUBMITTED > W_Afhandelen leads [4739]
+W_Beoordelen fraude > W_Valideren aanvraag [93]
+O_DECLINED > A_DECLINED [419]
+autogen-start > A_SUBMITTED [13087]
+O_ACCEPTED > A_REGISTERED [771]
+A_FINALIZED > O_CREATED [2907]
+#
+73
+62
+59
+58
+61
+65
+56
+66
+80
+58

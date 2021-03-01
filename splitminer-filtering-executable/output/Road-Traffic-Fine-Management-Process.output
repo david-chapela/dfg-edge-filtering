@@ -1,0 +1,28 @@
+Send for Credit Collection > autogen-end [58997]
+Send Appeal to Prefecture > autogen-end [3144]
+Receive Result Appeal from Prefecture > Notify Result Appeal to Offender [829]
+Insert Fine Notification > Add penalty [72334]
+Payment > autogen-end [67201]
+Insert Date Appeal to Prefecture > Add penalty [2933]
+Insert Fine Notification > Appeal to Judge [290]
+Insert Fine Notification > Insert Date Appeal to Prefecture [3327]
+Create Fine > Send Fine [103392]
+Send Fine > Insert Fine Notification [79757]
+Add penalty > Send Appeal to Prefecture [2915]
+autogen-start > Create Fine [150370]
+Create Fine > Payment [46952]
+Appeal to Judge > Add penalty [281]
+Send Appeal to Prefecture > Receive Result Appeal from Prefecture [606]
+Notify Result Appeal to Offender > Payment [391]
+Add penalty > Send for Credit Collection [57182]
+#
+12
+10
+10
+10
+9
+12
+9
+12
+13
+9

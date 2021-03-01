@@ -1,0 +1,36 @@
+Release D > autogen-end [14]
+CRP > LacticAcid [629]
+LacticAcid > CRP [404]
+IV Liquid > IV Antibiotics [501]
+IV Antibiotics > Admission NC [489]
+Release A > autogen-end [393]
+CRP > Release E [3]
+IV Antibiotics > Admission IC [46]
+CRP > Release A [322]
+Release A > Return ER [276]
+ER Triage > ER Sepsis Triage [905]
+Release C > autogen-end [19]
+Return ER > autogen-end [291]
+CRP > Release C [13]
+Admission NC > Leucocytes [408]
+ER Registration > ER Triage [971]
+Admission NC > CRP [369]
+Leucocytes > CRP [1778]
+ER Sepsis Triage > IV Liquid [285]
+Release B > autogen-end [55]
+CRP > Release B [19]
+autogen-start > ER Registration [995]
+Admission IC > LacticAcid [41]
+CRP > Release D [12]
+Release E > autogen-end [5]
+#
+22
+37
+31
+22
+23
+22
+23
+23
+23
+29

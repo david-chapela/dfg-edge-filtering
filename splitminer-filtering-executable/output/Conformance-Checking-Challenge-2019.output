@@ -1,0 +1,50 @@
+Anesthetize > Puncture [7]
+Blood return > Drop probe [24]
+Drop probe > Remove syringe [26]
+Puncture > Blood return [24]
+Widen pathway > Advance catheter [19]
+Clean puncture area > Drap puncture area [16]
+Prepare implements > Position patient [2]
+autogen-start > Prepare implements [9]
+Wire in good position > Widen pathway [8]
+Remove trocar > Widen pathway [6]
+Remove syringe > Guidewire install [23]
+Prepare implements > Anesthetize [6]
+Check catheter position > autogen-end [16]
+Hand washing > Get in sterile clothes [19]
+Doppler identification > Anesthetize [2]
+Put sterile gel > Position probe [16]
+Check flow and reflow > Check catheter position [16]
+Advance catheter > Remove guidewire [19]
+Check wire in long axis > Wire in good position [9]
+Position probe > Anatomic identification [9]
+Prepare implements > Gel in probe [7]
+autogen-start > Get in sterile clothes [8]
+Get in sterile clothes > Hand washing [12]
+Anatomic identification > Ultrasound configuration [7]
+Position probe > Puncture [4]
+Anatomic identification > Compression identification [13]
+Cover probe > Put sterile gel [16]
+Prepare implements > Clean puncture area [13]
+Compression identification > Anesthetize [4]
+Remove trocar > Check wire in short axis [15]
+Position patient > Hand washing [2]
+Check wire in short axis > Check wire in long axis [25]
+Ultrasound configuration > Compression identification [4]
+Drap puncture area > Prepare implements [12]
+Get in sterile clothes > Prepare implements [18]
+Compression identification > Doppler identification [4]
+Guidewire install > Remove trocar [20]
+Remove guidewire > Check flow and reflow [17]
+Gel in probe > Cover probe [13]
+#
+11
+11
+11
+11
+11
+13
+11
+10
+11
+11
