@@ -18,4 +18,4 @@ Combination of Two Ways Edmonds and Greedy, applying the latter to the result of
 
 Download the latest release and execute using Java 8 (u271) or higher.
 
-```java -jar dfg-edge-filtering-1.0.jar --tweg dfgs/example-01.dgf example-01-tweg-.dgf```
+```java -jar dfg-edge-filtering-1.0.jar --tweg dfgs/example-01.dgf example-01-tweg.dgf```
